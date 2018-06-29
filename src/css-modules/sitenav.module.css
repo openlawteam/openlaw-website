@@ -1,0 +1,32 @@
+.nav {
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 48px 0 112px;
+}
+
+.nav > ul {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 1em;
+  font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
+  color: #405EA7;
+}
+
+@media screen and (min-width: 1000px) {
+  .nav > ul { width: 50%; }
+}
+
+@media screen and (max-width: 1000px) {
+  .nav > ul { width: 75%; }
+}
