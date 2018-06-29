@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
+import 'typeface-nobile';
+import 'typeface-nunito';
 
 import Header from './header'
 import '../css/openlaw.css';
