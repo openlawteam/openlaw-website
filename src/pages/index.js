@@ -1,15 +1,16 @@
 import React from 'react'
 
-import styles from '../css-modules/index.module.css';
+import baseStyles from '../scss/modules/base.module.scss';
 import Layout from '../components/layout'
 import LogoSVG from '../components/LogoSVG';
 import SignupForm from '../components/SignupForm';
+import Wrap from '../components/Wrap';
 
 const IndexPage = () => (
   <Layout>
-    <h1 className="accessibility">OpenLaw</h1>
+    <h1 className={baseStyles.hidden}>OpenLaw</h1>
 
-    <div className={styles.hero}>
+    <Wrap>
       <div>
         <LogoSVG />
 
@@ -18,8 +19,8 @@ const IndexPage = () => (
       </div>
 
       <SignupForm />
-    </div>
+    </Wrap>
   </Layout>
 )
 
-export default IndexPage
+export default IndexPage;

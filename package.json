@@ -6,9 +6,12 @@
   "dependencies": {
     "gatsby": "next",
     "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-sass": "next",
+    "node-sass": "^4.9.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
+    "react-media": "^1.8.0",
     "typeface-nobile": "0.0.54",
     "typeface-nunito": "0.0.54"
   },

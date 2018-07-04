@@ -1,13 +1,18 @@
+@import '../variables';
+
 html {
-  font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 18px;
   font-weight: normal;
+  font-family: $font-body;
+}
+
+body {
+  font-size: $font-size-base;
 }
 
 /* headings */
 
 h2 {
-  font-family: Nobile, Times New Roman, serif;
+  font-family: $font-header;
   font-weight: 400;
 }
 
@@ -15,27 +20,35 @@ h2 {
 
 .wrap {
   margin: 0 auto;
+  display: flex;
+  width: 100%;
 }
 
 .wrap-large {
-  max-width: 1200px;
+  max-width: $width-wide;
 }
 
 /* font */
 
 .font-nobile {
-  font-family: Nobile, Times New Roman, serif;
+  font-family: $font-header;
 }
 
-/* color */
+/* font-color */
 
 .color-white {
   color: white;
 }
 
+/* alignment */
+
+.text-center {
+  text-align: center;
+}
+
 /* helpers */
 
-.accessibility {
+.hidden {
   position: absolute !important;
   height: 1px; width: 1px;
   overflow: hidden;

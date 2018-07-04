@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import styles from '../css-modules/sitenav.module.css';
+import styles from '../scss/modules/sitenav.module.scss';
+import Wrap from './Wrap';
 
 const SiteNav = ({ data }) => (
-  <div className="wrap wrap-large">
+  <Wrap>
     <nav className={styles.nav}>
       <ul>
         {data.map(({ name, url }) => (
@@ -12,7 +13,7 @@ const SiteNav = ({ data }) => (
         ))}
       </ul>
     </nav>
-  </div>
+  </Wrap>
 );
 
 export default SiteNav;

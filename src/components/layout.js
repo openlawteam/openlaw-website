@@ -5,8 +5,8 @@ import { StaticQuery, graphql } from "gatsby"
 import 'typeface-nobile';
 import 'typeface-nunito';
 
-import Header from './header'
-import '../css/openlaw.css';
+import Header from './Header';
+import Wrap from './Wrap';
 
 const Layout = ({ children, data }) => (
   <StaticQuery
@@ -28,10 +28,11 @@ const Layout = ({ children, data }) => (
             { name: 'keywords', content: 'sample, something' },
           ]}
         />
+
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div className="wrap wrap-large">
+        <Wrap>
           {children}
-        </div>
+        </Wrap>
       </>
     )}
   />
