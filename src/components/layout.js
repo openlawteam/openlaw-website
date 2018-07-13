@@ -6,7 +6,8 @@ import 'typeface-nobile';
 import 'typeface-nunito';
 
 import Header from './Header';
-import Wrap from './Wrap';
+import Footer from './Footer';
+import Wrap from './common/Wrap';
 
 const Layout = ({ children, data }) => (
   <StaticQuery
@@ -33,6 +34,7 @@ const Layout = ({ children, data }) => (
         <Wrap>
           {children}
         </Wrap>
+        <Footer />
       </>
     )}
   />
