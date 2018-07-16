@@ -22,6 +22,7 @@ const Layout = ({ children, data }) => (
     `}
     render={data => (
       <>
+        <Header siteTitle={data.site.siteMetadata.title} />
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
@@ -29,8 +30,6 @@ const Layout = ({ children, data }) => (
             { name: 'keywords', content: 'sample, something' },
           ]}
         />
-
-        <Header siteTitle={data.site.siteMetadata.title} />
         <Wrap>
           {children}
         </Wrap>

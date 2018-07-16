@@ -5,15 +5,16 @@ import f from '../../scss/modules/foundation.module.scss';
 import s from '../../scss/modules/majorfeatures.module.scss';
 import Wrap from '../common/Wrap';
 
-import ExploreSVG from '../../components/svg/ExploreSVG';
-import CollaborateSVG from '../../components/svg/CollaborateSVG';
-import PrivacySVG from '../../components/svg/PrivacySVG';
+// import BuildSVG from '../../components/svg/BuildSVG';
+import BuildPNG from '../../assets/build.png'
+// import CommunitySVG from '../../components/svg/CommunitySVG';
+import CommunityPNG from '../../assets/community.png'
 
 const Features = ({ data }) => (
   <Wrap>
     <div className={f.row} key="1">
     	<div className={`${f.column} ${f['small12']} ${f['medium6']} ${s.svgWrapper}`}>
-    		<ExploreSVG />
+    		<img src={BuildPNG} />
         </div>
         <div className={`${f.column} ${f['small12']} ${f['medium6']}`}>
 	  		<h2>build</h2>
@@ -23,7 +24,7 @@ const Features = ({ data }) => (
     </div>
     <div className={f.row} key="2">
     	<div className={`${f.column} ${f['small12']} ${f['medium6']} ${s.svgWrapper}`}>
-    		<CollaborateSVG />
+    		<img src={CommunityPNG} />
         </div>
         <div className={`${f.column} ${f['small12']} ${f['medium6']}`}>
 	  		<h2>community</h2>

@@ -12,19 +12,23 @@ import MajorFeatures from '../components/sections/MajorFeatures';
 import Features from '../components/sections/Features';
 import OutroSection from '../components/sections/OutroSection';
 
+import foundation from '../scss/modules/foundation.module.scss';
+
 const IndexPage = () => (
-  <Layout>
-    <h1 className={baseStyles.hidden}>OpenLaw</h1>
-
-    <IntroSection />
-    <BuildingFuture />
-    <ContractsModel />
-    <LargeQuote />
-    <MajorFeatures />
-    <Features />
-    <OutroSection />
-
-  </Layout>
+    <div>
+        <Layout>
+            <IntroSection />
+            <div className={`${foundation.row}`}>
+                <h1 className={baseStyles.hidden}>OpenLaw</h1>
+                <BuildingFuture />
+                <ContractsModel />
+                <LargeQuote />
+                <MajorFeatures />
+                <Features />
+                <OutroSection />
+            </div>
+        </Layout>
+    </div>
 )
 
 export default IndexPage;
