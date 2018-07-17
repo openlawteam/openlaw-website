@@ -1,6 +1,7 @@
 import React from 'react'
 
 import baseStyles from '../scss/modules/base.module.scss';
+import foundation from '../scss/modules/foundation.module.scss';
 
 import Layout from '../components/layout';
 
@@ -12,17 +13,15 @@ import MajorFeatures from '../components/sections/MajorFeatures';
 import Features from '../components/sections/Features';
 import OutroSection from '../components/sections/OutroSection';
 
-import foundation from '../scss/modules/foundation.module.scss';
-
 const IndexPage = () => (
     <div>
         <Layout>
             <h1 className={baseStyles.hidden}>OpenLaw</h1>
             <IntroSection />
             <BuildingFuture />
+            <ContractsModel />
+            <LargeQuote />
             <div className={`${foundation.row}`}>
-                <ContractsModel />
-                <LargeQuote />
                 <MajorFeatures />
                 <Features />
                 <OutroSection />
