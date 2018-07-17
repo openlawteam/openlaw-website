@@ -14,7 +14,7 @@ const Features = ({ data }) => (
   <Wrap>
     <div className={f.row} key="1">
     	<div className={`${f.column} ${f['small12']} ${f['medium6']} ${s.svgWrapper}`}>
-    		<img src={BuildPNG} />
+    		<img src={BuildPNG} alt="" />
         </div>
         <div className={`${f.column} ${f['small12']} ${f['medium6']}`}>
 	  		<h2>build</h2>
@@ -24,7 +24,7 @@ const Features = ({ data }) => (
     </div>
     <div className={f.row} key="2">
     	<div className={`${f.column} ${f['small12']} ${f['medium6']} ${s.svgWrapper}`}>
-    		<img src={CommunityPNG} />
+    		<img src={CommunityPNG} alt="" />
         </div>
         <div className={`${f.column} ${f['small12']} ${f['medium6']}`}>
 	  		<h2>community</h2>

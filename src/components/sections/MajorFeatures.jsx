@@ -26,7 +26,7 @@ const MajorFeatures = ({ data }) => (
 	  		<p>Join members of the OpenLaw community to improve and build out entire legal processes to streamline day-to-day legal activity.</p>
     	</div>
     	<div className={`${f.column} ${f['small12']} ${f['medium4']} ${s.svgWrapper}`} key="3">
-    		<img src={PrivacyPNG} />
+    		<img src={PrivacyPNG} alt="" />
 	  		<h2>privacy</h2>
 	  		<div className={s.divider}></div>
 	  		<p>Model all or parts of legal agreements using our markup language, decreasing the cost and friction of creating, securing, and generating binding legal agreements.</p>

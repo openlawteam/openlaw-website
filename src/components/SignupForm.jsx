@@ -4,7 +4,7 @@ import TextInput from './common/TextInput';
 import styles from '../scss/modules/signup.module.scss';
 
 const SubmitButton = () => (
-  <button type="submit">Sign up</button>
+  <button type="submit">Sign Up for OpenLaw</button>
 );
 
 export default class SignupForm extends Component {
@@ -27,17 +27,16 @@ export default class SignupForm extends Component {
   render() {
     return (
       <div className={styles.signup}>
-        <h2 className="color-white">Join OpenLaw</h2>
+        <h2 className={styles.title}>join the movement</h2>
 
         <form>
           {this.renderInput('email', 'email@domain.com')}
           {this.renderInput('name', 'name')}
           {this.renderInput('password', 'password')}
-
           <SubmitButton />
         </form>
 
-        <p className="text-center color-white">
+        <p className={`${'text-center'} ${styles.smallText}`}>
           <small>
             By clicking “Sign Up for OpenLaw,” you agree to our <a href="#">terms of
             service</a> and <a href="#">privacy policy</a>. We’ll occasionally send you account related emails.

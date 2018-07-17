@@ -17,10 +17,10 @@ import foundation from '../scss/modules/foundation.module.scss';
 const IndexPage = () => (
     <div>
         <Layout>
+            <h1 className={baseStyles.hidden}>OpenLaw</h1>
             <IntroSection />
+            <BuildingFuture />
             <div className={`${foundation.row}`}>
-                <h1 className={baseStyles.hidden}>OpenLaw</h1>
-                <BuildingFuture />
                 <ContractsModel />
                 <LargeQuote />
                 <MajorFeatures />

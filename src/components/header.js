@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 
 import SiteNav from './SiteNav';
 import NavData from '../config/nav';

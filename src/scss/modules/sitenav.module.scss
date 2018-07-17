@@ -3,7 +3,8 @@
   width: 100%;
   margin: 0 auto;
   display: flex;
-  padding: 48px 0 112px;
+  padding: 48px 0.9375rem 0;
+  position: absolute;
 }
 
 .nav > ul {
@@ -29,12 +30,4 @@
 
 @media screen and (max-width: 1000px) {
   .nav > ul { width: 75%; }
-}
-
-.intro {
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  align-items: center;
 }
