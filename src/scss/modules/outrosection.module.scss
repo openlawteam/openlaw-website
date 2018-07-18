@@ -1,0 +1,25 @@
+.column-bg {
+	background: #063454;
+    border-radius: 0 300px 0 0;
+    display: block;
+    margin-left: 0px;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 200px;
+    z-index: -1;
+}
+
+.full-row {
+	max-width: 100%;
+	position: relative;
+}
+.heading {
+    margin-top: 100px;	
+}
+
+.wave-wrapper {
+	    margin-top: 120px;
+    left: -40%;
+    position: relative;	
+}

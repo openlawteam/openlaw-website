@@ -12,7 +12,7 @@ const LargeQuote = ({ data }) => (
 		  	<div className={s.middleBorder}>
 			  	<div className={s.innerBorder}>
 				  	<div className={f.row}>
-					    <div className={`${f.column} ${f.small12} ${f.medium8} ${f.large7} ${f.alignCenter}`}>
+					    <div className={`${f.column} ${f.small12} ${f.medium8} ${s.blockCenter} ${f.large7} ${f.alignCenter}`}>
 						  	<h1>OpenLaw brings lawyers to work together on legal templates for the benefit of everyone.</h1>
 					    </div>
 				    </div>

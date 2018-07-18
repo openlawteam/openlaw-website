@@ -1,10 +1,18 @@
 .nav {
-  justify-content: flex-end;
-  width: 100%;
+  // justify-content: flex-end;
+  // width: 100%;
   margin: 0 auto;
-  display: flex;
+  // display: flex;
   padding: 48px 0.9375rem 0;
   position: absolute;
+  max-width: 62.5rem;
+  display: block;
+  position: relative;
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
 }
 
 .nav > ul {
@@ -15,6 +23,7 @@
   margin: 0;
   padding: 0;
   justify-content: space-between;
+  float: right;
 }
 
 .nav a {
@@ -22,6 +31,13 @@
   font-size: 1em;
   font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
   color: #405EA7;
+}
+
+.footer-nav {
+  padding-top: 70px;
+  a {  
+    color: #FFF !important;
+  }
 }
 
 @media screen and (min-width: 1000px) {

@@ -1,5 +1,10 @@
 .content {
 	position: relative;
+	padding-top: 65px;
+}
+
+.image-wrapper {
+	padding-top: 50px;
 }
 
 .divider {
@@ -14,6 +19,20 @@
 
 .shape-content-wrapper {
 	position: relative;
+	padding: 20px;
+	border-radius: 30px 0 30px 0;
+	margin: 10px 0;
+	color: #FFF;
+}
+.blue {
+	background: #056bd0;
+	padding-bottom: 25px;
+}
+.teal {
+	background: #01cde6;
+	position: relative;
+	z-index: 2;
+	top: -35px;
 }
 
 .centered {
@@ -22,6 +41,7 @@
 }
 
 .svg-wrapper svg {
-	width: 200%;
-	margin-left: -50%;
+	width: 300%;
+	position: relative;
+	left: -100%;
 }

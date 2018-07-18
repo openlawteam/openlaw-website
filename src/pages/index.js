@@ -23,9 +23,9 @@ const IndexPage = () => (
             <LargeQuote />
             <div className={`${foundation.row}`}>
                 <MajorFeatures />
-                <Features />
-                <OutroSection />
             </div>
+            <Features />
+            <OutroSection />
         </Layout>
     </div>
 )

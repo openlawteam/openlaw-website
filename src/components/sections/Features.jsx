@@ -12,25 +12,29 @@ import CommunityPNG from '../../assets/community.png'
 
 const Features = ({ data }) => (
   <Wrap>
-    <div className={f.row} key="1">
-    	<div className={`${f.column} ${f['small12']} ${f['medium6']} ${s.svgWrapper}`}>
-    		<img src={BuildPNG} alt="" />
+    <div className={s.fullWrap}>
+        <div className={`${f.row} ${s.featureTile}`} key="1"> 
+        	<div className={`${f.column} ${f['small12']} ${f['medium5']} ${s.svgWrapper}`}>
+        		<img src={BuildPNG} alt="" />
+            </div>
+            <div className={`${f.column} ${f['small12']} ${f['medium7']}`}>
+    	  		<h2>build</h2>
+    	  		<div className={s.leftDivider}></div>
+    	  		<p>Build entire legal applications on OpenLaw using our public API.</p>
+                <button className={s.button}>Learn How</button>
+            </div>
         </div>
-        <div className={`${f.column} ${f['small12']} ${f['medium6']}`}>
-	  		<h2>build</h2>
-	  		<div className={s.divider}></div>
-	  		<p>Build entire legal applications on OpenLaw using our public API.</p>
-    	</div>
-    </div>
-    <div className={f.row} key="2">
-    	<div className={`${f.column} ${f['small12']} ${f['medium6']} ${s.svgWrapper}`}>
-    		<img src={CommunityPNG} alt="" />
+        <div className={`${f.row} ${s.featureTile}`} key="2">
+            <div className={`${f.column} ${f['small12']} ${f['medium5']} ${s.svgWrapper}`}>
+                <img src={CommunityPNG} alt="" />
+            </div>
+            <div className={`${f.column} ${f['small12']} ${f['medium7']}`}>
+                <h2>community</h2>
+                <div className={s.leftDivider}></div>
+                <p>We're the home to a passionate group of lawyers committed to rebuilding the legal industry.</p>
+                <button className={s.button}>Join Us</button>
+        	</div>
         </div>
-        <div className={`${f.column} ${f['small12']} ${f['medium6']}`}>
-	  		<h2>community</h2>
-	  		<div className={s.divider}></div>
-	  		<p>We're the home to a passionate group of lawyers committed to rebuilding the legal industry.</p>
-    	</div>
     </div>
   </Wrap>
 );

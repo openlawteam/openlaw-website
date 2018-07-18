@@ -2,13 +2,51 @@
 	width: 30px;
 	height: 1px;
 	background: #6CBBF1;
+	margin: 0 auto;
 }
 
 .svg {
-	max-width: 180px;
-	margin: auto;
+	width: 150px;
+	margin: 0 auto;
 }
 
 .svg-wrapper {
 	text-align: center;
+}
+
+.svg-div {
+	width: 150px;
+    margin: 0 auto;
+}
+.feature-tile {
+    width: 85% !important;
+    margin: 50px auto !important;
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 25px;
+    box-shadow: 0 0 40px #EEE;
+    padding: 40px 40px
+}
+.full-wrap {
+	width: 100%;
+}
+
+.left-divider {
+	width: 30px;
+	height: 1px;
+	background: #6CBBF1;
+	margin: 0;
+}
+.button {
+    background-color: #ffbf78;
+    border-radius: 40px;
+    padding: 5px 8px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: 15px 20px;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
 }
