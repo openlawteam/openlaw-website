@@ -1,21 +1,23 @@
 .nav {
-  // justify-content: flex-end;
-  // width: 100%;
-  margin: 0 auto;
-  // display: flex;
   padding: 48px 0.9375rem 0;
   position: absolute;
-  max-width: 62.5rem;
+  width: 100%;
+}
+
+.wrapper {
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
   display: block;
-  position: relative;
   &::after {
     content: "";
     display: table;
     clear: both;
-  }  
+  }
 }
 
-.nav > ul {
+.nav ul {
   display: flex;
   flex-direction: row;
   align-self: flex-end;
@@ -24,6 +26,7 @@
   padding: 0;
   justify-content: space-between;
   float: right;
+  max-width: 62.5rem
 }
 
 .nav a {
@@ -35,15 +38,15 @@
 
 .footer-nav {
   padding-top: 70px;
-  a {  
+  a {
     color: #FFF !important;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .nav > ul { width: 50%; }
+  .nav ul { width: 50%; }
 }
 
 @media screen and (max-width: 1000px) {
-  .nav > ul { width: 75%; }
+  .nav ul { width: 75%; }
 }

@@ -13,15 +13,15 @@ import bgImage from '../../assets/bg.svg';
 import StraightLinesSVG from '../svg/StraightLinesSVG';
 
 const IntroSection = ({ data }) => (
-  <div className={i.intro} key="1" style={{backgroundImage: 'url(' + bgImage + ')'}}>
+  <div className={i.intro} style={{backgroundImage: 'url(' + bgImage + ')'}}>
     <div className={f.row}>
       <Wrap>
-        <div className={f.row} key="1">
+        <div className={f.row}>
         	<div className={`${f.column} ${i.text}`} key="1">
             <LogoSVG />
             <p>Imagine a world in which every single human being can freely participate in a just legal system.</p>
         	  <p>That's our commitment.</p>
-            <div className={i.lines} key="1">
+            <div className={i.lines}>
               <StraightLinesSVG />
             </div>
           </div>

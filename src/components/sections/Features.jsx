@@ -13,11 +13,11 @@ import CommunityPNG from '../../assets/community.png'
 const Features = ({ data }) => (
   <Wrap>
     <div className={s.fullWrap}>
-        <div className={`${f.row} ${s.featureTile}`} key="1"> 
-        	<div className={`${f.column} ${f['small12']} ${f['medium5']} ${s.svgWrapper}`}>
+        <div className={`${f.row} ${s.featureTile}`} key="1">
+        	<div className={`${f.column} ${f['small12']} ${f['medium5']} ${s.imageWrapper}`}>
         		<img src={BuildPNG} alt="" />
             </div>
-            <div className={`${f.column} ${f['small12']} ${f['medium7']}`}>
+            <div className={`${f.column} ${f['small12']} ${f['medium7']} ${s.contentWrapper}`}>
     	  		<h2>build</h2>
     	  		<div className={s.leftDivider}></div>
     	  		<p>Build entire legal applications on OpenLaw using our public API.</p>
@@ -25,10 +25,10 @@ const Features = ({ data }) => (
             </div>
         </div>
         <div className={`${f.row} ${s.featureTile}`} key="2">
-            <div className={`${f.column} ${f['small12']} ${f['medium5']} ${s.svgWrapper}`}>
+            <div className={`${f.column} ${f['small12']} ${f['medium5']} ${s.imageWrapper}`}>
                 <img src={CommunityPNG} alt="" />
             </div>
-            <div className={`${f.column} ${f['small12']} ${f['medium7']}`}>
+            <div className={`${f.column} ${f['small12']} ${f['medium7']} ${s.contentWrapper}`}>
                 <h2>community</h2>
                 <div className={s.leftDivider}></div>
                 <p>We're the home to a passionate group of lawyers committed to rebuilding the legal industry.</p>
