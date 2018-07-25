@@ -2,7 +2,7 @@ import React from 'react'
 // import PropTypes from 'prop-types'
 
 import f from '../../scss/modules/foundation.module.scss';
-// import s from '../../scss/modules/sitenav.module.scss';
+import s from '../../scss/modules/signup.module.scss';
 import i from '../../scss/modules/intro.module.scss';
 
 import LogoSVG from '../../components/svg/LogoSVG';
@@ -26,7 +26,9 @@ const IntroSection = ({ data }) => (
             </div>
           </div>
           <div className={f.column} key="2">
-            <SignupForm />
+            <div className={s.signUpForm}>
+              <SignupForm />
+            </div>
           </div>
         </div>
       </Wrap>

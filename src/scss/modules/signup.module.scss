@@ -2,7 +2,6 @@
 @import '../mixins';
 
 .signup {
-  background: #063454;
   // width: 600px;
   padding: 12px 48px 36px;
   display: flex;
@@ -17,6 +16,10 @@
       color: white;
     }
   }
+}
+
+.sign-up-form {
+  background: #063454;
 }
 
 .signup form {

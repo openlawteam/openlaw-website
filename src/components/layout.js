@@ -5,6 +5,8 @@ import { StaticQuery, graphql } from "gatsby"
 import 'typeface-nobile';
 import 'typeface-nunito';
 
+import s from '../scss/modules/base.module.scss';
+
 import Header from './Header';
 import Footer from './Footer';
 import Wrap from './common/Wrap';
@@ -31,9 +33,11 @@ const Layout = ({ children, data }) => (
           ]}
         />
         <Wrap>
-          {children}
+          <div className={s.wrapper}>
+            {children}
+            <Footer />
+          </div>
         </Wrap>
-        <Footer />
       </>
     )}
   />

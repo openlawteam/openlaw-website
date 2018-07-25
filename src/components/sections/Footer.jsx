@@ -12,14 +12,6 @@ import Wrap from '../common/Wrap';
 const Footer = ({ data }) => (
   <Wrap>
   	<div className{s.footer}>
-	  	<div className={f.column} key="1">
-	      <h2>Join us and help build a lower cost and fairer legal system.</h2>
-		    <WaveSVG />
-	  	</div>
-
-	  	<div className={f.column} key="2">
-	    	<SignupForm />
-		</div>
 	</div>
   </Wrap>
 );
