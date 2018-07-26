@@ -35,7 +35,7 @@ class BuildingFuture extends React.Component {
 	}
 
 	render() {
-	    return(
+    return(
 			<Wrap>
 				<div className={`${s.wrapper}`}>
 					<div className={`${s.parallelogram} ${s.zIndex}`}>
@@ -63,7 +63,7 @@ class BuildingFuture extends React.Component {
 					</div>
 				</div>
 			</Wrap>
-	    )
+    )
 	}
 
 };
