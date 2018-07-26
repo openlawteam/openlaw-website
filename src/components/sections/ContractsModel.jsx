@@ -13,7 +13,6 @@ import Wrap from '../common/Wrap';
 
 const ContractsModel = ({ data }) => (
   <Wrap>
-
     <div className={f.row}>
       <div className={`${f.column} ${s.centered} ${s.imageWrapper}`}>
     	  <div className={s.svgWrapper}>
@@ -26,7 +25,6 @@ const ContractsModel = ({ data }) => (
             <h3>contracts are changing</h3>
             <div className={s.divider}></div>
             <p className={s.paragraph}>Model all or parts of legal agreements using our markup language, decreasing the cost and friction of creating, securing, and generating binding legal agreements.</p>
-
           </div>
           <div className={`${s.shapeContentWrapper} ${s.teal}`} key="2">
             <h3>create “smart" contracts</h3>
@@ -36,7 +34,6 @@ const ContractsModel = ({ data }) => (
         </div>
       </div>
 		</div>
-
   </Wrap>
 );
 

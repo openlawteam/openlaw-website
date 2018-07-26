@@ -14,20 +14,20 @@ import Features from '../components/sections/Features';
 import OutroSection from '../components/sections/OutroSection';
 
 const IndexPage = () => (
-    <div>
-        <Layout>
-            <h1 className={baseStyles.hidden}>OpenLaw</h1>
-            <IntroSection />
-            <BuildingFuture />
-            <ContractsModel />
-            <LargeQuote />
-            <div className={`${foundation.row}`}>
-                <MajorFeatures />
-            </div>
-            <Features />
-            <OutroSection />
-        </Layout>
-    </div>
+	<div>
+		<Layout>
+			<h1 className={baseStyles.hidden}>OpenLaw</h1>
+			<IntroSection />
+			<BuildingFuture />
+			<ContractsModel />
+			<LargeQuote />
+			<div className={foundation.row}>
+				<MajorFeatures />
+			</div>
+			<Features />
+			<OutroSection />
+		</Layout>
+	</div>
 )
 
 export default IndexPage;
