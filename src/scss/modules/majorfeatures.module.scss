@@ -1,91 +1,91 @@
 @import '../mixins';
 
 .divider {
-	width: 30px;
-	height: 1px;
-	background: #6CBBF1;
-	margin: 0 auto;
+  width: 30px;
+  height: 1px;
+  background: #6CBBF1;
+  margin: 0 auto;
 }
 
 .svg {
-	width: 150px;
-	margin: 0 auto;
+  width: 150px;
+  margin: 0 auto;
 }
 
 .svg-wrapper {
-    text-align: center;
+  text-align: center;
 }
 
 .image-wrapper {
-    text-align: center;
-    @include aspect-ratio(1,1);
-    img,
-    svg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        margin: auto;
-    }
+  text-align: center;
+  @include aspect-ratio(1, 1);
+  img,
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: auto;
+  }
 }
 
 .content-wrapper {
-    h2 {
-        color: #4952a5;
-    }
-    p {
-        width: 80%;
-        max-width: 400px;
-        color: #828092;
-    }
+  h2 {
+    color: #4952a5;
+  }
+  p {
+    width: 80%;
+    max-width: 400px;
+    color: #828092;
+  }
 }
 
 .svg-div {
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
-    @include aspect-ratio(1,1);
-    svg,
-    img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        margin: auto;
-    }
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  @include aspect-ratio(1, 1);
+  svg,
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: auto;
+  }
 }
 
 .feature-tile {
-    width: 85% !important;
-    margin: 50px auto !important;
-    background: #FFF;
-    border: 1px solid #DDD;
-    border-radius: 25px;
-    box-shadow: 0 0 40px #EEE;
-    padding: 40px 40px
+  width: 85% !important;
+  margin: 50px auto !important;
+  background: #FFF;
+  border: 1px solid #DDD;
+  border-radius: 25px;
+  box-shadow: 0 0 40px #EEE;
+  padding: 40px 40px
 }
 
 .full-wrap {
-	width: 100%;
+  width: 100%;
 }
 
 .left-divider {
-	width: 30px;
-	height: 1px;
-	background: #6CBBF1;
-	margin: 0;
+  width: 30px;
+  height: 1px;
+  background: #6CBBF1;
+  margin: 0;
 }
 
 .button {
-    background-color: #ffbf78;
-    border-radius: 40px;
-    padding: 5px 8px;
-    color: #FFF;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: .8rem;
-    padding: 15px 20px;
-    letter-spacing: 1px;
-    outline: none;
-    cursor: pointer;
+  background-color: #ffbf78;
+  border-radius: 40px;
+  padding: 5px 8px;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: 15px 20px;
+  letter-spacing: 1px;
+  outline: none;
+  cursor: pointer;
 }

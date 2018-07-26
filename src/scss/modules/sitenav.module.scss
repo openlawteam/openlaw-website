@@ -1,9 +1,3 @@
-.nav {
-  padding: 48px 0.9375rem 0;
-  position: absolute;
-  width: 100%;
-}
-
 .wrapper {
   justify-content: flex-end;
   width: 100%;
@@ -15,6 +9,12 @@
     display: table;
     clear: both;
   }
+}
+
+.nav {
+  padding: 48px 0.9375rem 0;
+  position: absolute;
+  width: 100%;
 }
 
 .nav ul {
@@ -34,13 +34,6 @@
   font-size: 1em;
   font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
   color: #405EA7;
-}
-
-.footer-nav {
-  padding-top: 70px;
-  a {
-    color: #FFF !important;
-  }
 }
 
 @media screen and (min-width: 1000px) {

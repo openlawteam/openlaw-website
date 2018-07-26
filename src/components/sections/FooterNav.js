@@ -1,12 +1,12 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
 
-import styles from '../../scss/modules/sitenav.module.scss';
+import f from '../../scss/modules/footer.module.scss';
 import Wrap from './../common/Wrap';
 
-const SiteNav = ({ data }) => (
+const FooterNav = ({ data }) => (
   <Wrap>
-    <nav className={`${styles.nav} ${styles.footerNav}`}>
+    <nav className={`${f.footerNav}`}>
       <ul>
         {data.map(({ name, url }) => (
           <li key={name}><a href={url}>{name}</a></li>
@@ -16,4 +16,4 @@ const SiteNav = ({ data }) => (
   </Wrap>
 );
 
-export default SiteNav;
+export default FooterNav;

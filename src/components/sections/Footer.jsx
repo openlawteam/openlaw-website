@@ -12,7 +12,7 @@ import Wrap from '../common/Wrap';
 const Footer = ({ data }) => (
   <Wrap>
   	<div className{s.footer}>
-	</div>
+    </div>
   </Wrap>
 );
 

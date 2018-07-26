@@ -14,10 +14,10 @@ const Footer = () => (
   <Wrap>
     <div className={s.footer}>
       <div className={f.row} key="1">
-        <div className={`${f.column} ${f['small12']} ${f['medium2']}`}>
+        <div className={`${f.column} ${f['small12']} ${f['medium4']}`}>
           <LogoSVG />
         </div>
-        <div className={`${f.column} ${f['small12']} ${f['medium10']}`}>
+        <div className={`${f.column} ${f['small12']} ${f['medium8']}`}>
           <FooterNav data={NavData} />
         </div>
       </div>
