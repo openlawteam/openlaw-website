@@ -14,6 +14,7 @@ import Wrap from '../common/Wrap';
 
 import bgImage from '../../assets/bg.svg';
 import StraightLinesSVG from '../svg/StraightLinesSVG';
+import { withPrefix } from 'gatsby-link';
 
 class IntroSection extends React.Component {
 
@@ -34,7 +35,7 @@ class IntroSection extends React.Component {
 
 	render() {
 		return(
-			<div className={i.intro} style={{backgroundImage: 'url(' + bgImage + ')'}}>
+			<div className={i.intro} style={{backgroundImage: 'url(' + withPrefix('/static/img/bg.svg') + ')'}}>
 				<div className={f.row}>
 					<Wrap>
 						<div className={f.row}>

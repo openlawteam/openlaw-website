@@ -8,7 +8,8 @@ import Wrap from '../common/Wrap';
 import ExploreSVG from '../../components/svg/ExploreSVG';
 import CollaborateSVG from '../../components/svg/CollaborateSVG';
 // import PrivacySVG from '../../components/svg/PrivacySVG';
-import PrivacyPNG from '../../assets/lock.png'
+// import PrivacyPNG from '../../assets/bg1.jpg'
+import { withPrefix } from 'gatsby-link';
 
 const MajorFeatures = ({ data }) => (
   <Wrap>
@@ -31,7 +32,7 @@ const MajorFeatures = ({ data }) => (
     	</div>
     	<div className={`${f.column} ${f['small12']} ${f['medium4']} ${s.svgWrapper}`} key="3">
             <div className={`${s.svgDiv}`}>
-    		  <img src={PrivacyPNG} alt="" />
+              <img src={withPrefix('/static/img/lock.png')} alt="Logo" />
             </div>
 	  		<h2>privacy</h2>
 	  		<div className={s.divider}></div>

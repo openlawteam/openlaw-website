@@ -10,6 +10,7 @@
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-sass": "next",
+    "import": "0.0.6",
     "node-sass": "^4.9.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
