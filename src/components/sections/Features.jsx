@@ -8,7 +8,9 @@ import s from '../../scss/modules/majorfeatures.module.scss';
 import Wrap from '../common/Wrap';
 import AOS from 'aos';
 
-import BuildPNG from '../../assets/build.png';
+import BuildSVG from '../../components/svg/BuildSVG';
+// import BuildPNG from '../../assets/build.png';
+// import CommunitySVG from '../../components/svg/CommunitySVG';
 import CommunityPNG from '../../assets/community.png';
 
 class Features extends React.Component {
@@ -34,7 +36,7 @@ class Features extends React.Component {
         <div className={s.fullWrap}>
             <div className={`${f.row} ${s.featureTile}`} key="1">
               <div className={`${f.column} ${f['small12']} ${f['medium5']} ${s.imageWrapper}`} data-aos="fade-right" data-aos-delay="200">
-                  <img src={BuildPNG} alt="" />
+                  <BuildSVG />
                 </div>
                 <div className={`${f.column} ${f['small12']} ${f['medium7']} ${s.contentWrapper}`} data-aos="fade-up" data-aos-delay="400">
                   <h2>build</h2>
