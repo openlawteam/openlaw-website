@@ -14,9 +14,9 @@ import Wrap from '../common/Wrap';
 
 class OutroSection extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   componentDidMount() {
     AOS.init({

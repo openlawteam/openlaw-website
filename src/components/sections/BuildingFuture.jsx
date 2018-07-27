@@ -19,9 +19,9 @@ import Wrap from '../common/Wrap';
 
 class BuildingFuture extends React.Component {
 
-	constructor(props) {
-		super(props);
-	}
+	// constructor(props) {
+	// 	super(props);
+	// }
 
 	componentDidMount() {
 		AOS.init({

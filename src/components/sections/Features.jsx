@@ -12,12 +12,13 @@ import BuildSVG from '../../components/svg/BuildSVG';
 // import BuildPNG from '../../assets/build.png';
 // import CommunitySVG from '../../components/svg/CommunitySVG';
 import CommunityPNG from '../../assets/community.png';
+import { withPrefix } from 'gatsby-link';
 
 class Features extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   componentDidMount() {
     AOS.init({
@@ -47,7 +48,7 @@ class Features extends React.Component {
             </div>
             <div className={`${f.row} ${s.featureTile}`} key="2">
                 <div className={`${f.column} ${f['small12']} ${f['medium5']} ${s.imageWrapper}`} data-aos="fade-right" data-aos-delay="400">
-                    <img src={CommunityPNG} alt="" />
+                    <img src={withPrefix('/static/img/community.png')} alt="" />
                 </div>
                 <div className={`${f.column} ${f['small12']} ${f['medium7']} ${s.contentWrapper}`} data-aos="fade-up" data-aos-delay="600">
                     <h2>community</h2>

@@ -14,12 +14,13 @@ import CollaborateSVG from '../../components/svg/CollaborateSVG';
 import PrivacyPNG from '../../assets/lock.png';
 // import { withPrefix } from 'gatsby-link';
 import AOS from 'aos';
+import { withPrefix } from 'gatsby-link';
 
 class MajorFeatures extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   componentDidMount() {
     AOS.init({
@@ -54,7 +55,7 @@ class MajorFeatures extends React.Component {
           </div>
           <div className={`${f.column} ${f['small12']} ${f['medium4']} ${s.svgWrapper}`} key="3" data-aos="fade-up" data-aos-delay="450">
             <div className={`${s.svgDiv}`}>
-              <img src={PrivacyPNG} alt="" />
+              <img src={withPrefix('/static/img/lock.png')} alt="" />
             </div>
             <h2>privacy</h2>
             <div className={s.divider}></div>

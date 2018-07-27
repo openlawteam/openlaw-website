@@ -13,9 +13,9 @@ import Wrap from '../common/Wrap';
 
 class ContractsModel extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   componentDidMount() {
     AOS.init({

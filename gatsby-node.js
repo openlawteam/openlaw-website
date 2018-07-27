@@ -1,7 +1,11 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+// Promise API
+const Shell = require("child_process");
 
- // You can delete this file if you're not using it
+// Callback API
+exports.createPages = (_, pluginOptions, cb) => {
+  // do Async work
+  Shell.execSync("rm -rf public/static/img")
+  Shell.execSync("mkdir public/static/img")
+  Shell.execSync("cp -r src/assets/* public/static/img")
+  cb()
+}

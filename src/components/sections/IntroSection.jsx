@@ -12,15 +12,15 @@ import LogoSVG from '../../components/svg/LogoSVG';
 import SignupForm from '../../components/SignupForm';
 import Wrap from '../common/Wrap';
 
-import bgImage from '../../assets/bg.svg';
+// import bgImage from '../../assets/bg.svg';
 import StraightLinesSVG from '../svg/StraightLinesSVG';
 import { withPrefix } from 'gatsby-link';
 
 class IntroSection extends React.Component {
 
-	constructor(props) {
-		super(props);
-	}
+	// constructor(props) {
+	// 	super(props);
+	// }
 
 	componentDidMount() {
 		AOS.init({
