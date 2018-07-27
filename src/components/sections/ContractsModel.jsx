@@ -22,9 +22,9 @@ class ContractsModel extends React.Component {
       duration: 800,
       offset: 40,
       delay: 120,
-      mirror: true,
-      once: true,
-      // anchorPlacement: 'top-bottom'
+      mirror: false,
+      once: false,
+      anchorPlacement: 'center'
     })
   }
 
