@@ -1,12 +1,14 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
 
+import '../../../node_modules/aos/dist/aos.css';
 import f from '../../scss/modules/foundation.module.scss';
 import s from '../../scss/modules/outrosection.module.scss';
 
 import WaveSVG from '../../components/svg/WaveSVG';
 import LargeCircleSVG from '../../components/svg/LargeCircleSVG';
 
+import AOS from 'aos';
 import SignupForm from '../../components/SignupForm';
 import Wrap from '../common/Wrap';
 
