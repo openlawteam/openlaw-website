@@ -1,0 +1,77 @@
+@import '../variables';
+@import '../mixins';
+
+.wrapper {
+	padding: 6% 20px 20px;
+	background-color: #063454;
+	color: white;
+	text-align: center;
+	position: relative;
+	// overflow: hidden;
+	h1 {
+		font-family: $font-body;
+		font-size: 3em;
+		line-height: 1.2;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		margin: 0 auto 60px;
+	}
+}
+
+.circles {
+	max-width: 100px;
+	width: 80%;
+	margin: auto;
+}
+
+.triangles {
+	position: relative;
+	width: 200px;
+	z-index: 2;
+	margin-top: -50px;
+	.triangle {
+		max-width: 100px;
+		width: 50%;
+	}
+	.yellow {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -12%;
+	}
+	.grey {
+		position: relative;
+	}
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: 120%;
+	background-position: 340% 20%;
+	background-repeat: no-repeat, repeat;
+	z-index: 1;
+	@include opacity(0.5);
+}
+
+.z-index {
+	position: relative;
+	z-index: 3;
+}
+
+.divider {
+	height: 5px;
+	width: 100px;
+	background: white;
+	margin: 0 auto 60px;
+}
+
+.parallelogram {
+	position: absolute;
+	top: -60px;
+	width: 150px;
+	right: 20px;
+}

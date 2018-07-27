@@ -1,0 +1,50 @@
+.content {
+	position: relative;
+	padding-top: 65px;
+}
+
+.image-wrapper {
+	padding-top: 50px;
+}
+
+.divider {
+	width: 30px;
+	height: 1px;
+	background: white;
+}
+
+.paragraph {
+	font-size: 0.95rem;
+}
+
+.shape-content-wrapper {
+	position: relative;
+	padding: 10%;
+	border-radius: 30px 0 30px 0;
+	margin: 10px 0;
+	color: #FFF;
+	h3 {
+		margin-top: 0;
+	}
+}
+.blue {
+	background: #056bd0;
+	padding-bottom: 25px;
+}
+.teal {
+	background: #01cde6;
+	position: relative;
+	z-index: 2;
+	top: -35px;
+}
+
+.centered {
+	display: flex;
+	align-items: center;
+}
+
+.svg-wrapper svg {
+	width: 300%;
+	position: relative;
+	left: -100%;
+}

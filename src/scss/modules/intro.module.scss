@@ -1,0 +1,25 @@
+.intro {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  padding-top: 112px;
+}
+
+.text {
+  color: #666;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.lines {
+  margin-top: 60px;
+}
+
+.text {
+  p {
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,68 @@
+@import '../variables';
+@import '../mixins';
+
+.signup {
+  // width: 600px;
+  padding: 12px 48px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  @include border-radius(2px);
+  a {
+    color: white;
+    &:hover,
+    &:focus {
+      color: white;
+    }
+  }
+}
+
+.sign-up-form {
+  background: #063454;
+}
+
+.signup form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.signup input {
+  font-size: 1em;
+  margin-bottom: 24px;
+  padding: 0 12px;
+  outline: none;
+  border: 2px solid #066bd1;
+  line-height: 44px;
+  @include border-radius(3px);
+}
+
+.signup button[type="submit"] {
+  background: #FFBE78;
+  padding: 17px 0 15px;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  cursor: pointer;
+  font-weight: 900;
+  font-family: $font-header;
+  @include border-radius(20px);
+  &:hover,
+  &:focus {
+    background-color: darken(#FFBE78, 10%);
+  }
+}
+
+.small-text {
+  max-width: 80%;
+  text-align: center;
+  font-sie: 12px;
+  line-height: 15px;
+  font-weight: 600;
+}
+
+.title {
+  font-weight: 900;
+}

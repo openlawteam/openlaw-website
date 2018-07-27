@@ -1,0 +1,66 @@
+@import '../variables';
+
+/* body */
+
+html,
+body {
+  font-weight: normal;
+  font-family: $font-body;
+  font-size: $font-size-base;
+}
+
+/* headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-header;
+  font-weight: 400;
+}
+
+/* layout */
+
+.wrap {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+}
+
+.wrap-large {
+  max-width: $width-wide;
+}
+
+/* font */
+
+.font-nobile {
+  font-family: $font-header;
+}
+
+/* font-color */
+
+.color-white {
+  color: white;
+}
+
+/* alignment */
+
+.text-center {
+  text-align: center;
+}
+
+/* helpers */
+
+.hidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.wrapper {
+  overflow: hidden;
+}
