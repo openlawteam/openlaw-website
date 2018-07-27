@@ -7,8 +7,8 @@ import 'typeface-nunito';
 
 import s from '../scss/modules/base.module.scss';
 
-import Header from './Header';
-import Footer from './Footer';
+import Header from './header';
+import Footer from './footer';
 import Wrap from './common/Wrap';
 
 const Layout = ({ children, data }) => (
