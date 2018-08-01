@@ -6,6 +6,7 @@ import s from '../../scss/modules/signup.module.scss';
 import i from '../../scss/modules/intro.module.scss';
 
 import LogoSVG from '../../components/svg/LogoSVG';
+import LightOrangeCircleSVG from '../../components/svg/LightOrangeCircleSVG';
 import SignupForm from '../../components/SignupForm';
 import Wrap from '../common/Wrap';
 
@@ -16,6 +17,9 @@ const IntroSection = ({ data }) => (
   <div className={i.intro} style={{backgroundImage: 'url(' + withPrefix('/static/img/bg.svg') + ')'}}>
     <div className={f.row}>
       <Wrap>
+        <div className={i.orangeCircle}>
+          <LightOrangeCircleSVG />
+        </div>
         <div className={f.row}>
           <div className={`${f.column} ${i.text}`} key="1">
             <div>
