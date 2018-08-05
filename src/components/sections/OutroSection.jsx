@@ -33,7 +33,7 @@ class OutroSection extends React.Component {
     return(
       <Wrap>
         <div className={s.outroSection}>
-          <div className={s.largeCircleWrapper} data-aos="fade" data-aos-delay="400">
+          <div className={s.largeCircleWrapper}>
             <LargeCircleSVG />
           </div>
           <div className={`${s.fullRow}`}>

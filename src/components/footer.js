@@ -1,6 +1,6 @@
 import React from 'react'
 
-import s from '../scss/modules/footer.module.scss';
+import s from '../scss/modules/Footer.module.scss';
 import f from '../scss/modules/foundation.module.scss';
 
 import LogoSVG from './svg/FooterLogoSVG';
@@ -13,7 +13,7 @@ import Wrap from './common/Wrap';
 const Footer = () => (
   <Wrap>
     <div className={s.footer}>
-      <div className={f.row} key="1">
+      <div className={`${f.row} ${s.footerInnerWrapper}`} key="1">
         <div className={`${f.column} ${f['small12']} ${f['medium4']}`}>
           <LogoSVG />
         </div>

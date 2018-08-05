@@ -1,6 +1,7 @@
 .intro {
   background-size: cover;
   background-position: center;
+  position: relative;
   height: 100vh;
   min-height: 400px;
   display: flex;
@@ -22,4 +23,12 @@
   p {
     max-width: 400px;
   }
+}
+
+.orange-circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%,-50%);
+  z-index: -1;
 }
