@@ -1,13 +1,14 @@
 import React from 'react';
 
 const TextInput = (props) => {
-  const { value, onChange, ...rest } = props;
+  const { innerRef, value, onChange, type, ...rest } = props;
 
   return (
     <input
       {...rest}
       onChange={onChange}
-      type="text"
+      ref={innerRef}
+      type={type || 'text'}
       value={value}
     />
   );

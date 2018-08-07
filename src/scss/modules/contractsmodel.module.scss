@@ -1,41 +1,76 @@
-.content {
-	position: relative;
-	padding-top: 65px;
+@import '../variables';
+@import '../mixins';
+
+.wrap {
+	background: #0769d2;
 }
 
-.image-wrapper {
-	padding-top: 50px;
+.content {
+	position: relative;
+	display: flex;
+
+	@include size-medium-down {
+		flex-direction: column;
+		padding: 12px;
+	}
 }
 
 .divider {
 	width: 30px;
 	height: 1px;
-	background: white;
+	background: #6CBBF1;
 }
 
 .paragraph {
-	font-size: 0.95rem;
+	font-family: $font-body;
+	color: $color-wiltedlilac;
 }
 
 .shape-content-wrapper {
+	background: white;
+	border: 1px solid #1558a0;
+	border-radius: 2px;
+	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.05);
+	padding: 48px;
+	margin-right: 24px;
 	position: relative;
-	padding: 10%;
-	border-radius: 30px 0 30px 0;
-	margin: 10px 0;
-	color: #FFF;
-	h3 {
+	width: 33%;
+
+	&:nth-of-type(1) {
+		top: -24px;
+	}
+
+	&:nth-of-type(2) {
+		bottom: -24px
+	}
+
+	@include size-medium-down {
+		width: 100%;
+
+		&:nth-of-type(1) {
+			top: 0;
+			margin-bottom: 12px;
+		}
+
+		&:nth-of-type(2) {
+			bottom: 0;
+		}
+	}
+
+	h2 {
 		margin-top: 0;
+		color: $color-royal;
 	}
 }
 .blue {
-	background: #056bd0;
-	padding-bottom: 25px;
+	// background: #056bd0;
+	// padding-bottom: 25px;
 }
 .teal {
-	background: #01cde6;
-	position: relative;
-	z-index: 2;
-	top: -35px;
+	// background: #01cde6;
+	// position: relative;
+	// z-index: 2;
+	// top: -35px;
 }
 
 .centered {
@@ -44,7 +79,12 @@
 }
 
 .svg-wrapper svg {
-	width: 300%;
-	position: relative;
-	left: -100%;
+  position: absolute;
+  height: 650px;
+  left: 350px;
+  top: -125px;
+
+  @include size-medium-down {
+  	@include hidden;
+  }
 }
