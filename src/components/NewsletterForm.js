@@ -128,7 +128,7 @@ class NewsletterForm extends Component {
         />
 
         {this.state.mailChimpSubscribed === false && (
-          <small className={s.newsletterError}>That didn't work <span role="img" aria-label="sad face">&nbsp;😕</span>. Try again?</small>
+          <small className={s.newsletterError}>That didn&rsquo;t work <span role="img" aria-label="sad face">&nbsp;😕</span>. Try again?</small>
         )}
 
         <button type="submit">
