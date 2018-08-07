@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 
-import s from '../scss/modules/Footer.module.scss';
+import s from '../scss/modules/footer.module.scss';
 import f from '../scss/modules/foundation.module.scss';
 
 import LogoShapeSVG from './svg/LogoShapeSVG';
