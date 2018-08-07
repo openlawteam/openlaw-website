@@ -1,9 +1,7 @@
 import React from 'react';
-// @todo use media query (if necessary) for the wrap width
-// import Media from 'react-media';
 
-const Wrap = ({ children }) => (
-  <div>
+const Wrap = ({ children, ...rest }) => (
+  <div style={{ position: 'relative' }} {...rest}>
     {children}
   </div>
 );

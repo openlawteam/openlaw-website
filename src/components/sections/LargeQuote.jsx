@@ -26,25 +26,18 @@ class LargeQuote extends React.Component {
   }
 
   render() {
-    return(
+    return (
       <Wrap>
         <div className={s.largeQuote}>
-          <div className={s.outerBorder} data-aos="fade" data-aos-delay="200">
-            <div className={s.middleBorder} data-aos="fade" data-aos-delay="600">
-              <div className={s.innerBorder} data-aos="fade" data-aos-delay="1000">
-                <div className={f.row}>
-                  <div className={`${f.column} ${f.small12} ${f.medium8} ${s.blockCenter} ${f.large7} ${f.alignCenter}`}>
-                    <h1 data-aos="fade" data-aos-delay="700">OpenLaw brings lawyers to work together on legal templates for the benefit of everyone.</h1>
-                  </div>
-                </div>
-              </div>
+          <div className={f.row}>
+            <div className={`${f.column} ${f.small12} ${f.medium8} ${s.blockCenter} ${f.large7} ${f.alignCenter}`}>
+              <h1 data-aos="fade" data-aos-delay="700">OpenLaw brings lawyers to work together on legal templates for the benefit of everyone.</h1>
             </div>
           </div>
         </div>
       </Wrap>
-    )
+    );
   }
-
 };
 
 export default LargeQuote;

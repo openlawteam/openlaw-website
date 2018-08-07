@@ -2,26 +2,30 @@
 @import '../mixins';
 
 .wrapper {
-	padding: 6% 20px 20px;
-	background-color: #063454;
-	color: white;
+	padding: 100px 20px 20px;
+	color: #444444;
 	text-align: center;
 	position: relative;
-	// overflow: hidden;
+
 	h1 {
-		font-family: $font-body;
+		font-family: $font-header;
 		font-size: 3em;
-		line-height: 1.2;
-		letter-spacing: 2px;
-		text-transform: uppercase;
+		font-weight: 300;
+		line-height: 1.25;
+		letter-spacing: 1px;
 		margin: 0 auto 60px;
 	}
 }
 
 .circles {
-	max-width: 100px;
-	width: 80%;
+	width: 500px;
+	height: 100px;
 	margin: auto;
+
+	path {
+		fill: lighten(#066BD1, 30%);
+		opacity: .25;
+	}
 }
 
 .triangles {
@@ -50,10 +54,9 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-size: 120%;
+	background-size: 100%;
 	background-position: 340% 20%;
-	background-repeat: no-repeat, repeat;
-	z-index: 1;
+	background-repeat: no-repeat;
 	@include opacity(0.5);
 }
 

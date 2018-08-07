@@ -2,20 +2,28 @@
 @import '../mixins';
 
 .signup {
-  // width: 600px;
-  padding: 12px 48px 36px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  color: white;
-  @include border-radius(2px);
-  a {
-    color: white;
-    &:hover,
-    &:focus {
-      color: white;
-    }
-  }
+  justify-content: center;
+  height: 100%;
+
+  // padding: 36px;
+  // margin-bottom: 24px;
+  // display: flex;
+  // border: 1px solid #333;
+  // box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.05);
+  // flex-direction: column;
+  // align-items: center;
+  // background: rgba(250, 250, 250, 0.25);
+  // color: white;
+  // @include border-radius(2px);
+  // a {
+  //   color: white;
+  //   &:hover,
+  //   &:focus {
+  //     color: white;
+  //   }
+  // }
 }
 
 .sign-up-form {
@@ -29,40 +37,76 @@
 }
 
 .signup input {
+  font-family: $font-body;
   font-size: 1em;
   margin-bottom: 24px;
   padding: 0 12px;
   outline: none;
-  border: 2px solid #066bd1;
-  line-height: 44px;
-  @include border-radius(3px);
+  box-shadow: 3px 3px 0 0 #e6eaec;
+  border: 1px solid #066bd1;
+  height: 48px;
 }
 
-.signup button[type="submit"] {
-  background: #FFBE78;
-  padding: 17px 0 15px;
+.help-text {
+  margin: -18px 0 24px;
+  font-size: 12px;
+  font-family: $font-body;
+  color: lighten($color-darksmoke, 25%);
+}
+
+.signup button {
+  background: $color-royal;
+  padding: 12px;
   font-size: 1em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: white;
   cursor: pointer;
-  font-weight: 900;
-  font-family: $font-header;
-  @include border-radius(20px);
+  font-weight: 700;
+  font-family: $font-body;
+  @include border-radius(2px);
   &:hover,
   &:focus {
-    background-color: darken(#FFBE78, 10%);
+    background-color: lighten($color-royal, 10%);
   }
 }
 
 .small-text {
   max-width: 80%;
   text-align: center;
-  font-sie: 12px;
+  font-size: 1em;
   line-height: 15px;
-  font-weight: 600;
+  font-weight: 400;
+  font-family: $font-body;
+  color: lighten($color-darksmoke, 25%);
+
+  a {
+    color: $color-darksmoke;
+
+    &:hover,
+    &:focus {
+      color: $color-royal;
+    }
+  }
 }
 
 .title {
-  font-weight: 900;
+  font-weight: 500;
+  align-self: flex-start;
+  font-family: $font-body;
+  letter-spacing: 2px;
+  font-size: $font-size-base;
+  text-transform: uppercase;
+  color: $color-darksmoke;
+}
+
+@include size-medium-down {
+  .signup {
+    padding: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .title {
+    align-self: center;
+  }
 }
