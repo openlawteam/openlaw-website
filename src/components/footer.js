@@ -1,6 +1,4 @@
 import React, { Component, Fragment } from 'react'
-import { Tooltip } from 'react-tippy';
-import 'react-tippy/dist/tippy.css'
 
 import s from '../scss/modules/Footer.module.scss';
 import f from '../scss/modules/foundation.module.scss';
