@@ -33,11 +33,11 @@ class NewsletterForm extends Component {
 
     const mailChimpCallbackHandler = `({ result, msg }) => {
       if (result === 'success') {
-        __mailChimpStatus.success(); /* eslint-disable-line */
+        __mailChimpStatus.success();
       }
 
       if (result === 'error') {
-        __mailChimpStatus.error(); /* eslint-disable-line */
+        __mailChimpStatus.error();
       }
     }`;
 
@@ -103,7 +103,7 @@ class NewsletterForm extends Component {
 
   render() {
     return (
-      <form action={MailChimpData.url} onSubmit={this.handleSubmit}>
+      <form action={MailChimpData.url} method="POST" onSubmit={this.handleSubmit}>
         {/* mailchimp-specific */}
         <input type="hidden" name="u" value={MailChimpData.user} />
         <input type="hidden" name="id" value={MailChimpData.id} />
