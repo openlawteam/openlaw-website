@@ -85,7 +85,7 @@ class NewsletterForm extends Component {
     // generate and run script
     const mailChimpScript = document.createElement('script');
     mailChimpScript.type = 'text/javascript';
-    mailChimpScript.src = `${formAction}&c=${mailchimpCallback}&EMAIL=${value}`;
+    mailChimpScript.src = `${MailChimpData.url}&c=${mailchimpCallback}&EMAIL=${value}`;
     mailChimpScript.id = 'mailchimp-script';
 
     // append script to head, and run
@@ -103,11 +103,7 @@ class NewsletterForm extends Component {
 
   render() {
     return (
-      <form action={MailChimpData.url} method="POST" onSubmit={this.handleSubmit}>
-        {/* mailchimp-specific */}
-        <input type="hidden" name="u" value={MailChimpData.user} />
-        <input type="hidden" name="id" value={MailChimpData.id} />
-
+      <form onSubmit={this.handleSubmit}>
         {/* bot catcher */}
         <input
           autoComplete="nope"
