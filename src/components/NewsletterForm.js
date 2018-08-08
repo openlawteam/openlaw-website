@@ -31,7 +31,7 @@ class NewsletterForm extends Component {
     const formAction = form.getAttribute('action');
     const { value } = this.state;
 
-    const mailChimpCallbackHandler = ({ result, msg }) => {
+    const mailChimpCallbackHandler = `({ result, msg }) => {
       if (result === 'success') {
         __mailChimpStatus.success(); /* eslint-disable-line */
       }
@@ -39,7 +39,7 @@ class NewsletterForm extends Component {
       if (result === 'error') {
         __mailChimpStatus.error(); /* eslint-disable-line */
       }
-    };
+    }`;
 
     const mailchimpCallback = `(${mailChimpCallbackHandler})`
 
@@ -85,7 +85,7 @@ class NewsletterForm extends Component {
     // generate and run script
     const mailChimpScript = document.createElement('script');
     mailChimpScript.type = 'text/javascript';
-    mailChimpScript.src = `${formAction}&c=${mailchimpCallback}&EMAIL='${value}`;
+    mailChimpScript.src = `${formAction}&c=${mailchimpCallback}&EMAIL=${value}`;
     mailChimpScript.id = 'mailchimp-script';
 
     // append script to head, and run
