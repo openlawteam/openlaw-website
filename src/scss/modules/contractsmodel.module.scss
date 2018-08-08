@@ -2,7 +2,9 @@
 @import '../mixins';
 
 .wrap {
-	background: #0769d2;
+	background: $color-keylargo;
+	background-image: url("/static/img/file-pattern.png");
+  box-shadow: 0 12px 0 0 rgba(48, 191, 215, 0.5) inset, 0 -12px 0 0 rgba(48, 191, 215, 0.5) inset;
 }
 
 .content {
@@ -29,7 +31,7 @@
 .shape-content-wrapper {
 	background: white;
 	border: 1px solid #1558a0;
-	border-radius: 2px;
+	border-radius: 10px;
 	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.05);
 	padding: 48px;
 	margin-right: 24px;
@@ -78,13 +80,17 @@
 	align-items: center;
 }
 
-.svg-wrapper svg {
-  position: absolute;
-  height: 650px;
-  left: 350px;
-  top: -125px;
+.img-wrapper {
+	position: relative;
+	width: 100%;
 
-  @include size-medium-down {
-  	@include hidden;
-  }
+	img {
+	  position: absolute;
+	  right: -45px;
+	  top: -45px;
+
+	  @include size-medium-down {
+	  	@include hidden;
+	  }
+	}
 }

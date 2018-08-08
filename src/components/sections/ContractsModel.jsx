@@ -1,13 +1,13 @@
 import React from 'react'
-
+import { withPrefix } from 'gatsby-link';
 import '../../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
+
+
 import f from '../../scss/modules/foundation.module.scss';
 import s from '../../scss/modules/contractsmodel.module.scss';
 
 import ContractsModelSVG from '../../components/svg/ContractsModelSVG';
-
-import AOS from 'aos';
-
 import Wrap from '../common/Wrap';
 
 class ContractsModel extends React.Component {
@@ -26,8 +26,9 @@ class ContractsModel extends React.Component {
     return(
       <Wrap className={s.wrap}>
         <div className={f.row}>
-            <div className={s.svgWrapper} data-aos="fade-right" data-aos-delay="200">
-              <ContractsModelSVG />
+          <div className={s.imgWrapper} data-aos="fade-right" data-aos-delay="200">
+            <img src={withPrefix('/static/img/machine.png')} role="presentation" alt="" />
+              {/*<ContractsModelSVG />*/}
           </div>
 
             <div className={`${s.content}`}>

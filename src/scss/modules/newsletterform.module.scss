@@ -34,6 +34,25 @@ input {
       }
     }
   }
+
+  &[data-progress="true"] {
+    background-color: lighten($color-wiltedlilac, 35%);
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    @keyframes color {
+      0% {
+        background-color: lighten($color-wiltedlilac, 10%);
+      }
+      50% {
+        background-color: lighten($color-wiltedlilac, 35%);
+      }
+      100% {
+        background-color: lighten($color-wiltedlilac, 10%);
+      }
+    }
+  }
 }
 
 // bot catcher
