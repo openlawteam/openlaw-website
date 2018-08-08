@@ -1,5 +1,5 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
+import { withPrefix } from 'gatsby-link';
 
 import '../../../node_modules/aos/dist/aos.css';
 import f from '../../scss/modules/foundation.module.scss';
@@ -12,7 +12,6 @@ import BuildSVG from '../../components/svg/BuildSVG';
 // import BuildPNG from '../../assets/build.png';
 // import CommunitySVG from '../../components/svg/CommunitySVG';
 import CommunityPNG from '../../assets/community.png';
-import { withPrefix } from 'gatsby-link';
 
 const Text = ({ children }) => <p className={`${s.p}`}>{children}</p>
 const H2 = ({ children }) => <h2 className={`${s.h2}`}>{children}</h2>

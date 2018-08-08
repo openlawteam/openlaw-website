@@ -7,29 +7,31 @@ import { CheckSVG } from './svg/CheckSVG';
 import TextInput from './common/TextInput';
 import MailChimpData from '../config/mailChimp';
 
-// MailChimp forms with JavaScript is not fun (React makes life a bit easier)
+// Using MailChimp forms with JavaScript is not fun (React makes life a bit easier)
 // Thank you for inspiration: https://stackoverflow.com/questions/28908100/submit-embedded-mailchimp-form-with-javascript-ajax-not-jquery
 
 class NewsletterForm extends Component {
-  state = { value: '' };
+  state = { submitInProgress: false, value: '' };
 
   formBotEmail = React.createRef();
 
   handleError = (errorText) => {
-    this.setState({ mailChimpSubscribed: false });
+    this.setState({ mailChimpSubscribed: false, submitInProgress: false });
   };
 
   handleSubmit = (event) => {
     event.preventDefault();
 
-    if (this.state.mailChimpSubscribed) return;
+    if (this.state.mailChimpSubscribed || this.state.submitInProgress) return;
     if (this.formBotEmail.current.value) return;
+
+    this.setState({ submitInProgress: true });
 
     const form = event.target;
     const formAction = form.getAttribute('action');
     const { value } = this.state;
 
-    const mailChimpCallbackHandler = ({ result, msg }) => {
+    const mailChimpCallbackHandler = `({ result, msg }) => {
       if (result === 'success') {
         __mailChimpStatus.success(); /* eslint-disable-line */
       }
@@ -37,7 +39,7 @@ class NewsletterForm extends Component {
       if (result === 'error') {
         __mailChimpStatus.error(); /* eslint-disable-line */
       }
-    };
+    }`;
 
     const mailchimpCallback = `(${mailChimpCallbackHandler})`
 
@@ -83,7 +85,7 @@ class NewsletterForm extends Component {
     // generate and run script
     const mailChimpScript = document.createElement('script');
     mailChimpScript.type = 'text/javascript';
-    mailChimpScript.src = `${formAction}&c=${mailchimpCallback}&EMAIL='${value}`;
+    mailChimpScript.src = `${formAction}&c=${mailchimpCallback}&EMAIL=${value}`;
     mailChimpScript.id = 'mailchimp-script';
 
     // append script to head, and run
@@ -92,7 +94,7 @@ class NewsletterForm extends Component {
   };
 
   handleSuccess = () => {
-    this.setState({ mailChimpSubscribed: true, value: '' });
+    this.setState({ mailChimpSubscribed: true, submitInProgress: false, value: '' });
   };
 
   onInputChange = (event) => {
@@ -120,7 +122,8 @@ class NewsletterForm extends Component {
         <TextInput
           autoCapitalize="off"
           autoComplete="off"
-          disabled={this.state.mailChimpSubscribed}
+          disabled={this.state.mailChimpSubscribed || this.state.submitInProgress}
+          data-progress={this.state.submitInProgress}
           name="MERGE0"
           onChange={this.onInputChange}
           type="text"
