@@ -1,4 +1,21 @@
+@import '../variables';
 @import '../mixins';
+
+.h2 {
+  color: $color-lilac;
+}
+
+.p {
+  font-family: $font-body;
+  color: $color-wiltedlilac;
+}
+
+.majorText {
+  font-family: $font-body;
+  color: $color-wiltedlilac;
+  max-width: 80%;
+  margin: 12px auto;
+}
 
 .divider {
   width: 30px;
@@ -29,17 +46,6 @@
   }
 }
 
-.content-wrapper {
-  h2 {
-    color: #4952a5;
-  }
-  p {
-    width: 80%;
-    max-width: 400px;
-    color: #828092;
-  }
-}
-
 .svg-div {
   width: 150px;
   margin: 0 auto;
@@ -60,9 +66,9 @@
   width: 85% !important;
   margin: 50px auto !important;
   background: #FFF;
-  border: 1px solid #DDD;
-  border-radius: 25px;
-  box-shadow: 0 0 40px #EEE;
+  border: 1px solid #eff4fe;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.05);
   padding: 40px 40px
 }
 
@@ -78,15 +84,17 @@
 }
 
 .button {
-  background-color: #ffbf78;
-  border-radius: 40px;
-  padding: 5px 8px;
-  color: #FFF;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: .8rem;
-  padding: 15px 20px;
-  letter-spacing: 1px;
+  padding: 12px 24px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px $color-royal;
+  color: $color-royal;
+  font-family: $font-body;
+  font-weight: 600;
   outline: none;
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: #ebf5fd;
+  }
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from "gatsby"
-import 'typeface-nobile';
+import { StaticQuery, graphql } from 'gatsby'
+import 'typeface-hind';
 import 'typeface-nunito';
 
 import s from '../scss/modules/base.module.scss';

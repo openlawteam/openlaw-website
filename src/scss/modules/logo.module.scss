@@ -1,3 +1,5 @@
+@import '../mixins';
+
 .logo {
   width: 375px;
   height: 181px;
@@ -8,4 +10,14 @@
   width: 200px;
   height: 100px;
   margin-bottom: 0;
+}
+
+@include size-medium-down {
+  .logo {
+    width: 250px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
 }

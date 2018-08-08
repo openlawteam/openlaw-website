@@ -1,30 +1,54 @@
-import React from 'react'
+import React, { Component, Fragment } from 'react'
 
 import s from '../scss/modules/footer.module.scss';
 import f from '../scss/modules/foundation.module.scss';
 
-import LogoSVG from './svg/FooterLogoSVG';
-
+import LogoShapeSVG from './svg/LogoShapeSVG';
 import FooterNav from './sections/FooterNav';
-import NavData from '../config/nav';
-
+import FooterData from '../config/footer';
+import NewsletterForm from './NewsletterForm';
 import Wrap from './common/Wrap';
 
+const EmptyTag = Fragment;
+
+const renderSectionLinks = (data, key) => (
+  <div>
+    <h3>{key}</h3>
+    <ul>
+      {data[key].map(({ name, url, meta }) => (
+        <li key={`${name}-${url}`}>
+          <a href={url}>{name} {meta && <span>{`${meta}`}</span>}</a>
+        </li>
+      ))}
+    </ul>
+  </div>
+);
+
+const year = () => new Date().getFullYear();
+
 const Footer = () => (
-  <Wrap>
-    <div className={s.footer}>
-      <div className={f.row} key="1">
-        <div className={`${f.column} ${f['small12']} ${f['medium4']}`}>
-          <LogoSVG />
-        </div>
-        <div className={`${f.column} ${f['small12']} ${f['medium8']}`}>
-          <FooterNav data={NavData} />
+  <Wrap className={s.footerWrap}>
+    <div className={`${f.row}`}>
+      <div className={s.footer}>
+        <LogoShapeSVG className={`${s.footerLogo}`} />
+
+        <div className={s.flexWrap}>
+          <div>
+            <h3>Join our newsletter</h3>
+
+            <div className={s.inputWrap}>
+              <NewsletterForm />
+            </div>
+          </div>
+
+          {renderSectionLinks(FooterData, 'info')}
+          {renderSectionLinks(FooterData, 'join')}
+          {renderSectionLinks(FooterData, 'contact')}
         </div>
       </div>
-      <div className={f.row} key="3">
-        <div className={f.column}>
-          <p className={s.footerCopyright}>Copyright © OpenLaw 2018</p>
-        </div>
+
+      <div className={s.footerCopyright}>
+        <span>&copy; {year()} Aaron Wright, David Roon, and ConsenSys AG</span>
       </div>
     </div>
   </Wrap>

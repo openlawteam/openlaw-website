@@ -11,6 +11,7 @@ const NavData = [
   }, {
     name: 'Contact',
     url: '/',
+    divider: true,
   }, {
     name: 'Login',
     url: '/',
