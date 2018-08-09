@@ -6,7 +6,8 @@ html {
 
 /* styles for markdown files (e.g. <span class="legal">) */
 
-a.button {
+a.button,
+subpage a.button {
   margin: 24px 0;
   display: inline-block;
   background: $color-royal;
