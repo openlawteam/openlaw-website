@@ -27,6 +27,9 @@ class Features extends React.Component {
     })
   }
 
+  goToDocs = () => { window.location.href = 'https://docs.openlaw.io/markdown/index.html'; };
+  goToSignUp = () => { window.location.href = 'https://app.openlaw.io/signup'; };
+
   render() {
     return(
       <Wrap>
@@ -40,7 +43,7 @@ class Features extends React.Component {
               <H2>Build</H2>
               <div className={s.leftDivider}></div>
               <Text>Build entire legal applications on OpenLaw using our public API.</Text>
-                <button className={s.button}>Learn How</button>
+                <button onClick={this.goToDocs} className={s.button}>Learn How</button>
             </div>
           </div>
 
@@ -53,7 +56,7 @@ class Features extends React.Component {
               <H2>Community</H2>
               <div className={s.leftDivider}></div>
               <Text>We're the home to a passionate group of lawyers committed to rebuilding the legal industry.</Text>
-              <button className={s.button}>Join Us</button>
+              <button onClick={this.goToSignUp} className={s.button}>Join Us</button>
             </div>
           </div>
         </div>

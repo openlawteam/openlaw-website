@@ -53,6 +53,12 @@ input {
       }
     }
   }
+
+  /* iOS reset */
+  &[type="text"] {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+  }
 }
 
 // bot catcher
