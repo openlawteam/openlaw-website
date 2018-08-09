@@ -6,8 +6,7 @@ html {
 
 /* styles for markdown files (e.g. <span class="legal">) */
 
-a.button,
-subpage a.button {
+a.button {
   margin: 24px 0;
   display: inline-block;
   background: $color-royal;
@@ -27,7 +26,7 @@ subpage a.button {
   }
 
   &:visited {
-    color: white;
+    color: white !important; // @todo
   }
 }
 
