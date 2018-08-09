@@ -1,23 +1,23 @@
 const NavData = [
   {
     name: 'About',
-    url: '/',
+    url: '/about',
   }, {
-    name: 'Build',
-    url: '/',
+    name: 'Private instances',
+    url: '/private-instances',
   }, {
-    name: 'Community',
-    url: '/',
+    name: 'Docs',
+    url: 'https://docs.openlaw.io/',
   }, {
     name: 'Contact',
-    url: '/',
+    url: 'mailto:hello@openlaw.io',
     divider: true,
   }, {
     name: 'Login',
-    url: '/',
+    url: 'https://openlaw.io/login',
   }, {
     name: 'Sign up',
-    url: '/',
+    url: 'https://openlaw.io/signup',
   },
 ];
 

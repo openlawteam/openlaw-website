@@ -1,4 +1,5 @@
 @import '../variables';
+@import '../mixins';
 
 /* body */
 
@@ -62,5 +63,57 @@ h6 {
 }
 
 .wrapper {
-  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+}
+
+.image-wrap {
+  position: relative;
+  width: 100%;
+}
+
+/* presentation images */
+.fun-bunch {
+  // position: absolute;
+  // top: -125px;
+  // right: -30px;
+  // z-index: -1;
+  // opacity: 0.25;
+
+  position: absolute;
+  top: -175px;
+  right: -60px;
+  z-index: -1;
+  opacity: .45;
+
+  @include size-medium-down {
+    opacity: 0.08;
+  }
+
+  @include size-tablet-down {
+    position: absolute;
+    top: -100px;
+    left: -30px;
+    z-index: -1;
+    opacity: .1;
+    opacity: 0.3;
+  }
+}
+
+.fun-bunch-subpage {
+  opacity: .1;
+}
+
+.fun-bunch-bw {
+  position: absolute;
+  top: 400px;
+  z-index: -1;
+  opacity: 0.02;
+  transform: rotate(190deg);
+
+  @include size-medium-down {
+    @include hidden;
+  }
 }
