@@ -56,14 +56,14 @@
 
 .signup button {
   background: $color-royal;
-  padding: 12px;
+  padding: 12px 24px;
   font-size: 1em;
   letter-spacing: 1px;
   color: white;
   cursor: pointer;
   font-weight: 700;
   font-family: $font-body;
-  @include border-radius(2px);
+  @include border-radius(4px);
   &:hover,
   &:focus {
     background-color: lighten($color-royal, 10%);

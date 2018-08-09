@@ -2,6 +2,7 @@
 @import '../mixins';
 
 .footer-wrap {
+  flex-shrink: 0;
   background-color: #f2f2f5;
   min-height: 250px;
   padding: 48px 48px 24px;

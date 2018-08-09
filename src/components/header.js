@@ -1,15 +1,23 @@
 import React, { Fragment } from 'react'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby';
 
 import SiteNav from './SiteNav';
 import NavData from '../config/nav';
+import { LogoCircle } from './svg/LogoCircle';
+import Wrap from './common/Wrap';
+
+import f from '../scss/modules/foundation.module.scss';
+import s from '../scss/modules/header.module.scss';
 
 const EmptyTag = Fragment;
 
-const Header = ({ siteTitle }) => (
-  <EmptyTag>
+const Header = ({ subpage, siteTitle }) => (
+  <Wrap className={f.row}>
+    {subpage && (
+      <Link className={s.link} to="/"><LogoCircle className={s.logo} /></Link>
+    )}
     <SiteNav data={NavData} />
-  </EmptyTag>
+  </Wrap>
 );
 
 export default Header;

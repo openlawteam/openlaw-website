@@ -1,4 +1,5 @@
 @import '../variables';
+@import '../mixins';
 
 .wrapper {
   justify-content: flex-end;
@@ -47,6 +48,7 @@
   font-size: 1em;
   font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
   color: #405EA7;
+  font-weight: 600;
 }
 
 .nav-popup {
@@ -101,10 +103,10 @@
   align-self: center;
 }
 
-@media screen and (min-width: 1000px) {
-  .nav ul { width: 50%; }
+@include size-medium-up {
+  .nav ul { width: 55%; }
 }
 
-@media screen and (max-width: 1000px) {
+@include size-medium-down {
   .nav ul { width: 75%; }
 }
