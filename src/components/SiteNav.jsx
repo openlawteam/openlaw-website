@@ -53,13 +53,11 @@ class SiteNav extends Component {
           }
 
           return (
-            <Wrap>
-              <nav className={s.nav}>
-                <div className={`${s.wrapper} ${f.row}`}>
-                  {this.renderItems(data)}
-                </div>
-              </nav>
-            </Wrap>
+            <nav className={s.nav}>
+              <div className={`${s.wrapper} ${f.row}`}>
+                {this.renderItems(data)}
+              </div>
+            </nav>
           );
         }}
       </MediaQuery>
