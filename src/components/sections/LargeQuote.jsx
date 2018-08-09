@@ -1,5 +1,4 @@
-import React from 'react'
-// import PropTypes from 'prop-types'
+import React from 'react';
 
 import '../../../node_modules/aos/dist/aos.css';
 import s from '../../scss/modules/largequote.module.scss';
@@ -9,11 +8,6 @@ import AOS from 'aos';
 import Wrap from '../common/Wrap';
 
 class LargeQuote extends React.Component {
-
-  // constructor(props) {
-  //   super(props);
-  // }
-
   componentDidMount() {
     AOS.init({
       duration: 800,
@@ -21,7 +15,6 @@ class LargeQuote extends React.Component {
       delay: 120,
       mirror: true,
       once: true,
-      // anchorPlacement: 'top-bottom'
     })
   }
 

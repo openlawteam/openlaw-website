@@ -120,7 +120,7 @@ class NewsletterForm extends Component {
           autoComplete="off"
           disabled={this.state.mailChimpSubscribed || this.state.submitInProgress}
           data-progress={this.state.submitInProgress}
-          name="MERGE0"
+          name="email"
           onChange={this.onInputChange}
           type="text"
           value={this.state.mailChimpSubscribed ? 'Fantastic!' : this.state.value}
