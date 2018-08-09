@@ -1,8 +1,9 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "openlaw-website",
+  "description": "public openlaw.io website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "OpenLaw Team <opensource@openlaw.io>",
+  "private": true,
   "dependencies": {
     "aos": "^2.3.3",
     "gatsby": "next",
@@ -23,9 +24,6 @@
     "typeface-hind": "^0.0.54",
     "typeface-nunito": "0.0.54"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -37,6 +35,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/openlawteam/openlaw-website"
   }
 }
