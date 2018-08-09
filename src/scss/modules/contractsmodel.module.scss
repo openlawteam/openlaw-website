@@ -2,14 +2,15 @@
 @import '../mixins';
 
 .wrap {
-	background: $color-keylargo;
+	background: #d1f8fe;
 	background-image: url("/static/img/file-pattern.png");
-  box-shadow: 0 12px 0 0 rgba(48, 191, 215, 0.5) inset, 0 -12px 0 0 rgba(48, 191, 215, 0.5) inset;
+  box-shadow: 0 12px 0 0 rgba(48, 191, 215, 0.07) inset, 0 -12px 0 0 rgba(48, 191, 215, 0.07) inset;
 }
 
 .content {
 	position: relative;
 	display: flex;
+	padding: 0 12px;
 
 	@include size-medium-down {
 		flex-direction: column;
@@ -30,9 +31,8 @@
 
 .shape-content-wrapper {
 	background: white;
-	border: 1px solid #1558a0;
 	border-radius: 10px;
-	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.05);
+	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.05), 1px -1px 0 rgba(175, 175, 175, 0.15);
 	padding: 48px;
 	margin-right: 24px;
 	position: relative;
@@ -62,6 +62,7 @@
 	h2 {
 		margin-top: 0;
 		color: $color-royal;
+		line-height: 1.15;
 	}
 }
 .blue {

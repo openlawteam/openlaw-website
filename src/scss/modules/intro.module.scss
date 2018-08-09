@@ -2,10 +2,7 @@
 @import '../mixins';
 
 .intro {
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding-top: 112px;
+  padding: 112px 12px 0;
 }
 
 .text {
@@ -13,46 +10,7 @@
   letter-spacing: 1px;
   font-size: 1.2rem;
   font-family: $font-body;
-}
-
-.lines {
-  margin-top: 60px;
-}
-
-.orange-circle {
-  position: absolute;
-  top: 0;
-  right: 0;
-  transform: translate(50%,-50%);
-  z-index: -1;
-}
-
-.fun-bunch {
-  position: absolute;
-  top: -140px;
-  right: -350px;
-  z-index: -1;
-  opacity: 0.3;
-
-  @include size-tablet-down {
-    position: absolute;
-    top: -150px;
-    left: 0;
-    z-index: -1;
-    opacity: .1;
-  }
-}
-
-.fun-bunch-bw {
-  position: absolute;
-  top: 337px;
-  z-index: -1;
-  opacity: 0.05;
-  transform: rotate(190deg);
-
-  @include size-medium-down {
-    @include hidden;
-  }
+  font-weight: 600;
 }
 
 @include size-medium-down {
@@ -73,4 +31,12 @@
     text-align: center;
     margin-bottom: 24px;
   }
+}
+
+.refract-img {
+  position: absolute;
+  opacity: .45;
+  left: 46px;
+  top: 49px;
+  z-index: -1;
 }

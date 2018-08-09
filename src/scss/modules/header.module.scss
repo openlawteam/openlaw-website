@@ -1,0 +1,21 @@
+@import '../variables';
+@import '../mixins';
+
+.logo {
+  position: absolute;
+  top: 36px;
+
+  @include size-tablet-down {
+    top: 16px;
+  }
+
+  @include size-medium-down {
+    left: 24px;
+  }
+}
+
+.link {
+  position: absolute;
+  padding-left: 0.9375rem; // match nav
+  z-index: 1001;
+}

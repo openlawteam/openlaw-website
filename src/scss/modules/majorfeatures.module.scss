@@ -63,7 +63,6 @@
 }
 
 .feature-tile {
-  width: 85% !important;
   margin: 50px auto !important;
   background: #FFF;
   border: 1px solid #eff4fe;
@@ -74,6 +73,7 @@
 
 .full-wrap {
   width: 100%;
+  padding: 0 12px;
 }
 
 .left-divider {

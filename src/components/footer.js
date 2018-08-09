@@ -7,6 +7,7 @@ import LogoShapeSVG from './svg/LogoShapeSVG';
 import FooterNav from './sections/FooterNav';
 import FooterData from '../config/footer';
 import NewsletterForm from './NewsletterForm';
+import CustomLink from './common/Link';
 import Wrap from './common/Wrap';
 
 const EmptyTag = Fragment;
@@ -17,7 +18,7 @@ const renderSectionLinks = (data, key) => (
     <ul>
       {data[key].map(({ name, url, meta }) => (
         <li key={`${name}-${url}`}>
-          <a href={url}>{name} {meta && <span>{`${meta}`}</span>}</a>
+          <CustomLink to={url}>{name} {meta && <span>{`${meta}`}</span>}</CustomLink>
         </li>
       ))}
     </ul>

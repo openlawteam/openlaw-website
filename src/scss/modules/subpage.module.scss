@@ -1,0 +1,73 @@
+@import '../variables';
+@import '../mixins';
+
+.subpage-wrap {
+  max-width: 37.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex: 1 0 auto;
+  flex-flow: row wrap;
+}
+
+.subpage {
+  margin-top: 144px;
+  width: 100%;
+  padding: 12px;
+  color: darken($color-darksmoke, 5%);
+  font-family: $font-header;
+  font-size: $font-size-reading;
+
+  a {
+    color: $color-royal;
+
+    &:hover,
+    &:focus {
+      color: darken($color-royal, 15%);
+    }
+
+    &:visited {
+      color: lighten($color-lilac, 15%);
+    }
+  }
+
+  // tables
+  table {
+    border-collapse: collapse;
+    font-size: .85em;
+    overflow-x: scroll;
+    display: block;
+  }
+
+  tr {
+    border-bottom: 1px solid #ddd;
+
+    &:nth-of-type(2n) {
+      background-color: $color-offwhite;
+    }
+
+    &:hover td {
+      background-color: lighten($color-wiltedlilac, 35%);
+    }
+  }
+
+  th {
+    font-weight: 600;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 4px;
+  }
+
+  td {
+    padding: 6px;
+    background-color: transparent;
+    transition: background .25s ease;
+  }
+}
+
+.legal {
+  text-transform: uppercase;
+  word-spacing: .25em;
+}
