@@ -27,9 +27,6 @@ class OutroSection extends React.Component {
     return(
       <Wrap>
         <div className={s.outroSection}>
-          <div className={s.largeCircleWrapper}>
-            <LargeCircleSVG />
-          </div>
           <div>
             <div className={f.row}>
               <div className={`${f.column} ${f['small12']} ${f['medium6']}`} key="1" data-aos="fade-up" data-aos-delay="200">
