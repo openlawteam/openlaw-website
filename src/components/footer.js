@@ -51,7 +51,7 @@ class RenderSectionLinks extends Component {
             <li key={`${name}-${url}`}>
               <CustomLink to={url}>
                 {name}
-                {token && <span>{`${this.handleDataToken(token, this.state[`${name.toLowerCase()}CallbackData`], meta)}`}</span>}
+                {(token && this.state[`${name.toLowerCase()}CallbackData`]) && <span>{`${this.handleDataToken(token, this.state[`${name.toLowerCase()}CallbackData`], meta)}`}</span>}
                 {meta && <span>{meta}</span>}
               </CustomLink>
             </li>
