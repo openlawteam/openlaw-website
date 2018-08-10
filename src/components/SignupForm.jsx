@@ -9,7 +9,7 @@ const EmptyTag = Fragment;
 const goToOpenLawSignUp = () => { (window.location.href = 'https://openlaw.io/#register') };
 
 const SubmitButton = () => (
-  <button onClick={goToOpenLawSignUp} type="button">Sign Up for OpenLaw</button>
+  <button onClick={goToOpenLawSignUp} type="button">Sign up for OpenLaw</button>
 );
 
 const PASSWORD_HELP = 'Password must be at least 8 characters with one upper-case letter, one lower-case letter, one number, and one accepted special character (!@#$&*/).';
