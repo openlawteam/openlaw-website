@@ -5,22 +5,25 @@ const FooterData = {
       url: 'https://docs.openlaw.io',
     }, {
       name: 'About',
-      url: '/about',
+      url: '/about?ref=footer',
     }, {
       name: 'FAQ',
-      url: '/faq',
+      url: '/faq?ref=footer',
     }, {
       name: 'Terms of Use',
-      url: '/terms',
+      url: '/terms?ref=footer',
     }, {
       name: 'Privacy Policy',
-      url: '/privacy',
+      url: '/privacy?ref=footer',
     },
   ],
   join: [
     {
+      name: 'Signup',
+      url: 'https://openlaw.io/#register',
+    }, {
       name: 'Request a Private Instance',
-      url: '/private-instances',
+      url: '/private-instances?ref=footer',
     }, {
       name: 'Jobs',
       meta: '(we\u2019re hiring!)',
