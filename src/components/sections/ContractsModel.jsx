@@ -39,9 +39,9 @@ class ContractsModel extends React.Component {
               </div>
 
               <div className={`${s.shapeContentWrapper} ${s.teal}`} key="2" data-aos="fade-up" data-aos-delay="400">
-                <h2 data-aos="fade-up" data-aos-delay="600">Create smart contracts</h2>
+                <h2 data-aos="fade-up" data-aos-delay="300">Create &ldquo;smart&rdquo; legal agreements</h2>
                 <div className={s.divider}></div>
-                <p className={s.paragraph} data-aos="fade-up" data-aos-delay="800">Model all or parts of legal agreements using our markup language, decreasing the cost and friction of creating, securing, and generating binding legal agreements.</p>
+                <p className={s.paragraph} data-aos="fade-up" data-aos-delay="400">Create, store, and execute legal agreements that interact with blockchain-based smart contracts without the need for any intermediaries.</p>
               </div>
             </div>
           </div>
