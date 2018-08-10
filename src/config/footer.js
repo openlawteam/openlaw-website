@@ -1,3 +1,5 @@
+import { FetchBreezyJobs } from '../helper/fetchJobs';
+
 const FooterData = {
   info: [
     {
@@ -26,8 +28,9 @@ const FooterData = {
       url: '/private-instances?ref=footer',
     }, {
       name: 'Jobs',
-      meta: '(we\u2019re hiring!)',
+      token: '(we\u2019re hiring! %data% open position%plural%)',
       url: 'https://openlaw.breezy.hr',
+      dataCallback: FetchBreezyJobs,
     }, {
       name: 'OpenLaw Slack Community',
       url: 'https://openlaw-community.slack.com',
