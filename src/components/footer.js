@@ -4,6 +4,7 @@ import s from '../scss/modules/footer.module.scss';
 import f from '../scss/modules/foundation.module.scss';
 
 import LogoShapeSVG from './svg/LogoShapeSVG';
+import { ConsenSysLogoSVG } from './svg/ConsenSysLogoSVG';
 import FooterNav from './sections/FooterNav';
 import FooterData from '../config/footer';
 import NewsletterForm from './NewsletterForm';
@@ -69,6 +70,9 @@ const Footer = () => (
     <div className={`${f.row}`}>
       <div className={s.footer}>
         <LogoShapeSVG className={`${s.footerLogo}`} />
+        <a href="https://consensys.net" className={`${s.footerLogoConsensys}`}>
+          <ConsenSysLogoSVG />
+        </a>
 
         <div className={s.flexWrap}>
           <div>
