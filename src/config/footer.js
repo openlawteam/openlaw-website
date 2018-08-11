@@ -21,7 +21,7 @@ const FooterData = {
   ],
   join: [
     {
-      name: 'Signup',
+      name: 'Sign up',
       url: 'https://openlaw.io/#register',
     }, {
       name: 'Request a Private Instance',

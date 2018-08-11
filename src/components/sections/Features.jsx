@@ -55,7 +55,7 @@ class Features extends React.Component {
             <div className={`${f.column} ${f['small12']} ${f['medium7']} ${s.contentWrapper}`} data-aos="fade-up" data-aos-delay="600">
               <H2>Community</H2>
               <div className={s.leftDivider}></div>
-              <Text>We’re the home to a passionate group of lawyers, technologists, and dreamers committed to rebuilding the legal industry.</Text>
+              <Text>We’re the home to a passionate group of people, technologists, and dreamers committed to rebuilding the legal industry.</Text>
               <button onClick={this.goToSignUp} className={s.button}>Join Us</button>
             </div>
           </div>
