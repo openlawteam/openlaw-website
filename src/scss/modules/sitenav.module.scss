@@ -5,7 +5,6 @@
   justify-content: flex-end;
   width: 100%;
   display: flex;
-  display: block;
   &::after {
     content: "";
     display: table;
@@ -32,13 +31,10 @@
 
 .nav ul {
   display: flex;
-  flex-direction: row;
-  align-self: flex-end;
   list-style: none;
   margin: 0;
   padding: 0;
   justify-content: space-between;
-  float: right;
   max-width: 62.5rem
 }
 
@@ -48,6 +44,10 @@
   font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
   color: #405EA7;
   font-weight: 600;
+
+  &:visited {
+    color: #405EA7;
+  }
 }
 
 .nav-popup {
