@@ -13,7 +13,7 @@ const NavData = [
     url: 'mailto:hello@openlaw.io',
     divider: true,
   }, {
-    name: 'Login',
+    name: 'Log in',
     url: 'https://openlaw.io',
   }, {
     name: 'Sign up',
