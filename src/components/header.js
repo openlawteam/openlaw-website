@@ -12,7 +12,7 @@ import s from '../scss/modules/header.module.scss';
 const EmptyTag = Fragment;
 
 const Header = ({ subpage, siteTitle }) => (
-  <Wrap className={f.row}>
+  <Wrap>
     {subpage && (
       <Link className={s.link} to="/"><LogoCircle className={s.logo} /></Link>
     )}
