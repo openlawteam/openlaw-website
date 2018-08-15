@@ -2,9 +2,11 @@
 @import '../mixins';
 
 .wrapper {
+  // reset
+  margin: 0;
+
   justify-content: flex-end;
   width: 100%;
-  margin: 0 auto;
   display: flex;
   display: block;
   &::after {
