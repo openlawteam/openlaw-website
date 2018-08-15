@@ -1,6 +1,19 @@
 @import '../variables';
 @import '../mixins';
 
+a {
+  color: $color-royal;
+
+  &:hover,
+  &:focus {
+    color: darken($color-royal, 15%);
+  }
+
+  &:visited {
+    color: lighten($color-lilac, 15%);
+  }
+}
+
 .subpage-wrap {
   max-width: 37.5rem;
   margin-right: auto;
@@ -17,19 +30,6 @@
   color: darken($color-darksmoke, 5%);
   font-family: $font-header;
   font-size: $font-size-reading;
-
-  a {
-    color: $color-royal;
-
-    &:hover,
-    &:focus {
-      color: darken($color-royal, 15%);
-    }
-
-    &:visited {
-      color: lighten($color-lilac, 15%);
-    }
-  }
 
   // tables
   table {
