@@ -11,8 +11,15 @@ import s from '../scss/modules/header.module.scss';
 
 const EmptyTag = Fragment;
 
+// @todo cleanup later as a part of Wrap
+const wrapStyle = {
+  maxWidth: '62.5em',
+  margin: '0 auto',
+  position: 'relative',
+};
+
 const Header = ({ subpage, siteTitle }) => (
-  <Wrap>
+  <Wrap style={wrapStyle}>
     {subpage && (
       <Link className={s.link} to="/"><LogoCircle className={s.logo} /></Link>
     )}
