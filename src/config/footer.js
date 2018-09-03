@@ -1,4 +1,5 @@
 import { FetchBreezyJobs } from '../helper/fetchJobs';
+import { hostnameContext } from '../helper/url';
 
 const FooterData = {
   info: [
@@ -22,7 +23,7 @@ const FooterData = {
   join: [
     {
       name: 'Sign up',
-      url: 'https://openlaw.io/#register',
+      url: `${hostnameContext()}signup`,
     }, {
       name: 'Request a Private Instance',
       url: '/private-instances?ref=footer',

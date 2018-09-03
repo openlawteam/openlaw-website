@@ -2,11 +2,12 @@ import React, { Component, Fragment } from 'react';
 
 import TextInput from './common/TextInput';
 import styles from '../scss/modules/signup.module.scss';
+import { hostnameContext } from '../helper/url';
 
 const EmptyTag = Fragment;
 
 
-const goToOpenLawSignUp = () => { (window.location.href = 'https://openlaw.io/#register') };
+const goToOpenLawSignUp = () => { (window.location.href = `${hostnameContext()}signup`) };
 
 const SubmitButton = () => (
   <button onClick={goToOpenLawSignUp} type="button">Sign up for OpenLaw</button>
