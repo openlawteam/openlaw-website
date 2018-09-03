@@ -1,7 +1,7 @@
 export const hostnameContext = () => {
-  const netlifyContext = process.env.CONTEXT;
+  const deployContext = process.env.OL_CONTEXT;
   const nodeEnv = process.env.NODE_ENV;
-  const env = `${nodeEnv}_${netlifyContext}`;
+  const env = `${nodeEnv}_${deployContext}`;
 
   switch(env) {
     case 'development_develop':
