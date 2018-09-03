@@ -30,7 +30,7 @@ const FooterData = {
     }, {
       name: 'Jobs',
       token: '(we\u2019re hiring! %data% open position%plural%)',
-      url: 'https://openlaw.breezy.hr',
+      url: 'https://careers.openlaw.io',
       dataCallback: FetchBreezyJobs,
     }, {
       name: 'OpenLaw Slack Community',
