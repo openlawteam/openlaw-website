@@ -4,8 +4,6 @@ export const hostnameContext = () => {
   const nodeEnv = process.env.NODE_ENV;
   const env = `${nodeEnv}_${deployContext}`;
 
-console.log(env)
-
   switch(env) {
     case 'production_develop':
       return 'https://app.dev.openlaw.io/';
