@@ -1,12 +1,13 @@
 import React from 'react'
 import { withPrefix } from 'gatsby-link';
+import AOS from 'aos';
 
 import '../../../node_modules/aos/dist/aos.css';
 import f from '../../scss/modules/foundation.module.scss';
 import s from '../../scss/modules/majorfeatures.module.scss';
 
 import Wrap from '../common/Wrap';
-import AOS from 'aos';
+import { hostnameContext } from '../../helper/url';
 
 import BuildSVG from '../../components/svg/BuildSVG';
 // import BuildPNG from '../../assets/build.png';
@@ -27,8 +28,8 @@ class Features extends React.Component {
     })
   }
 
-  goToDocs = () => { window.location.href = 'https://docs.openlaw.io/markdown/index.html'; };
-  goToSignUp = () => { window.location.href = 'https://openlaw.io/#register'; };
+  goToDocs = () => { window.location.href = 'https://docs.openlaw.io'; };
+  goToSignUp = () => { window.location.href = `${hostnameContext()}signup`; };
 
   render() {
     return(

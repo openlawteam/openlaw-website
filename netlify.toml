@@ -1,0 +1,20 @@
+# DO NOT STORE SENSITIVE INFORMATION IN THIS FILE.
+
+# Production context: All deploys to the main
+# repository branch will inherit these settings.
+[context.production.environment]
+  GATSBY_OL_CONTEXT = "production"
+
+# Deploy Preview context: All Deploy Previews
+# will inherit these settings.
+[context.deploy-preview.environment]
+  GATSBY_OL_CONTEXT = "develop"
+
+# Specific branch context: Deploys from this branch
+# will take these settings and override their
+# current ones.
+[context.develop.environment]
+  GATSBY_OL_CONTEXT = "develop"
+
+[context.staging.environment]
+  GATSBY_OL_CONTEXT = "staging"

@@ -1,3 +1,5 @@
+import { hostnameContext } from '../helper/url';
+
 const NavData = [
   {
     name: 'About',
@@ -14,10 +16,10 @@ const NavData = [
     divider: true,
   }, {
     name: 'Log in',
-    url: 'https://openlaw.io',
+    url: `${hostnameContext()}login`,
   }, {
     name: 'Sign up',
-    url: 'https://openlaw.io/#register',
+    url: `${hostnameContext()}signup`,
   },
 ];
 
