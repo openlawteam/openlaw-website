@@ -1,9 +1,11 @@
-const deployContext = process.env.OL_CONTEXT;
-const nodeEnv = process.env.NODE_ENV;
 
 export const hostnameContext = () => {
+  const deployContext = process.env.GATSBY_OL_CONTEXT;
+  const nodeEnv = process.env.NODE_ENV;
   const env = `${nodeEnv}_${deployContext}`;
+
 console.log(env)
+
   switch(env) {
     case 'production_develop':
       return 'https://app.dev.openlaw.io/';
