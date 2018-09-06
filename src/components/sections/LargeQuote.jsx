@@ -24,7 +24,7 @@ class LargeQuote extends React.Component {
         <div className={s.largeQuote}>
           <div className={f.row}>
             <div className={`${f.column} ${f.small12} ${f.medium8} ${s.blockCenter} ${f.large7} ${f.alignCenter}`}>
-              <h1 data-aos="fade" data-aos-delay="700">OpenLaw brings lawyers to work together on legal templates for the benefit of everyone.</h1>
+              <h1 data-aos="fade" data-aos-delay="700">OpenLaw brings lawyers together for the benefit of everyone.</h1>
             </div>
           </div>
         </div>
