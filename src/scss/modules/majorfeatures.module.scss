@@ -10,6 +10,10 @@
   color: $color-wiltedlilac;
 }
 
+.flex-wrapper > div {
+  flex-basis: 25%;
+}
+
 .majorText {
   font-family: $font-body;
   color: $color-wiltedlilac;
@@ -96,5 +100,21 @@
   &:hover,
   &:focus {
     background-color: #ebf5fd;
+  }
+}
+
+/* media queries */
+
+@include size-medium-down {
+  .flex-wrapper > div {
+    flex-basis: 50%;
+    margin-bottom: 24px;
+  }
+}
+
+@include size-tablet-down {
+  .flex-wrapper > div {
+    flex-basis: 75%;
+    margin-bottom: 24px;
   }
 }
