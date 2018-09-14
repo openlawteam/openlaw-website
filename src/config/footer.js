@@ -34,7 +34,7 @@ const FooterData = {
       dataCallback: FetchBreezyJobs,
     }, {
       name: 'OpenLaw Slack Community',
-      url: 'https://openlaw-community.slack.com',
+      url: 'https://join.slack.com/t/openlaw-community/shared_invite/enQtMzY1MTA2ODY3ODg5LTc0ZGQ4OTEwMDEyMGUxMzJmMDVmNzM1ODRmNTdkNDIyNDkyOGU0NmRkMmRlMmY3ZTMwYzNlOTFiMzUwZjJkOTk',
     },
   ],
   contact: [
