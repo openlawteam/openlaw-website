@@ -9,14 +9,8 @@ import Wrap from '../common/Wrap';
 
 import ExploreSVG from '../../components/svg/ExploreSVG';
 import AutomateSVG from '../../components/svg/AutomateSVG';
-// import CollaborateSVG from '../../components/svg/CollaborateSVG';
-
-// import PrivacySVG from '../../components/svg/PrivacySVG';
-// import PrivacyPNG from '../../assets/bg1.jpg'
-import '../../assets/lock.png';
-import '../../assets/automate.png';
-import '../../assets/collaborate.png';
-import '../../assets/explore.png';
+import CollaborateSVG from '../../components/svg/CollaborateSVG';
+import PrivacySVG from '../../components/svg/PrivacySVG';
 
 const Text = ({ children }) => <p className={`${s.majorText}`}>{children}</p>
 const H2 = ({ children }) => <h2 className={`${s.h2}`}>{children}</h2>
@@ -56,7 +50,7 @@ class MajorFeatures extends React.Component {
 
           <div className={`${f.column} ${s.svgWrapper}`} key="3" data-aos="fade-up" data-aos-delay="300">
             <div className={`${s.svgDiv}`}>
-              <img src={withPrefix('/static/img/collaborate.png')} alt="" />
+              <CollaborateSVG />
             </div>
             <H2>Collaborate</H2>
             <div className={s.divider}></div>
@@ -65,7 +59,7 @@ class MajorFeatures extends React.Component {
 
           <div className={`${f.column} ${s.svgWrapper}`} key="4" data-aos="fade-up" data-aos-delay="450">
             <div className={`${s.svgDiv}`}>
-              <img src={withPrefix('/static/img/privacy.png')} alt="" />
+              <PrivacySVG />
             </div>
             <H2>Privacy</H2>
             <div className={s.divider}></div>
