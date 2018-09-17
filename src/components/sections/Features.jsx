@@ -10,9 +10,7 @@ import Wrap from '../common/Wrap';
 import { hostnameContext } from '../../helper/url';
 
 import BuildSVG from '../../components/svg/BuildSVG';
-// import BuildPNG from '../../assets/build.png';
-// import CommunitySVG from '../../components/svg/CommunitySVG';
-import CommunityPNG from '../../assets/community.png';
+import CommunitySVG from '../../components/svg/CommunitySVG';
 
 const Text = ({ children }) => <p className={`${s.p}`}>{children}</p>
 const H2 = ({ children }) => <h2 className={`${s.h2}`}>{children}</h2>
@@ -50,7 +48,7 @@ class Features extends React.Component {
 
           <div className={`${f.row} ${s.featureTile}`} key="2">
             <div className={`${f.column} ${f['small12']} ${f['medium5']} ${s.imageWrapper}`} data-aos="fade-right" data-aos-delay="400">
-              <img src={withPrefix('/static/img/community.png')} alt="" />
+              <CommunitySVG />
             </div>
 
             <div className={`${f.column} ${f['small12']} ${f['medium7']} ${s.contentWrapper}`} data-aos="fade-up" data-aos-delay="600">
