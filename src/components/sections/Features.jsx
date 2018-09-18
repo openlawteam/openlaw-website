@@ -35,7 +35,7 @@ class Features extends React.Component {
         <div className={s.fullWrap}>
           <div className={`${f.row} ${s.featureTile}`} key="1">
             <div className={`${f.column} ${f['small12']} ${f['medium5']} ${s.imageWrapper}`} data-aos="fade-right" data-aos-delay="200">
-              <BuildSVG />
+              <BuildSVG style={{ width: '90%', height: '90%' }} />
             </div>
 
             <div className={`${f.column} ${f['small12']} ${f['medium7']} ${s.contentWrapper}`} data-aos="fade-up" data-aos-delay="400">
@@ -48,7 +48,7 @@ class Features extends React.Component {
 
           <div className={`${f.row} ${s.featureTile}`} key="2">
             <div className={`${f.column} ${f['small12']} ${f['medium5']} ${s.imageWrapper}`} data-aos="fade-right" data-aos-delay="400">
-              <CommunitySVG />
+              <CommunitySVG style={{ width: '90%', height: '90%' }} />
             </div>
 
             <div className={`${f.column} ${f['small12']} ${f['medium7']} ${s.contentWrapper}`} data-aos="fade-up" data-aos-delay="600">
