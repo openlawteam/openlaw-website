@@ -1,7 +1,7 @@
 import React from 'react';
 
-const BuildSVG = () => (
-  <svg height='400' width='400' xmlns='http://www.w3.org/2000/svg'>
+const BuildSVG = (props) => (
+  <svg {...props} height='400' width='400' viewBox="0 0 400 400" xmlns='http://www.w3.org/2000/svg'>
     <g fill='none' fillRule='evenodd'>
       <g fillRule='nonzero'>
         <path d='M315.08 19.95c3.82-2.2 6.92-.45 6.92 3.95v197.54a5.86 5.86 0 0 1-2.66 4.59L51.65 380.63c-1.47.85-2.65.17-2.65-1.52V181.57c0-4.39 3.1-9.73 6.92-11.94z'

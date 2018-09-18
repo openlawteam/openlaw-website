@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CommunitySVG = (props) => (
-  <svg {...props} height="400" width="400" viewBox="0 0 400 400" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <svg {...props} height="400" width="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
     <g fill="none" fillRule="evenodd">
         <path d="M346.9 351.7L383 331c4.1-2.4 3.6-6.6-1.1-9.3L331 292.3c-4.8-2.8-12-3-16-.7l-83.3 48c-4.1 2.4-3.6 6.6 1.1 9.3l50.9 29.4c4.7 2.7 11.9 3 16 .6l40.2-23.2"
         fill="#f8fcff" fillRule="nonzero" />
