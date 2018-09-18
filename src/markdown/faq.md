@@ -10,13 +10,13 @@ Here are some answers to frequently asked questions about OpenLaw.
 
 ## What is OpenLaw?
 
-[OpenLaw](https://openlaw.io/) is a blockchain-based protocol for the creation and execution of legal agreements. Using OpenLaw, lawyers can more efficiently engage in transactional work and digitally sign and store legal agreements in a highly secure manner, all while leveraging next generation blockchain-based smart contracts.
+[OpenLaw](/) is a blockchain-based protocol for the creation and execution of legal agreements. Using OpenLaw, lawyers can more efficiently engage in transactional work and digitally sign and store legal agreements in a highly secure manner, all while leveraging next generation blockchain-based smart contracts.
 
 Using OpenLaw, you can create “legal templates” which can be enhanced using our “Legal Markup” language. Our Legal Markup language is akin to Wikipedia’s “wiki text” with greater functionality and enables anyone to wrap logic and other contextual information around traditional legal prose.
 
 ## What is the legal markup language? Is it difficult to learn if I don’t have a technical background?
 
-Our Legal Markup language is comprehensive and provides the tools necessary to create truly programmable legal agreements. Currently, OpenLaw’s [markup language](https://docs.openlaw.io/markdown/index.html) supports if → then logic, aliasing, multi-variable expressions, hidden variables, and can even perform basic calculations.
+Our Legal Markup language is comprehensive and provides the tools necessary to create truly programmable legal agreements. Currently, OpenLaw’s [markup language](https://docs.openlaw.io) supports if → then logic, aliasing, multi-variable expressions, hidden variables, and can even perform basic calculations.
 
 The OpenLaw markup language provides an easy way for anyone to reference and trigger an Ethereum-based smart contract to manage contractual promises.
 
@@ -24,7 +24,7 @@ The OpenLaw markup language provides an easy way for anyone to reference and tri
 
 You can mark up your agreement using the OpenLaw protocol. Once an agreement is uploaded onto OpenLaw, you can mark it up by clicking the red ‘source’ button.
 
-You can also link separate documents together into a ‘deal’ as well. Check out OpenLaw’s [markup language](https://docs.openlaw.io/markdown/index.html) to learn how to do so.
+You can also link separate documents together into a ‘deal’ as well. Check out OpenLaw’s [markup language](https://docs.openlaw.io) to learn how to do so.
 
 ## How does OpenLaw interact with blockchain technology?
 
