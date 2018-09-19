@@ -4,7 +4,7 @@ import MediaQuery from 'react-responsive';
 import f from '../scss/modules/foundation.module.scss';
 import s from '../scss/modules/sitenav.module.scss';
 import Wrap from './common/Wrap';
-import { MEDIA_TABLET_DOWN } from '../config/mediaQueries';
+import { MEDIA_MEDIUM_DOWN } from '../config/mediaQueries';
 import { HamburgerSVG } from './svg/HamburgerSVG';
 
 const EmptyTag = Fragment;
@@ -40,7 +40,7 @@ class SiteNav extends Component {
     const { isPopupOpen } = this.state;
 
     return (
-      <MediaQuery query={MEDIA_TABLET_DOWN}>
+      <MediaQuery query={MEDIA_MEDIUM_DOWN}>
         {(matches) => {
           if (matches) {
             return (

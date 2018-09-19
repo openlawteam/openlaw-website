@@ -3,3 +3,4 @@
 // NOTE: add to the list as necessary
 
 export const MEDIA_TABLET_DOWN = '(max-width: 39.9375em)';
+export const MEDIA_MEDIUM_DOWN = '(max-width: 64em)';
