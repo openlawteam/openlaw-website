@@ -6,10 +6,10 @@
   "private": true,
   "dependencies": {
     "aos": "^2.3.3",
-    "gatsby": "next",
-    "gatsby-link": "^1.6.46",
+    "gatsby": "^2.0.8",
+    "gatsby-link": "^2.0.1",
     "gatsby-plugin-catch-links": "^1.0.24",
-    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-react-helmet": "3.0.0",
     "gatsby-plugin-sass": "next",
     "gatsby-plugin-sharp": "next",
     "gatsby-source-filesystem": "^1.5.39",
