@@ -15,6 +15,14 @@ import Helmet from './Helmet';
 import Footer from './footer';
 import Wrap from './common/Wrap';
 
+function getSitePath(children) {
+  if (children._owner) {
+    return children._owner.key.replace(/^\//, '');
+  }
+
+  return '';
+}
+
 const Layout = ({ children, data, subpage }) => (
   <StaticQuery
     query={graphql`
@@ -30,10 +38,11 @@ const Layout = ({ children, data, subpage }) => (
       <>
         <Header subpage={subpage} siteTitle={data.site.siteMetadata.title} />
         <Helmet
-          title={`${data.site.siteMetadata.title} \u2014 A free legal repository`}
           meta={[
             { name: 'description', content: 'Dynamic, Next Generation Legal Agreements' },
           ]}
+          path={getSitePath(children)}
+          title={`${data.site.siteMetadata.title} \u2014 A free legal repository`}
         />
 
         <Wrap>
