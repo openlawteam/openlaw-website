@@ -30,6 +30,7 @@ class Helmet extends Component {
         <meta property="og:image" content={`${hostnameContext()}static/img/open-law-og-static.jpg`} />
         <meta property="og:description" content="We are home to a passionate group of people, technologists,
         and dreamers committed to rebuilding the legal industry." />
+        <meta property="fb:app_id" content="2176612205910168" />
 
       </ReactHelmet>
     )
