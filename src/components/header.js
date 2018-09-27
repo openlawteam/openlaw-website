@@ -18,13 +18,15 @@ const wrapStyle = {
   position: 'relative',
 };
 
-const Header = ({ subpage, siteTitle }) => (
-  <Wrap style={wrapStyle}>
+function Header({ subpage, siteTitle }) {
+  debugger;
+
+  return <Wrap style={wrapStyle}>
     {subpage && (
       <Link className={s.link} to="/"><LogoCircle className={s.logo} /></Link>
     )}
     <SiteNav data={NavData} />
   </Wrap>
-);
+};
 
 export default Header;

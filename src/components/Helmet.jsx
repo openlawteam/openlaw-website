@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactHelmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { hostnameContext } from '../helper/url';
