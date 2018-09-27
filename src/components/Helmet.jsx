@@ -22,7 +22,7 @@ const Helmet = (props) => (
     <meta name="msapplication-TileColor" content="#ffc40d" />
     <meta name="theme-color" content="#ffffff" />
 
-    <meta property="og:url" content={`${hostnameContext().replace(/\/$/, '')}${window.location.pathname}`} />
+    <meta property="og:url" content={`${hostnameContext().replace(/\/$/, '')}${global.location.pathname}`} />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={canonicalTitle(props.title)} />
     <meta property="og:image" content={`${hostnameContext()}static/img/open-law-og-static.jpg`} />
