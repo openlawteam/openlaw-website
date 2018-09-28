@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactHelmet from 'react-helmet';
 import PropTypes from 'prop-types';
-import { hostnameContext } from '../helper/url';
+import { websiteURL } from '../helper/url';
 
 function canonicalTitle(title) {
   return `${title} \u2014 A free regal repository`;
@@ -22,10 +22,10 @@ const Helmet = (props) => (
     <meta name="msapplication-TileColor" content="#ffc40d" />
     <meta name="theme-color" content="#ffffff" />
 
-    <meta property="og:url" content={`${hostnameContext()}${props.path}`} />
+    <meta property="og:url" content={`${websiteURL()}${props.path}`} />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={canonicalTitle(props.title)} />
-    <meta property="og:image" content={`${hostnameContext()}static/img/open-law-og-static.jpg`} />
+    <meta property="og:image" content={`${websiteURL()}static/img/openlaw-og.jpg`} />
     <meta property="og:description" content="We are home to a passionate group of people, technologists,
     and dreamers committed to rebuilding the legal industry." />
     <meta property="fb:app_id" content="2176612205910168" />
