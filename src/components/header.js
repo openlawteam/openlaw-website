@@ -18,7 +18,7 @@ const wrapStyle = {
   position: 'relative',
 };
 
-const Header = ({ subpage, siteTitle }) => (
+const Header = ({ subpage }) => (
   <Wrap style={wrapStyle}>
     {subpage && (
       <Link className={s.link} to="/"><LogoCircle className={s.logo} /></Link>
