@@ -27,6 +27,8 @@ export const websiteURL = () => {
       return 'https://develop.dev.openlaw.io/';
     case 'production_production':
       return 'https://openlaw.io/';
+    case 'production_staging':
+      return 'https://staging.dev.openlaw.io';
     default:
       return 'http://localhost:8000/';
   }
