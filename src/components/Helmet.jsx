@@ -3,13 +3,9 @@ import ReactHelmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { websiteURL } from '../helper/url';
 
-function canonicalTitle(title) {
-  return `${title} \u2014 A free regal repository`;
-}
-
 const Helmet = (props) => (
   <ReactHelmet
-    title={canonicalTitle(props.title)}
+    title={props.title}
     meta={props.meta}
   >
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,7 +20,7 @@ const Helmet = (props) => (
 
     <meta property="og:url" content={`${websiteURL()}${props.path}`} />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content={canonicalTitle(props.title)} />
+    <meta property="og:title" content={props.title} />
     <meta property="og:image" content={`${websiteURL()}static/img/openlaw-og.jpg`} />
     <meta property="og:description" content="We are home to a passionate group of people, technologists,
     and dreamers committed to rebuilding the legal industry." />
