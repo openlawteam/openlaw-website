@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import { withPrefix } from 'gatsby-link';
 import 'typeface-hind';
@@ -12,8 +11,17 @@ import s from '../scss/modules/base.module.scss';
 import i from '../scss/modules/intro.module.scss';
 
 import Header from './header';
+import Helmet from './Helmet';
 import Footer from './footer';
 import Wrap from './common/Wrap';
+
+function getSitePath(children) {
+  if (children._owner) {
+    return children._owner.key.replace(/^\//, '');
+  }
+
+  return '';
+}
 
 const Layout = ({ children, data, subpage }) => (
   <StaticQuery
@@ -30,21 +38,13 @@ const Layout = ({ children, data, subpage }) => (
       <>
         <Header subpage={subpage} siteTitle={data.site.siteMetadata.title} />
         <Helmet
-          title={`${data.site.siteMetadata.title} \u2014 A free legal repository`}
           meta={[
             { name: 'description', content: 'Dynamic, Next Generation Legal Agreements' },
           ]}
-        >
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          path={getSitePath(children)}
+          title={`${data.site.siteMetadata.title} \u2014 A free legal repository`}
+        />
 
-          <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png" />
-          <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png" />
-          <link rel="manifest" href="/static/img/site.webmanifest" />
-          <link rel="mask-icon" href="/static/img/safari-pinned-tab.svg" color="#5bbad5" />
-          <meta name="msapplication-TileColor" content="#ffc40d" />
-          <meta name="theme-color" content="#ffffff" />
-        </Helmet>
         <Wrap>
           <div className={s.wrapper}>
             <div className={`${f.row} ${s.imageWrap}`}>
