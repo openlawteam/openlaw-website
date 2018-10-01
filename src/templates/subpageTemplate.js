@@ -18,7 +18,7 @@ export default function SubpageTemplate({
           { name: 'description', content: 'Dynamic, Next Generation Legal Agreements' },
         ]}
         path={frontmatter.path.replace(/^\//, '')}
-        title={`${site.siteMetadata.title} — A free legal repository — ${frontmatter.title}`}
+        title={`${frontmatter.title} | ${site.siteMetadata.title} — A free legal repository`}
       />
       <div className={s.subpageWrap}>
         <div
