@@ -13,8 +13,9 @@ const EmptyTag = Fragment;
 
 // @todo cleanup later as a part of Wrap
 const wrapStyle = {
-  maxWidth: '62.5em',
+  maxWidth: '65.1rem',
   margin: '0 auto',
+  padding: '0 1.33333rem',
   position: 'relative',
 };
 
