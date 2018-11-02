@@ -3,6 +3,7 @@
   "description": "public openlaw.io website",
   "version": "1.0.0",
   "author": "OpenLaw Team <opensource@openlaw.io>",
+  "license": "Apache-2.0",
   "private": true,
   "dependencies": {
     "aos": "^2.3.3",
