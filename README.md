@@ -13,7 +13,7 @@ cd openlaw-website
 
 npm install
 
-gatsby develop
+npm run develop
 ```
 
 Once the setup is complete you can navigate to [localhost:8000](http://localhost:8000) (or whatever host and/or port you've selected).
