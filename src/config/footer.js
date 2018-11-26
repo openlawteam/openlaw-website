@@ -4,11 +4,14 @@ import { hostnameContext } from '../helper/url';
 const FooterData = {
   info: [
     {
-      name: 'Docs',
-      url: 'https://docs.openlaw.io',
-    }, {
       name: 'About',
       url: '/about?ref=footer',
+    }, {
+      name: 'GitHub',
+      url: 'https://github.com/openlawteam',
+    }, {
+      name: 'Docs',
+      url: 'https://docs.openlaw.io',
     }, {
       name: 'FAQ',
       url: '/faq?ref=footer',
@@ -44,8 +47,11 @@ const FooterData = {
       url: 'mailto:hello@openlaw.io',
     }, {
       name: 'Support:',
-      meta: 'support\u0040openlaw.io',
-      url: 'mailto:support@openlaw.io',
+      meta: 'help\u0040openlaw.io',
+      url: 'mailto:help@openlaw.io',
+    }, {
+      name: 'OpenLaw on Medium',
+      url: 'https://medium.com/@OpenLawOfficial',
     }, {
       name: 'OpenLaw on Twitter',
       url: 'https://twitter.com/OpenLawOfficial',
