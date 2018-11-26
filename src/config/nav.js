@@ -8,7 +8,7 @@ const NavData = [
     name: 'Private instances',
     url: '/private-instances',
   }, {
-    name: 'Github',
+    name: 'GitHub',
     url: 'https://github.com/openlawteam',
   }, {
     name: 'Docs',

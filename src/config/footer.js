@@ -7,7 +7,7 @@ const FooterData = {
       name: 'About',
       url: '/about?ref=footer',
     }, {
-      name: 'Github',
+      name: 'GitHub',
       url: 'https://github.com/openlawteam',
     }, {
       name: 'Docs',
