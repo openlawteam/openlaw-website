@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby';
+import 'typeface-hind';
+import 'typeface-nunito';
+
 import s from '../scss/modules/errorpage.module.scss';
 import { LogoCircle } from '../components/svg/LogoCircle';
-
 
 const NotFoundPage = () => (
 	<div className={s.errorPage}>
