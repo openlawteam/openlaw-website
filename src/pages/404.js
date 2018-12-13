@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby';
 import s from '../scss/modules/errorpage.module.scss';
 import { LogoCircle } from '../components/svg/LogoCircle';
-import { PizzaDogSVG } from '../components/svg/PizzaDogSVG'
+
 
 const NotFoundPage = () => (
 	<div className={s.errorPage}>
@@ -15,16 +15,16 @@ const NotFoundPage = () => (
 	  <div>
 	  	<p>You may have typed an invalid URL.</p>
 	    <p>
-	      <PizzaDogSVG/>
+	      <img className={s.errorImage} src='/static/img/pizza-dog-optimized.svg' />
 	    </p>
 	  </div>
-	  <div className="error-page-links">
+	  <div className={s.errorPageLinkSection}>
 	    Here are a few links that may be helpful:
 	    <br />
-	    <ul>
-	      <li><a href="/">Home</a></li>
-	      <span className="error-page-links-divider">|</span>
-	      <li><a href="/faq">FAQ</a></li>
+	    <ul className={s.errorPageLinkList}>
+	      <li className={s.errorPageLinkItem}><a href="/" className={s.errorPageLink}>Home</a></li>
+	      <span className={s.errorPageLinksDivider}>|</span>
+	      <li className={s.errorPageLinkItem}><a href="/faq" className={s.errorPageLink}>FAQ</a></li>
 	    </ul>
 	  </div>
 	</div>
