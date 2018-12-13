@@ -12,12 +12,12 @@ const NotFoundPage = () => (
        <Link to="/"><LogoCircle className={s.mainLogo}/></Link>
     </div>
     <div className={s.errorPageTitle}>
-      We couldn't find this page.
+      We couldn&rsquo;t find this page.
     </div>
     <div>
       <p>You may have typed an invalid URL.</p>
       <p>
-        <img className={s.errorImage} src='/static/img/pizza-dog-optimized.svg' />
+        <img className={s.errorImage} src="/static/img/pizza-dog-optimized.svg" />
       </p>
     </div>
     <div className={s.errorPageLinkSection}>
