@@ -5,7 +5,7 @@ const NavData = [
     name: 'About',
     url: '/about',
   }, {
-    name: 'Private instances',
+    name: 'Private Instances',
     url: '/private-instances',
   }, {
     name: 'GitHub',
@@ -18,7 +18,7 @@ const NavData = [
     url: 'mailto:hello@openlaw.io',
     divider: true,
   }, {
-    name: 'Log in',
+    name: 'Log In',
     url: `${hostnameContext()}login`,
   }, {
     name: 'Sign up',
