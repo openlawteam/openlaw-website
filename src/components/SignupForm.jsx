@@ -13,7 +13,7 @@ const SubmitButton = () => (
   <button onClick={goToOpenLawSignUp} type="button">Sign up for OpenLaw</button>
 );
 
-const PASSWORD_HELP = 'Password must be at least 8 characters with one upper-case letter, one lower-case letter, one number, and one accepted special character (!@#$&*/).';
+const PASSWORD_HELP = 'Password must be at least 8 characters.';
 
 export default class SignupForm extends Component {
   state = {}
