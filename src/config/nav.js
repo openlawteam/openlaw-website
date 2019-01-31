@@ -8,6 +8,9 @@ const NavData = [
     name: 'Private Instances',
     url: '/private-instances',
   }, {
+    name: 'All Templates',
+    url: 'https://app.openlaw.io/templates',
+  }, {
     name: 'GitHub',
     url: 'https://github.com/openlawteam',
   }, {
