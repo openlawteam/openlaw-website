@@ -9,7 +9,7 @@
 
 	h1 {
 		font-family: $font-header;
-		font-size: 3em;
+		font-size: 2em;
 		font-weight: 300;
 		line-height: 1.15;
 		letter-spacing: 1px;
@@ -17,7 +17,8 @@
 
 		@include size-medium-down {
 			margin: 0 auto;
-			font-size: 2em;
+      font-size: 2em;
+      padding: 0 1rem;
 		}
 	}
 }
