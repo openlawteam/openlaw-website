@@ -37,7 +37,7 @@ class BuildingFuture extends React.Component {
 					</div>*/}
 
 					<div className={`${f.row} ${s.zIndex}`} data-aos="fade-up" data-aos-delay="300">
-						<h1>Building the<br />Future of Law</h1>
+						<h1>Building the Future of Law,<br />One Legal Agreement and Contract at a Time</h1>
 					</div>
 
 					{/*<div className={`${s.triangles}`}>
