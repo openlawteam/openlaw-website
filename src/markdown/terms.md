@@ -62,7 +62,7 @@ By creating an Account, here are a few common sense rules and acknowledgements t
 
 **Be clear about our relationship**. Creating an account with OpenLaw, or using our Site or Services, does not create an agency, partnership, joint venture, employment, attorney-client, or franchisee relationship with us. No confidential, fiduciary, contractually implied, or other relationship is created with us other than pursuant to these Terms.
 
-**Passwords**. You’re responsible for safeguarding the password that you use to access OpenLaw and for any activities or actions under your password -- that means no sharing with third parties either. We encourage you to use “strong” passwords with your Account. Your password must be at least eight (8) characters with one (1) uppercase letter, one (1) lowercase letter, one (1) number and one (1) special character (e.g., !”#$%&*+).
+**Passwords**. You’re responsible for safeguarding the password that you use to access OpenLaw and for any activities or actions under your password -- that means no sharing with third parties either. We encourage you to use “strong” passwords with your Account. Your password must be at least eight (8) characters long.
 
 **Emails**. By creating an Account, you agree that you may receive communications from OpenLaw, such as newsletters, special offers, and account reminders and updates. You also understand that you can remove yourself from these communications by clicking the "Unsubscribe" link in the footer of the actual emails.
 
