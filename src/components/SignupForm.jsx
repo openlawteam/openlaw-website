@@ -10,7 +10,7 @@ const EmptyTag = Fragment;
 const goToOpenLawSignUp = () => { (window.location.href = `${hostnameContext()}signup`) };
 
 const SubmitButton = () => (
-  <button onClick={goToOpenLawSignUp} type="button">Sign up for OpenLaw</button>
+  <button onClick={goToOpenLawSignUp} type="button">Get Started</button>
 );
 
 const PASSWORD_HELP = 'Password must be at least 8 characters.';
@@ -39,21 +39,23 @@ export default class SignupForm extends Component {
   render() {
     return (
       <div className={styles.signup}>
-        {/*<form>
+        <div data-aos="fade-up" data-aos-delay="300">
+          <h1>Build borderless commericial systems on the blockchain.</h1>
+        </div>
+        <form>
           {this.renderInput({ name: 'email', placeholder: 'email@domain.com' })}
-          {this.renderInput({ name: 'name', placeholder: 'name' })}
-          {this.renderInput({ name: 'password', placeholder: 'password', type: 'password', helpText: PASSWORD_HELP })}
-
-        </form>*/}
+          {/* {this.renderInput({ name: 'name', placeholder: 'name' })}
+          {this.renderInput({ name: 'password', placeholder: 'password', type: 'password', helpText: PASSWORD_HELP })} */}
+        </form>
 
         <SubmitButton />
 
-        {/*<p className={`${'text-center'} ${styles.smallText}`}>
+        <p className={`${'text-center'} ${styles.smallText}`}>
           <small>
-            By clicking &ldquo;Sign Up for OpenLaw&rdquo;, you agree to our <a href="/terms">terms of
-            service</a> and <a href="/privacy">privacy policy</a>. We&rsquo;ll occasionally send you account related emails.
+            Start building with OpenLaw for <a href="/">free</a><br />
+            Questions? Contact our <a href="/">sales team.</a>
           </small>
-        </p>*/}
+        </p>
       </div>
     );
   }

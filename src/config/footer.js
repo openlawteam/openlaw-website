@@ -32,7 +32,7 @@ const FooterData = {
       url: '/private-instances?ref=footer',
     }, {
       name: 'Jobs',
-      token: '(we\u2019re hiring! %data% open position%plural%)',
+      token: ' (we\u2019re hiring! %data% open position%plural%)',
       url: 'https://careers.openlaw.io',
       dataCallback: FetchBreezyJobs,
     }, {

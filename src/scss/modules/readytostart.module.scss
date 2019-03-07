@@ -1,0 +1,15 @@
+@import '../variables';
+@import '../mixins';
+
+.flex-wrapper {
+  padding: 4rem 0 2rem;
+}
+
+.img-div > img {
+  width: 593px;
+}
+
+.text {
+  color: #a3a3a3;
+}
+

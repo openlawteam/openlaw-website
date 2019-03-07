@@ -30,6 +30,20 @@ html {
   }
 }
 
+.link-arrow-small {
+  color: #046BD1;
+  font-size: .85rem;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: #046BD1; // if applied to <a />
+  }
+}
+
 .legal {
   text-transform: uppercase;
   word-spacing: .25em;

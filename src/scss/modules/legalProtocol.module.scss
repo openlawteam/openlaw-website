@@ -1,0 +1,22 @@
+@import '../variables';
+@import '../mixins';
+
+.flex-wrapper > p {
+  margin-bottom: 2.5rem;
+}
+
+.img-div {
+  text-align: center;
+}
+
+.img-div img {
+  width: 280px;
+}
+
+.button {
+  padding: 24px 48px;
+}
+
+.text {
+  color: #a3a3a3;
+}

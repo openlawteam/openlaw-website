@@ -24,9 +24,9 @@ const IntroSection = ({ data }) => (
 
             <LogoSVG />
 
-            <div className={`${i.text}`}>
+            {/* <div className={`${i.text}`}>
               <p>Imagine a world in which every single human being can freely participate in a just legal system.</p>
-            </div>
+            </div> */}
           </div>
 
           {/* SIGNUP */}

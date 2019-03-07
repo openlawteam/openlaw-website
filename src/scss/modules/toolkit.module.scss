@@ -1,0 +1,92 @@
+@import '../variables';
+@import '../mixins';
+
+.wrap {
+  background-color: #f1f9fb;
+  padding-bottom: 2rem;
+
+  .h2,
+  .flex-wrapper,
+  .flex-wrapper > p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .flex-wrapper > p {
+    margin-bottom: 2.5rem;
+  }
+
+  .h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+  }
+
+  .h3 {
+  }
+
+  .text {
+    color: #a3a3a3;
+  }
+
+  .img-wrapper {
+    text-align: left;
+  }
+
+  .img-div {
+    position: relative;
+    display: inline-block;
+    width: 9.25rem;
+    vertical-align: top;
+  }
+
+  .img-span {
+    display: block;
+    position: relative;
+  }
+
+  .content-div {
+    display: inline-block;
+    width: 20rem;
+  }
+
+  .first-draft,
+  .first-draft-span {
+    width: 118px;
+    height: 95px;
+  }
+
+  .ethereum-relayer,
+  .ethereum-relayer-span {
+    width: 51px;
+    height: 102px;
+  }
+
+  .forms-flow,
+  .forms-flow-span {
+    width: 99px;
+    height: 100px;
+  }
+
+  .sign-send,
+  .sign-send-span {
+    width: 137px;
+    height: 94px;
+  }
+
+  .token-forge,
+  .token-forge-span {
+    width: 110px;
+    height: 80px;
+  }
+
+  .img-span::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #53B4D1;
+    opacity: .08;
+  }
+}
