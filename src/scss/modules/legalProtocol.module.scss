@@ -1,6 +1,13 @@
 @import '../variables';
 @import '../mixins';
 
+.h2 {
+  color: #444;
+  font-weight: 300;
+  line-height: 1.15;
+  letter-spacing: 1px;
+}
+
 .legal-protocol-wrapper {
   padding: 0 24px;
   display: flex;

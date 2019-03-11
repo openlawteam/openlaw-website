@@ -56,7 +56,7 @@ export default class SignupForm extends Component {
             Start building with OpenLaw for <a href="/">free</a>
           </small>
           <small>
-            Questions? Contact our <a href="/">sales team.</a>
+            Questions? Contact our <a href="mailto:hello@openlaw.io">sales team.</a>
           </small>
         </p>
       </div>

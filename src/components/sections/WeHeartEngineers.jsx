@@ -84,7 +84,7 @@ class WeHeartEngineers extends React.Component {
           <div className={`${f.column} ${s.ctaWrapper}`} key="4" data-aos="fade-up" data-aos-delay="450">
             <button onClick={this.goToStartBuilding} className={`${s.button} button`}>Start Building</button>
             <br />
-            <a className="link-arrow-small caret-right" href="/">Full Reference API Documentation <CaretRightSVG /></a>
+            <a className="link-arrow-small caret-right" href="https://docs.openlaw.io/">Full Reference API Documentation <CaretRightSVG /></a>
           </div>
         </div>
       </Wrap>

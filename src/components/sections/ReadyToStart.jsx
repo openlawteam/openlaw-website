@@ -38,7 +38,7 @@ class ReadyToStart extends React.Component {
             <Text>Create a private environment. Sign-up in minutes and create a private blockchain, based environment for your team.</Text>
             <button onClick={this.goToSignUp} className={`${s.button} button`}>Sign Up</button>
             <br />
-            <a className="link-arrow-small caret-right" href="/">Undecided? Talk to an expert <CaretRightSVG /></a>
+            <a className="link-arrow-small caret-right" href="mailto:hello@openlaw.io">Undecided? Talk to an expert <CaretRightSVG /></a>
           </div>
         </div>
       </Wrap>

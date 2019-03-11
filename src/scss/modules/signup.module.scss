@@ -101,7 +101,8 @@
   color: lighten($color-darksmoke, 25%);
 
   a {
-    color: $color-darksmoke;
+    color: $color-royal; // $color-darksmoke;
+    font-weight: 700;
 
     &:hover,
     &:focus {
