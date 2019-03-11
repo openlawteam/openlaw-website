@@ -34,6 +34,7 @@ html {
   color: #046BD1;
   font-size: .85rem;
   text-decoration: none;
+  position: relative;
 
   &:hover {
     text-decoration: underline;
@@ -41,6 +42,19 @@ html {
 
   &:visited {
     color: #046BD1; // if applied to <a />
+  }
+
+  // Link with right caret svg
+  &.caret-right {
+    padding-right: 20px;
+  }
+
+  &.caret-right svg {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 2px;
+    right: 0;
   }
 }
 

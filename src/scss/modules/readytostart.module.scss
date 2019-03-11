@@ -13,3 +13,20 @@
   color: #a3a3a3;
 }
 
+@include size-medium-down {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .flex-wrapper > div {
+    flex: 0 0 50%;
+    width: 100%;
+  }
+
+  .img-div > img {
+    display: block;
+    margin: 0 auto;
+    width: 22rem;
+  }
+}
+

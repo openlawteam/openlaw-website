@@ -9,6 +9,8 @@ import f from '../../scss/modules/foundation.module.scss';
 import s from '../../scss/modules/weheartenigneers.module.scss';
 import Wrap from '../common/Wrap';
 import { hostnameContext } from '../../helper/url';
+import { HeartSVG } from '../../components/svg/HeartSVG';
+import { CaretRightSVG } from '../../components/svg/CaretRightSVG';
 
 import 'brace/mode/javascript';
 import 'brace/theme/monokai';
@@ -54,7 +56,7 @@ class WeHeartEngineers extends React.Component {
     return(
       <Wrap>
         <div className={`${s.flexWrapper} ${f.row}`}>
-          <H2>We [heart] Engineers</H2>
+          <H2>We <span className={`${s.heartIcon}`}><HeartSVG /></span> Engineers</H2>
           <Text>You can build a blockchain-based application in an afternoon</Text>
         </div>
         <div className={`${f.row}`}>
@@ -82,7 +84,7 @@ class WeHeartEngineers extends React.Component {
           <div className={`${f.column} ${s.ctaWrapper}`} key="4" data-aos="fade-up" data-aos-delay="450">
             <button onClick={this.goToStartBuilding} className={`${s.button} button`}>Start Building</button>
             <br />
-            <a className="link-arrow-small" href="/">Full Reference API Documentation</a>
+            <a className="link-arrow-small caret-right" href="/">Full Reference API Documentation <CaretRightSVG /></a>
           </div>
         </div>
       </Wrap>

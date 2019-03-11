@@ -7,6 +7,7 @@ import f from '../../scss/modules/foundation.module.scss';
 import s from '../../scss/modules/readytostart.module.scss';
 import Wrap from '../common/Wrap';
 import { hostnameContext } from '../../helper/url';
+import { CaretRightSVG } from '../../components/svg/CaretRightSVG';
 
 const Text = ({ children }) => <p className={`${s.text}`}>{children}</p>
 const H2 = ({ children }) => <h2 className={`${s.h2}`}>{children}</h2>
@@ -37,7 +38,7 @@ class ReadyToStart extends React.Component {
             <Text>Create a private environment. Sign-up in minutes and create a private blockchain, based environment for your team.</Text>
             <button onClick={this.goToSignUp} className={`${s.button} button`}>Sign Up</button>
             <br />
-            <a className="link-arrow-small" href="/">Undecided? Talk to an expert</a>
+            <a className="link-arrow-small caret-right" href="/">Undecided? Talk to an expert <CaretRightSVG /></a>
           </div>
         </div>
       </Wrap>

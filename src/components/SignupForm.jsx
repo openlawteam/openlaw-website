@@ -4,8 +4,9 @@ import TextInput from './common/TextInput';
 import styles from '../scss/modules/signup.module.scss';
 import { hostnameContext } from '../helper/url';
 
-const EmptyTag = Fragment;
+const H1 = ({ children }) => <h1 className={`${styles.h1}`}>{children}</h1>
 
+const EmptyTag = Fragment;
 
 const goToOpenLawSignUp = () => { (window.location.href = `${hostnameContext()}signup`) };
 
@@ -40,19 +41,21 @@ export default class SignupForm extends Component {
     return (
       <div className={styles.signup}>
         <div data-aos="fade-up" data-aos-delay="300">
-          <h1>Build borderless commericial systems on the blockchain.</h1>
+          <H1>Build borderless commericial systems on the blockchain.</H1>
         </div>
-        <form>
-          {this.renderInput({ name: 'email', placeholder: 'email@domain.com' })}
-          {/* {this.renderInput({ name: 'name', placeholder: 'name' })}
-          {this.renderInput({ name: 'password', placeholder: 'password', type: 'password', helpText: PASSWORD_HELP })} */}
-        </form>
-
-        <SubmitButton />
-
+        <div className={`${styles.signUpForm}`}>
+          <form>
+            {this.renderInput({ name: 'email', placeholder: 'email@domain.com' })}
+            {/* {this.renderInput({ name: 'name', placeholder: 'name' })}
+            {this.renderInput({ name: 'password', placeholder: 'password', type: 'password', helpText: PASSWORD_HELP })} */}
+          </form>
+          <SubmitButton />
+        </div>
         <p className={`${'text-center'} ${styles.smallText}`}>
           <small>
-            Start building with OpenLaw for <a href="/">free</a><br />
+            Start building with OpenLaw for <a href="/">free</a>
+          </small>
+          <small>
             Questions? Contact our <a href="/">sales team.</a>
           </small>
         </p>

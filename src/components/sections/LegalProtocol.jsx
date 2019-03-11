@@ -3,7 +3,7 @@ import AOS from 'aos';
 import { withPrefix } from 'gatsby-link';
 
 import '../../../node_modules/aos/dist/aos.css';
-import s from '../../scss/modules/legalProtocol.module.scss';
+import s from '../../scss/modules/legalprotocol.module.scss';
 import f from '../../scss/modules/foundation.module.scss';
 
 import { hostnameContext } from '../../helper/url';
@@ -38,7 +38,7 @@ class LegalProtocol extends React.Component {
     return (
 			<Wrap>
 				<div className={`${s.wrapper}`}>
-          <div className={`${s.triangles}`}></div>
+          {/* <div className={`${s.triangles}`}></div> */}
 
           <div className={`${f.row} ${s.legalProtocolWrapper}`} key="1">
             <div className={`${f.column}`} key="1.1" data-aos="fade-up" data-aos-delay="450">
@@ -50,7 +50,7 @@ class LegalProtocol extends React.Component {
 
             <div className={`${f.column}`} key="1.2" data-aos="fade-up" data-aos-delay="450">
               <div className={`${s.imgDiv}`} data-aos="fade-up" data-aos-delay="150">
-                <img src={withPrefix('/static/img/code-agreement.png')} role="presentation" alt="OpenLaw code to agreement document" />
+                <img src={withPrefix('/static/img/ol-agreement.png')} role="presentation" alt="OpenLaw code to agreement document" />
               </div>
             </div>
           </div>

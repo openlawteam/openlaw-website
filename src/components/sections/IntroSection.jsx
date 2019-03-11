@@ -17,7 +17,7 @@ const IntroSection = ({ data }) => (
   <div className={i.intro}>
     <div className={f.row}>
       <Wrap>
-        <div className={f.row}>
+        <div className={`${f.row} ${i.flexWrapper}`}>
           {/* LOGO & TAGLINE */}
           <div className={`${f.column} ${i.text} ${f['small12']} ${f['medium6']}`} key="1">
             <img className={i.refractImg} src={withPrefix('/static/img/refract-lines-texture.png')} alt="" />

@@ -2,10 +2,11 @@
 @import '../mixins';
 
 .signup {
-  display: flex;
+  // display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+  flex: 0 0 100%;
 
   // padding: 36px;
   // margin-bottom: 24px;
@@ -27,13 +28,20 @@
 }
 
 .sign-up-form {
-  background: #063454;
+  // background: #063454;
+
 }
 
 .signup form {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.signup > div,
+.signup > p {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .signup input {
@@ -68,6 +76,13 @@
   &:focus {
     background-color: lighten($color-royal, 10%);
   }
+}
+
+.h1 {
+  color: #444;
+  font-weight: 300;
+  line-height: 1.15;
+  letter-spacing: 1px;
 }
 
 .small-text {
@@ -106,7 +121,8 @@
     margin-right: 12px;
   }
 
+  .h1,
   .title {
-    align-self: center;
+    text-align: center;
   }
 }

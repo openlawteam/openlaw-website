@@ -30,7 +30,7 @@ class Toolkit extends React.Component {
           <Text>Focus on your product. We've got the blockchain pieces handled.</Text>
         </div>
 
-        <div className={`${f.row}`}>
+        <div className={`${f.row} ${s.columnWrapper}`}>
           <div className={`${f.column} ${s.imgWrapper}`} key="1" data-aos="fade-up" data-aos-delay="150">
             <div className={`${s.imgDiv}`} data-aos="fade-up" data-aos-delay="150">
               <span className={`${s.imgSpan} ${s.firstDraftSpan}`}>
@@ -56,7 +56,7 @@ class Toolkit extends React.Component {
           </div>
         </div>
 
-        <div className={`${f.row}`}>
+        <div className={`${f.row} ${s.columnWrapper}`}>
           <div className={`${f.column} ${s.imgWrapper}`} key="3" data-aos="fade-up" data-aos-delay="300">
             <div className={`${s.imgDiv}`}>
               <span className={`${s.imgSpan} ${s.signSendSpan}`}>
@@ -82,7 +82,7 @@ class Toolkit extends React.Component {
           </div>
         </div>
 
-        <div className={`${f.row}`}>
+        <div className={`${f.row} ${s.columnWrapper}`}>
           <div className={`${f.column} ${s.imgWrapper}`} key="5" data-aos="fade-up" data-aos-delay="450">
             <div className={`${s.imgDiv}`}>
               <span className={`${s.imgSpan} ${s.formsFlowSpan}`}>

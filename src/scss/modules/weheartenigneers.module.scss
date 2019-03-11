@@ -35,3 +35,23 @@
 .ctaWrapper {
   text-align: center;
 }
+
+.heart-icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+
+  svg {
+    color: #ec9395;
+    position: absolute;
+    top: 4px;
+    left: 0;
+  }
+}
+
+@include size-medium-down {
+  .api-snippet {
+    width: auto !important;
+  }
+}

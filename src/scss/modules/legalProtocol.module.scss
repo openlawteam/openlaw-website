@@ -1,6 +1,12 @@
 @import '../variables';
 @import '../mixins';
 
+.legal-protocol-wrapper {
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
+}
+
 .flex-wrapper > p {
   margin-bottom: 2.5rem;
 }
@@ -19,4 +25,20 @@
 
 .text {
   color: #a3a3a3;
+}
+
+@include size-medium-down {
+  .img-div img {
+    margin: 2rem 0;
+    width: 12rem;
+  }
+
+  .legal-protocol-wrapper {
+    flex-direction: column;
+  }
+
+  .legal-protocol-wrapper > div {
+    flex: 0 0 50%;
+    width: 100%;
+  }
 }

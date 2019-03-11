@@ -20,6 +20,15 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .flex-wrapper > div {
+    flex: 0 0 50%;
+    width: 100%;
+  }
 }
 
 @include size-tablet-down {

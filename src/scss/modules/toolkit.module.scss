@@ -89,4 +89,23 @@
     background: #53B4D1;
     opacity: .08;
   }
+
+  @include size-medium-down {
+    .column-wrapper {
+      flex-direction: column;
+    }
+
+    .column-wrapper > div {
+      flex: 0 0 100%;
+      width: 100%;
+    }
+
+    .img-wrapper {
+      text-align: center;
+    }
+
+    .img-span {
+      margin: 0 auto;
+    }
+  }
 }
