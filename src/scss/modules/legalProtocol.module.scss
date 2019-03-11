@@ -42,3 +42,12 @@
     width: 100%;
   }
 }
+
+@include size-medium-up {
+  .legal-protocol-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

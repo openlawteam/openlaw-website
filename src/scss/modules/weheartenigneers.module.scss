@@ -50,6 +50,26 @@
   }
 }
 
+.triangles {
+	position: relative;
+	width: 200px;
+	z-index: 2;
+	margin-top: -50px;
+	.triangle {
+		max-width: 100px;
+		width: 50%;
+	}
+	.yellow {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -12%;
+	}
+	.grey {
+		position: relative;
+	}
+}
+
 @include size-medium-down {
   .api-snippet {
     width: auto !important;

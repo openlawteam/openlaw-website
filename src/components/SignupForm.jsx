@@ -11,10 +11,10 @@ const EmptyTag = Fragment;
 const goToOpenLawSignUp = () => { (window.location.href = `${hostnameContext()}signup`) };
 
 const SubmitButton = () => (
-  <button onClick={goToOpenLawSignUp} type="button">Get Started</button>
+  <button onClick={goToOpenLawSignUp} type="button" className="button">Get Started</button>
 );
 
-const PASSWORD_HELP = 'Password must be at least 8 characters.';
+// const PASSWORD_HELP = 'Password must be at least 8 characters.';
 
 export default class SignupForm extends Component {
   state = {}

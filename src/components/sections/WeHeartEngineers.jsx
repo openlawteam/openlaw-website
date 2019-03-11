@@ -1,7 +1,7 @@
 import React from 'react'
 import AOS from 'aos';
-import { withPrefix } from 'gatsby-link';
-import brace from 'brace';
+// import { withPrefix } from 'gatsby-link';
+// import brace from 'brace';
 import AceEditor from 'react-ace';
 
 import '../../../node_modules/aos/dist/aos.css';

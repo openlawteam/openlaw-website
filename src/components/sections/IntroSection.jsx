@@ -5,12 +5,12 @@ import s from '../../scss/modules/signup.module.scss';
 import i from '../../scss/modules/intro.module.scss';
 
 import LogoSVG from '../../components/svg/LogoSVG';
-import { RefractLinesSVG } from '../../components/svg/RefractLinesSVG';
-import LightOrangeCircleSVG from '../../components/svg/LightOrangeCircleSVG';
+// import { RefractLinesSVG } from '../../components/svg/RefractLinesSVG';
+// import LightOrangeCircleSVG from '../../components/svg/LightOrangeCircleSVG';
 import SignupForm from '../../components/SignupForm';
 import Wrap from '../common/Wrap';
 
-import StraightLinesSVG from '../svg/StraightLinesSVG';
+// import StraightLinesSVG from '../svg/StraightLinesSVG';
 import { withPrefix } from 'gatsby-link';
 
 const IntroSection = ({ data }) => (

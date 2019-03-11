@@ -13,7 +13,7 @@ import { hostnameContext } from '../../helper/url';
 // import GreyTriangleSVG from '../../components/svg/GreyTriangleSVG';
 // import LightBlueShapeSVG from '../../components/svg/LightBlueShapeSVG';
 
-import bgImage from '../../assets/blueCircle.svg';
+// import bgImage from '../../assets/blueCircle.svg';
 // import blueBg from '../../assets/blueBg.png';
 
 import Wrap from '../common/Wrap';

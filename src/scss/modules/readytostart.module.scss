@@ -30,3 +30,12 @@
   }
 }
 
+@include size-medium-up {
+  .flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+

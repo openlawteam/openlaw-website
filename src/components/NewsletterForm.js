@@ -27,8 +27,8 @@ class NewsletterForm extends Component {
 
     this.setState({ submitInProgress: true });
 
-    const form = event.target;
-    const formAction = form.getAttribute('action');
+    // const form = event.target;
+    // const formAction = form.getAttribute('action');
     const { value } = this.state;
 
     const mailChimpCallbackHandler = `({ result, msg }) => {
