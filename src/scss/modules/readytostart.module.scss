@@ -18,6 +18,11 @@
 
 .text {
   color: #a3a3a3;
+  line-height: 1.1;
+}
+
+.button {
+  border-radius: 6px;
 }
 
 @include size-medium-down {

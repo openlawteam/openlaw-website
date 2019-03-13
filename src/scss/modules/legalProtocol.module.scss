@@ -1,17 +1,20 @@
 @import '../variables';
 @import '../mixins';
 
+.legal-protocol {
+  padding: 0 12px;
+}
+
+.legal-protocol-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .h2 {
   color: #444;
   font-weight: 300;
   line-height: 1.15;
   letter-spacing: 1px;
-}
-
-.legal-protocol-wrapper {
-  padding: 0 24px;
-  display: flex;
-  justify-content: center;
 }
 
 .flex-wrapper > p {
@@ -24,21 +27,27 @@
 
 .img-div img {
   margin-top: 2rem;
-  width: 280px;
+  width: 220px;
 }
 
 .button {
   padding: 24px 48px;
+  border-radius: 6px;
 }
 
 .text {
   color: #a3a3a3;
+  line-height: 1.1;
 }
 
 @include size-medium-down {
   .img-div img {
     margin: 2rem 0;
     width: 12rem;
+  }
+
+  .flex-wrapper {
+    flex-direction: column;
   }
 
   .legal-protocol-wrapper {

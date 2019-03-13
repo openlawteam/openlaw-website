@@ -40,7 +40,7 @@ export default class SignupForm extends Component {
   render() {
     return (
       <div className={styles.signup}>
-        <div data-aos="fade-up" data-aos-delay="300">
+        <div>
           <H1>Build borderless commericial systems on the blockchain.</H1>
         </div>
         <div className={`${styles.signUpForm}`}>
