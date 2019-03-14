@@ -10,14 +10,14 @@ html {
   margin: 24px 0;
   display: inline-block;
   background: $color-royal;
-  padding: 12px 24px;
+  padding: 12px 28px;
   color: white;
   font-weight: 700;
   font-family: $font-body;
   font-size: 18px;
   cursor: pointer;
-  border-radius: 4px;
-  letter-spacing: 1px;
+  border-radius: 9px;
+  letter-spacing: 0.4px;
   text-decoration: none;
 
   &:hover,

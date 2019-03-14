@@ -105,9 +105,9 @@
 }
 
 @include size-medium-up {
-  .nav ul { width: 75%; }
+  .nav ul { width: 49%; }
 }
 
 @include size-medium-down {
-  .nav ul { width: 75%; }
+  .nav ul { width: 49%; }
 }
