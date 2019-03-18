@@ -8,19 +8,43 @@ const H1 = ({ children }) => <h1 className={`${styles.h1}`}>{children}</h1>
 
 const EmptyTag = Fragment;
 
-const goToOpenLawSignUp = () => { (window.location.href = `${hostnameContext()}signup`) };
+// const goToOpenLawSignUp = () => { (window.location.href = `${hostnameContext()}signup`) };
 
 const SubmitButton = () => (
-  <button onClick={goToOpenLawSignUp} type="button" className="button">Get Started</button>
+  // onClick={goToOpenLawSignUp}
+  <button type="submit" className="button">Get Started</button>
 );
 
 // const PASSWORD_HELP = 'Password must be at least 8 characters.';
 
 export default class SignupForm extends Component {
-  state = {}
+  state = {invalidEmail: false, email: ''};
 
   onInputChange = (inputName, value) => {
     this.setState({ [inputName]: value });
+  }
+
+  handleSubmit = (event) => {
+    event.preventDefault();
+
+    // if (this.state.invalidEmail) return;
+    if (this.state.email.trim().length > 0) {
+      this.setState({
+        invalidEmail: false,
+      });
+
+      fetch(`${hostnameContext()}signup`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `email=${this.state.email}`,
+      });
+    } else {
+      this.setState({
+        invalidEmail: true,
+      });
+    }
   }
 
   renderInput = ({ helpText, name, placeholder, type }) => (
@@ -32,6 +56,7 @@ export default class SignupForm extends Component {
         onChange={(event) => this.onInputChange(name, event.target.value)}
         type={type || 'text'}
         value={this.state[name]}
+        name={name}
       />
       {helpText && <small className={`${styles.helpText}`}>{helpText}</small>}
     </EmptyTag>
@@ -44,13 +69,18 @@ export default class SignupForm extends Component {
           <H1>Build borderless commericial systems on the blockchain.</H1>
         </div>
         <div className={`${styles.signUpForm}`}>
-          <form>
+          <form onSubmit={this.handleSubmit} encType="application/x-www-form-urlencoded">
             {this.renderInput({ name: 'email', placeholder: 'email@domain.com' })}
             {/* {this.renderInput({ name: 'name', placeholder: 'name' })}
             {this.renderInput({ name: 'password', placeholder: 'password', type: 'password', helpText: PASSWORD_HELP })} */}
+            <SubmitButton />
           </form>
-          <SubmitButton />
         </div>
+
+        {this.state.invalidEmail && (
+          <small className={styles.errorMessage}>That didn&rsquo;t work <span role="img" aria-label="sad face">&nbsp;😕</span>. Try again?</small>
+        )}
+
         <p className={`${'text-center'} ${styles.smallText}`}>
           <small>
             Start building with OpenLaw for <a href="/">free</a>
