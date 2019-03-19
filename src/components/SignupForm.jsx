@@ -10,15 +10,24 @@ const EmptyTag = Fragment;
 
 // const goToOpenLawSignUp = () => { (window.location.href = `${hostnameContext()}signup`) };
 
-const SubmitButton = () => (
+const SubmitButton = (props) => (
   // onClick={goToOpenLawSignUp}
-  <button type="submit" className="button">Get Started</button>
+  <button type="submit" className="button" disabled={props.isDisabled}>Get Started</button>
 );
 
 // const PASSWORD_HELP = 'Password must be at least 8 characters.';
 
+const validateEmail = (email) => {
+  const re = /\S+@\S+\.\S+/;
+  return re.test(email);
+}
+
 export default class SignupForm extends Component {
-  state = {invalidEmail: false, email: ''};
+  state = {
+    isInValidEmail: false,
+    isDisabled: false,
+    email: '',
+  };
 
   onInputChange = (inputName, value) => {
     this.setState({ [inputName]: value });
@@ -26,25 +35,30 @@ export default class SignupForm extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-
-    // if (this.state.invalidEmail) return;
-    if (this.state.email.trim().length > 0) {
+    console.log(validateEmail(this.state.email));
+    if (!validateEmail(this.state.email)) {
       this.setState({
-        invalidEmail: false,
+        isInValidEmail: true,
       });
-
-      fetch(`${hostnameContext()}signup`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: `email=${this.state.email}`,
-      });
-    } else {
-      this.setState({
-        invalidEmail: true,
-      });
+      return;
     }
+
+    this.setState({
+      isInValidEmail: false,
+      isDisabled: true,
+    });
+
+    fetch(`${hostnameContext()}signup?email=${this.state.email}`, {
+      method: 'GET',
+    })
+    .then(() => {
+      window.location.href = `${hostnameContext()}signup?email=${this.state.email}`;
+    })
+    .catch(() => {
+      this.setState({
+        isDisabled: false,
+      });
+    });
   }
 
   renderInput = ({ helpText, name, placeholder, type }) => (
@@ -73,11 +87,13 @@ export default class SignupForm extends Component {
             {this.renderInput({ name: 'email', placeholder: 'email@domain.com' })}
             {/* {this.renderInput({ name: 'name', placeholder: 'name' })}
             {this.renderInput({ name: 'password', placeholder: 'password', type: 'password', helpText: PASSWORD_HELP })} */}
-            <SubmitButton />
+            <SubmitButton
+              isDisabled={this.state.isDisabled}
+            />
           </form>
         </div>
 
-        {this.state.invalidEmail && (
+        {this.state.isInValidEmail && (
           <small className={styles.errorMessage}>That didn&rsquo;t work <span role="img" aria-label="sad face">&nbsp;😕</span>. Try again?</small>
         )}
 
