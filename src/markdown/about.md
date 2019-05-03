@@ -1,35 +1,39 @@
 ---
 path: "/about"
-date: "2018-05-22"
+date: "2019-05-03"
 title: "About"
 ---
 
-# Dynamic, Next Generation Legal Agreements
+# About OpenLaw
 
-## Contracts Are Changing
-It is now possible to model all or parts of legal agreements using code (smart contracts), decreasing the cost and friction of creating, securing, and generating binding legal agreements.
+## Our Vision
 
-## No Comprehensive Tool
-Lawyers lack basic tools to build these dynamic, smart contracts in a way that is enforceable and understandable to a legal professional.
-
-<img class="figure" alt="Image of OpenLaw Technology Stack" src="/static/img/openlaw-stack.png" />
-
-## Founders
-
-<div class="media">
-  <img alt="Image of Aaron Wright" src="/static/img/aaron-wright.png" />
-
-  <div>
-    <h3>Aaron Wright</h3>
-    <p>Professor at Cardozo Law School; Director of Cardozo’s Blockchain Project; former SVP product, business development, and general counsel at Wikia.</p>
-  </div>
+<div class="about">
+  <p>
+    OpenLaw is focused on building a more equitable commercial system by providing a frictionless protocol to streamline your operations and application development. Our aim is to provide you with an end-to-end toolkit to create amazing products.
+  </p>
 </div>
 
-<div class="media">
-  <img alt="Image of David Roon" src="/static/img/david-roon.png" />
+## Our Business
 
-  <div>
-    <h3>David Roon</h3>
-    <p>Creator of JVM based tools to integrate Ethereum development; creator of Cubefriendly, an open data database engine; Technion (CS) ‘09.</p>
-  </div>
+<div class="about">
+  <p>
+    OpenLaw is a technology company that is building a layer on top of blockchains to better manage commercial enterprises, customers and developers through technical infrastructure APIs and our suite of tools.  Any business, from startup to large public enterprises, can leverage our products for an efficient, secure way to generate and transfer tokens through a legal agreement that is signed and executed on a blockchain. 
+  </p>
+</div>
+
+## Our Background
+
+<div class="about">
+  <p>
+    OpenLaw is a ConsenSys project founded in 2017 by Aaron Wright and David Roon.  Aaron Wright is the Chief Executive Officer and a Professor at Cardozo Law School.  He is also Director of Cardozo’s Blockchain Project and formerly SVP of Product/Business Development and General Counsel at Wikia.  David Roon, the Chief Technology Officer, is the creator of JVM based tools to integrate Ethereum development and the creator of Cubefriendly, an open data database engine. 
+  </p>
+</div>
+
+## Our Culture
+
+<div class="about">
+  <p>
+    The OpenLaw team is a remote-first, globally distributed team on (almost) every continent.  The OpenLaw team is composed of individuals with diverse backgrounds and skills, while being passionate about building better commercial systems.  <a href="https://careers.openlaw.io/">View Openings</a>.
+  </p>
 </div>
