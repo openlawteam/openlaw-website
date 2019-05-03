@@ -1,6 +1,6 @@
 ---
 path: "/faq"
-date: "2018-05-22"
+date: "2019-05-03"
 title: "Frequently Asked Questions"
 ---
 
