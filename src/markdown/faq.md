@@ -105,7 +105,7 @@ A contract is represented by a contract definition, which is a JSON object that 
 
 ### How do I use Forms & Flow?
 
-# TOKEN FORGE & COMPONENTS
+## TOKEN FORGE & COMPONENTS
 
 ### How can I generate tokenized assets on OpenLaw? 
 
@@ -121,5 +121,10 @@ At OpenLaw, we understand that some agreements are meant to be private.  Because
 You can request a private instance by clicking on the ‘Private Instance’ tab at the top of openlaw.io’s homepage.  Once you click on the link, you will be redirected to a page to request your Private Instance. Click on ‘Request a Private Instance’ and fill out the relevant information.  Note that the link is only visible if you are logged out.
 
 ### Can I link multiple emails to my Private Instance?
- 
-If you would like add additional email addresses to your Private Instance, click on the drop-down menu and go to ‘Admin Tools.’  Once you click on the link, you will be able to add additional emails to the Private Instance. If you are unable to access the ‘Admin Tools’ tab, simply request that Admin on the Private Instance follow the aforementioned steps to add your email address.
+
+<div class="faq">
+  <p>
+    If you would like add additional email addresses to your Private Instance, click on the drop-down menu and go to 'Admin Tools.'  Once you click on the link, you will be able to add additional emails to the Private Instance. If you are unable to access the 'Admin Tools' tab, simply request that Admin on the Private Instance follow the aforementioned steps to add your email address.
+  </p>
+</div>
+
