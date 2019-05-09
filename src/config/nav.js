@@ -3,7 +3,7 @@ import { hostnameContext } from '../helper/url';
 const NavData = [
   {
     name: 'About',
-    url: '/about',
+    url: `${hostnameContext()}about`,
   }, {
     name: 'Private Instances',
     url: '/private-instances',

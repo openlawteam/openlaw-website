@@ -5,7 +5,7 @@ const FooterData = {
   info: [
     {
       name: 'About',
-      url: '/about?ref=footer',
+      url: `${hostnameContext()}about`,
     }, {
       name: 'GitHub',
       url: 'https://github.com/openlawteam',
@@ -14,7 +14,7 @@ const FooterData = {
       url: 'https://docs.openlaw.io',
     }, {
       name: 'FAQ',
-      url: '/faq?ref=footer',
+      url: `${hostnameContext()}faq`,
     }, {
       name: 'Terms of Use',
       url: '/terms?ref=footer',
