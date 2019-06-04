@@ -16,6 +16,9 @@ const FooterData = {
       name: 'FAQ',
       url: '/faq?ref=footer',
     }, {
+      name: 'Media Kit',
+      url: 'https://openlaw-website.netlify.com/openlaw-media-logos.zip?ref=footer',
+    }, {
       name: 'Terms of Use',
       url: '/terms?ref=footer',
     }, {
