@@ -16,6 +16,9 @@ const FooterData = {
       name: 'FAQ',
       url: '/faq?ref=footer',
     }, {
+      name: 'Media Kit',
+      url: 'https://openlaw-website.netlify.com/openlaw-media-logos.zip?ref=footer',
+    }, {
       name: 'Terms of Use',
       url: '/terms?ref=footer',
     }, {
@@ -43,11 +46,11 @@ const FooterData = {
   contact: [
     {
       name: 'Say hi:',
-      meta: 'hello\u0040openlaw.io',
+      meta: ' hello\u0040openlaw.io',
       url: 'mailto:hello@openlaw.io',
     }, {
       name: 'Support:',
-      meta: 'help\u0040openlaw.io',
+      meta: ' help\u0040openlaw.io',
       url: 'mailto:help@openlaw.io',
     }, {
       name: 'OpenLaw on Medium',
