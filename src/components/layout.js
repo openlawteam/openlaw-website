@@ -13,6 +13,7 @@ import i from '../scss/modules/intro.module.scss';
 import Header from './header';
 import Helmet from './Helmet';
 import Footer from './footer';
+import CookieConsent from './CookieConsent';
 import Wrap from './common/Wrap';
 
 const Layout = ({ children, data, subpage }) => (
@@ -38,6 +39,7 @@ const Layout = ({ children, data, subpage }) => (
           />
         )}
 
+        {/* <CookieConsent /> */}
         <Header subpage={subpage} />
         <Wrap>
           <div className={s.wrapper}>

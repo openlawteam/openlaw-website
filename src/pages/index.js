@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 
 import foundation from '../scss/modules/foundation.module.scss';
 import baseStyles from '../scss/modules/base.module.scss';
@@ -12,17 +12,21 @@ import LargeQuote from '../components/sections/LargeQuote';
 import MajorFeatures from '../components/sections/MajorFeatures';
 import Features from '../components/sections/Features';
 import OutroSection from '../components/sections/OutroSection';
+import CookieConsent from '../components/CookieConsent';
 
 const IndexPage = () => (
-	<Layout>
-		<IntroSection />
-		<BuildingFuture />
-		<ContractsModel />
-    <LargeQuote />
-		<MajorFeatures />
-		<Features />
-		<OutroSection />
-	</Layout>
+  <Fragment>
+    <CookieConsent />
+    <Layout>
+      <IntroSection />
+      <BuildingFuture />
+      <ContractsModel />
+      <LargeQuote />
+      <MajorFeatures />
+      <Features />
+      <OutroSection />
+    </Layout>
+  </Fragment>
 )
 
 export default IndexPage;
