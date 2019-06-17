@@ -59,8 +59,6 @@ export default class CookieConsent extends Component {
           if (consent === '' && euLaw.hasLaw.indexOf(countryCode) >= 0) {
             document.getElementById('hide-consent-msg').addEventListener('click', this.hideConsentMsg);
             document.getElementById('eu-consent').style.display = 'block';
-          } else {
-            this.removeConsentMsg();
           }
         }
       })
@@ -70,11 +68,6 @@ export default class CookieConsent extends Component {
 
   hideConsentMsg = () => {
     this.setCookie('ACCEPT_OL_CONSENT', 'YES', 365);
-    this.removeConsentMsg();
-  };
-
-  removeConsentMsg = () => {
-    document.getElementById('eu-consent').remove();
   };
 
   setCookie = (cookieName, cookieValue, exDays) => {
