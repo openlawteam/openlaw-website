@@ -82,6 +82,14 @@
 	}
 }
 
+.syntax {
+  font-size: .8rem;
+
+  pre {
+    padding: 1.5em !important;
+  }
+}
+
 @include size-medium-down {
   .api-snippet {
     width: auto !important;

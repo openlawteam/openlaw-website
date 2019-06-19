@@ -1,8 +1,9 @@
 import React from 'react'
 import AOS from 'aos';
-// import { withPrefix } from 'gatsby-link';
-// import brace from 'brace';
-import AceEditor from 'react-ace';
+
+import { Light as SyntaxHighlighter } from "react-syntax-highlighter";
+import js from 'react-syntax-highlighter/dist/esm/languages/hljs/javascript';
+import irBlack from 'react-syntax-highlighter/dist/esm/styles/hljs/ir-black';
 
 import '../../../node_modules/aos/dist/aos.css';
 import f from '../../scss/modules/foundation.module.scss';
@@ -12,14 +13,12 @@ import { hostnameContext } from '../../helper/url';
 import { HeartSVG } from '../../components/svg/HeartSVG';
 import { CaretRightSVG } from '../../components/svg/CaretRightSVG';
 
-import 'brace/mode/javascript';
-import 'brace/theme/monokai';
+SyntaxHighlighter.registerLanguage('javascript', js);
 
 const Text = ({ children }) => <p className={`${s.text}`}>{children}</p>
 const H2 = ({ children }) => <h2 className={`${s.h2}`}>{children}</h2>
 const editorValue =
-`
-// import both modules
+`// import both modules
 import { APIClient, Openlaw } from "openlaw";
 
 // Include the root URL for the OpenLaw instance.
@@ -60,24 +59,10 @@ class WeHeartEngineers extends React.Component {
           <Text>You can build a blockchain-based application in an afternoon</Text>
         </div>
         <div className={`${f.row}`}>
-          <div className={`${f.column} ${s.svgWrapper}`} key="1" data-aos="fade-up" data-aos-delay="150">
-            <AceEditor
-              className={`${s.apiSnippet}`}
-              mode="javascript"
-              theme="monokai"
-              name="api-snippet"
-              fontSize={14}
-              showPrintMargin={false}
-              showGutter={false}
-              highlightActiveLine={false}
-              value={editorValue}
-              readOnly
-              wrapEnabled
-              setOptions={{
-                tabSize: 2,
-              }}
-              editorProps={{$blockScrolling: true}}
-            />
+          <div className={`${f.column} ${s.syntax}`} key="1" data-aos="fade-up" data-aos-delay="150">
+            <SyntaxHighlighter language="javascript" style={irBlack}>
+              {editorValue}
+            </SyntaxHighlighter>
           </div>
         </div>
         <div className={`${f.row}`}>

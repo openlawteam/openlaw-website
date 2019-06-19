@@ -44,18 +44,3 @@ exports.createPages = (gatsby, pluginOptions, cb) => {
       });
     })
 }
-// Window undefined - Third-party modules fix https://www.gatsbyjs.org/docs/debugging-html-builds/
-exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
-  if (stage === "build-html") {
-    actions.setWebpackConfig({
-      module: {
-        rules: [
-          {
-            test: /react-ace/,
-            use: loaders.null(),
-          },
-        ],
-      },
-    })
-  }
-}
