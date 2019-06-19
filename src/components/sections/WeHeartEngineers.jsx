@@ -21,7 +21,7 @@ const editorValue =
 `// import both modules
 import { APIClient, Openlaw } from "openlaw";
 
-// Include the root URL for the OpenLaw instance.
+// include the root URL for the OpenLaw instance
 apiClient = new APIClient('https://app.openlaw.io');
 
 apiClient.login('openlawuser+1@gmail.com', 'password');
@@ -56,7 +56,7 @@ class WeHeartEngineers extends React.Component {
       <Wrap>
         <div className={`${s.flexWrapper} ${f.row}`}>
           <H2>We <span className={`${s.heartIcon}`}><HeartSVG /></span> Engineers</H2>
-          <Text>You can build a blockchain-based application in an afternoon</Text>
+          <Text>You can build a blockchain-based application in an afternoon.</Text>
         </div>
         <div className={`${f.row}`}>
           <div className={`${f.column} ${s.syntax}`} key="1" data-aos="fade-up" data-aos-delay="150">
@@ -69,7 +69,7 @@ class WeHeartEngineers extends React.Component {
           <div className={`${f.column} ${s.ctaWrapper}`} key="4" data-aos="fade-up" data-aos-delay="450">
             <button onClick={this.goToStartBuilding} className={`${s.button} button`}>Start Building</button>
             <br />
-            <a className="link-arrow-small caret-right" href="https://docs.openlaw.io/">Full Reference API Documentation <CaretRightSVG /></a>
+            <a className="link-arrow-small caret-right" href="https://docs.openlaw.io/getting-started-overview/">Full Reference API Documentation <CaretRightSVG /></a>
           </div>
         </div>
       </Wrap>

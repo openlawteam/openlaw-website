@@ -50,8 +50,8 @@ class Toolkit extends React.Component {
               </span>
             </div>
             <div className={`${s.contentDiv}`}>
-              <H3>Ethereum Relayer</H3>
-              <Text>Securely relay and trigger any ethereum smart contract using OpenLaw, including recurring smart contract calls</Text>
+              <H3>Relayer</H3>
+              <Text>Securely relay and trigger any Ethereum smart contract call using OpenLaw, including recurring calls.</Text>
             </div>
           </div>
         </div>
@@ -64,8 +64,8 @@ class Toolkit extends React.Component {
               </span>
             </div>
             <div className={`${s.contentDiv}`}>
-              <H3>Sign &amp; Send</H3>
-              <Text>Secure any signature to a blockchain using or rely on our e-signature soltuion</Text>
+              <H3>Sign &amp; Store</H3>
+              <Text>Secure any signature to a blockchain using our e-signature solution.</Text>
             </div>
           </div>
 
@@ -76,8 +76,8 @@ class Toolkit extends React.Component {
               </span>
             </div>
             <div className={`${s.contentDiv}`}>
-              <H3>Token Forge</H3>
-              <Text>Automatically generate blockchain-based tokens, tied to underlying legal agreemennts</Text>
+              <H3>Token Forge &amp; Smart Contract Components</H3>
+              <Text>Automatically generate blockchain-based tokens, tied to underlying legal agreements.</Text>
             </div>
           </div>
         </div>
@@ -90,8 +90,8 @@ class Toolkit extends React.Component {
               </span>
             </div>
             <div className={`${s.contentDiv}`}>
-              <H3>Forms &amp; Flow</H3>
-              <Text>Create walk throughs of complex business agreements using our Forms tool</Text>
+              <H3>Forms &amp; Flows</H3>
+              <Text>Create walk throughs of complex business agreements using our Forms tool.</Text>
             </div>
           </div>
         </div>
