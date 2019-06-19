@@ -31,7 +31,7 @@ apiClient.getTemplate('Advisor Agreement').then(result => {
 });
 
 const compiledTemplate = Openlaw.compileTemplate(
-  'This Advisor Agreement is entered into between [[Company Name]] ("Corporation") and [[Advisor Name]] ("Advisor") as of [[Effective Date: Date]] ("Effective Date"). Company and Advisor agree as follows: \n\n^**Services**. Advisor agrees to consult with and advise Company from time to time, at Company\'s request (the "Services").'
+  'This Advisor Agreement is entered into between [[Company Name]] ("Corporation") and [[Advisor Name]] ("Advisor") as of [[Effective Date: Date]] ("Effective Date"). Company and Advisor agree as follows: \\n\\n^**Services**. Advisor agrees to consult with and advise Company from time to time, at the request of the Company (the "Services").'
 );
 
 console.log(compiledTemplate);
