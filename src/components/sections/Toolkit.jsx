@@ -26,7 +26,7 @@ class Toolkit extends React.Component {
     return(
       <Wrap className={s.wrap}>
         <div className={`${s.flexWrapper} ${f.row}`}>
-          <H2>A Complete Toolkit For Blockchain-Based Applications.</H2>
+          <H2>A Complete Toolkit For Blockchain-Based Applications</H2>
           <Text>Focus on your product. We've got the blockchain pieces handled.</Text>
         </div>
 

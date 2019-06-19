@@ -80,7 +80,7 @@ export default class SignupForm extends Component {
     return (
       <div className={styles.signup}>
         <div>
-          <H1>Build borderless commericial systems on the blockchain.</H1>
+          <H1>Build borderless commercial systems on the blockchain</H1>
         </div>
         <div className={`${styles.signUpForm}`}>
           <form onSubmit={this.handleSubmit} encType="application/x-www-form-urlencoded">
