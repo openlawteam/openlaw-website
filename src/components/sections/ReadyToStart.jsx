@@ -35,7 +35,7 @@ class ReadyToStart extends React.Component {
 
           <div className={`${f.column} ${s.svgWrapper}`} key="1" data-aos="fade-up" data-aos-delay="450">
             <H2>Ready to Get Started?</H2>
-            <Text>Create a private environment. Sign-up in minutes and create a private blockchain, based environment for your team.</Text>
+            <Text>Create a private environment. Sign-up in minutes and create a private blockchain-based environment for your team.</Text>
             <button onClick={this.goToSignUp} className={`${s.button} button`}>Sign Up</button>
             <br />
             <a className="link-arrow-small caret-right" href="mailto:hello@openlaw.io">Undecided? Talk to an expert <CaretRightSVG /></a>

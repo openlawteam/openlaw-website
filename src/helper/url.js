@@ -9,7 +9,7 @@ export const hostnameContext = () => {
 
   switch(env) {
     case 'production_develop':
-      return 'https://app.dev.openlaw.io/';
+      return 'https://develop.dev.openlaw.io/';
     case 'production_production':
       return 'https://app.openlaw.io/';
     default:

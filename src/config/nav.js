@@ -3,19 +3,20 @@ import { hostnameContext } from '../helper/url';
 const NavData = [
   {
     name: 'Developers',
-    url: '/',
+    url: 'https://docs.openlaw.io/getting-started-overview/',
   },
   {
     name: 'Products',
-    url: '/',
+    url: `${hostnameContext()}solutions`,
   },
-  {
-    name: 'Use Cases',
-    url: '/',
-  },
+  // If this is a link to nothing yet we should remove for now
+  // {
+  //   name: 'Use Cases',
+  //   url: '/',
+  // },
   {
     name: 'About',
-    url: '/about',
+    url: `${hostnameContext()}about`,
     divider: true,
   },
   {

@@ -80,7 +80,7 @@ export default class SignupForm extends Component {
     return (
       <div className={styles.signup}>
         <div>
-          <H1>Build borderless commericial systems on the blockchain.</H1>
+          <H1>Build borderless commercial systems on the blockchain</H1>
         </div>
         <div className={`${styles.signUpForm}`}>
           <form onSubmit={this.handleSubmit} encType="application/x-www-form-urlencoded">
@@ -99,10 +99,10 @@ export default class SignupForm extends Component {
 
         <p className={`${'text-center'} ${styles.smallText}`}>
           <small>
-            Start building with OpenLaw for <a href="/">free</a>
+            Start building with OpenLaw for <a href={`${hostnameContext()}signup`}>free</a>.
           </small>
           <small>
-            Questions? Contact our <a href="mailto:hello@openlaw.io">sales team.</a>
+            Questions? Contact our <a href="mailto:hello@openlaw.io">sales team</a>.
           </small>
         </p>
       </div>
