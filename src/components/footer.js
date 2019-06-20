@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 
 import s from '../scss/modules/footer.module.scss';
-import f from '../scss/modules/foundation.module.scss';
 
-import LogoShapeSVG from './svg/LogoShapeSVG';
 import { ConsenSysLogoSVG } from './svg/ConsenSysLogoSVG';
 import FooterData from '../config/footer';
 import CustomLink from './common/Link';
