@@ -42,11 +42,13 @@
   text-decoration: none;
   font-size: 1em;
   font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
-  color: #405EA7;
+  // color: #405EA7;
+  color: #a3a3a3;
   font-weight: 600;
 
   &:visited {
-    color: #405EA7;
+    // color: #405EA7;
+    color: #a3a3a3;
   }
 }
 
@@ -103,9 +105,9 @@
 }
 
 @include size-medium-up {
-  .nav ul { width: 75%; }
+  .nav ul { width: 47.5%; }
 }
 
 @include size-medium-down {
-  .nav ul { width: 75%; }
+  .nav ul { width: 47.5%; }
 }

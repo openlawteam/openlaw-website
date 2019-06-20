@@ -3,7 +3,6 @@ import MediaQuery from 'react-responsive';
 
 import f from '../scss/modules/foundation.module.scss';
 import s from '../scss/modules/sitenav.module.scss';
-import Wrap from './common/Wrap';
 import { MEDIA_MEDIUM_DOWN } from '../config/mediaQueries';
 import { HamburgerSVG } from './svg/HamburgerSVG';
 

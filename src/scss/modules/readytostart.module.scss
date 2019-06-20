@@ -1,0 +1,53 @@
+@import '../variables';
+@import '../mixins';
+
+.h2 {
+  color: #444;
+  font-weight: 300;
+  line-height: 1.15;
+  letter-spacing: 1px;
+}
+
+.flex-wrapper {
+  padding: 4rem 0 2rem;
+}
+
+.img-div > img {
+  width: 593px;
+}
+
+.text {
+  color: #a3a3a3;
+  line-height: 1.1;
+}
+
+.button {
+  border-radius: 6px;
+}
+
+@include size-medium-down {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .flex-wrapper > div {
+    flex: 0 0 50%;
+    width: 100%;
+  }
+
+  .img-div > img {
+    display: block;
+    margin: 0 auto;
+    width: 22rem;
+  }
+}
+
+@include size-medium-up {
+  .flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+

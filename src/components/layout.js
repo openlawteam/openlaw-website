@@ -8,7 +8,6 @@ import 'typeface-nunito';
 import '../scss/global.scss';
 import f from '../scss/modules/foundation.module.scss';
 import s from '../scss/modules/base.module.scss';
-import i from '../scss/modules/intro.module.scss';
 
 import Header from './header';
 import Helmet from './Helmet';
