@@ -7,7 +7,6 @@ import LogoShapeSVG from './svg/LogoShapeSVG';
 import { ConsenSysLogoSVG } from './svg/ConsenSysLogoSVG';
 import FooterNav from './sections/FooterNav';
 import FooterData from '../config/footer';
-import NewsletterForm from './NewsletterForm';
 import CustomLink from './common/Link';
 import Wrap from './common/Wrap';
 
@@ -67,31 +66,19 @@ const year = () => new Date().getFullYear();
 
 const Footer = () => (
   <Wrap className={s.footerWrap}>
-    <div className={`${f.row}`}>
-      <div className={s.footer}>
-        <LogoShapeSVG className={`${s.footerLogo}`} />
-        <a href="https://consensys.net" className={`${s.footerLogoConsensys}`}>
-          <ConsenSysLogoSVG />
-        </a>
-
-        <div className={s.flexWrap}>
-          <div>
-            <h3>Join our newsletter</h3>
-
-            <div className={s.inputWrap}>
-              <NewsletterForm />
-            </div>
-          </div>
-
-          <RenderSectionLinks data={FooterData} dataKey='info' />
-          <RenderSectionLinks data={FooterData} dataKey='join' />
-          <RenderSectionLinks data={FooterData} dataKey='contact' />
-        </div>
+    <div className={s.footer}>
+      <div className={s.flexWrap}>
+        <RenderSectionLinks data={FooterData} dataKey='info' />
+        <RenderSectionLinks data={FooterData} dataKey='join' />
+        <RenderSectionLinks data={FooterData} dataKey='contact' />
       </div>
+    </div>
 
-      <div className={s.footerCopyright}>
-        <span>&copy; {year()} Aaron Wright, David Roon, and ConsenSys AG</span>
-      </div>
+    <a href="https://consensys.net" className={`${s.footerLogoConsensys}`}>
+      <ConsenSysLogoSVG />
+    </a>
+    <div className={s.footerCopyright}>
+      <span>&copy; {year()} Aaron Wright, David Roon, and ConsenSys AG</span>
     </div>
   </Wrap>
 );

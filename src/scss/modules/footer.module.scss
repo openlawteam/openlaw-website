@@ -2,15 +2,18 @@
 @import '../mixins';
 
 .footer-wrap {
-  flex-shrink: 0;
   background-color: #f2f2f5;
+  flex-shrink: 0;
+  margin: 3rem 0 0 0;
   min-height: 250px;
-  padding: 48px 48px 24px;
+  padding: 3rem 1.8rem 3rem;
+  position: relative;
 }
 
 .footer {
   display: flex;
   width: 100%;
+  margin-bottom: 24px;
 
   @include size-tablet-down {
     flex-direction: column;
@@ -67,36 +70,10 @@
   }
 }
 
-.footer-logo {
-  margin-left: -66px; // adjust for svg width: places it within the padding
-  margin-right: -48px;
-  width: 200px;
-  flex-shrink: 0;
-  height: 64px;
-  opacity: .75;
-
-  path:nth-of-type(1) {
-    fill: #a9a9aa;
-  }
-  path:nth-of-type(2) {
-    fill: #8d8d8d;
-  }
-  path:nth-of-type(3) {
-    fill: #c3c3c3;
-  }
-  path:nth-of-type(4) {
-    fill: #c9c9ca;
-  }
-}
-
 .footer-logo--consensys {
-  position: absolute;
-  width: 150px;
-  bottom: 42px;
-
-  path {
-    fill: #a9a9aa;
-  }
+  margin: 0 auto;
+  text-align: center;
+  display: block;
 }
 
 .input-wrap {
@@ -149,11 +126,13 @@
 }
 
 .footer-copyright {
-  padding: 0;
-  margin: 0;
-  color: $color-wiltedlilac;
-  font-size: 12px;
-  font-family: $font-body;
+  text-align: center;
+
+  span {
+    color: $color-wiltedlilac;
+    font-family: $font-body;
+    font-size: .66em;
+  }
 }
 
 .footer-nav {
