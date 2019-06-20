@@ -17,7 +17,7 @@ const NotFoundPage = () => (
     <div>
       <p>You may have typed an invalid URL.</p>
       <p>
-        <img className={s.errorImage} src="/static/img/pizza-dog-optimized.svg" />
+        <img className={s.errorImage} src="/static/img/pizza-dog-optimized.svg" alt="You may have typed an invalid URL" />
       </p>
     </div>
     <div className={s.errorPageLinkSection}>

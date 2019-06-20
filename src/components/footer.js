@@ -1,16 +1,11 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 
 import s from '../scss/modules/footer.module.scss';
-import f from '../scss/modules/foundation.module.scss';
 
-import LogoShapeSVG from './svg/LogoShapeSVG';
 import { ConsenSysLogoSVG } from './svg/ConsenSysLogoSVG';
-import FooterNav from './sections/FooterNav';
 import FooterData from '../config/footer';
 import CustomLink from './common/Link';
 import Wrap from './common/Wrap';
-
-const EmptyTag = Fragment;
 
 class RenderSectionLinks extends Component {
   state = { jobsCallbackData: ''}

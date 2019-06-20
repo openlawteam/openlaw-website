@@ -2,10 +2,11 @@
 @import '../mixins';
 
 .signup {
-  display: flex;
+  // display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+  flex: 0 0 100%;
 
   // padding: 36px;
   // margin-bottom: 24px;
@@ -27,24 +28,51 @@
 }
 
 .sign-up-form {
-  background: #063454;
+  // background: #063454;
+  form {
+    // flex: 0 0 60%;
+    // margin-right: 1rem;
+  }
 }
 
 .signup form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
+
+  input {
+    flex: 0 0 60%;
+    margin-right: 1rem;
+  }
+
+  button {
+    flex: 0 0 35%;
+  }
+}
+
+.error-message {
+  padding-top: .4rem;
+  display: inline-block;
+}
+
+.signup > div,
+.signup > p {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .signup input {
   font-family: $font-body;
   font-size: 1em;
-  margin-bottom: 24px;
+  margin-bottom: 0;
   padding: 0 12px;
   outline: none;
   box-shadow: 3px 3px 0 0 #e6eaec;
   border: 1px solid #066bd1;
   height: 48px;
+  border-radius: 9px;
+  letter-spacing: 0.4px;
 }
 
 .help-text {
@@ -55,23 +83,34 @@
 }
 
 .signup button {
-  background: $color-royal;
-  padding: 12px 24px;
-  font-size: 1em;
+  // background: $color-royal;
+  // padding: 12px 24px;
+  // font-size: 1em;
+  // letter-spacing: 1px;
+  // color: white;
+  // cursor: pointer;
+  // font-weight: 700;
+  // font-family: $font-body;
+  // @include border-radius(4px);
+  // &:hover,
+  // &:focus {
+  //   background-color: lighten($color-royal, 10%);
+  // }
+
+  margin: 0;
+  border-radius: 9px;
+  letter-spacing: 0.4px;
+}
+
+.h1 {
+  color: #444;
+  font-weight: 300;
+  line-height: 1.15;
   letter-spacing: 1px;
-  color: white;
-  cursor: pointer;
-  font-weight: 700;
-  font-family: $font-body;
-  @include border-radius(4px);
-  &:hover,
-  &:focus {
-    background-color: lighten($color-royal, 10%);
-  }
 }
 
 .small-text {
-  max-width: 80%;
+  // max-width: 80%;
   text-align: center;
   font-size: 1em;
   line-height: 15px;
@@ -79,8 +118,15 @@
   font-family: $font-body;
   color: lighten($color-darksmoke, 25%);
 
+  small {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
   a {
-    color: $color-darksmoke;
+    color: $color-royal; // $color-darksmoke;
+    font-weight: 700;
 
     &:hover,
     &:focus {
@@ -104,9 +150,38 @@
     padding: 12px;
     margin-left: 12px;
     margin-right: 12px;
+
+    input {
+      margin-bottom: 1rem;
+    }
   }
 
+  .signup form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    input {
+      flex: 0 0 100%;
+      margin-right: 1rem;
+    }
+
+    button {
+      flex: 0 0 70%;
+    }
+  }
+
+  .h1,
   .title {
-    align-self: center;
+    text-align: center;
+  }
+}
+
+@include size-tablet-down {
+  .signup form {
+    button {
+      flex: 0 0 100%;
+    }
   }
 }

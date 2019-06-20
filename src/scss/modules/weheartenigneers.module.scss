@@ -1,0 +1,97 @@
+@import '../variables';
+@import '../mixins';
+
+.h2,
+.flex-wrapper,
+.flex-wrapper > p {
+  text-align: center;
+  width: 100%;
+}
+
+.h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+  color: #444;
+  font-weight: 450;
+  line-height: 1.15;
+  letter-spacing: 1px;
+}
+
+.text {
+  color: #a3a3a3;
+}
+
+.button {
+  padding: 18px 48px;
+}
+
+.flex-wrapper > p {
+  margin-bottom: 2.5rem;
+}
+
+.api-snippet {
+  width: 42rem !important;
+  height: 26rem !important;
+  margin: 0 auto;
+  border-left: 1rem solid #272822;
+}
+
+.ctaWrapper {
+  text-align: center;
+}
+
+.button {
+  border-radius: 9px;
+  letter-spacing: 0.4px;
+}
+
+.heart-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+
+  svg {
+    color: #ec9395;
+    position: absolute;
+    top: 4px;
+    left: 0;
+  }
+}
+
+.triangles {
+	position: relative;
+	width: 200px;
+	z-index: 2;
+  margin-top: -50px;
+
+	.triangle {
+		max-width: 100px;
+		width: 50%;
+  }
+
+	.yellow {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -12%;
+  }
+
+	.grey {
+		position: relative;
+	}
+}
+
+.syntax {
+  font-size: .8rem;
+
+  pre {
+    padding: 1.5em !important;
+  }
+}
+
+@include size-medium-down {
+  .api-snippet {
+    width: auto !important;
+  }
+}
