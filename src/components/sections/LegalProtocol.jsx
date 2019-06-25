@@ -50,7 +50,7 @@ class LegalProtocol extends React.Component {
 
                 <div className={`${f.column}`} key="1.2" data-aos="fade-up" data-aos-delay="450">
                   <div className={`${s.imgDiv}`} data-aos="fade-up" data-aos-delay="150">
-                    <img src={withPrefix('/static/img/ol-agreement.png')} role="presentation" alt="OpenLaw code to agreement document" />
+                    <img src={withPrefix('/static/img/ol-agreement.svg')} role="presentation" alt="OpenLaw code to agreement document" />
                   </div>
                 </div>
               </div>

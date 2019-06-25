@@ -30,7 +30,7 @@ class ReadyToStart extends React.Component {
       <Wrap>
         <div className={`${s.flexWrapper} ${f.row}`}>
           <div className={`${s.imgDiv}`} data-aos="fade-up" data-aos-delay="150">
-            <img src={withPrefix('/static/img/code-screen.png')} role="presentation" alt="Code on screen" />
+            <img src={withPrefix('/static/img/code-screen.svg')} role="presentation" alt="Code on screen" />
           </div>
 
           <div className={`${f.column} ${s.svgWrapper}`} key="1" data-aos="fade-up" data-aos-delay="450">

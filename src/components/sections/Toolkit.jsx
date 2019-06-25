@@ -34,7 +34,7 @@ class Toolkit extends React.Component {
           <div className={`${f.column} ${s.imgWrapper}`} key="1" data-aos="fade-up" data-aos-delay="150">
             <div className={`${s.imgDiv}`} data-aos="fade-up" data-aos-delay="150">
               <span className={`${s.imgSpan} ${s.firstDraftSpan}`}>
-                <img className={`${s.firstDraft}`} src={withPrefix('/static/img/first-draft.png')} role="presentation" alt="First Draft" />
+                <img className={`${s.firstDraft}`} src={withPrefix('/static/img/first-draft.svg')} role="presentation" alt="First Draft" />
               </span>
             </div>
             <div className={`${s.contentDiv}`}>
@@ -46,7 +46,7 @@ class Toolkit extends React.Component {
           <div className={`${f.column} ${s.imgWrapper}`} key="2" data-aos="fade-up" data-aos-delay="300">
             <div className={`${s.imgDiv}`}>
               <span className={`${s.imgSpan} ${s.ethereumRelayerSpan}`}>
-                <img className={`${s.ethereumRelayer}`} src={withPrefix('/static/img/ethereum-relayer.png')} role="presentation" alt="Ethereum Relayer" />
+                <img className={`${s.ethereumRelayer}`} src={withPrefix('/static/img/ethereum-relayer.svg')} role="presentation" alt="Ethereum Relayer" />
               </span>
             </div>
             <div className={`${s.contentDiv}`}>
@@ -60,7 +60,7 @@ class Toolkit extends React.Component {
           <div className={`${f.column} ${s.imgWrapper}`} key="3" data-aos="fade-up" data-aos-delay="300">
             <div className={`${s.imgDiv}`}>
               <span className={`${s.imgSpan} ${s.signSendSpan}`}>
-                <img className={`${s.signSend}`} src={withPrefix('/static/img/sign-send.png')} role="presentation" alt="Sign &amp; Send" />
+                <img className={`${s.signSend}`} src={withPrefix('/static/img/sign-send.svg')} role="presentation" alt="Sign &amp; Send" />
               </span>
             </div>
             <div className={`${s.contentDiv}`}>
@@ -72,7 +72,7 @@ class Toolkit extends React.Component {
           <div className={`${f.column} ${s.imgWrapper}`} key="4" data-aos="fade-up" data-aos-delay="450">
             <div className={`${s.imgDiv}`}>
               <span className={`${s.imgSpan} ${s.tokenForgeSpan}`}>
-                <img className={`${s.tokenForge}`} src={withPrefix('/static/img/token-forge.png')} role="presentation" alt="Token Forge" />
+                <img className={`${s.tokenForge}`} src={withPrefix('/static/img/token-forge.svg')} role="presentation" alt="Token Forge" />
               </span>
             </div>
             <div className={`${s.contentDiv}`}>
@@ -86,7 +86,7 @@ class Toolkit extends React.Component {
           <div className={`${f.column} ${s.imgWrapper}`} key="5" data-aos="fade-up" data-aos-delay="450">
             <div className={`${s.imgDiv}`}>
               <span className={`${s.imgSpan} ${s.formsFlowSpan}`}>
-                <img className={`${s.formsFlow}`} src={withPrefix('/static/img/forms-flow.png')} role="presentation" alt="Forms &amp; Flow" />
+                <img className={`${s.formsFlow}`} src={withPrefix('/static/img/forms-flow.svg')} role="presentation" alt="Forms &amp; Flow" />
               </span>
             </div>
             <div className={`${s.contentDiv}`}>
