@@ -3,6 +3,7 @@ import React, { Component, Fragment } from 'react';
 import TextInput from './common/TextInput';
 import styles from '../scss/modules/signup.module.scss';
 import { hostnameContext } from '../helper/url';
+import Cookies from '../helper/cookies';
 
 const H1 = ({ children }) => <h1 className={`${styles.h1}`}>{children}</h1>
 
@@ -52,6 +53,7 @@ export default class SignupForm extends Component {
       method: 'GET',
     })
     .then(() => {
+      Cookies.set('OL_USER_EMAIL_ADDR', this.state.email);
       window.location.href = `${hostnameContext()}signup?email=${this.state.email}`;
     })
     .catch(() => {

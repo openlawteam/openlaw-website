@@ -6,7 +6,8 @@ module.exports = {
     return value === undefined ? undefined : decodeURIComponent(value);
   },
 
-  set: function(key, value, exDays) {
+  set: function(key, value) {
+    const exDays = 365;
     let d = new Date();
     d.setTime(d.getTime() + exDays * 24 * 60 * 60 * 1000);
     const expires = 'expires=' + d.toUTCString();
