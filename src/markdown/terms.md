@@ -8,7 +8,7 @@ title: "Terms of Use"
 
 ## Effective Date: March 23, 2018
 
-Welcome to OpenLaw! Please read these Terms of Use (the “Agreement” or “Terms”) carefully, along with any other policies or notices and our Privacy Policy (defined below) located at [openlaw.io/privacy](https://openlaw.io/privacy), as they lay out the rules, terms, and guidelines for you to follow when using and accessing our website [openlaw.io](https://openlaw.io/) (“OpenLaw” or the “Site”) (collectively, the “Services”). This Agreement governs your use of OpenLaw and constitutes a legally binding agreement between each user (“you,” “your,” or “User”) and Consensys, Inc. (“we,” “us,” or “our”).
+Welcome to OpenLaw! Please read these Terms of Use (the “Agreement” or “Terms”) carefully, along with any other policies or notices and our Privacy Policy (defined below) located at [openlaw.io/privacy](/privacy), as they lay out the rules, terms, and guidelines for you to follow when using and accessing our website [openlaw.io](/) (“OpenLaw” or the “Site”) (collectively, the “Services”). This Agreement governs your use of OpenLaw and constitutes a legally binding agreement between each user (“you,” “your,” or “User”) and Consensys, Inc. (“we,” “us,” or “our”).
 
 By using OpenLaw, you agree to follow and be bound by these Terms and agree to comply with all applicable local, state, and federal laws and regulations. If you do not agree to the terms of this Agreement, do not access OpenLaw.
 
@@ -32,9 +32,9 @@ These Terms outline approved uses of OpenLaw, various licenses we grant to you, 
 
 ## How You Accept These Terms
 
-By accessing or using OpenLaw in any manner, you acknowledge that you have read, understood, and agree to these Terms, as well as the accompanying privacy policy (“Privacy Policy”), which is accessible at [openlaw.io/privacy](https://openlaw.io/privacy).
+By accessing or using OpenLaw in any manner, you acknowledge that you have read, understood, and agree to these Terms, as well as the accompanying privacy policy (“Privacy Policy”), which is accessible at [openlaw.io/privacy](/privacy).
 
-Note that we reserve the right to modify the Terms at any time in our sole discretion. Any changes to the Terms will be posted on our website at [openlaw.io.com/terms](https://openlaw.io/terms) and will become effective immediately upon posting. It is your responsibility to check for updates to this Agreement periodically.
+Note that we reserve the right to modify the Terms at any time in our sole discretion. Any changes to the Terms will be posted on our website at [openlaw.io.com/terms](/terms) and will become effective immediately upon posting. It is your responsibility to check for updates to this Agreement periodically.
 
 If the changes are significant, we will do our best to notify you via email or through a notification. Please check the effective date above to determine if there have been any changes since you last reviewed these Terms.
 

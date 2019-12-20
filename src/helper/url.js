@@ -9,11 +9,11 @@ export const hostnameContext = () => {
 
   switch(env) {
     case 'production_develop':
-      return 'https://develop.dev.openlaw.io/';
+      return 'https://develop.dev.openlaw.io/web/default/';
     case 'production_production':
       return 'https://app.openlaw.io/';
     default:
-      return 'http://localhost:9000/';
+      return 'http://localhost:9000/web/default/';
   }
 };
 
@@ -24,11 +24,11 @@ export const websiteURL = () => {
 
   switch(env) {
     case 'production_develop':
-      return 'https://develop.dev.openlaw.io/';
+      return 'https://develop.dev.openlaw.io/web/default/';
     case 'production_production':
       return 'https://openlaw.io/';
     case 'production_staging':
-      return 'https://staging.dev.openlaw.io/';
+      return 'https://staging.dev.openlaw.io/web/default/';
     default:
       return 'http://localhost:8000/';
   }

@@ -1,224 +1,189 @@
 ---
 path: "/privacy"
-date: "2018-05-22"
+date: "2019-12-20"
 title: "Privacy Policy"
 ---
 
 # Privacy Policy
 
-## Effective Date: May 22, 2018
+## Last Updated: December 20, 2019
 
-Your privacy is important to us. Consensys, Inc. (&ldquo;we&rdquo; or &ldquo;us&rdquo;) is committed to protecting the privacy, confidentiality, and security of your information by complying with the requirements under applicable laws and regulations. We are committed to ensuring that all our employees, service providers, and agents uphold these obligations.
+This privacy policy (**&quot;Policy&quot;**) describes how ConsenSys AG&apos;s OpenLaw (**&quot;OpenLaw&quot;**, **&quot;Company&quot;**, **&quot;we&quot;**, **&quot;our&quot;**, or **&quot;us&quot;**) collects, uses, shares, and stores personal information of users of this website, openlaw.io (the **&quot;Site&quot;**). This Policy applies to the Site, applications, products and services (collectively, **&quot;Services&quot;**) on or in which it is posted, linked, or referenced. 
 
-This privacy policy (&ldquo;Privacy Policy&rdquo;) governs data collection and usage of the services, software, platform, and websites provided by OpenLaw (the &ldquo;Site&rdquo;) and any of our affiliates (collectively, &ldquo;Services&rdquo;). By using the Services, you consent to the data practices described in this Privacy Policy as well as our [Terms of Use](/terms). If you do not agree to any part of this Privacy Policy, then you should stop accessing the Services immediately.
+By using the Services, you accept the terms of this Policy and our [Terms of Use](/terms), and consent to our collection, use, disclosure, and retention of your information as described in this Policy.  If you have not done so already, please also review our [Terms of Use](/terms). The [Terms of Use](/terms) contain provisions that limit our liability to you and require you to resolve any dispute with us on an individual basis and not as part of any class or representative action. IF YOU DO NOT AGREE WITH ANY PART OF THIS PRIVACY POLICY OR OUR TERMS OF USE, THEN PLEASE DO NOT USE ANY OF THE SERVICES.
 
-Your privacy is important to us. When running OpenLaw, we follow a few fundamental principles:
+Please note that this Policy does not apply to information collected through third-party websites or services that you may access through the Services or that you submit to us through email, text message or other electronic message or offline.
 
-*   We don’t ask you for Personally Identifiable Information (defined below) unless we truly need it. That being said, the information we do ask for is solely to enable us to build an amazing customized experience and to communicate with you.
-*   We don’t share your information with third parties except to deliver you the Site, comply with the law, make OpenLaw better, protect our rights, and/or effectuate a business transfer.
-*   We’re not a huge, faceless corporation. We’re just normal people trying to deliver an incredible experience. If you have any questions or concerns about this Privacy Policy, please reach out to us at [hello@openlaw.io](mailto:hello@openlaw.io).
+If you are visiting this site from the European Union (EU), see our Notice to EU Data Subjects below for our legal bases for processing and transfer of your data.
 
-## How You Accept This Privacy Policy
+## WHAT WE COLLECT
 
-By using OpenLaw, creating a user account, or creating/viewing a template or agreement on the Site you agree to the use, disclosure, and procedures outlined in this Privacy Policy.
+We get information about you in a range of ways.
 
-## What Information Does OpenLaw Collect?
+**Information You Give Us.** Information we collect from you includes:
 
-The information we collect from you falls into two categories: (i) personally identifiable information (i.e., data that could potentially identify you as an individual) (&ldquo;Personally Identifiable Information&rdquo; or &ldquo;PII&rdquo;), and (ii) non-personally identifiable information (i.e., information that cannot be used to identify you ) (&ldquo;Non-Personally Identifiable Information&rdquo; or &ldquo;Non-PII&rdquo;). This Privacy Policy covers both categories and will tell you how we might collect and use each type.
+* Identity information, such as your first name, last name, username or similar identifier, title, date of birth and gender;
+* Contact information, such as your postal address, email address and telephone number;
+* Profile information, such as your username and password, interests, preferences, feedback and survey responses;
+* Feedback and correspondence, such as the information you provide in your responses to surveys, when you participate in market research activities, report a problem with Service, receive customer support or otherwise correspond with us;
+* Usage information, such as information about how you use the Service and interact with us;
+* Marketing information, such as your preferences for receiving marketing communications and details about how you engage with them.
 
-We may collect a variety of PII, including:
+**Information We Get From Others.** We may get information about you from other third-party sources and we may add this to information we get from your use of the Services. Such information may include:
 
-*   Information from Third Party Services (defined below) that you explicitly give us access to; and
-*   Your contact information, such as your email address (depending on how you contact us).
+**Information Automatically Collected.** We may automatically record certain information about how you use our Site (we refer to this information as &quot;Log Data&quot;). Log Data may include information such as a user&apos;s Internet Protocol (IP) address, device and browser type, operating system, the pages or features of our Site to which a user browsed and the time spent on those pages or features, the frequency with which the Site is used by a user, search terms, the links on our Site that a user clicked on or used, and other statistics. We use this information to administer the Service and we analyze (and may engage third parties to analyze) this information to improve and enhance the Service by expanding its features and functionality and tailoring it to our users&apos; needs and preferences.
 
-We may also collect a variety of Non-PII, including various analytics data, such as:
+We may use cookies or similar technologies to analyze trends, administer the website, track users&apos; movements around the website, and to gather demographic information about our user base as a whole. Users can control the use of cookies at the individual browser level.
 
-*   the IP address of the computer you use to access OpenLaw;
-*   the type of browser software you are using;
-*   the operating system you are using;
-*   the date and time you access or use OpenLaw;
-*   the website address, if any, that linked you to OpenLaw;
-*   the website address, if any, you leave our website and travel to;
-*   other non-personally identifiable traffic data;
-*   versions of the OpenLaw operating system and browser; and
-*   any username, including your first and last name, you submit to associate with your account on OpenLaw.
+We also use Google Analytics to help us offer you an optimized user experience.
 
-## How We Collect Information
+Google Analytics: You can find more information about Google Analytics&apos; use of your personal data here: https://www.google.com/analytics/terms/us.html
 
-### When You Create an Account or Provide Us with Information to Join or Sign an Agreement Using OpenLaw
+**Information We Will Never Collect.** We will never ask you to share your private keys or wallet seed. Never trust anyone or any site that asks you to enter your private keys or wallet seed.
 
-If you create an account or use the services provided by OpenLaw, we may request certain PII. This may include contact information such as your full name, organization, email address, phone number, billing address and account login information. In addition, we may collect information regarding other accounts you choose to link with OpenLaw (e.g., Metamask, Google, etc.).
+## USE OF PERSONAL INFORMATION
 
-We, or companies that provide services on our behalf, may also collect certain financial information from you, such as your payment method (which may include a valid credit card number, type, expiration date, or other financial information). By making a purchase through OpenLaw, you give us consent to use and provide your financial information as we consider necessary to process the transaction.
+### To Provide Our Service
 
-### Information We Automatically Collect
+We will use your personal information in the following ways:
+* To enable you to access and use the Services.
+* To provide and deliver products and services that you may request.
+* To send information, including confirmations, technical notices, updates, security alerts, and support and administrative messages.
 
-At OpenLaw, we use cookies to help identify and track usage of the Site and to make it easier to deliver a personalized experience. You can easily refuse our cookies by adjusting the preferences in your browser. However, be forewarned that disabling cookies may cause OpenLaw not to operate properly.
+### To Comply With Law
 
-In order to improve and grow OpenLaw, we also use analytics tools, such as Google Analytics, to automatically collect information about user and visitor usage (collectively, &ldquo;Analytics Tools&rdquo;). These Analytics Tools collect data such as how often you visit OpenLaw, what areas of the Site you visit, and what other sites or services you used prior to using OpenLaw.
+We use your personal information as we believe necessary or appropriate to comply with applicable laws (including anti-money laundering (AML) laws and know-your-customer (KYC) requirements), lawful requests and legal process, such as to respond to subpoenas or requests from government authorities.  
 
-Analytics Tools generally operate differently. For example, Google Analytics only collects the IP address assigned to you on the date you visit OpenLaw, not your name or other identifying information. Although Google Analytics plants a permanent cookie on your computer to identify you as a unique user the next time you visit, the cookie cannot be used by anyone but Google. As of right now, we only use the information we get from Analytics Tools to improve OpenLaw and do not combine the information collected through the use of Analytics Tools with PII. However, we reserve the right to do so in the future.
+### To Communicate With You
 
-### Third Party Services
+We use your personal information to communicate about promotions, upcoming events, and other news about products and services offered by us and our selected partners.
 
-To run OpenLaw, we often utilize various third-party products (collectively, &ldquo;Third Party Services&rdquo;), such as Google or Metamask. If you authorize us to connect with these Third Party Services, you grant us permission to collect certain PII, such as your full name, email address, phone number, and any other information that the Third Party Service makes available to us. Please note that your use of these Third Party Services is governed by their respective terms of service and privacy policies. We use and disclose any collected information in accordance with our own Privacy Policy.
+### To Optimize Our Platform
 
-### Communications You Initiate with Us
+In order to optimize your user experience, we may use your personal information to operate, maintain, and improve our Services. We may also use your information to respond to your comments and questions regarding the Services, and to provide you and other users with general customer service. 
 
-We do everything possible to make sure you have an amazing experience when using OpenLaw. If you contact us in person, by phone, email, instant message, live chat, or by some other means (either through our Site or through a Third Party Service), we may keep a record of your contact information and correspondence for later reference (to help improve our Site!).
+### With Your Consent
 
-## How We Use the Information We Gather
+We may use or share your personal information with your consent, such as when you consent to let us post your testimonials or endorsements on our Site, you instruct us to take a specific action with respect to your personal information, or you opt into third party marketing communications.
 
-We primarily use the information we collect and store to enhance OpenLaw. Except if we sell all or a portion of our business, or as otherwise described below, we do not rent, trade, or sell your personal information.
+### For Compliance, Fraud Prevention, and Safety
 
-### Use of Information to Provide OpenLaw to You
+We may use your personal information to protect, investigate, and deter against fraudulent, unauthorized, or illegal activity.
 
-We use personal information to create an awesome experience. Some ways we may internally use your information are to:
+## SHARING OF PERSONAL INFORMATION
 
-*   Contact you when necessary;
-*   Facilitate the signing and execution of agreements via OpenLawt;
-*   Respond to your comments or questions;
-*   Provide you with additional information according to your preferences;
-*   Customize and personalize your OpenLaw experience;
-*   Generate aggregated statistics to help us improve the customer experience;
-*   Make OpenLaw easier and more convenient for you (such as by pre-populating forms when you have already provided identical information);
-*   Provide recommendations to you;
-*   Send you information and marketing materials about services and products available on our Site;
-*   Train our team members; or
-*   Other internal business purposes.
+We do not share or sell the personal information that you provide us with other organizations without your express consent, except as described in this Privacy Policy. We disclose personal information to third parties under the following circumstances:
 
-### Agents or Third Party Partners
+* **Affiliates.** We may disclose your personal information to our subsidiaries and corporate affiliates for purposes consistent with this Privacy Policy.
+* **Business Transfers.** We may share personal information when we do a business deal, or negotiate a business deal, involving the sale or transfer of all or a part of our business or assets. These deals can include any merger, financing, acquisition, or bankruptcy transaction or proceeding.
+* **Compliance with Laws and Law Enforcement; Protection and Safety.** We may share personal information for legal, protection, and safety purposes.
+  * We may share information to comply with laws, including KYC and AML requirements.
+  * We may share information to respond to lawful requests and legal processes.
+  * We may share information to protect the rights and property of the Company, our agents, customers, and others. This includes enforcing our agreements, policies, and terms of use.
+  * We may share information in an emergency. This includes protecting the safety of our employees and agents, our customers, or any person.
+* **Professional Advisors and Service Providers.** We may share information with those who need it to do work for us. These recipients may include third party companies and individuals to administer and provide the Service on our behalf (such as customer support, hosting, email delivery and database management services), as well as lawyers, bankers, auditors, and insurers.
+* **Other.** You may permit us to share your personal information with other companies or entities of your choosing. Those uses will be subject to the privacy policies of the recipient entity or entities. 
 
-We may provide your personal information to our employees, contractors, agents, service providers, and designees (collectively, &ldquo;Agents&rdquo;) to enable them to perform certain services for us exclusively, including:
+We may also share aggregated and/or anonymized data with others for their own uses.
 
-*   Website-related services such as web hosting;
-*   Improvement of website-related services and features;
-*   Maintenance services; or
-*   Distribution of advertisements and other marketing materials on our behalf.
+## INTERNATIONAL TRANSFER
 
-### Business Transfers
+The Company has offices outside of the EU and has affiliates and service providers in the United States and in other countries. Your personal information may be transferred to or from the United States or other locations outside of your state, province, country or other governmental jurisdiction where privacy laws may not be as protective as those in your jurisdiction.
 
-We may choose to buy or sell assets. In these types of transactions, customer information is typically one of the business assets that would be transferred. Also, if we (or our assets) are acquired, or if we go out of business, enter bankruptcy, or go through some other change of control, your personal information could be one of the assets transferred to, or acquired by, a third party. By accepting this Privacy Policy, as outlined above, you consent to any such transfer.
+EU users should read the important information provided  below about transfer of personal information outside of the European Economic Area (EEA).
 
-### Protection of Us and Others
+## HOW INFORMATION IS SECURED
 
-We reserve the right to access, read, preserve, and disclose any information that we reasonably believe is necessary to: comply with the law or a court order; cooperate with law enforcement; enforce or apply our [Terms of Use](/terms) and other agreements; or protect the rights, property, or safety of OpenLaw, our employees, our users, or others.
+We retain information we collect as long as it is necessary and relevant to fulfill the purposes outlined in this privacy policy. In addition, we retain personal information to comply with applicable law where required, prevent fraud, resolve disputes, troubleshoot problems, assist with any investigation, enforce our [Terms of Use](/terms), and other actions permitted by law. To determine the appropriate retention period for personal information, we consider the amount, nature, and sensitivity of the personal information, the potential risk of harm from unauthorized use or disclosure of your personal information, the purposes for which we process your personal information and whether we can achieve those purposes through other means, and the applicable legal requirements.
 
-We may disclose your PII as required by law, such as in response to a subpoena, a lawful request by a public authority, including to meet national security or law enforcement requirements, or similar legal process, and when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a legal request.
+In some circumstances we may anonymize your personal information (so that it can no longer be associated with you) in which case we may use this information indefinitely without further notice to you.
 
-## What Personal Information Can I Access or Change?
+We employ industry standard security measures designed to protect the security of all information submitted through the Services. However, the security of information transmitted through the internet can never be guaranteed. We are not responsible for any interception or interruption of any communications through the internet or for changes to or losses of data. Users of the Services are responsible for maintaining the security of any password, biometrics, user ID or other form of authentication involved in obtaining access to password protected or secure areas of any of our digital services. In order to protect you and your data, we may suspend your use of any of the Services, without notice, pending an investigation, if any breach of security is suspected.
 
-Once you sign up for an account, we provide you with various options that enable you to delete or revise your personal information. You can change, alter, or amend personal information that you provide to us by visiting your account settings at www.openlaw.io. If you have any questions, feel free to contact us at any time at [hello@openlaw.io](mailto:hello@openlaw.io).
+## INFORMATION CHOICES AND CHANGES
 
-## Unsubscribe
+### Accessing, Updating, Correcting, and Deleting your Information
 
-If you decide you don’t want to receive email or other mail from us, you can select the &ldquo;opt out&rdquo; provision in our communications or in your profile settings to unsubscribe. Unsubscribing will stop you from receiving most types of communication, but it may not apply to emails about orders or transactions you place through the Site or to respond to your specific request.
+You may access information that you have voluntarily provided through your account on the Services, and to review, correct, or delete it by sending a request to [legal@consensys.net](mailto:legal@consensys.net). You can request to change contact choices, opt-out of our sharing with others, and update your personal information and preferences.
 
-## Attorney Communication
+### Tracking Technologies Generally
 
-If you choose to communicate with an attorney through our Services, please note that any such communications between you and such attorney may not necessarily be treated as confidential information by the attorney or protected by the attorney-client privilege doctrine. For additional information, please read the &ldquo;Overview&rdquo; section in our [Terms of Use](/terms).
+Regular cookies may generally be disabled or removed by tools available as part of most commercial browsers, and in some instances blocked in the future by selecting certain settings. For more information, please see the section entitled &quot;Cookies Policy&quot; below.  
 
-## Data Retention
+### Google Analytics
 
-If you delete your account or request that your information be deleted, we still may retain some personal information that you have provided to us in order to maintain OpenLaw or to comply with relevant laws.
+You may exercise choices regarding the use of cookies from Google Analytics by going to https://tools.google.com/dlpage/gaoptout and downloading the Google Analytics Opt-out Browser Add-on.
 
-## Data Security
+## CONTACT INFORMATION
 
-We are committed to making sure your information is protected and have selected third-party vendors, including Stripe and Metamask, that help keep your personal information safe. Unfortunately, we do not control these third parties and therefore cannot guarantee complete security.
+We welcome your comments or questions about this Policy, and you may contact us at: [legal@consensys.net](mailto:legal@consensys.net).
 
-We do employ several physical and electronic safeguards to keep your information safe, including encrypted user passwords and securing all connections with industry standard transport layer security.
+## CHANGES TO THIS PRIVACY POLICY
 
-If you log into your account on a shared computer, be sure to sign out of your account when finished. If you believe a third party has access to your account, you must let us know as soon as possible.
+We may change this Privacy Policy at any time. We encourage you to periodically review this page for the latest information on our privacy practices. If we make any changes, we will change the **Last Updated** date above.
 
-Even with all these precautions, we cannot fully guarantee against the access, disclosure, alteration, or deletion of data through events, including but not limited to hardware or software failure or unauthorized use. Any information that you provide to us is done so entirely at your own risk.
+Any modifications to this Privacy Policy will be effective upon our posting of the new terms and/or upon implementation of the changes to the Site (or as otherwise indicated at the time of posting). In all cases, your continued use of the the Site or Services after the posting of any modified Privacy Policy indicates your acceptance of the terms of the modified Privacy Policy.
 
-## Children
+## ELIGIBILITY
 
-We’re not a site targeted towards children, and we don’t knowingly collect PII from children under the age of thirteen (13). If you become aware that a child has provided us with PII, please contact us as set forth in this Privacy Policy. If you are a parent or legal guardian of a minor child, we will treat any information that you provide us while using OpenLaw on behalf of your minor child as PII as otherwise provided in this Privacy Policy.
+If you are under the age of majority in your jurisdiction of residence, you may use the Services only with the consent of or under the supervision of your parent or legal guardian. Consistent with the requirements of the Children&apos;s Online Privacy Protection Act (COPPA), if we learn that we have received any information directly from a child under age 13 without first receiving his or her parent&apos;s verified consent, we will use that information only to respond directly to that child (or his or her parent or legal guardian) to inform the child that he or she cannot use the Site and subsequently we will delete that information.
 
-If you have questions concerning our information practices with respect to children, or if you learn that a child under the age of thirteen (13) has used OpenLaw, created a user account, or provided us with personal information, please email us at [hello@openlaw.io](mailto:hello@openlaw.io).
+## ATTORNEY COMMUNICATION
 
-## Online Tracking and How We Respond to Do Not Track Signals
+If you choose to communicate with an attorney through our Services, please note that any such communications between you and such attorney may not necessarily be treated as confidential information by the attorney or protected by the attorney-client privilege doctrine. For additional information, please read the &quot;Overview&quot; section in our [Terms of Use](/terms).
 
-Online tracking is the collection of data about an individual’s Internet activity used to deliver targeted advertisements and for other purposes. Some web browsers (e.g., Safari, Internet Explorer, Firefox, and Chrome) incorporate a &ldquo;Do Not Track&rdquo; (DNT) or similar feature that signals to websites that a visitor does not want to have his/her online activity and behavior tracked. If an online service elects to respond to a particular DNT signal, the service may refrain from collecting certain personal information about the browser’s user. Not all browsers offer a DNT option and there is currently no industry consensus as to what constitutes a DNT signal. For these reasons, many website operators, including OpenLaw, do not take action to respond to DNT signals. For more information about DNT signals, visit [http://allaboutdnt.com](http://allaboutdnt.com).
+## NOTICE TO CALIFORNIA RESIDENTS
 
-## We Reserve the Right to Update and Revise This Privacy Policy at Any Time
+Under California Civil Code Section 1789.3, California users are entitled to the following consumer rights notice: California residents may reach the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs by mail at 1625 North Market Blvd., Sacramento, CA 95834, or by telephone at (916) 445-1254 or (800) 952-5210.
 
-We occasionally review this Privacy Policy to make sure it complies with applicable laws and conforms to changes in our business. We may need to update this Privacy Policy, and we reserve the right to do so at any time. If we do revise this Privacy Policy, we will update the &ldquo;Effective Date&rdquo; at the top of this page so that you can tell if it has changed since your last visit and will do our best to notify you if there are material changes. Please review this Privacy Policy regularly to ensure that you are aware of its terms. Any use of OpenLaw after an amendment to our Privacy Policy constitutes your acceptance to the revised or amended agreement.
+This section provides additional details about the personal information we collect about California consumers and the rights afforded to them under the California Consumer Privacy Act or &quot;CCPA.&quot;
 
-## International Users and Visitors
+For more details about the personal information we collect from you, please see the &quot;What We Collect&quot; section above. We collect this information for the business and commercial purposes described in the &quot;Use of Personal Information&quot; section above. We share this information with the categories of third parties described in the &quot;Sharing of Personal Information&quot; section above. Company does not sell (as such term is defined in the CCPA) the personal information we collect (and will not sell it without providing a right to opt out). Please refer to our Cookie Policy below for more information regarding the types of third-party cookies, if any, that we use. 
 
-**NOTICE TO EU DATA SUBJECTS**
+Subject to certain limitations, the CCPA provides California consumers the right to request to know more details about the categories or specific pieces of personal information we collect (including how we use and disclose this information), to delete their personal information, to opt out of any &quot;sales&quot; that may be occurring, and to not be discriminated against for exercising these rights.
 
-**Personal Information**
+California consumers may make a request pursuant to their rights under the CCPA by contacting us at [legal@consensys.net](mailto:legal@consensys.net). Please note that you must verify your identity and request before further action is taken. As a part of this process, government identification may be required. Consistent with California law, you may designate an authorized agent to make a request on your behalf. In order to designate an authorized agent to make a request on your behalf, you must provide a valid power of attorney, the requester&apos;s valid government issued identification, and the authorized agent&apos;s valid government issued identification.
 
-With respect to EU data subjects, &ldquo;personal information,&rdquo; as used in this Privacy Policy, is equivalent to &ldquo;personal data&rdquo; as defined in the [European Union General Data Protection Regulation](https://gdpr-info.eu/art-4-gdpr/) (GDPR).
+## NOTICE TO EU DATA SUBJECTS
 
-**Sensitive Data**
+### Personal Information
+
+With respect to EU data subjects, &quot;personal information,&quot; as used in this Privacy Policy, is equivalent to &quot;personal data&quot; as defined in the [European Union General Data Protection Regulation](https://gdpr-info.eu/art-4-gdpr/) (GDPR). 
+
+### Sensitive Data
 
 Some of the information you provide us may constitute sensitive data as defined in the GDPR (also referred to as special categories of personal data), including identification of your race or ethnicity on government-issued identification documents.
 
-**Legal Bases for Processing**
+### Legal Bases for Processing
 
-<table>
+We only use your personal information as permitted by law. We are required to inform you of the legal bases of our processing of your personal information, which are described in the table below. If you have questions about the legal bases under which we process your personal information, contact us at [legal@consensys.net](mailto:legal@consensys.net).
 
-<tbody>
+| Processing Purpose | Legal Basis |
+| --- | --- |
+| To provide our service | Our processing of your personal information is necessary to perform the contract governing our provision of the Services or to take steps that you request prior to signing up for the Service. |
+| To communicate with you<br><br>To optimize our platform<br><br>For compliance, fraud prevention, and safety<br><br>To provide our service | These processing activities constitute our legitimate interests. We make sure we consider and balance any potential impacts on you (both positive and negative) and your rights before we process your personal information for our legitimate interests. We do not use your personal information for activities where our interests are overridden by any adverse impact on you (unless we have your consent or are otherwise required or permitted to by law). |
+| To comply with law | We use your personal information to comply with applicable laws and our legal obligations, including anti-money laundering (AML) laws and know-your-customer (KYC) requirements. |
+| With your consent | Where our use of your personal information is based upon your consent, you have the right to withdraw it anytime in the manner indicated in the Service or by contacting us at [legal@consensys.net](mailto:legal@consensys.net). |
 
-<tr>
-
-<th>Processing Purpose</th>
-
-<th>Legal Basis</th>
-
-</tr>
-
-<tr>
-
-<td>To communicate with you; to optimize our platform; for compliance, fraud prevention, and safety; to provide our service</td>
-
-<td>These processing activities constitute our legitimate interests. We make sure we consider and balance any potential impacts on you (both positive and negative) and your rights before we process your personal information for our legitimate interests. We do not use your personal information for activities where our interests are overridden by any adverse impact on you (unless we have your consent or are otherwise required or permitted to by law).</td>
-
-</tr>
-
-<tr>
-
-<td>To comply with law</td>
-
-<td>We use your personal information to comply with applicable laws and our legal obligations.</td>
-
-</tr>
-
-<tr>
-
-<td>With your consent</td>
-
-<td>Where our use of your personal information is based upon your consent, you have the right to withdraw it anytime in the manner indicated in the Service or by contacting us at [hello@openlaw.io](mailto:hello@openlaw.io).</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-**Use for New Purposes**
+### Use for New Purposes
 
 We may use your personal information for reasons not described in this Privacy Policy, where we are permitted by law to do so and where the reason is compatible with the purpose for which we collected it. If we need to use your personal information for an unrelated purpose, we will notify you and explain the applicable legal basis for that use. If we have relied upon your consent for a particular use of your personal information, we will seek your consent for any unrelated purpose.
 
-**Your Rights**
+### Your Rights
 
 Under the GDPR, you have certain rights regarding your personal information. You may ask us to take the following actions in relation to your personal information that we hold:
 
-*   **Opt-out**. Stop sending you direct marketing communications which you have previously consented to receive. We may continue to send you Service-related and other non-marketing communications.
-*   **Access**. Provide you with information about our processing of your personal information and give you access to your personal information.
-*   **Correct**. Update or correct inaccuracies in your personal information.
-*   **Delete**. Delete your personal information.
-*   **Transfer**. Transfer a machine-readable copy of your personal information to you or a third party of your choice.
-*   **Restrict**. Restrict the processing of your personal information.
-*   **Object**. Object to our reliance on our legitimate interests as the basis of our processing of your personal information that impacts your rights.
+* **Opt-out.** Stop sending you direct marketing communications which you have previously consented to receive. We may continue to send you Service-related and other non-marketing communications.
+* **Access.** Provide you with information about our processing of your personal information and give you access to your personal information.
+* **Correct.** Update or correct inaccuracies in your personal information.
+* **Delete.** Delete your personal information.
+* **Transfer.** Transfer a machine-readable copy of your personal information to you or a third party of your choice.
+* **Restrict.** Restrict the processing of your personal information.
+* **Object.** Object to our reliance on our legitimate interests as the basis of our processing of your personal information that impacts your rights.
 
-You can submit these requests by email to [hello@openlaw.io](mailto:hello@openlaw.io). We may request specific information from you to help us confirm your identity and process your request. Applicable law may require or permit us to decline your request. If we decline your request, we will tell you why, subject to legal restrictions. If you would like to submit a complaint about our use of your personal information or response to your requests regarding your personal information, you may contact us at [hello@openlaw.io](mailto:hello@openlaw.io) or submit a complaint to the data protection regulator in your jurisdiction. You can find your data protection regulator [here](http://ec.europa.eu/justice/article-29/structure/data-protection-authorities/index_en.htm).
+You can submit these requests by email to [legal@consensys.net](mailto:legal@consensys.net). We may request specific information from you to help us confirm your identity and process your request. Applicable law may require or permit us to decline your request. If we decline your request, we will tell you why, subject to legal restrictions. If you would like to submit a complaint about our use of your personal information or response to your requests regarding your personal information, you may contact us at [legal@consensys.net](mailto:legal@consensys.net) or submit a complaint to the data protection regulator in your jurisdiction. You can find your data protection regulator [here](https://ec.europa.eu/justice/article-29/structure/data-protection-authorities/index_en.htm).
 
-**Cross-Border Data Transfer**
+### Cross-Border Data Transfer
 
 Please be aware that your personal data will be transferred to, processed, and stored in the United States. Data protection laws in the U.S. may be different from those in your country of residence. You consent to the transfer of your information, including personal information, to the U.S. as set forth in this Privacy Policy by visiting our site or using our service.
 
@@ -226,153 +191,59 @@ Whenever we transfer your personal information out of the EEA to the U.S. or cou
 
 Please contact us if you want further information on the specific mechanism used by us when transferring your personal information out of the EEA.
 
-**COOKIES POLICY**
+## COOKIES POLICY
 
 We understand that your privacy is important to you and are committed to being transparent about the technologies we use. In the spirit of transparency, this policy provides detailed information about how and when we use cookies on our Site.
 
-**Do we use Cookies?**
+### Do we use Cookies?
 
 Yes. We and our marketing partners, affiliates, and analytics or service providers use cookies, web beacons, or pixels and other technologies to ensure everyone who uses the Site has the best possible experience.
 
-**What is a Cookie?**
+### What is a Cookie?
 
-A cookie (&ldquo;Cookie&rdquo;) is a small text file that is placed on your hard drive by a web page server. Cookies contain information that can later be read by a web server in the domain that issued the cookie to you. Some of the cookies will only be used if you use certain features or select certain preferences, and some cookies will always be used. You can find out more about each cookie by viewing our current cookie list below. We update this list periodically, so there may be additional cookies that are not yet listed. Web beacons, tags and scripts may be used in the Site or in emails to help us to deliver cookies, count visits, understand usage and campaign effectiveness and determine whether an email has been opened and acted upon. We may receive reports based on the use of these technologies by our service/analytics providers on an individual and aggregated basis.
+A cookie (&quot;Cookie&quot;) is a small text file that is placed on your hard drive by a web page server. Cookies contain information that can later be read by a web server in the domain that issued the cookie to you. Some of the cookies will only be used if you use certain features or select certain preferences, and some cookies will always be used. You can find out more about each cookie by viewing our current cookie list below. We update this list periodically, so there may be additional cookies that are not yet listed. Web beacons, tags and scripts may be used in the Site or in emails to help us to deliver cookies, count visits, understand usage and campaign effectiveness and determine whether an email has been opened and acted upon. We may receive reports based on the use of these technologies by our service/analytics providers on an individual and aggregated basis.
 
-**Why do we use Cookies?**
+### Why do we use Cookies?
 
 We generally use Cookies for the following purposes:
 
-*   To recognize new or past customers.
-*   To store your password if you are registered on our Site.
-*   To improve our Site and to better understand your visits on our platforms and Site.
-*   To serve you with interest-based or targeted advertising.
-*   To observe your behaviors and browsing activities over time across multiple websites or other platforms.
-*   To better understand the interests of our customers and our website visitors.
+* To recognize new or past customers.
+* To store your password if you are registered on our Site.
+* To improve our Site and to better understand your visits on our platforms and Site.
+* To serve you with interest-based or targeted advertising.
+* To observe your behaviors and browsing activities over time across multiple websites or other platforms.
+* To better understand the interests of our customers and our website visitors.
 
 Some Cookies are necessary for certain uses of the Site, and without such Cookies, we would not be able to provide many services that you need to properly use the Site. These Cookies, for example, allow us to operate our Site so you may access it as you have requested and let us recognize that you have created an account and have logged into that account to access Site content. They also include Cookies that enable us to remember your previous actions within the same browsing session and secure our Sites.
 
-We also use functional Cookies and Cookies from third parties for analysis and marketing purposes. Functional Cookies enable certain parts of the site to work properly and your user preferences to remain known. Analysis Cookies, among other things, collect information on how visitors use our Site, the content and products that users view most frequently, and the effectiveness of our third party advertising. Advertising Cookies assist in delivering ads to relevant audiences and having our ads appear at the top of search results. Cookies are either &ldquo;session&rdquo; Cookies which are deleted when you end your browser session, or &ldquo;persistent,&rdquo; which remain until their deletion by you (discussed below) or the party who served the cookie. Full details on all of the Cookies used on the Site are available at our Cookie Disclosure table below.
+We also use functional Cookies and Cookies from third parties for analysis and marketing purposes. Functional Cookies enable certain parts of the site to work properly and your user preferences to remain known.  Analysis Cookies, among other things, collect information on how visitors use our Site, the content and products that users view most frequently, and the effectiveness of our third-party advertising. Advertising Cookies assist in delivering ads to relevant audiences and having our ads appear at the top of search results. Cookies are either &quot;session&quot; Cookies which are deleted when you end your browser session, or &quot;persistent,&quot; which remain until their deletion by you (discussed below) or the party who served the cookie. Full details on all of the Cookies used on the Site are available at our Cookie Disclosure table below.
 
-**How to disable Cookies.**
+### How to disable Cookies
 
 You can generally activate or later deactivate the use of cookies through a functionality built into your web browser. To learn more about how to control cookie settings through your browser:
 
-Click [here](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences) to learn more about the &ldquo;Private Browsing&rdquo; setting and managing cookie settings in Firefox;
+Click [here](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences) to learn more about the &quot;Private Browsing&quot; setting and managing cookie settings in Firefox;
 
-Click [here](https://support.google.com/chrome/answer/95647?hl=en) to learn more about &ldquo;Incognito&rdquo; and managing cookie settings in Chrome;
+Click [here](https://support.google.com/chrome/answer/95647?hl=en) to learn more about &quot;Incognito&quot; and managing cookie settings in Chrome;
 
-Click [here](https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies) to learn more about &ldquo;InPrivate&rdquo; and managing cookie settings in Internet Explorer; or
+Click [here](https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies) to learn more about &quot;InPrivate&quot; and managing cookie settings in Internet Explorer; or
 
-Click [here](https://support.apple.com/kb/ph21411?locale=en_US) to learn more about &ldquo;Private Browsing&rdquo; and managing cookie settings in Safari.
+Click [here](https://support.apple.com/guide/safari/browse-in-private-ibrw1069/mac) to learn more about &quot;Private Browsing&quot; and managing cookie settings in Safari.
 
-If you want to learn more about cookies, or how to control, disable or delete them, please visit [aboutcookies.org](http://www.aboutcookies.org) for detailed guidance. In addition, certain third party advertising networks, including Google, permit users to opt out of or customize preferences associated with your internet browsing. To learn more about this feature from Google, click here.
+If you want to learn more about cookies, or how to control, disable or delete them, please visit http://www.aboutcookies.org for detailed guidance. In addition, certain third party advertising networks, including Google, permit users to opt out of or customize preferences associated with your internet browsing. To learn more about this feature from Google, click [here](https://adssettings.google.com/u/0/authenticated?hl=en).
 
-To control flash cookies, which we may use on our Site from time to time, you can go to [this link](http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html) because Flash cookies cannot be controlled through your browser settings. Please note that if you decline the use of Cookies, some functions of the website may be unavailable and we will not be able to present personally tailored content and advertisements to you.
+To control flash cookies, which we may use on our Site from time to time, you can go to this [link](http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html) because Flash cookies cannot be controlled through your browser settings. Please note that if you decline the use of Cookies, some functions of the website may be unavailable and we will not be able to present personally tailored content and advertisements to you. 
 
-We may link the information collected by Cookies with other information we collect from you pursuant to this Privacy Policy and use the combined information as set forth herein. Similarly, the third parties who serve cookies on our Site may link your name or email address to other information they collect, which may include past purchases made offline or online, or your online usage information. If you are located in the European Economic Area, you have certain rights that are described above under the header &ldquo;Notice to EU Data Subjects&rdquo;, including the right to inspect and correct or delete the data that we have about you.
+We may link the information collected by Cookies with other information we collect from you pursuant to this Privacy Policy and use the combined information as set forth herein.  Similarly, the third parties who serve cookies on our Site may link your name or email address to other information they collect, which may include past purchases made offline or online, or your online usage information. If you are located in the European Economic Area, you have certain rights that are described above under the header &quot;Notice to EU Data Subjects&quot;, including the right to inspect and correct or delete the data that we have about you.
 
-<u>Cookies Disclosure</u>
+### Cookies Disclosure
 
-<table>
-
-<tbody>
-
-<tr>
-
-<th>Name of Cookie/Identifier</th>
-
-<th>What does the cookie generally do (e.g., website function and administration, analytics, marketing?)</th>
-
-<th>Is it a 1st or 2rd party cookie and what is the name of the party providing it?</th>
-
-<th>What type of cookie is it (persistent or session?)</th>
-
-<th>What is the duration of the cookie on the website (if not cleared by the user?)</th>
-
-</tr>
-
-<tr>
-
-<td>_ga</td>
-
-<td>Used to distinguish users</td>
-
-<td>3rd - Google</td>
-
-<td>Persistent</td>
-
-<td>[2 years]</td>
-
-</tr>
-
-<tr>
-
-<td>_gid</td>
-
-<td>Used to distinguish users</td>
-
-<td>3rd - Google</td>
-
-<td>Persistent</td>
-
-<td>[2 years]</td>
-
-</tr>
-
-<tr>
-
-<td>_gat_gtag_</td>
-
-<td>Used to throttle request rate.</td>
-
-<td>3rd - Google</td>
-
-<td>Persistent</td>
-
-<td>[1 minute]</td>
-
-</tr>
-
-<tr>
-
-<td>__cfduid</td>
-
-<td>Used to distinguish users</td>
-
-<td>3rd - Cloudflare</td>
-
-<td>Persistent</td>
-
-<td>[1 year]</td>
-
-</tr>
-
-<tr>
-
-<td>PLAY_SESSION</td>
-
-<td>Used to distinguish users</td>
-
-<td>1st - Openlaw</td>
-
-<td>Session</td>
-
-<td>[Session]</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-## Questions?
-
-We’d be happy to answer them. Shoot us an email or send us a note at [hello@openlaw.io](mailto:hello@openlaw.io).
-
-Mailing Address:
-
-Consensys, Inc.
-49 Bogart St #22
-Brooklyn, NY 11206
-
-Thanks for reading our Privacy Policy!
+| Name of Cookie/Identifier | What does the cookie generally do (e.g., website function and administration, analytics, marketing)? | Is it a 1st or 3rd party cookie and what is the name of the party providing it? | What type of cookie is it (persistent or session)? | What is the duration of the cookie on the website (if not cleared by the user)? |
+| --- | --- | --- | --- | --- |
+| Google Analytics | Analytics | 3rd - Google | Persistent | 2 years |
+| Dashboard welcome cookie | Website function | 1st - OpenLaw | Persistent | 1 year |
+| _ga | Used to distinguish users | 3rd - Google | Persistent | 2 years |
+| _gid | Used to distinguish users | 3rd - Google | Persistent | 2 years |
+| _gat_gtag_ | Used to throttle request rate | 3rd - Google | Persistent | 1 minute |
+| _ _cfduid | Used to distinguish users | 3rd - Cloudflare | Persistent | 1 year |
+| PLAY_SESSION | Used to distinguish users | 1st - OpenLaw | Session | Session |
