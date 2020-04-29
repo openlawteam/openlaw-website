@@ -13,7 +13,7 @@ export const hostnameContext = () => {
     case 'production_production':
       return 'https://lib.openlaw.io/web/default/'
     default:
-      return 'http://localhost:9000/web/default/'
+      return 'http://openlaw.localhost:9000/web/default/'
   }
 }
 
