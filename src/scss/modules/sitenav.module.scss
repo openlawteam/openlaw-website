@@ -30,10 +30,23 @@
   margin: 0;
   padding: 0;
   justify-content: space-between;
+  align-items: center;
   width: 90%;
 
   li:not(:last-child) {
     margin-right: 1rem;
+  }
+
+  li:last-child {
+    padding: 3px 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $color-white;
+    box-shadow: 0.3rem 0.3rem $color-white;
+
+    a {
+      font-weight: 400;
+    }
   }
 }
 
@@ -59,7 +72,7 @@
   top: 65px;
   z-index: 1000;
   width: 200px;
-  box-shadow: 0.3rem 0.3rem #000000;
+  box-shadow: 0.3rem 0.3rem $color-black;
 
   ul {
     padding: 0;

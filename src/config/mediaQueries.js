@@ -11,3 +11,7 @@ export const MEDIA_MEDIUM_UP = '(min-width: 40em)';
 export const MEDIA_TABLET_DOWN = '(max-width: 39.9375em)';
 
 export const MEDIA_DOWN_DOWN = '(max-width: 30em)';
+
+// custom media queries
+
+export const HEADER_MEDIUM_DOWN = '(max-width: 1084px)';
