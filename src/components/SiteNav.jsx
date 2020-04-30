@@ -9,18 +9,38 @@ import { HamburgerSVG } from './svg/HamburgerSVG';
 const EmptyTag = Fragment;
 
 class SiteNav extends Component {
-  state = { isPopupOpen: false };
+  state = { isMenuOpen: false };
 
-  handleOpen = () => {
-    this.setState({ isPopupOpen: !this.state.isPopupOpen });
+  componentWillUnmount() {
+    if (this.state.isMenuOpen) {
+      this.closeMenu();
+    }
+  }
+
+  openMenu = () => {
+    this.setState({ isMenuOpen: true }, () => {
+      document.addEventListener('click', this.closeMenu);
+    });
+  };
+
+  closeMenu = () => {
+    this.setState({ isMenuOpen: false }, () => {
+      document.removeEventListener('click', this.closeMenu);
+    });
   };
 
   renderItems = (data, isSmall) => (
     <ul>
       {data.map(({ name, url, divider }) => (
         <EmptyTag key={`${name}-${url}`}>
-          <li onClick={() => isSmall && this.handleOpen()}>
-            <a href={url}>{name}</a>
+          <li>
+            {name === 'Help' ? (
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                {name}
+              </a>
+            ) : (
+              <a href={url}>{name}</a>
+            )}
           </li>
 
           {divider && isSmall && <hr />}
@@ -31,7 +51,7 @@ class SiteNav extends Component {
 
   render() {
     const { data } = this.props;
-    const { isPopupOpen } = this.state;
+    const { isMenuOpen } = this.state;
 
     return (
       <MediaQuery query={HEADER_MEDIUM_DOWN}>
@@ -40,26 +60,30 @@ class SiteNav extends Component {
             return (
               <EmptyTag>
                 <HamburgerSVG
-                  onClick={this.handleOpen}
+                  onClick={this.openMenu}
                   className={`${s.hamburger}`}
                 />
 
-                {isPopupOpen && (
-                  <div className={`${s.navPopup}`}>
+                {isMenuOpen && (
+                  <div className={`${s.navMenu}`}>
                     {this.renderItems(data, true)}
                   </div>
                 )}
               </EmptyTag>
             );
-          }
+          } else {
+            if (isMenuOpen) {
+              this.closeMenu();
+            }
 
-          return (
-            <nav className={s.nav}>
-              <div className={`${s.wrapper} ${f.row}`}>
-                {this.renderItems(data)}
-              </div>
-            </nav>
-          );
+            return (
+              <nav className={s.nav}>
+                <div className={`${s.wrapper} ${f.row}`}>
+                  {this.renderItems(data)}
+                </div>
+              </nav>
+            );
+          }
         }}
       </MediaQuery>
     );

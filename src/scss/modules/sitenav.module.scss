@@ -64,7 +64,7 @@
   }
 }
 
-.nav-popup {
+.nav-menu {
   background: $color-white;
   border: 1px solid $color-black;
   position: absolute;
@@ -77,6 +77,7 @@
   ul {
     padding: 0;
     margin: 0;
+    list-style-type: none;
 
     li {
       padding: 1rem;
@@ -107,15 +108,3 @@
     }
   }
 }
-
-// @include size-medium-up {
-//   .nav ul {
-//     width: 47.5%;
-//   }
-// }
-
-// @include size-medium-down {
-//   .nav ul {
-//     width: 47.5%;
-//   }
-// }
