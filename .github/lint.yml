@@ -1,0 +1,13 @@
+name: Linters
+on: [push]
+
+jobs:
+  lint-prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - uses: docker://jonz94/prettier-alpine:1.19.1-10
+        with:
+          args: --config package.json --check src/**/*.{js,jsx,css,scss,md}
