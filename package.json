@@ -28,7 +28,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write 'src/**/*.{js,jsx,css,scss}'",
+    "style": "prettier --check 'src/**/*.{js,jsx,css,scss}'",
+    "style:fix": "prettier --write 'src/**/*.{js,jsx,css,scss}'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
