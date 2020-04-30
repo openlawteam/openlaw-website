@@ -1,5 +1,5 @@
-@import '../variables';
-@import '../mixins';
+@import "../variables";
+@import "../mixins";
 
 a {
   color: $color-royal;
@@ -44,7 +44,7 @@ a {
   // tables
   table {
     border-collapse: collapse;
-    font-size: .85em;
+    font-size: 0.85em;
     overflow-x: scroll;
     display: block;
   }
@@ -65,7 +65,8 @@ a {
     font-weight: 600;
   }
 
-  th, td {
+  th,
+  td {
     text-align: left;
     padding: 4px;
   }
@@ -73,11 +74,11 @@ a {
   td {
     padding: 6px;
     background-color: transparent;
-    transition: background .25s ease;
+    transition: background 0.25s ease;
   }
 }
 
 .legal {
   text-transform: uppercase;
-  word-spacing: .25em;
+  word-spacing: 0.25em;
 }

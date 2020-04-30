@@ -27,9 +27,7 @@ const IntroSection = ({ data }) => (
 
           {/* SIGNUP */}
           <div
-            className={`${s.signupWrap} ${f.column} ${f['small12']} ${
-              f['medium6']
-            }`}
+            className={`${s.signupWrap} ${f.column} ${f['small12']} ${f['medium6']}`}
             key="2"
           >
             <SignupForm />

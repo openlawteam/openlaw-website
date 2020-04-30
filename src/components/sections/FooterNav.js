@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 // import PropTypes from 'prop-types'
 
 import f from '../../scss/modules/footer.module.scss';
@@ -9,7 +9,9 @@ const FooterNav = ({ data }) => (
     <nav className={`${f.footerNav}`}>
       <ul>
         {data.map(({ name, url }) => (
-          <li key={name}><a href={url}>{name}</a></li>
+          <li key={name}>
+            <a href={url}>{name}</a>
+          </li>
         ))}
       </ul>
     </nav>

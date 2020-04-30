@@ -1,5 +1,5 @@
-@import '../variables';
-@import '../mixins';
+@import "../variables";
+@import "../mixins";
 
 .wrap {
   background-color: #f1f9fb;
@@ -95,8 +95,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #53B4D1;
-    opacity: .08;
+    background: #53b4d1;
+    opacity: 0.08;
   }
 
   @include size-medium-down {

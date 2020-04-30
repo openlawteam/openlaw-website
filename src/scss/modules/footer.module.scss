@@ -1,5 +1,5 @@
-@import '../variables';
-@import '../mixins';
+@import "../variables";
+@import "../mixins";
 
 .footer-wrap {
   background-color: #f2f2f5;
@@ -65,7 +65,7 @@
       color: $color-royal;
       font-size: 12px;
       text-transform: none;
-      letter-spacing: .5px;
+      letter-spacing: 0.5px;
     }
   }
 
@@ -135,7 +135,7 @@
   span {
     color: $color-wiltedlilac;
     font-family: $font-body;
-    font-size: .66em;
+    font-size: 0.66em;
   }
 }
 
@@ -143,7 +143,7 @@
   padding: 48px 0.9375rem 0;
 
   a {
-    color: #FFF;
+    color: #fff;
   }
 
   ul {

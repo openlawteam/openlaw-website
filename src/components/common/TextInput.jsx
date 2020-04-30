@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TextInput = (props) => {
+const TextInput = props => {
   const { innerRef, value, onChange, type, ...rest } = props;
 
   return (

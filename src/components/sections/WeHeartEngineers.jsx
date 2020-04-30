@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import AOS from 'aos';
 
-import { Light as SyntaxHighlighter } from "react-syntax-highlighter";
+import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
 import js from 'react-syntax-highlighter/dist/esm/languages/hljs/javascript';
 import irBlack from 'react-syntax-highlighter/dist/esm/styles/hljs/ir-black';
 
@@ -15,10 +15,9 @@ import { CaretRightSVG } from '../../components/svg/CaretRightSVG';
 
 SyntaxHighlighter.registerLanguage('javascript', js);
 
-const Text = ({ children }) => <p className={`${s.text}`}>{children}</p>
-const H2 = ({ children }) => <h2 className={`${s.h2}`}>{children}</h2>
-const editorValue =
-`// import both modules
+const Text = ({ children }) => <p className={`${s.text}`}>{children}</p>;
+const H2 = ({ children }) => <h2 className={`${s.h2}`}>{children}</h2>;
+const editorValue = `// import both modules
 import { APIClient, Openlaw } from "openlaw";
 
 // include the root URL for the OpenLaw instance
@@ -38,7 +37,6 @@ console.log(compiledTemplate);
 `;
 
 class WeHeartEngineers extends React.Component {
-
   componentDidMount() {
     AOS.init({
       duration: 800,
@@ -49,33 +47,62 @@ class WeHeartEngineers extends React.Component {
     });
   }
 
-  goToStartBuilding = () => { window.location.href = `${hostnameContext()}signup`; };
+  goToStartBuilding = () => {
+    window.location.href = `${hostnameContext()}signup`;
+  };
 
   render() {
-    return(
+    return (
       <Wrap>
         <div className={`${s.flexWrapper} ${f.row}`}>
-          <H2>We <span className={`${s.heartIcon}`}><HeartSVG /></span> Engineers</H2>
-          <Text>You can build a blockchain-based application in an afternoon.</Text>
+          <H2>
+            We{' '}
+            <span className={`${s.heartIcon}`}>
+              <HeartSVG />
+            </span>{' '}
+            Engineers
+          </H2>
+          <Text>
+            You can build a blockchain-based application in an afternoon.
+          </Text>
         </div>
         <div className={`${f.row}`}>
-          <div className={`${f.column} ${s.syntax}`} key="1" data-aos="fade-up" data-aos-delay="150">
+          <div
+            className={`${f.column} ${s.syntax}`}
+            key="1"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
             <SyntaxHighlighter language="javascript" style={irBlack}>
               {editorValue}
             </SyntaxHighlighter>
           </div>
         </div>
         <div className={`${f.row}`}>
-          <div className={`${f.column} ${s.ctaWrapper}`} key="4" data-aos="fade-up" data-aos-delay="450">
-            <button onClick={this.goToStartBuilding} className={`${s.button} button`}>Start Building</button>
+          <div
+            className={`${f.column} ${s.ctaWrapper}`}
+            key="4"
+            data-aos="fade-up"
+            data-aos-delay="450"
+          >
+            <button
+              onClick={this.goToStartBuilding}
+              className={`${s.button} button`}
+            >
+              Start Building
+            </button>
             <br />
-            <a className="link-arrow-small caret-right" href="https://docs.openlaw.io/getting-started-overview/">Full Reference API Documentation <CaretRightSVG /></a>
+            <a
+              className="link-arrow-small caret-right"
+              href="https://docs.openlaw.io/getting-started-overview/"
+            >
+              Full Reference API Documentation <CaretRightSVG />
+            </a>
           </div>
         </div>
       </Wrap>
-    )
+    );
   }
-
-};
+}
 
 export default WeHeartEngineers;

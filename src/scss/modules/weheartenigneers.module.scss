@@ -1,5 +1,5 @@
-@import '../variables';
-@import '../mixins';
+@import "../variables";
+@import "../mixins";
 
 .h2,
 .flex-wrapper,
@@ -60,30 +60,30 @@
 }
 
 .triangles {
-	position: relative;
-	width: 200px;
-	z-index: 2;
+  position: relative;
+  width: 200px;
+  z-index: 2;
   margin-top: -50px;
 
-	.triangle {
-		max-width: 100px;
-		width: 50%;
+  .triangle {
+    max-width: 100px;
+    width: 50%;
   }
 
-	.yellow {
-		position: absolute;
-		top: 0;
-		left: 50%;
-		margin-left: -12%;
+  .yellow {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -12%;
   }
 
-	.grey {
-		position: relative;
-	}
+  .grey {
+    position: relative;
+  }
 }
 
 .syntax {
-  font-size: .8rem;
+  font-size: 0.8rem;
 
   pre {
     padding: 1.5em !important;

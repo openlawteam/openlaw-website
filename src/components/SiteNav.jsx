@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component, Fragment } from 'react';
 import MediaQuery from 'react-responsive';
 
 import f from '../scss/modules/foundation.module.scss';
@@ -12,7 +12,7 @@ class SiteNav extends Component {
   state = { isPopupOpen: false };
 
   handleOpen = () => {
-    this.setState({ isPopupOpen: !(this.state.isPopupOpen) });
+    this.setState({ isPopupOpen: !this.state.isPopupOpen });
   };
 
   renderItems = (data, isSmall) => (
@@ -23,12 +23,8 @@ class SiteNav extends Component {
             <a href={url}>{name}</a>
           </li>
 
-          {
-            divider && isSmall && <hr />
-          }
-          {
-            divider && !isSmall && <span className={`${s.navSpacerX}`} />
-          }
+          {divider && isSmall && <hr />}
+          {divider && !isSmall && <span className={`${s.navSpacerX}`} />}
         </EmptyTag>
       ))}
     </ul>
@@ -40,13 +36,20 @@ class SiteNav extends Component {
 
     return (
       <MediaQuery query={MEDIA_MEDIUM_DOWN}>
-        {(matches) => {
+        {matches => {
           if (matches) {
             return (
               <EmptyTag>
-                <HamburgerSVG onClick={this.handleOpen} className={`${s.hamburger}`} />
+                <HamburgerSVG
+                  onClick={this.handleOpen}
+                  className={`${s.hamburger}`}
+                />
 
-                {isPopupOpen && <div className={`${s.navPopup}`}>{this.renderItems(data, true)}</div>}
+                {isPopupOpen && (
+                  <div className={`${s.navPopup}`}>
+                    {this.renderItems(data, true)}
+                  </div>
+                )}
               </EmptyTag>
             );
           }

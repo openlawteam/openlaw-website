@@ -1,7 +1,7 @@
-import React from 'react'
-import ReactHelmet from 'react-helmet'
-import PropTypes from 'prop-types'
-import { websiteURL } from '../helper/url'
+import React from 'react';
+import ReactHelmet from 'react-helmet';
+import PropTypes from 'prop-types';
+import { websiteURL } from '../helper/url';
 
 const Helmet = props => (
   <ReactHelmet title={props.title} meta={props.meta}>
@@ -47,12 +47,12 @@ const Helmet = props => (
     />
     <meta property="fb:app_id" content="2176612205910168" />
   </ReactHelmet>
-)
+);
 
 Helmet.propTypes = {
   meta: PropTypes.array,
   path: PropTypes.string,
   title: PropTypes.string,
-}
+};
 
-export default Helmet
+export default Helmet;

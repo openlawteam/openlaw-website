@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'gatsby';
 
 import SiteNav from './SiteNav';
@@ -19,7 +19,9 @@ const wrapStyle = {
 const Header = ({ subpage }) => (
   <Wrap style={wrapStyle}>
     {subpage && (
-      <Link className={s.link} to="/"><LogoCircle className={s.logo} /></Link>
+      <Link className={s.link} to="/">
+        <LogoCircle className={s.logo} />
+      </Link>
     )}
     <SiteNav data={NavData} />
   </Wrap>

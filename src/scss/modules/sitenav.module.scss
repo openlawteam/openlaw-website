@@ -1,5 +1,5 @@
-@import '../variables';
-@import '../mixins';
+@import "../variables";
+@import "../mixins";
 
 .wrapper {
   justify-content: flex-end;
@@ -35,7 +35,7 @@
   margin: 0;
   padding: 0;
   justify-content: space-between;
-  max-width: 62.5rem
+  max-width: 62.5rem;
 }
 
 .nav a {
@@ -105,9 +105,13 @@
 }
 
 @include size-medium-up {
-  .nav ul { width: 47.5%; }
+  .nav ul {
+    width: 47.5%;
+  }
 }
 
 @include size-medium-down {
-  .nav ul { width: 47.5%; }
+  .nav ul {
+    width: 47.5%;
+  }
 }
