@@ -22,7 +22,6 @@
     "react-helmet": "^5.2.0",
     "react-responsive": "^5.0.0",
     "react-syntax-highlighter": "^10.3.0",
-    "scrollmonitor-react": "^2.4.0",
     "typeface-hind": "^0.0.54",
     "typeface-nunito": "0.0.54"
   },
