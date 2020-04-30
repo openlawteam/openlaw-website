@@ -1,12 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
-import { withPrefix } from 'gatsby-link';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { StaticQuery, graphql } from 'gatsby';
+// import { withPrefix } from 'gatsby-link'
 import 'typeface-hind';
 import 'typeface-nunito';
 
 import '../scss/global.scss';
-import f from '../scss/modules/foundation.module.scss';
+// import f from '../scss/modules/foundation.module.scss'
 import s from '../scss/modules/base.module.scss';
 
 import Header from './header';
@@ -30,7 +30,10 @@ const Layout = ({ children, data, subpage }) => (
         {!subpage && (
           <Helmet
             meta={[
-              { name: 'description', content: 'Dynamic, Next Generation Legal Agreements' },
+              {
+                name: 'description',
+                content: 'Dynamic, Next Generation Legal Agreements',
+              },
             ]}
             path=""
             title={`${data.site.siteMetadata.title} — A free legal repository`}
@@ -40,7 +43,7 @@ const Layout = ({ children, data, subpage }) => (
         <Header subpage={subpage} />
         <Wrap>
           <div className={s.wrapper}>
-            <div className={`${f.row} ${s.imageWrap}`}>
+            {/* <div className={`${f.row} ${s.imageWrap}`}>
               <img
                 className={(subpage ? `${s.funBunch} ${s.funBunchSubpage}` : s.funBunch)}
                 src={withPrefix('/static/img/fun-bunch.png')}
@@ -53,7 +56,7 @@ const Layout = ({ children, data, subpage }) => (
                   alt=""
                 />
               )}
-            </div>
+            </div> */}
 
             {children}
             <Footer />
@@ -62,10 +65,10 @@ const Layout = ({ children, data, subpage }) => (
       </>
     )}
   />
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

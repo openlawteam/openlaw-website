@@ -1,5 +1,5 @@
-@import '../variables';
-@import '../mixins';
+@import "../variables";
+@import "../mixins";
 
 .intro {
   padding: 112px 12px 0;
@@ -50,12 +50,3 @@
     margin-bottom: 24px;
   }
 }
-
-.refract-img {
-  position: absolute;
-  opacity: .45;
-  left: 46px;
-  top: 49px;
-  z-index: -1;
-}
-

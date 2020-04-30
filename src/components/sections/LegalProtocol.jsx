@@ -8,14 +8,6 @@ import f from '../../scss/modules/foundation.module.scss';
 
 import { hostnameContext } from '../../helper/url';
 
-// import LogoShapeSVG from '../../components/svg/LogoShapeSVG';
-// import YellowTriangleSVG from '../../components/svg/YellowTriangleSVG';
-// import GreyTriangleSVG from '../../components/svg/GreyTriangleSVG';
-// import LightBlueShapeSVG from '../../components/svg/LightBlueShapeSVG';
-
-// import bgImage from '../../assets/blueCircle.svg';
-// import blueBg from '../../assets/blueBg.png';
-
 import Wrap from '../common/Wrap';
 
 const H2 = ({ children }) => <h2 className={`${s.h2}`}>{children}</h2>

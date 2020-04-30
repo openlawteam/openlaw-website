@@ -30,7 +30,6 @@ const Helmet = props => (
       href="/static/img/safari-pinned-tab.svg"
       color="#333333"
     />
-    <link rel="shortcut icon" href="/static/img/favicon.ico" />
     <meta name="msapplication-TileColor" content="#2b5797" />
     <meta name="theme-color" content="#333333" />
 
