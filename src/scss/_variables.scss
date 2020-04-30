@@ -1,6 +1,9 @@
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
 // font stacks
-$font-body: Nunito, Helvetica Neue, Helvetica, Arial, sans-serif;
-$font-header: Hind, Roboto, Arial, sans-serif;
+$font-body: "Space Mono", monospace;
+$font-header: "Space Mono", monospace;
 
 // font sizes
 // @todo add mixin for fluid font sizes
@@ -19,3 +22,5 @@ $color-lilac: #4952a5;
 $color-offwhite: #fafafa;
 $color-royal: #076ad2;
 $color-wiltedlilac: #828092;
+$color-white: #ffffff;
+$color-black: #000000;

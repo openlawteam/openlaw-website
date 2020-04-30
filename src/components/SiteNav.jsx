@@ -24,7 +24,6 @@ class SiteNav extends Component {
           </li>
 
           {divider && isSmall && <hr />}
-          {divider && !isSmall && <span className={`${s.navSpacerX}`} />}
         </EmptyTag>
       ))}
     </ul>

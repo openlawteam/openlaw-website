@@ -37,6 +37,7 @@ class ReadyToStart extends React.Component {
             data-aos-delay="150"
           >
             <img
+              className={s.headerLogo}
               src={withPrefix('/static/img/code-screen.png')}
               role="presentation"
               alt="Code on screen"

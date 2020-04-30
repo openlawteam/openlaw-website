@@ -123,14 +123,14 @@
 }
 
 // Based Off Foundation BreakPoints
-@mixin size-medium-down {
-  @media only screen and (max-width: 64em) {
+@mixin size-large-up {
+  @media only screen and (min-width: 64em) {
     @content;
   }
 }
 
-@mixin size-large-up {
-  @media only screen and (min-width: 64em) {
+@mixin size-medium-down {
+  @media only screen and (max-width: 64em) {
     @content;
   }
 }

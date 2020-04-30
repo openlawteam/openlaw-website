@@ -14,3 +14,23 @@
   position: absolute;
   z-index: 1001;
 }
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  height: 90px;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.header-logo {
+  width: 200px;
+  margin: 0 2rem 0 5rem;
+
+  @include size-down-down {
+    width: 160px;
+    margin: 0 1rem 0 0;
+  }
+}
