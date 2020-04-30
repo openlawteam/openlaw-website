@@ -7,9 +7,11 @@ title: "About"
 # Dynamic, Next Generation Legal Agreements
 
 ## Contracts Are Changing
+
 It is now possible to model all or parts of legal agreements using code (smart contracts), decreasing the cost and friction of creating, securing, and generating binding legal agreements.
 
 ## No Comprehensive Tool
+
 Lawyers lack basic tools to build these dynamic, smart contracts in a way that is enforceable and understandable to a legal professional.
 
 <img class="figure" alt="Image of OpenLaw Technology Stack" src="/static/img/openlaw-stack.png" />

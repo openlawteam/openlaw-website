@@ -132,10 +132,10 @@ In uploading any work through our Services as User Content, you authorize other 
 
 If you think any of the Content or User Content on our Site infringes on your intellectual property rights (e.g., trademarks, patents, trade secrets, rights of publicity, etc.), send us a request to take down such infringing content by emailing us at dmcaservices.OpenlawService@52400187 and we’ll do our best to take it down as expeditiously as possible. Your complaint or request should include:
 
-*   The intellectual property you own that is being infringed;
-*   A description of the content you believe infringes upon your intellectual property;
-*   The website URL that contains or is associated with the infringing content; and
-*   A short explanation of how the content infringes your rights.
+- The intellectual property you own that is being infringed;
+- A description of the content you believe infringes upon your intellectual property;
+- The website URL that contains or is associated with the infringing content; and
+- A short explanation of how the content infringes your rights.
 
 ## Complaint Processing
 
@@ -145,11 +145,11 @@ Once we receive a complaint, we will make best efforts to review it as soon as p
 
 If you receive a notice that we have removed infringing or false content, and you believe that we have acted as a result of misidentification or error, you can lodge a counter notice (“Counter Notice”) by emailing us at [hello@openlaw.io](mailto:hello@openlaw.io). Any Counter Notice should include:
 
-*   Your full name, telephone number, and email address;
-*   An identification of the material that we have taken down;
-*   A statement under penalty of perjury that you have a good faith belief that the material was removed as a result of mistake or misidentification;
-*   A statement that you consent to the jurisdiction of the U.S. District Court for the federal district in which you reside, and that you will accept service of process from the complaining party or its agent in the event that a lawsuit is filed against you relating to such content; and
-*   Your physical or electronic signature.
+- Your full name, telephone number, and email address;
+- An identification of the material that we have taken down;
+- A statement under penalty of perjury that you have a good faith belief that the material was removed as a result of mistake or misidentification;
+- A statement that you consent to the jurisdiction of the U.S. District Court for the federal district in which you reside, and that you will accept service of process from the complaining party or its agent in the event that a lawsuit is filed against you relating to such content; and
+- Your physical or electronic signature.
 
 If we receive such a Counter Notice, we will re-upload the content, unless we first receive notice from the complaining party that it has filed a lawsuit or other action seeking a court order to keep you from engaging in the allegedly infringing activity.
 
@@ -157,11 +157,11 @@ If we receive such a Counter Notice, we will re-upload the content, unless we fi
 
 You understand and agree that we have no control over, and no duty to take any action regarding:
 
-*   which members subscribe to OpenLaw;
-*   what content you access via our Services;
-*   what effect the content may have on you;
-*   how you may interpret or use the content; or
-*   what actions you may take as a result of your exposure to the content.
+- which members subscribe to OpenLaw;
+- what content you access via our Services;
+- what effect the content may have on you;
+- how you may interpret or use the content; or
+- what actions you may take as a result of your exposure to the content.
 
 You release us from all liability related to you acquiring or not acquiring content through OpenLaw. OpenLaw may contain, or direct you to websites containing, information that some people may find offensive or inappropriate. We make no representations concerning any such content contained in or accessed through our Site, and we will not be responsible or liable for the accuracy, copyright compliance, legality, or decency of material contained in or accessed through OpenLaw. Your interactions with organizations and/or individuals found on or through OpenLaw, including membership payment or services, and any other terms, conditions, warranties, or representations associated with such dealings, are solely between you and such organizations and/or individuals.
 
@@ -172,9 +172,10 @@ You release us from all liability related to you acquiring or not acquiring cont
 <div class="legal">
   TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL WE OR ANY OF OUR OFFICERS, DIRECTORS, REPRESENTATIVES, AGENTS, SERVANTS, COUNSEL, EMPLOYEES, CONSULTANTS, LAWYERS, AND OTHER PERSONNEL AUTHORIZED TO ACT, ACTING, OR PURPORTING TO ACT ON OUR BEHALF (COLLECTIVELY THE “OPENLAW PARTIES”) BE LIABLE TO YOU UNDER CONTRACT, TORT, STRICT LIABILITY, NEGLIGENCE, OR ANY OTHER LEGAL OR EQUITABLE THEORY, FOR: (A) ANY LOST PROFITS, DATA LOSS, COST OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, COMPENSATORY, OR CONSEQUENTIAL DAMAGES (INCLUDING ATTORNEYS' FEES AND ALL RELATED COSTS AND EXPENSES OF LITIGATION AND ARBITRATION, OR AT TRIAL OR ON APPEAL, IF ANY, WHETHER OR NOT LITIGATION OR ARBITRATION IS INSTITUTED) OF ANY KIND WHATSOEVER RESULTING FROM: (I) YOUR ACCESS TO, USE OF, OR RELIANCE ON ANY CONTENT, MATERIALS, TEMPLATES, AGREEMENTS AND FORMS PROVIDED THROUGH THE SITE OR ANY ERRORS OR OMISSIONS IN ANY CONTENT, MATERIALS, TEMPLATES, AGREEMENTS, AND FORMS; (II) ANY UNAUTHORIZED ACCESS TO OR USE OF THE SITE OR OPENLAW’S SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN; (III) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SITE; OR (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE THAT MAY BE TRANSMITTED TO OR THROUGH OUR SITE BY ANY THIRD PARTY (REGARDLESS OF THE SOURCE OF ORIGINATION), OR (B) ANY DIRECT DAMAGES IN EXCESS OF (IN THE AGGREGATE) OF THE GREATER OF: (I) FEES PAID TO US FOR THE APPLICABLE PRODUCTS; OR (II) $100.00.
 
-  THESE LIMITATIONS APPLY REGARDLESS OF LEGAL THEORY, WHETHER BASED ON TORT, STRICT LIABILITY, BREACH OF CONTRACT, BREACH OF WARRANTY, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT WE WERE ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+THESE LIMITATIONS APPLY REGARDLESS OF LEGAL THEORY, WHETHER BASED ON TORT, STRICT LIABILITY, BREACH OF CONTRACT, BREACH OF WARRANTY, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT WE WERE ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-  SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
 </div>
 
 ### Warranty Disclaimer
@@ -182,9 +183,10 @@ You release us from all liability related to you acquiring or not acquiring cont
 <div class="legal">
   OPENLAW AND ALL MATERIALS, DOCUMENTS OR FORMS PROVIDED ON OR THROUGH YOUR USE OF THE SITE OR SERVICES ARE PROVIDED ON AN "AS-IS" AND “AS-AVAILABLE” BASIS WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE DISCLAIM ALL REPRESENTATIONS AND WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, RELATING TO THE SITE OR ANY CONTENT ON THE SITE, WHETHER PROVIDED OR OWNED BY US OR BY ANY THIRD PARTY, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, FREEDOM FROM COMPUTER VIRUS, AND ANY IMPLIED WARRANTIES ARISING FROM COURSE OF DEALING, COURSE OF PERFORMANCE, OR USAGE IN TRADE, ALL OF WHICH ARE EXPRESSLY DISCLAIMED. IN ADDITION, WE DO NOT REPRESENT OR WARRANT THAT THE CONTENT, MATERIALS AND FORMS ACCESSIBLE VIA THE SITE ARE ACCURATE, COMPLETE, AVAILABLE, CURRENT, FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR THAT THE RESULTS OF USING THE SITE WILL MEET YOUR REQUIREMENTS.
 
-  OBTAINING ANY FORMS OR MATERIALS THROUGH THE USE OF THE SITE OR SERVICES IS DONE AT YOUR OWN DISCRETION AND AT YOUR OWN RISK. OPENLAW SHALL HAVE NO RESPONSIBILITY FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY CONTENT, MATERIALS, INFORMATION OR SOFTWARE.
+OBTAINING ANY FORMS OR MATERIALS THROUGH THE USE OF THE SITE OR SERVICES IS DONE AT YOUR OWN DISCRETION AND AT YOUR OWN RISK. OPENLAW SHALL HAVE NO RESPONSIBILITY FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY CONTENT, MATERIALS, INFORMATION OR SOFTWARE.
 
-  SOME STATES DO NOT ALLOW THE DISCLAIMER OF IMPLIED WARRANTIES, SO THE FOREGOING DISCLAIMERS MAY NOT APPLY TO YOU. THIS PARAGRAPH GIVES YOU SPECIFIC LEGAL RIGHTS AND YOU MAY ALSO HAVE OTHER LEGAL RIGHTS THAT VARY FROM STATE TO STATE.
+SOME STATES DO NOT ALLOW THE DISCLAIMER OF IMPLIED WARRANTIES, SO THE FOREGOING DISCLAIMERS MAY NOT APPLY TO YOU. THIS PARAGRAPH GIVES YOU SPECIFIC LEGAL RIGHTS AND YOU MAY ALSO HAVE OTHER LEGAL RIGHTS THAT VARY FROM STATE TO STATE.
+
 </div>
 
 ## Indemnification (or What Happens If You Get Us Sued)
