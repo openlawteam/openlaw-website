@@ -2,16 +2,18 @@ import React from 'react';
 
 import Layout from '../components/layout';
 // import IntroSection from '../components/sections/IntroSection';
-import Toolkit from '../components/sections/Toolkit';
+import ConquerLegal from '../components/sections/ConquerLegal';
+import EliminateGruntWork from '../components/sections/EliminateGruntWork';
+// import Toolkit from '../components/sections/Toolkit';
 import WeHeartEngineers from '../components/sections/WeHeartEngineers';
 import ReadyToStart from '../components/sections/ReadyToStart';
-import ConquerLegal from '../components/sections/ConquerLegal';
 
 const IndexPage = () => (
   <Layout>
     {/* <IntroSection /> */}
     <ConquerLegal />
-    <Toolkit />
+    <EliminateGruntWork />
+    {/* <Toolkit /> */}
     <WeHeartEngineers />
     <ReadyToStart />
   </Layout>

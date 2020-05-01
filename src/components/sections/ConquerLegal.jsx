@@ -4,28 +4,31 @@ import { withPrefix } from 'gatsby-link';
 import s from '../../scss/modules/conquerlegal.module.scss';
 import f from '../../scss/modules/foundation.module.scss';
 
-import { hostnameContext } from '../../helper/url';
-
 import Wrap from '../common/Wrap';
 
 const Header = ({ children }) => <div className={s.header}>{children}</div>;
 const Text = ({ children }) => <p className={`${s.text}`}>{children}</p>;
 
 class ConquerLegal extends React.Component {
-  // TODO: direct to actual location
   goToRequestAccess = () => {
-    window.location.href = `${hostnameContext()}signup`;
+    window.open('https://openlawform.typeform.com/to/GYy10G', '_blank');
   };
 
   render() {
     return (
-      <div className={s.conquerLegal}>
+      <div className={s.conquerLegalContainer}>
         <div className={f.row}>
           <Wrap>
             <div className={s.tagLine}>
-              OpenLaw brings next gen contracts to 1.2 billion Microsoft users.
-              {/* TODO: direct to actual location */}
-              <a href="">Read more</a>
+              <img
+                src={withPrefix('/static/img/news-line.svg')}
+                alt="right angle lines"
+              />
+              <span>
+                OpenLaw brings next gen contracts to 1.2 billion Microsoft
+                users.{/* TODO: direct to actual location */}
+                <a href="#">Read more</a>
+              </span>
             </div>
             <div className={`${f.row} ${s.flexWrapper}`}>
               <div className={`${s.conquerLegalWrapper}`} key="1">

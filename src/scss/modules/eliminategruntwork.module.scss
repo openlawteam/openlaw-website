@@ -1,14 +1,14 @@
 @import "../variables";
 @import "../mixins";
 
-.conquer-legal-container {
+.eliminate-grunt-work-container {
   padding: 0 18px;
   position: relative;
 
   &:before {
     content: "Modular Builds For Incremental Needs";
     position: absolute;
-    top: 200px;
+    top: 500px;
     left: -165px;
     z-index: 10;
     text-transform: uppercase;
@@ -17,57 +17,67 @@
     color: $color-white;
     transform: rotate(-90deg);
   }
-
-  &:after {
-    content: "";
-    position: absolute;
-    width: 2.5rem;
-    height: 25px;
-    top: 490px;
-    left: -2.5rem;
-    background-image: url("/static/img/double-squiggle.svg");
-    background-repeat: no-repeat;
-    z-index: 10;
-  }
 }
 
-.tag-line {
-  margin: 3rem 0 0;
+.header-container {
+  text-align: center;
   padding: 0 0.9375rem;
-  display: flex;
-  line-height: 1.2;
+  margin: 5rem 0 50px;
+
+  .header {
+    font-size: 2rem;
+    color: $color-black;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 2rem;
+  }
 
   img {
-    transform: translateY(-30px);
-    margin-right: 1.3rem;
-    align-self: flex-start;
+    transform: translateY(-8px);
   }
 
-  a {
-    text-decoration: none;
-    color: #3fa0ff;
-    margin-left: 2rem;
-    font-size: 1rem;
-    white-space: nowrap;
+  @media screen and (max-width: 831px) {
+    text-align: initial;
+
+    .header {
+      margin: 0;
+    }
+
+    img {
+      display: none;
+    }
   }
 }
 
-.header {
-  font-size: 2rem;
-  color: $color-black;
-  line-height: 1.2;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-bottom: 1.75rem;
-}
-
-.conquer-legal-wrapper {
+.eliminate-grunt-work-wrapper {
   display: flex;
   justify-content: center;
 }
 
+.column-header {
+  font-size: 1.5rem;
+  color: $color-black;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  // display: inline-block;
+  // margin: 0 2rem;
+  margin: 2.5rem 0;
+}
+
+.text-column-container {
+  display: flex;
+}
+
+.text-column {
+  max-width: 300px;
+  padding: 0 2rem;
+}
+
 .img-column {
-  flex: 0 0 40%;
+  flex: 0 0 45%;
 }
 
 .img-div {
@@ -75,8 +85,8 @@
 }
 
 .img-div img {
-  margin-top: 1em;
-  width: 220px;
+  // margin-top: 1em;
+  width: 500px;
 }
 
 .button {
@@ -86,7 +96,7 @@
   border-radius: 0;
   box-shadow: 0.4rem 0.4rem $color-black;
   text-transform: uppercase;
-  margin: 6rem 0 0;
+  margin: 5rem 0 0;
   font-size: 1.25rem;
 
   &:hover,
@@ -96,23 +106,30 @@
   }
 }
 
-.text {
-  color: $color-black;
-  display: inline-block;
-  max-width: 550px;
-  font-size: 20px;
-}
+// .text {
+//   color: $color-black;
+//   display: inline-block;
+//   max-width: 400px;
+// }
 
 @include size-medium-down {
   .flex-wrapper {
     flex-direction: column;
   }
 
-  .conquer-legal-wrapper {
+  .eliminate-grunt-work-wrapper {
     flex-direction: column;
   }
 
-  .conquer-legal-wrapper > div {
+  .text-column-container {
+    flex-direction: column;
+  }
+
+  .text-column {
+    padding: 0 0.9375rem;
+  }
+
+  .eliminate-grunt-work-wrapper > div {
     flex: 0 0 50%;
     width: 100%;
   }
@@ -120,7 +137,7 @@
 
 @include size-tablet-down {
   .img-div img {
-    margin: 3rem 0;
+    margin: 1rem 0;
     // width: 12rem;
   }
 
@@ -130,11 +147,11 @@
 }
 
 @include size-medium-up {
-  .conquer-legal-wrapper {
+  .eliminate-grunt-work-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    margin: 30px 0 48px;
+    // margin: 48px 0;
   }
 }
