@@ -1,5 +1,4 @@
 import React from 'react';
-import AOS from 'aos';
 import { withPrefix } from 'gatsby-link';
 
 import s from '../../scss/modules/conquerlegal.module.scss';
@@ -13,9 +12,9 @@ const Header = ({ children }) => <div className={s.header}>{children}</div>;
 const Text = ({ children }) => <p className={`${s.text}`}>{children}</p>;
 
 class ConquerLegal extends React.Component {
-  // TODO
+  // TODO: direct to actual location
   goToRequestAccess = () => {
-    window.location.href = '';
+    window.location.href = `${hostnameContext()}signup`;
   };
 
   render() {
@@ -25,6 +24,7 @@ class ConquerLegal extends React.Component {
           <Wrap>
             <div className={s.tagLine}>
               OpenLaw brings next gen contracts to 1.2 billion Microsoft users.
+              {/* TODO: direct to actual location */}
               <a href="">Read more</a>
             </div>
             <div className={`${f.row} ${s.flexWrapper}`}>

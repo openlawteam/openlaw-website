@@ -8,7 +8,7 @@
   &:before {
     content: "Modular Builds For Incremental Needs";
     position: absolute;
-    top: 195px;
+    top: 190px;
     left: -160px;
     z-index: 10;
     text-transform: uppercase;
@@ -16,6 +16,18 @@
     font-weight: 600;
     color: $color-white;
     transform: rotate(-90deg);
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 2.5rem;
+    height: 25px;
+    top: 450px;
+    left: -2.5rem;
+    background-image: url("/static/img/double-squiggle.svg");
+    background-repeat: no-repeat;
+    z-index: 10;
   }
 }
 
@@ -66,13 +78,19 @@
 
 .button {
   color: $color-white;
-  background-color: #dc38d1;
+  background-color: $color-pink;
   padding: 18px;
   border-radius: 0;
   box-shadow: 0.3rem 0.3rem $color-black;
   text-transform: uppercase;
   margin: 5rem 0 0;
   font-size: 1.25rem;
+
+  &:hover,
+  &:focus {
+    background-color: $color-pink;
+    outline: none;
+  }
 }
 
 .text {
