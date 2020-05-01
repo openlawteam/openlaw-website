@@ -21,7 +21,7 @@
   justify-content: space-between;
   background-color: #000000;
   height: 90px;
-  padding: 0 2rem;
+  padding: 0 2rem 0 2.5rem;
   position: relative;
 }
 
@@ -29,8 +29,11 @@
   width: 200px;
   margin: 0 2rem 0 5rem;
 
-  @include size-down-down {
-    width: 160px;
+  @include size-tablet-down {
     margin: 0 1rem 0 0;
+  }
+
+  @include size-down-down {
+    width: 170px;
   }
 }

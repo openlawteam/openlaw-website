@@ -43,22 +43,7 @@ const Layout = ({ children, data, subpage }) => (
         <Header subpage={subpage} />
         <Wrap>
           <div className={s.wrapper}>
-            {/* <div className={`${f.row} ${s.imageWrap}`}>
-              <img
-                className={(subpage ? `${s.funBunch} ${s.funBunchSubpage}` : s.funBunch)}
-                src={withPrefix('/static/img/fun-bunch.png')}
-                alt=""
-              />
-              {!subpage && (
-                <img
-                  className={s.funBunchBw}
-                  src={withPrefix('/static/img/fun-bunch-bw.png')}
-                  alt=""
-                />
-              )}
-            </div> */}
-
-            {children}
+            <div className={`${s.bodyWrapper}`}>{children}</div>
             <Footer />
           </div>
         </Wrap>

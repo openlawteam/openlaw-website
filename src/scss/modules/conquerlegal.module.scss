@@ -1,0 +1,118 @@
+@import "../variables";
+@import "../mixins";
+
+.conquer-legal {
+  padding: 0 18px;
+  position: relative;
+
+  &:before {
+    content: "Modular Builds For Incremental Needs";
+    position: absolute;
+    top: 195px;
+    left: -160px;
+    z-index: 10;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: $color-white;
+    transform: rotate(-90deg);
+  }
+}
+
+.tag-line {
+  margin: 2rem 0;
+  padding: 0 0.9375rem;
+
+  a {
+    text-decoration: none;
+    color: #3fa0ff;
+    margin-left: 2rem;
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+}
+
+.conquer-legal-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-size: 2rem;
+  color: $color-black;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.flex-wrapper > p {
+  margin-bottom: 2.5rem;
+}
+
+.img-column {
+  flex: 0 0 40%;
+}
+
+.img-div {
+  text-align: center;
+}
+
+.img-div img {
+  margin-top: 1em;
+  width: 220px;
+}
+
+.button {
+  color: $color-white;
+  background-color: #dc38d1;
+  padding: 18px;
+  border-radius: 0;
+  box-shadow: 0.3rem 0.3rem $color-black;
+  text-transform: uppercase;
+  margin: 5rem 0 0;
+  font-size: 1.25rem;
+}
+
+.text {
+  color: $color-black;
+  display: inline-block;
+  max-width: 550px;
+}
+
+@include size-medium-down {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .conquer-legal-wrapper {
+    flex-direction: column;
+  }
+
+  .conquer-legal-wrapper > div {
+    flex: 0 0 50%;
+    width: 100%;
+  }
+}
+
+@include size-tablet-down {
+  .img-div img {
+    margin: 3rem 0;
+    width: 12rem;
+  }
+
+  .button {
+    margin: 2.5rem 0 0;
+  }
+}
+
+@include size-medium-up {
+  .conquer-legal-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 48px 0;
+  }
+}

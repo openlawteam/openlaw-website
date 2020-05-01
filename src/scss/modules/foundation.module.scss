@@ -1,3 +1,6 @@
+@import "../variables";
+@import "../mixins";
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.4.2
@@ -488,11 +491,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  background: #ffffff;
+  font-family: $font-body;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -562,7 +565,7 @@ textarea {
 }
 
 .row {
-  max-width: 62.5rem;
+  max-width: 72.5rem;
   margin-right: auto;
   margin-left: auto;
   display: -ms-flexbox;

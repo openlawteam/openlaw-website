@@ -14,4 +14,4 @@ export const MEDIA_DOWN_DOWN = '(max-width: 30em)';
 
 // custom media queries
 
-export const HEADER_MEDIUM_DOWN = '(max-width: 1084px)';
+export const HEADER_MEDIUM_DOWN = '(max-width: 1094px)';
