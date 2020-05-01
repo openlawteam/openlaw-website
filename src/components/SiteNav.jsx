@@ -3,7 +3,7 @@ import MediaQuery from 'react-responsive';
 
 import f from '../scss/modules/foundation.module.scss';
 import s from '../scss/modules/sitenav.module.scss';
-import { HEADER_MEDIUM_DOWN } from '../config/mediaQueries';
+import { HEADER_COLLAPSE_DOWN } from '../config/mediaQueries';
 import { HamburgerSVG } from './svg/HamburgerSVG';
 
 const EmptyTag = Fragment;
@@ -34,13 +34,9 @@ class SiteNav extends Component {
       {data.map(({ name, url, divider }) => (
         <EmptyTag key={`${name}-${url}`}>
           <li>
-            {name === 'Help' ? (
-              <a href={url} target="_blank" rel="noopener noreferrer">
-                {name}
-              </a>
-            ) : (
-              <a href={url}>{name}</a>
-            )}
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              {name}
+            </a>
           </li>
 
           {divider && isSmall && <hr />}
@@ -54,7 +50,7 @@ class SiteNav extends Component {
     const { isMenuOpen } = this.state;
 
     return (
-      <MediaQuery query={HEADER_MEDIUM_DOWN}>
+      <MediaQuery query={HEADER_COLLAPSE_DOWN}>
         {matches => {
           if (matches) {
             return (
