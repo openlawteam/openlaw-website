@@ -1,14 +1,27 @@
 @import "../variables";
 @import "../mixins";
 
+.outer-container {
+  position: relative;
+
+  &:after {
+    content: "";
+    display: block;
+    border-left: 1vw solid transparent;
+    border-top: 16px solid $color-black;
+    border-right: 1vw solid transparent;
+  }
+}
+
 .eliminate-grunt-work-container {
   padding: 0 18px;
   position: relative;
+  margin-bottom: 7rem;
 
   &:before {
     content: "Modular Builds For Incremental Needs";
     position: absolute;
-    top: 500px;
+    top: 400px;
     left: -165px;
     z-index: 10;
     text-transform: uppercase;
@@ -22,7 +35,7 @@
 .header-container {
   text-align: center;
   padding: 0 0.9375rem;
-  margin: 5rem 0 50px;
+  margin: 0 0 50px;
 
   .header {
     font-size: 2rem;
@@ -62,13 +75,16 @@
   line-height: 1.2;
   letter-spacing: 2px;
   text-transform: uppercase;
-  // display: inline-block;
-  // margin: 0 2rem;
   margin: 2.5rem 0;
 }
 
 .text-column-container {
   display: flex;
+}
+
+.text-and-button-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .text-column {
@@ -85,8 +101,11 @@
 }
 
 .img-div img {
-  // margin-top: 1em;
   width: 500px;
+}
+
+.button-container {
+  text-align: center;
 }
 
 .button {
@@ -94,23 +113,71 @@
   background-color: $color-pink;
   padding: 18px;
   border-radius: 0;
-  box-shadow: 0.4rem 0.4rem $color-black;
+  border-color: $color-pink;
+  border-style: solid;
+  border-width: 1px 2px 0 1px;
   text-transform: uppercase;
-  margin: 5rem 0 0;
+  margin: 2.5rem 0 0;
   font-size: 1.25rem;
+  position: relative;
+  transition: all 0.2s;
 
   &:hover,
   &:focus {
     background-color: $color-pink;
     outline: none;
   }
+
+  &::before {
+    position: absolute;
+    content: "";
+    transition: all 0.2s;
+    bottom: -6px;
+    height: 6px;
+    width: 101%;
+    left: 2px;
+    transform: skewX(45deg);
+    background-color: $color-black;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    transition: all 0.2s;
+    right: -8px;
+    height: 102%;
+    width: 6px;
+    bottom: -3px;
+    transform: skewY(45deg);
+    background-color: $color-black;
+  }
+
+  &:active {
+    transform: translate(4px, 4px);
+
+    &::before {
+      bottom: -2px;
+      height: 2px;
+      left: 0;
+    }
+
+    &::after {
+      right: -3px;
+      width: 2px;
+      bottom: -1px;
+    }
+  }
 }
 
-// .text {
-//   color: $color-black;
-//   display: inline-block;
-//   max-width: 400px;
-// }
+.highlight-container {
+  text-transform: uppercase;
+  text-align: center;
+  background-image: url("/static/img/highlight.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35px;
+  margin: 3rem 0 0;
+}
 
 @include size-medium-down {
   .flex-wrapper {
@@ -129,6 +196,17 @@
     padding: 0 0.9375rem;
   }
 
+  .button-container {
+    padding: 0 0.9375rem;
+    text-align: initial;
+  }
+
+  .highlight-container {
+    padding: 0 0.9375rem;
+    background-size: cover;
+    width: 300px;
+  }
+
   .eliminate-grunt-work-wrapper > div {
     flex: 0 0 50%;
     width: 100%;
@@ -138,11 +216,6 @@
 @include size-tablet-down {
   .img-div img {
     margin: 1rem 0;
-    // width: 12rem;
-  }
-
-  .button {
-    margin: 2.5rem 0 0;
   }
 }
 
@@ -152,6 +225,5 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    // margin: 48px 0;
   }
 }

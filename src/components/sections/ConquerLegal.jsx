@@ -1,6 +1,8 @@
 import React from 'react';
+import AOS from 'aos';
 import { withPrefix } from 'gatsby-link';
 
+import '../../../node_modules/aos/dist/aos.css';
 import s from '../../scss/modules/conquerlegal.module.scss';
 import f from '../../scss/modules/foundation.module.scss';
 
@@ -10,6 +12,16 @@ const Header = ({ children }) => <div className={s.header}>{children}</div>;
 const Text = ({ children }) => <p className={`${s.text}`}>{children}</p>;
 
 class ConquerLegal extends React.Component {
+  componentDidMount() {
+    AOS.init({
+      duration: 800,
+      offset: 40,
+      delay: 120,
+      mirror: true,
+      once: true,
+    });
+  }
+
   goToRequestAccess = () => {
     window.open('https://openlawform.typeform.com/to/GYy10G', '_blank');
   };
@@ -38,16 +50,26 @@ class ConquerLegal extends React.Component {
                     Be smart, save money, and close more deals with our digital
                     contracting platform.
                   </Text>
-                  <button
-                    onClick={this.goToRequestAccess}
-                    className={`${s.button} button`}
+                  <div
+                    className={s.buttonContainer}
+                    data-aos="fade-up"
+                    data-aos-delay="150"
                   >
-                    Request Free Access
-                  </button>
+                    <button
+                      onClick={this.goToRequestAccess}
+                      className={`${s.button} button`}
+                    >
+                      Request Free Access
+                    </button>
+                  </div>
                 </div>
 
                 <div className={`${f.column} ${s.imgColumn}`} key="1.2">
-                  <div className={`${s.imgDiv}`}>
+                  <div
+                    className={`${s.imgDiv}`}
+                    data-aos="fade-up"
+                    data-aos-delay="150"
+                  >
                     <img
                       src={withPrefix('/static/img/ol-agreement.png')}
                       role="presentation"
