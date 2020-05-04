@@ -67,11 +67,11 @@ class EliminateGruntWork extends React.Component {
                   </div>
 
                   <div className={`${f.column} ${s.imgColumn}`} key="1.3">
-                    <div className={`${s.imgDiv}`}>
+                    <div className={`${s.imgDiv} ${s.imgDivLeftFacing}`}>
                       <img
-                        src={withPrefix('/static/img/code-screen.png')}
+                        src={withPrefix('/static/img/left-facing-screen.svg')}
                         role="presentation"
-                        alt="Code on screen"
+                        alt="left facing screen"
                       />
                     </div>
                   </div>
@@ -82,14 +82,14 @@ class EliminateGruntWork extends React.Component {
                 <div className={`${s.eliminateGruntWorkWrapper}`} key="2">
                   <div className={`${f.column} ${s.imgColumn}`} key="2.1">
                     <div
-                      className={`${s.imgDiv}`}
+                      className={`${s.imgDiv} ${s.imgDivRightFacing}`}
                       data-aos="fade-up"
                       data-aos-delay="150"
                     >
                       <img
-                        src={withPrefix('/static/img/code-screen.png')}
+                        src={withPrefix('/static/img/right-facing-screen.svg')}
                         role="presentation"
-                        alt="Code on screen"
+                        alt="right facing screen"
                       />
                     </div>
                   </div>

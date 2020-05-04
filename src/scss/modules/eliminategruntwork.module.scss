@@ -3,6 +3,7 @@
 
 .outer-container {
   position: relative;
+  margin-bottom: 6rem;
 
   &:after {
     content: "";
@@ -35,7 +36,7 @@
 .header-container {
   text-align: center;
   padding: 0 0.9375rem;
-  margin: 0 0 50px;
+  margin: 0 0 60px;
 
   .header {
     font-size: 2rem;
@@ -52,14 +53,9 @@
   }
 
   @media screen and (max-width: 831px) {
-    text-align: initial;
-
     .header {
-      margin: 0;
-    }
-
-    img {
-      display: none;
+      margin: 0 0 12px;
+      display: block;
     }
   }
 }
@@ -96,12 +92,16 @@
   flex: 0 0 45%;
 }
 
-.img-div {
-  text-align: center;
+.img-div-left-facing {
+  text-align: right;
+}
+
+.img-div-right-facing {
+  text-align: left;
 }
 
 .img-div img {
-  width: 500px;
+  width: 80%;
 }
 
 .button-container {
@@ -176,7 +176,7 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 35px;
-  margin: 3rem 0 0;
+  margin: 4rem 0 0;
 }
 
 @include size-medium-down {
@@ -216,6 +216,10 @@
 @include size-tablet-down {
   .img-div img {
     margin: 1rem 0;
+  }
+
+  .img-div-left-facing {
+    text-align: left;
   }
 }
 

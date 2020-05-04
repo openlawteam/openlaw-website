@@ -1,0 +1,121 @@
+@import "../variables";
+@import "../mixins";
+
+.outer-container {
+  position: relative;
+  margin-bottom: 6rem;
+
+  &:after {
+    content: "";
+    display: block;
+    border-left: 1vw solid transparent;
+    border-bottom: 16px solid $color-black;
+    border-right: 1vw solid transparent;
+  }
+}
+
+.integrations-container {
+  padding: 0 18px;
+  position: relative;
+  margin-bottom: 6rem;
+
+  &:before {
+    content: "Modular Builds For Incremental Needs";
+    position: absolute;
+    top: 400px;
+    left: -165px;
+    z-index: 10;
+    text-transform: uppercase;
+    font-size: 0.825rem;
+    font-weight: 600;
+    color: $color-white;
+    transform: rotate(-90deg);
+  }
+}
+
+.header-outer-container {
+  text-align: center;
+  padding: 0 0.9375rem;
+  margin: 0 0 60px;
+  position: relative;
+
+  .header-inner-container {
+    display: inline-block;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+      border-left: 1vw solid transparent;
+      border-top: 8px solid $color-black;
+      border-right: 1vw solid transparent;
+    }
+  }
+
+  .header {
+    font-size: 2rem;
+    color: $color-black;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    padding: 8px 48px;
+    border: 1px solid $color-black;
+  }
+}
+
+.text {
+  display: block;
+  max-width: 75%;
+  font-size: 21px;
+  margin: 0 auto 60px;
+  padding: 0 0.9375rem;
+  text-align: center;
+
+  @include size-tablet-down {
+    max-width: none;
+  }
+}
+
+.integrations-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.brand-container {
+  display: flex;
+  justify-content: center;
+  width: auto;
+
+  img {
+    width: 60px;
+    margin: 0 2rem;
+  }
+}
+
+@include size-medium-down {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .integrations-wrapper {
+    flex-direction: column;
+  }
+}
+
+@include size-medium-up {
+  .integrations-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+@include size-tablet-down {
+  .text {
+    max-width: none;
+  }
+
+  .integrations-wrapper > div {
+    margin-bottom: 3rem;
+  }
+}

@@ -4,7 +4,7 @@
 .conquer-legal-container {
   padding: 0 18px;
   position: relative;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 
   &:before {
     content: "Modular Builds For Incremental Needs";
@@ -33,7 +33,7 @@
 }
 
 .tag-line {
-  margin: 3rem 0 0;
+  margin: 3rem 0 5rem;
   padding: 0 0.9375rem;
   display: flex;
   line-height: 1.2;
@@ -68,7 +68,7 @@
 }
 
 .img-column {
-  flex: 0 0 40%;
+  flex: 0 0 45%;
 }
 
 .img-div {
@@ -76,8 +76,8 @@
 }
 
 .img-div img {
-  margin-top: 1em;
-  width: 220px;
+  margin-top: 2rem;
+  width: 100%;
 }
 
 .button-container {
@@ -149,7 +149,7 @@
   color: $color-black;
   display: inline-block;
   max-width: 550px;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 @include size-medium-down {
@@ -169,11 +169,7 @@
 
 @include size-tablet-down {
   .img-div img {
-    margin: 3rem 0;
-  }
-
-  .button {
-    margin: 2.5rem 0 0;
+    margin: 4rem 0 2rem;
   }
 }
 
@@ -183,6 +179,5 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    margin: 30px 0 48px;
   }
 }

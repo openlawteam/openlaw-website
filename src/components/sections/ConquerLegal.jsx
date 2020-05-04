@@ -71,9 +71,9 @@ class ConquerLegal extends React.Component {
                     data-aos-delay="150"
                   >
                     <img
-                      src={withPrefix('/static/img/ol-agreement.png')}
+                      src={withPrefix('/static/img/primary-3d-boxes.svg')}
                       role="presentation"
-                      alt="OpenLaw code to agreement document"
+                      alt="primary 3D boxes"
                     />
                   </div>
                 </div>
