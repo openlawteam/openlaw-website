@@ -5,9 +5,10 @@ import Layout from '../components/layout';
 import ConquerLegal from '../components/sections/ConquerLegal';
 import EliminateGruntWork from '../components/sections/EliminateGruntWork';
 import Integrations from '../components/sections/Integrations';
+import ModernLaw from '../components/sections/ModernLaw';
 // import Toolkit from '../components/sections/Toolkit';
-import WeHeartEngineers from '../components/sections/WeHeartEngineers';
-import ReadyToStart from '../components/sections/ReadyToStart';
+// import WeHeartEngineers from '../components/sections/WeHeartEngineers';
+// import ReadyToStart from '../components/sections/ReadyToStart';
 
 const IndexPage = () => (
   <Layout>
@@ -15,9 +16,10 @@ const IndexPage = () => (
     <ConquerLegal />
     <EliminateGruntWork />
     <Integrations />
+    <ModernLaw />
     {/* <Toolkit /> */}
-    <WeHeartEngineers />
-    <ReadyToStart />
+    {/* <WeHeartEngineers /> */}
+    {/* <ReadyToStart /> */}
   </Layout>
 );
 
