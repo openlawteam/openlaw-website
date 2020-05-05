@@ -22,7 +22,7 @@
   &:before {
     content: "Modular Builds For Incremental Needs";
     position: absolute;
-    top: 400px;
+    top: 415px;
     left: -165px;
     z-index: 10;
     text-transform: uppercase;
@@ -69,10 +69,6 @@
   margin: 0 auto 60px;
   padding: 0 0.9375rem;
   text-align: center;
-
-  @include size-tablet-down {
-    max-width: none;
-  }
 }
 
 .integrations-wrapper {
@@ -86,7 +82,7 @@
   width: auto;
 
   img {
-    width: 60px;
+    width: 70px;
     margin: 0 2rem;
   }
 }
