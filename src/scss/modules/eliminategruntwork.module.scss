@@ -5,6 +5,23 @@
   position: relative;
   margin-bottom: 6rem;
 
+  &:before {
+    content: "";
+    position: absolute;
+    width: 69px;
+    height: 950px;
+    bottom: 50px;
+    left: 20px;
+    z-index: -1;
+    background-image: url("/static/img/dots-field.svg");
+    background-repeat: no-repeat;
+    background-size: 69px 950px;
+
+    @media screen and (max-width: 1362px) {
+      display: none;
+    }
+  }
+
   &:after {
     content: "";
     display: block;
