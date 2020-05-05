@@ -111,7 +111,7 @@
     max-width: none;
   }
 
-  .integrations-wrapper > div {
+  .integrations-wrapper > .brand-container:first-child {
     margin-bottom: 3rem;
   }
 }
