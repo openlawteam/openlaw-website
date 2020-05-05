@@ -15,6 +15,3 @@
 # current ones.
 [context.develop.environment]
   GATSBY_OL_CONTEXT = "develop"
-
-[context.staging.environment]
-  GATSBY_OL_CONTEXT = "staging"
