@@ -26,7 +26,7 @@
     transform: translateY(-8px);
   }
 
-  @media screen and (max-width: 918px) {
+  @media screen and (max-width: 924px) {
     .header {
       margin: 0 0 12px;
       display: block;
@@ -61,7 +61,7 @@
     margin: 0 2rem;
   }
 
-  @media screen and (max-width: 1179px) {
+  @media screen and (max-width: 1185px) {
     &:not(:last-child) {
       margin-bottom: 3rem;
     }
