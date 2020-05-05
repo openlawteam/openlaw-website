@@ -1,60 +1,63 @@
 @import "../variables";
 @import "../mixins";
 
-.conquer-legal-container {
-  padding: 0 18px;
+.outer-container {
   position: relative;
-  margin-bottom: 6rem;
-
-  &:before {
-    content: "Modular Builds For Incremental Needs";
-    position: absolute;
-    top: 200px;
-    left: -165px;
-    z-index: 10;
-    text-transform: uppercase;
-    font-size: 0.825rem;
-    font-weight: 600;
-    color: $color-white;
-    transform: rotate(-90deg);
-  }
+  border-bottom: 1px solid $color-black;
 
   &:after {
     content: "";
+    display: block;
+    border-left: 1vw solid transparent;
+    border-top: 16px solid $color-white;
+    border-right: 1vw solid transparent;
     position: absolute;
-    width: 2.5rem;
-    height: 25px;
-    top: 520px;
-    left: -2.5rem;
-    background-image: url("/static/img/double-squiggle.svg");
-    background-repeat: no-repeat;
+    bottom: -17px;
+    width: 100%;
     z-index: 10;
   }
 }
 
-.tag-line {
-  margin: 3rem 0 5rem;
-  padding: 0 0.9375rem;
-  display: flex;
-  line-height: 1.2;
+.get-started-container {
+  padding: 0 18px;
+  position: relative;
+  margin-bottom: 6rem;
+}
 
-  img {
-    transform: translateY(-30px);
-    margin-right: 1.3rem;
-    align-self: flex-start;
+.header-container {
+  text-align: center;
+  padding: 1rem calc(0.9375rem + 18px);
+  margin: 0 3rem 60px;
+  background-color: $color-black;
+
+  .header {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $color-white;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 2rem;
   }
 
-  a {
-    text-decoration: none;
-    color: #3fa0ff;
-    margin-left: 2rem;
-    font-size: 1rem;
-    white-space: nowrap;
+  img {
+    transform: translateY(-8px);
+  }
+
+  @media screen and (max-width: 898px) {
+    padding-bottom: 0.4rem;
+
+    .header {
+      margin: 0 0 12px;
+      display: block;
+    }
   }
 }
 
-.header {
+.sub-header {
   font-size: 2rem;
+  font-weight: 600;
   color: $color-black;
   line-height: 1.2;
   letter-spacing: 2px;
@@ -62,7 +65,7 @@
   margin-bottom: 1.75rem;
 }
 
-.conquer-legal-wrapper {
+.get-started-wrapper {
   display: flex;
   justify-content: center;
 }
@@ -77,11 +80,12 @@
 
 .img-div img {
   margin-top: 2rem;
-  width: 100%;
+  width: 80%;
 }
 
 .button-container {
   display: inline-block;
+  padding: 0 0.9375rem;
 }
 
 .button {
@@ -93,10 +97,11 @@
   border-style: solid;
   border-width: 1px 2px 0 1px;
   text-transform: uppercase;
-  margin: 6rem 0 0;
+  margin: 3rem 0 0;
   font-size: 1.25rem;
   position: relative;
   transition: all 0.2s;
+  width: 325px;
 
   &:hover,
   &:focus {
@@ -148,8 +153,14 @@
 .text {
   color: $color-black;
   display: inline-block;
-  max-width: 550px;
+  max-width: 500px;
   font-size: 21px;
+}
+
+.bold-text {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 3rem;
 }
 
 @include size-medium-down {
@@ -157,11 +168,11 @@
     flex-direction: column;
   }
 
-  .conquer-legal-wrapper {
+  .get-started-wrapper {
     flex-direction: column;
   }
 
-  .conquer-legal-wrapper > div {
+  .get-started-wrapper > div {
     flex: 0 0 50%;
     width: 100%;
   }
@@ -169,12 +180,16 @@
 
 @include size-tablet-down {
   .img-div img {
-    margin: 4rem 0 2rem;
+    margin: 0 0 4rem;
+  }
+
+  .header-container {
+    margin: 0 0 60px;
   }
 }
 
 @include size-medium-up {
-  .conquer-legal-wrapper {
+  .get-started-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

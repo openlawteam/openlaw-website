@@ -8,6 +8,7 @@ import Integrations from '../components/sections/Integrations';
 import ModernLaw from '../components/sections/ModernLaw';
 import UncompromisingStandards from '../components/sections/UncompromisingStandards';
 import Community from '../components/sections/Community';
+import GetStarted from '../components/sections/GetStarted';
 // import Toolkit from '../components/sections/Toolkit';
 // import WeHeartEngineers from '../components/sections/WeHeartEngineers';
 // import ReadyToStart from '../components/sections/ReadyToStart';
@@ -21,6 +22,7 @@ const IndexPage = () => (
     <ModernLaw />
     <UncompromisingStandards />
     <Community />
+    <GetStarted />
     {/* <Toolkit /> */}
     {/* <WeHeartEngineers /> */}
     {/* <ReadyToStart /> */}
