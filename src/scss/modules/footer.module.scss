@@ -2,7 +2,7 @@
 @import "../mixins";
 
 .footer-wrap {
-  background-color: #f2f2f5;
+  background-color: $color-black;
   flex-shrink: 0;
   min-height: 250px;
   padding: 3rem 1.8rem 3rem;
@@ -19,7 +19,7 @@
   }
 
   h3 {
-    color: $color-wiltedlilac;
+    color: $color-white;
     font-family: $font-body;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -43,7 +43,7 @@
 
   a {
     text-decoration: none;
-    color: $color-darksmoke;
+    color: $color-white;
     font-family: $font-body;
     font-weight: 700;
     letter-spacing: 2px;
@@ -52,16 +52,16 @@
 
     &:hover,
     &:focus {
-      color: $color-royal;
+      color: $color-white;
     }
 
     &:visited {
-      color: $color-darksmoke;
+      color: $color-white;
     }
 
     // meta
     span {
-      color: $color-royal;
+      color: $color-white;
       font-size: 12px;
       text-transform: none;
       letter-spacing: 0.5px;
@@ -92,13 +92,13 @@
     cursor: pointer;
 
     path {
-      fill: $color-wiltedlilac;
+      fill: $color-white;
     }
 
     &:hover,
     &:focus {
       path {
-        fill: $color-royal;
+        fill: $color-white;
       }
     }
   }
@@ -107,7 +107,7 @@
     transform: none;
 
     path {
-      fill: $color-royal;
+      fill: $color-white;
     }
   }
 }
@@ -132,7 +132,7 @@
   text-align: center;
 
   span {
-    color: $color-wiltedlilac;
+    color: $color-white;
     font-family: $font-body;
     font-size: 0.66em;
   }
@@ -142,7 +142,7 @@
   padding: 48px 0.9375rem 0;
 
   a {
-    color: #fff;
+    color: $color-white;
   }
 
   ul {
@@ -161,8 +161,8 @@
   a {
     text-decoration: none;
     font-size: 1em;
-    font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
-    color: white;
+    font-family: $font-body;
+    color: $color-white;
   }
 }
 
