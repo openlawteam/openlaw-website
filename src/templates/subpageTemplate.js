@@ -23,11 +23,13 @@ export default function SubpageTemplate({
         path={frontmatter.path.replace(/^\//, '')}
         title={`${frontmatter.title} | ${site.siteMetadata.title} — A free legal repository`}
       />
-      <div className={s.subpageWrap}>
-        <div
-          className={`${s.subpage} subpage`}
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+      <div className={s.outerContainer}>
+        <div className={s.subpageWrap}>
+          <div
+            className={`${s.subpage} subpage`}
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </div>
       </div>
     </Subpage>
   );

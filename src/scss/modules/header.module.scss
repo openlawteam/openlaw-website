@@ -1,20 +1,6 @@
 @import "../variables";
 @import "../mixins";
 
-.logo {
-  position: absolute;
-  top: 36px;
-
-  @include size-tablet-down {
-    top: 16px;
-  }
-}
-
-.link {
-  position: absolute;
-  z-index: 1001;
-}
-
 .header-wrap {
   display: flex;
   align-items: center;

@@ -11,16 +11,21 @@ import s from '../scss/modules/header.module.scss';
 
 const Header = ({ subpage }) => (
   <Wrap className={s.headerWrap}>
-    {subpage && (
-      <Link className={s.link} to="/">
-        <LogoCircle className={s.logo} />
+    {subpage ? (
+      <Link to="/">
+        <img
+          className={s.headerLogo}
+          src={withPrefix('/static/img/ol-logo-white.svg')}
+          alt="OpenLaw logo white"
+        />
       </Link>
+    ) : (
+      <img
+        className={s.headerLogo}
+        src={withPrefix('/static/img/ol-logo-white.svg')}
+        alt="OpenLaw logo white"
+      />
     )}
-    <img
-      className={s.headerLogo}
-      src={withPrefix('/static/img/ol-logo-white.svg')}
-      alt="OpenLaw logo white"
-    />
     <SiteNav data={NavData} />
   </Wrap>
 );
