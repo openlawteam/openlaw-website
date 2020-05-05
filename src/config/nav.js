@@ -1,5 +1,3 @@
-// import { hostnameContext } from '../helper/url';
-
 const NavData = [
   // {
   //   name: 'Solutions',

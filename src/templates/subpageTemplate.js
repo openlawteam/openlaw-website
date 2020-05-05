@@ -21,7 +21,7 @@ export default function SubpageTemplate({
           },
         ]}
         path={frontmatter.path.replace(/^\//, '')}
-        title={`${frontmatter.title} | ${site.siteMetadata.title} — A free legal repository`}
+        title={`${frontmatter.title} | ${site.siteMetadata.title}`}
       />
       <div className={s.outerContainer}>
         <div className={s.subpageWrap}>

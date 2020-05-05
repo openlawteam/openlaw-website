@@ -4,7 +4,6 @@ import { withPrefix } from 'gatsby-link';
 
 import SiteNav from './SiteNav';
 import NavData from '../config/nav';
-import { LogoCircle } from './svg/LogoCircle';
 import Wrap from './common/Wrap';
 
 import s from '../scss/modules/header.module.scss';

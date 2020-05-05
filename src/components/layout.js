@@ -1,12 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
-// import { withPrefix } from 'gatsby-link'
-import 'typeface-hind';
-import 'typeface-nunito';
 
 import '../scss/global.scss';
-// import f from '../scss/modules/foundation.module.scss'
 import s from '../scss/modules/base.module.scss';
 
 import Header from './header';
@@ -36,7 +32,7 @@ const Layout = ({ children, data, subpage }) => (
               },
             ]}
             path=""
-            title={`${data.site.siteMetadata.title} — A free legal repository`}
+            title={data.site.siteMetadata.title}
           />
         )}
 
