@@ -38,7 +38,8 @@ class ConquerLegal extends React.Component {
               />
               <span>
                 OpenLaw brings next gen contracts to 1.2 billion Microsoft
-                users.{/* TODO: direct to actual location */}
+                users.
+                {/* TODO: direct to actual medium post */}
                 <a href="#">Read more</a>
               </span>
             </div>

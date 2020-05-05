@@ -33,6 +33,7 @@ class UncompromisingStandards extends React.Component {
             <div className={`${f.row} ${s.flexWrapper}`}>
               <div className={`${s.uncompromisingStandardsWrapper}`} key="1">
                 <div className={s.userContainer} key="1.1">
+                  {/* TODO: add actual images for partners/clients */}
                   <span className={s.placeholderImg}></span>
                   <span className={s.placeholderImg}></span>
                 </div>
