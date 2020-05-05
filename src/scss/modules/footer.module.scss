@@ -1,171 +1,110 @@
 @import "../variables";
 @import "../mixins";
 
-.footer-wrap {
-  background-color: $color-black;
+.footer {
+  color: #ffffff;
+  background-color: #000000;
   flex-shrink: 0;
-  min-height: 250px;
-  padding: 3rem 1.8rem 3rem;
+  margin: 0;
+  padding: 4rem 7rem 3rem;
   position: relative;
+
+  @media screen and (max-width: 1068px) {
+    padding: 4rem 2.5rem 3rem;
+  }
 }
 
-.footer {
+.footer-content {
   display: flex;
+  justify-content: space-between;
   width: 100%;
-  margin-bottom: 24px;
 
-  @include size-tablet-down {
+  @media screen and (max-width: 1068px) {
     flex-direction: column;
   }
-
-  h3 {
-    color: $color-white;
-    font-family: $font-body;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 12px;
-    font-weight: 600;
-
-    @include size-tablet-down {
-      padding-top: 12px;
-    }
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  li {
-    padding: 3px 0;
-  }
-
-  a {
-    text-decoration: none;
-    color: $color-white;
-    font-family: $font-body;
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 12px;
-    text-transform: uppercase;
-
-    &:hover,
-    &:focus {
-      color: $color-white;
-    }
-
-    &:visited {
-      color: $color-white;
-    }
-
-    // meta
-    span {
-      color: $color-white;
-      font-size: 12px;
-      text-transform: none;
-      letter-spacing: 0.5px;
-    }
-  }
-
-  input[type="text"] {
-    border-radius: 4px;
-  }
 }
 
-.footer-logo--consensys {
-  margin: 0 auto;
-  text-align: center;
-  display: block;
-}
-
-.input-wrap {
-  position: relative;
-
-  svg {
-    transform: rotate(-90deg);
-    width: 16px;
-    height: 16px;
-    position: absolute;
-    top: 10px;
-    right: 12px;
-    cursor: pointer;
-
-    path {
-      fill: $color-white;
-    }
-
-    &:hover,
-    &:focus {
-      path {
-        fill: $color-white;
-      }
-    }
-  }
-
-  svg[data-icon-style="check"] {
-    transform: none;
-
-    path {
-      fill: $color-white;
-    }
-  }
-}
-
-.flex-wrap {
+.footer-section-info-and-contact {
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
 
   > div {
-    margin-right: 24px;
-    margin-bottom: 24px;
+    margin-right: 4rem;
   }
 
-  @include size-medium-down {
-    flex-direction: column;
-    margin-bottom: 48px;
+  @media screen and (max-width: 1068px) {
+    .contact-column {
+      margin: 0;
+    }
   }
+
+  @media screen and (max-width: 473px) {
+    flex-direction: column;
+
+    .info-column {
+      margin: 0 0 2rem;
+    }
+  }
+}
+
+.footer-section:not(:last-child) {
+  @media screen and (max-width: 1068px) {
+    margin-bottom: 2rem;
+  }
+}
+
+.footer-header {
+  margin: 0 0 1rem;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li:not(:last-child) {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.footer a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none !important;
+  text-transform: uppercase;
+
+  &:hover {
+    color: #fff;
+  }
+
+  span {
+    margin-left: 6px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+  }
+}
+
+.footer-social-link:not(:last-child) {
+  margin-right: 1.75rem;
+}
+
+.footer-social-icon {
+  height: 20px;
+  width: 20px;
 }
 
 .footer-copyright {
-  text-align: center;
-
-  span {
-    color: $color-white;
-    font-family: $font-body;
-    font-size: 0.66em;
-  }
+  font-size: 0.8rem;
+  margin-top: 1rem;
 }
 
-.footer-nav {
-  padding: 48px 0.9375rem 0;
-
-  a {
-    color: $color-white;
-  }
-
-  ul {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-end;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: space-between;
-    float: right;
-    max-width: 62.5rem;
-    width: 100%;
-  }
-
-  a {
-    text-decoration: none;
-    font-size: 1em;
-    font-family: $font-body;
-    color: $color-white;
-  }
-}
-
-.footer-inner-wrapper {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+.copyright-symbol {
+  font-size: 1.1rem;
+  display: inline-block;
+  transform: translateY(5px);
 }
