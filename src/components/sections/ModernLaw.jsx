@@ -29,7 +29,7 @@ class ModernLaw extends React.Component {
             <SubHeader>
               A secure platform built from the inside out.
               <br />
-              By lawyers, for better law.
+              Built by lawyers to improve your practice.
             </SubHeader>
             <div className={`${f.row} ${s.flexWrapper}`}>
               <div className={`${s.modernLawWrapper}`} key="1">
@@ -53,9 +53,9 @@ class ModernLaw extends React.Component {
                     Legal Teams
                   </div>
                   <ul>
-                    <li>Improve associate performance</li>
-                    <li>Notify clients as contracts are being drafted</li>
-                    <li>Decrease risk of error and mistake</li>
+                    <li>Enable business side</li>
+                    <li>Set up approvals</li>
+                    <li>Eliminate bottlenecks</li>
                   </ul>
                 </div>
 

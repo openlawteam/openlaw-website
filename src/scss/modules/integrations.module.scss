@@ -19,17 +19,16 @@
   position: relative;
   margin-bottom: 6rem;
 
-  &:before {
-    content: "Modular Builds For Incremental Needs";
+  &:after {
+    content: "";
     position: absolute;
-    top: 415px;
-    left: -165px;
+    width: 2.5rem;
+    height: 25px;
+    top: 428px;
+    left: -2.5rem;
+    background-image: url("/static/img/double-squiggle.svg");
+    background-repeat: no-repeat;
     z-index: 10;
-    text-transform: uppercase;
-    font-size: 0.825rem;
-    font-weight: 600;
-    color: $color-white;
-    transform: rotate(-90deg);
   }
 }
 
@@ -59,6 +58,7 @@
     letter-spacing: 2px;
     padding: 8px 48px;
     border: 1px solid $color-black;
+    text-transform: uppercase;
   }
 }
 
@@ -125,7 +125,7 @@
     padding: 0 10px;
     margin-bottom: 4rem;
 
-    &:before {
+    &:after {
       display: none;
     }
   }

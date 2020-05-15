@@ -18,7 +18,7 @@ class Integrations extends React.Component {
             <Wrap>
               <div className={s.headerOuterContainer}>
                 <div className={s.headerInnerContainer}>
-                  <Header>Simple Secure and Easy</Header>
+                  <Header>Simple, Secure, and Easy</Header>
                 </div>
               </div>
               <Text>

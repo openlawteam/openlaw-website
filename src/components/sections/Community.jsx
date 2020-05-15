@@ -47,8 +47,9 @@ class Community extends React.Component {
         <div className={f.row}>
           <Wrap>
             <SubHeader>
-              Our sandbox is for developers who want to make the next great
-              product leveraging our tools, markup and blockchain extensions.
+              Explore how developers are extending our digital contracting
+              platform to execute smart contracts, build new applications, and
+              power the future of law.
             </SubHeader>
             <div className={s.developersContainer}>
               <div className={s.developersHeader}>Developers</div>

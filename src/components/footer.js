@@ -88,7 +88,7 @@ const Footer = () => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Say Hi:<span>hello@openlaw.io</span>
+                  Say Hi
                 </a>
               </li>
               <li>
@@ -97,16 +97,7 @@ const Footer = () => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Support:<span>help@openlaw.io</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/openlawteam/openlaw-issue-tracker"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Report a bug
+                  Support
                 </a>
               </li>
               <RenderJobsLink />
