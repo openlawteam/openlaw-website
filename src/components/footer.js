@@ -67,7 +67,7 @@ const Footer = () => (
                 </a>
               </li>
               <li>
-                <a href="https://openlaw-website.netlify.com/openlaw-media-logos.zip">
+                <a href="https://openlaw-website.netlify.app/openlaw-media-logos.zip">
                   Media Kit
                 </a>
               </li>
