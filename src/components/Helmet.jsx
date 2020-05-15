@@ -39,7 +39,7 @@ const Helmet = props => (
     <meta property="og:title" content={props.title} />
     <meta
       property="og:image"
-      content="https://openlaw-website.netlify.com/openlaw-horizontal-2x.png"
+      content="https://openlaw-website.netlify.com/ol-logo-black.png"
     />
     <meta
       property="og:description"
