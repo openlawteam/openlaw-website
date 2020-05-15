@@ -37,6 +37,7 @@
   padding: 0 0.9375rem;
   display: flex;
   line-height: 1.2;
+  font-size: 1em;
 
   img {
     transform: translateY(-30px);
@@ -179,5 +180,57 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+  }
+}
+
+@include size-down-down {
+  .conquer-legal-container {
+    padding: 0 10px;
+    margin-bottom: 4rem;
+
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+
+  .tag-line {
+    margin: 1rem 0 3rem;
+    font-size: 1rem;
+
+    img {
+      display: none;
+    }
+
+    a {
+      font-size: 0.9rem;
+      margin-left: 1.25rem;
+    }
+  }
+
+  .header {
+    font-size: 1.7rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+
+  .text {
+    max-width: none;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .button-container {
+    display: block;
+    text-align: center;
+  }
+
+  .button {
+    margin: 2rem 0 0;
+    font-size: 1.1rem;
+  }
+
+  .img-div img {
+    margin: 3rem 0 1rem;
   }
 }

@@ -221,7 +221,56 @@
 }
 
 @include size-down-down {
+  .community-container {
+    padding: 0 10px;
+    margin-bottom: 3.5rem;
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .header-container {
+    margin: 0 -18px 40px;
+
+    .header {
+      font-size: 1.7rem;
+    }
+  }
+
+  .sub-header {
+    font-size: 1rem;
+    margin: 0 auto 80px;
+  }
+
   .developers-container {
     width: 300px;
+    margin: 0 auto 2rem;
+
+    .developers-header {
+      font-size: 1.5rem;
+
+      &::before {
+        width: 101.5%;
+      }
+    }
+
+    img {
+      margin: 2rem 0 1.25rem;
+    }
+
+    .developers-text {
+      font-size: 15px;
+      padding: 0 1rem 2rem;
+    }
+  }
+
+  .flex-wrapper {
+    margin: 18px 0 0 !important;
+  }
+
+  .button {
+    font-size: 1.1rem;
+    margin: 20px 0;
   }
 }

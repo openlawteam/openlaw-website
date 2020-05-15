@@ -12,7 +12,7 @@ const Header = ({ children }) => <div className={s.header}>{children}</div>;
 const ColumnHeader = ({ children }) => (
   <div className={s.columnHeader}>{children}</div>
 );
-const Text = ({ children }) => <p>{children}</p>;
+const Text = ({ children }) => <p className={s.text}>{children}</p>;
 
 class EliminateGruntWork extends React.Component {
   componentDidMount() {

@@ -12,6 +12,10 @@
   @media screen and (max-width: 1068px) {
     padding: 4rem 2.5rem 3rem;
   }
+
+  @include size-down-down {
+    padding: 4rem 1.5rem 3rem;
+  }
 }
 
 .footer-content {
@@ -107,4 +111,31 @@
   font-size: 1.1rem;
   display: inline-block;
   transform: translateY(5px);
+}
+
+@include size-down-down {
+  .footer-header {
+    font-size: 13px;
+  }
+
+  .footer a {
+    font-size: 11px;
+
+    span {
+      font-size: 11px;
+    }
+  }
+
+  .footer-social-icon {
+    height: 18px;
+    width: 18px;
+  }
+
+  .footer-copyright {
+    font-size: 0.75rem;
+  }
+
+  .copyright-symbol {
+    font-size: 1.05rem;
+  }
 }

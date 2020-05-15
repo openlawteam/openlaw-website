@@ -149,3 +149,18 @@
     }
   }
 }
+
+@include size-down-down {
+  .hamburger {
+    width: 25px;
+    height: 25px;
+  }
+
+  .nav-menu {
+    right: 1rem;
+
+    a {
+      font-size: 1rem;
+    }
+  }
+}

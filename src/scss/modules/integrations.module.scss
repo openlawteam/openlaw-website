@@ -115,3 +115,40 @@
     margin-bottom: 3rem;
   }
 }
+
+@include size-down-down {
+  .outer-container {
+    margin-bottom: 4rem;
+  }
+
+  .integrations-container {
+    padding: 0 10px;
+    margin-bottom: 4rem;
+
+    &:before {
+      display: none;
+    }
+  }
+
+  .header-outer-container {
+    margin: 0 0 2rem;
+
+    .header {
+      font-size: 1.7rem;
+    }
+  }
+
+  .text {
+    font-size: 18px;
+    margin: 0 auto 50px;
+  }
+
+  .brand-container img {
+    width: 50px;
+    margin: 0 1.75rem;
+  }
+
+  .integrations-wrapper > .brand-container:first-child {
+    margin-bottom: 2rem;
+  }
+}

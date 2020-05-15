@@ -31,17 +31,17 @@ class ConquerLegal extends React.Component {
       <div className={s.conquerLegalContainer}>
         <div className={f.row}>
           <Wrap>
+            {/* TODO: direct to actual medium post */}
             <div className={s.tagLine}>
-              <img
+              {/* <img
                 src={withPrefix('/static/img/news-line.svg')}
                 alt="right angle lines"
               />
               <span>
                 OpenLaw brings next gen contracts to 1.2 billion Microsoft
                 users.
-                {/* TODO: direct to actual medium post */}
                 <a href="#">Read more</a>
-              </span>
+              </span> */}
             </div>
             <div className={`${f.row} ${s.flexWrapper}`}>
               <div className={`${s.conquerLegalWrapper}`} key="1">

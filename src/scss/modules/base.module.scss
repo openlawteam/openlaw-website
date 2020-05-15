@@ -71,8 +71,13 @@ h6 {
 }
 
 .body-wrapper {
-  border-left: 2.5rem solid $color-black;
-  border-right: 6px solid $color-black;
+  border-color: $color-black;
+  border-style: solid;
+  border-width: 0 6px 0 2.5rem;
+
+  @include size-down-down {
+    border-width: 0 6px 0 6px;
+  }
 }
 
 .image-wrap {

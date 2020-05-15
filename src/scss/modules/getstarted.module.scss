@@ -196,3 +196,61 @@
     width: 100%;
   }
 }
+
+@include size-down-down {
+  .get-started-container {
+    padding: 0 10px;
+    margin-bottom: 4rem;
+  }
+
+  .header-container {
+    margin: 0 0 2rem;
+
+    .header {
+      font-size: 1.7rem;
+    }
+  }
+
+  .flex-wrapper {
+    margin: 18px 0 0 !important;
+  }
+
+  .img-div img {
+    margin: 0 0 3rem;
+  }
+
+  .sub-header {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .text {
+    max-width: none;
+    font-size: 18px;
+  }
+
+  .bold-text {
+    font-size: 22px;
+    margin: 1rem 0 0;
+  }
+
+  .button-container {
+    display: block;
+    text-align: center;
+  }
+
+  .button {
+    font-size: 1.1rem;
+    margin: 2rem 0 0;
+    width: 250px;
+
+    &::before {
+      width: 101.25%;
+    }
+
+    &::after {
+      bottom: -4px;
+    }
+  }
+}

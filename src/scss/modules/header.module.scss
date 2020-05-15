@@ -9,6 +9,10 @@
   height: 90px;
   padding: 0 2.5rem;
   position: relative;
+
+  @include size-down-down {
+    padding: 0 1.5rem;
+  }
 }
 
 .header-logo {
