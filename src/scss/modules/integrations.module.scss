@@ -1,0 +1,154 @@
+@import "../variables";
+@import "../mixins";
+
+.outer-container {
+  position: relative;
+  margin-bottom: 6rem;
+
+  &:after {
+    content: "";
+    display: block;
+    border-left: 1vw solid transparent;
+    border-bottom: 16px solid $color-black;
+    border-right: 1vw solid transparent;
+  }
+}
+
+.integrations-container {
+  padding: 0 18px;
+  position: relative;
+  margin-bottom: 6rem;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 2.5rem;
+    height: 25px;
+    top: 428px;
+    left: -2.5rem;
+    background-image: url("/static/img/double-squiggle.svg");
+    background-repeat: no-repeat;
+    z-index: 10;
+  }
+}
+
+.header-outer-container {
+  text-align: center;
+  padding: 0 0.9375rem;
+  margin: 0 0 60px;
+  position: relative;
+
+  .header-inner-container {
+    display: inline-block;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+      border-left: 1vw solid transparent;
+      border-top: 8px solid $color-black;
+      border-right: 1vw solid transparent;
+    }
+  }
+
+  .header {
+    font-size: 2rem;
+    color: $color-black;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    padding: 8px 48px;
+    border: 1px solid $color-black;
+    text-transform: uppercase;
+  }
+}
+
+.text {
+  display: block;
+  max-width: 75%;
+  font-size: 21px;
+  margin: 0 auto 60px;
+  padding: 0 0.9375rem;
+  text-align: center;
+}
+
+.integrations-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.brand-container {
+  display: flex;
+  justify-content: center;
+  width: auto;
+
+  img {
+    width: 70px;
+    margin: 0 2rem;
+  }
+}
+
+@include size-medium-down {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .integrations-wrapper {
+    flex-direction: column;
+  }
+}
+
+@include size-medium-up {
+  .integrations-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+@include size-tablet-down {
+  .text {
+    max-width: none;
+  }
+
+  .integrations-wrapper > .brand-container:first-child {
+    margin-bottom: 3rem;
+  }
+}
+
+@include size-down-down {
+  .outer-container {
+    margin-bottom: 4rem;
+  }
+
+  .integrations-container {
+    padding: 0 10px;
+    margin-bottom: 4rem;
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .header-outer-container {
+    margin: 0 0 2rem;
+
+    .header {
+      font-size: 1.7rem;
+    }
+  }
+
+  .text {
+    font-size: 18px;
+    margin: 0 auto 50px;
+  }
+
+  .brand-container img {
+    width: 50px;
+    margin: 0 1.75rem;
+  }
+
+  .integrations-wrapper > .brand-container:first-child {
+    margin-bottom: 2rem;
+  }
+}

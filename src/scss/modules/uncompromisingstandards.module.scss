@@ -1,0 +1,130 @@
+@import "../variables";
+@import "../mixins";
+
+.uncompromising-standards-container {
+  padding: 0 18px;
+  position: relative;
+  margin-bottom: 7rem;
+}
+
+.header-container {
+  text-align: center;
+  padding: 0 0.9375rem;
+  margin: 0 0 60px;
+
+  .header {
+    font-size: 2rem;
+    color: $color-black;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 2rem;
+  }
+
+  img {
+    transform: translateY(-8px);
+  }
+
+  @media screen and (max-width: 924px) {
+    .header {
+      margin: 0 0 12px;
+      display: block;
+    }
+  }
+}
+
+.sub-header {
+  display: block;
+  max-width: 80%;
+  font-size: 21px;
+  margin: 0 auto 90px;
+  padding: 0 0.9375rem;
+  text-align: center;
+}
+
+.uncompromising-standards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.user-container {
+  display: flex;
+  justify-content: center;
+  width: auto;
+
+  .placeholder-img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid $color-black;
+    border-radius: 6px;
+    margin: 0 2rem;
+  }
+
+  @media screen and (max-width: 1185px) {
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+@include size-medium-down {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .uncompromising-standards-wrapper {
+    flex-direction: column;
+  }
+}
+
+@include size-medium-up {
+  .uncompromising-standards-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+@include size-tablet-down {
+  .sub-header {
+    max-width: none;
+  }
+
+  .user-container .placeholder-img {
+    margin: 0 1rem;
+  }
+}
+
+@include size-down-down {
+  .uncompromising-standards-container {
+    padding: 0 10px;
+    margin-bottom: 4rem;
+  }
+
+  .header-container {
+    margin: 0 0 2rem;
+
+    .header {
+      font-size: 1.7rem;
+    }
+  }
+
+  .sub-header {
+    font-size: 18px;
+    margin: 0 auto 50px;
+  }
+
+  .user-container {
+    .placeholder-img {
+      width: 90px;
+      height: 90px;
+      margin: 0 1.75rem;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+}

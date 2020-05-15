@@ -8,9 +8,9 @@ title: "Privacy Policy"
 
 ## Last Updated: December 20, 2019
 
-This privacy policy (**&quot;Policy&quot;**) describes how ConsenSys AG&apos;s OpenLaw (**&quot;OpenLaw&quot;**, **&quot;Company&quot;**, **&quot;we&quot;**, **&quot;our&quot;**, or **&quot;us&quot;**) collects, uses, shares, and stores personal information of users of this website, openlaw.io (the **&quot;Site&quot;**). This Policy applies to the Site, applications, products and services (collectively, **&quot;Services&quot;**) on or in which it is posted, linked, or referenced. 
+This privacy policy (**&quot;Policy&quot;**) describes how ConsenSys AG&apos;s OpenLaw (**&quot;OpenLaw&quot;**, **&quot;Company&quot;**, **&quot;we&quot;**, **&quot;our&quot;**, or **&quot;us&quot;**) collects, uses, shares, and stores personal information of users of this website, openlaw.io (the **&quot;Site&quot;**). This Policy applies to the Site, applications, products and services (collectively, **&quot;Services&quot;**) on or in which it is posted, linked, or referenced.
 
-By using the Services, you accept the terms of this Policy and our [Terms of Use](/terms), and consent to our collection, use, disclosure, and retention of your information as described in this Policy.  If you have not done so already, please also review our [Terms of Use](/terms). The [Terms of Use](/terms) contain provisions that limit our liability to you and require you to resolve any dispute with us on an individual basis and not as part of any class or representative action. IF YOU DO NOT AGREE WITH ANY PART OF THIS PRIVACY POLICY OR OUR TERMS OF USE, THEN PLEASE DO NOT USE ANY OF THE SERVICES.
+By using the Services, you accept the terms of this Policy and our [Terms of Use](/terms), and consent to our collection, use, disclosure, and retention of your information as described in this Policy. If you have not done so already, please also review our [Terms of Use](/terms). The [Terms of Use](/terms) contain provisions that limit our liability to you and require you to resolve any dispute with us on an individual basis and not as part of any class or representative action. IF YOU DO NOT AGREE WITH ANY PART OF THIS PRIVACY POLICY OR OUR TERMS OF USE, THEN PLEASE DO NOT USE ANY OF THE SERVICES.
 
 Please note that this Policy does not apply to information collected through third-party websites or services that you may access through the Services or that you submit to us through email, text message or other electronic message or offline.
 
@@ -22,12 +22,12 @@ We get information about you in a range of ways.
 
 **Information You Give Us.** Information we collect from you includes:
 
-* Identity information, such as your first name, last name, username or similar identifier, title, date of birth and gender;
-* Contact information, such as your postal address, email address and telephone number;
-* Profile information, such as your username and password, interests, preferences, feedback and survey responses;
-* Feedback and correspondence, such as the information you provide in your responses to surveys, when you participate in market research activities, report a problem with Service, receive customer support or otherwise correspond with us;
-* Usage information, such as information about how you use the Service and interact with us;
-* Marketing information, such as your preferences for receiving marketing communications and details about how you engage with them.
+- Identity information, such as your first name, last name, username or similar identifier, title, date of birth and gender;
+- Contact information, such as your postal address, email address and telephone number;
+- Profile information, such as your username and password, interests, preferences, feedback and survey responses;
+- Feedback and correspondence, such as the information you provide in your responses to surveys, when you participate in market research activities, report a problem with Service, receive customer support or otherwise correspond with us;
+- Usage information, such as information about how you use the Service and interact with us;
+- Marketing information, such as your preferences for receiving marketing communications and details about how you engage with them.
 
 **Information We Get From Others.** We may get information about you from other third-party sources and we may add this to information we get from your use of the Services. Such information may include:
 
@@ -46,13 +46,14 @@ Google Analytics: You can find more information about Google Analytics&apos; use
 ### To Provide Our Service
 
 We will use your personal information in the following ways:
-* To enable you to access and use the Services.
-* To provide and deliver products and services that you may request.
-* To send information, including confirmations, technical notices, updates, security alerts, and support and administrative messages.
+
+- To enable you to access and use the Services.
+- To provide and deliver products and services that you may request.
+- To send information, including confirmations, technical notices, updates, security alerts, and support and administrative messages.
 
 ### To Comply With Law
 
-We use your personal information as we believe necessary or appropriate to comply with applicable laws (including anti-money laundering (AML) laws and know-your-customer (KYC) requirements), lawful requests and legal process, such as to respond to subpoenas or requests from government authorities.  
+We use your personal information as we believe necessary or appropriate to comply with applicable laws (including anti-money laundering (AML) laws and know-your-customer (KYC) requirements), lawful requests and legal process, such as to respond to subpoenas or requests from government authorities.
 
 ### To Communicate With You
 
@@ -60,7 +61,7 @@ We use your personal information to communicate about promotions, upcoming event
 
 ### To Optimize Our Platform
 
-In order to optimize your user experience, we may use your personal information to operate, maintain, and improve our Services. We may also use your information to respond to your comments and questions regarding the Services, and to provide you and other users with general customer service. 
+In order to optimize your user experience, we may use your personal information to operate, maintain, and improve our Services. We may also use your information to respond to your comments and questions regarding the Services, and to provide you and other users with general customer service.
 
 ### With Your Consent
 
@@ -74,15 +75,15 @@ We may use your personal information to protect, investigate, and deter against 
 
 We do not share or sell the personal information that you provide us with other organizations without your express consent, except as described in this Privacy Policy. We disclose personal information to third parties under the following circumstances:
 
-* **Affiliates.** We may disclose your personal information to our subsidiaries and corporate affiliates for purposes consistent with this Privacy Policy.
-* **Business Transfers.** We may share personal information when we do a business deal, or negotiate a business deal, involving the sale or transfer of all or a part of our business or assets. These deals can include any merger, financing, acquisition, or bankruptcy transaction or proceeding.
-* **Compliance with Laws and Law Enforcement; Protection and Safety.** We may share personal information for legal, protection, and safety purposes.
-  * We may share information to comply with laws, including KYC and AML requirements.
-  * We may share information to respond to lawful requests and legal processes.
-  * We may share information to protect the rights and property of the Company, our agents, customers, and others. This includes enforcing our agreements, policies, and terms of use.
-  * We may share information in an emergency. This includes protecting the safety of our employees and agents, our customers, or any person.
-* **Professional Advisors and Service Providers.** We may share information with those who need it to do work for us. These recipients may include third party companies and individuals to administer and provide the Service on our behalf (such as customer support, hosting, email delivery and database management services), as well as lawyers, bankers, auditors, and insurers.
-* **Other.** You may permit us to share your personal information with other companies or entities of your choosing. Those uses will be subject to the privacy policies of the recipient entity or entities. 
+- **Affiliates.** We may disclose your personal information to our subsidiaries and corporate affiliates for purposes consistent with this Privacy Policy.
+- **Business Transfers.** We may share personal information when we do a business deal, or negotiate a business deal, involving the sale or transfer of all or a part of our business or assets. These deals can include any merger, financing, acquisition, or bankruptcy transaction or proceeding.
+- **Compliance with Laws and Law Enforcement; Protection and Safety.** We may share personal information for legal, protection, and safety purposes.
+  - We may share information to comply with laws, including KYC and AML requirements.
+  - We may share information to respond to lawful requests and legal processes.
+  - We may share information to protect the rights and property of the Company, our agents, customers, and others. This includes enforcing our agreements, policies, and terms of use.
+  - We may share information in an emergency. This includes protecting the safety of our employees and agents, our customers, or any person.
+- **Professional Advisors and Service Providers.** We may share information with those who need it to do work for us. These recipients may include third party companies and individuals to administer and provide the Service on our behalf (such as customer support, hosting, email delivery and database management services), as well as lawyers, bankers, auditors, and insurers.
+- **Other.** You may permit us to share your personal information with other companies or entities of your choosing. Those uses will be subject to the privacy policies of the recipient entity or entities.
 
 We may also share aggregated and/or anonymized data with others for their own uses.
 
@@ -90,7 +91,7 @@ We may also share aggregated and/or anonymized data with others for their own us
 
 The Company has offices outside of the EU and has affiliates and service providers in the United States and in other countries. Your personal information may be transferred to or from the United States or other locations outside of your state, province, country or other governmental jurisdiction where privacy laws may not be as protective as those in your jurisdiction.
 
-EU users should read the important information provided  below about transfer of personal information outside of the European Economic Area (EEA).
+EU users should read the important information provided below about transfer of personal information outside of the European Economic Area (EEA).
 
 ## HOW INFORMATION IS SECURED
 
@@ -108,7 +109,7 @@ You may access information that you have voluntarily provided through your accou
 
 ### Tracking Technologies Generally
 
-Regular cookies may generally be disabled or removed by tools available as part of most commercial browsers, and in some instances blocked in the future by selecting certain settings. For more information, please see the section entitled &quot;Cookies Policy&quot; below.  
+Regular cookies may generally be disabled or removed by tools available as part of most commercial browsers, and in some instances blocked in the future by selecting certain settings. For more information, please see the section entitled &quot;Cookies Policy&quot; below.
 
 ### Google Analytics
 
@@ -138,7 +139,7 @@ Under California Civil Code Section 1789.3, California users are entitled to the
 
 This section provides additional details about the personal information we collect about California consumers and the rights afforded to them under the California Consumer Privacy Act or &quot;CCPA.&quot;
 
-For more details about the personal information we collect from you, please see the &quot;What We Collect&quot; section above. We collect this information for the business and commercial purposes described in the &quot;Use of Personal Information&quot; section above. We share this information with the categories of third parties described in the &quot;Sharing of Personal Information&quot; section above. Company does not sell (as such term is defined in the CCPA) the personal information we collect (and will not sell it without providing a right to opt out). Please refer to our Cookie Policy below for more information regarding the types of third-party cookies, if any, that we use. 
+For more details about the personal information we collect from you, please see the &quot;What We Collect&quot; section above. We collect this information for the business and commercial purposes described in the &quot;Use of Personal Information&quot; section above. We share this information with the categories of third parties described in the &quot;Sharing of Personal Information&quot; section above. Company does not sell (as such term is defined in the CCPA) the personal information we collect (and will not sell it without providing a right to opt out). Please refer to our Cookie Policy below for more information regarding the types of third-party cookies, if any, that we use.
 
 Subject to certain limitations, the CCPA provides California consumers the right to request to know more details about the categories or specific pieces of personal information we collect (including how we use and disclose this information), to delete their personal information, to opt out of any &quot;sales&quot; that may be occurring, and to not be discriminated against for exercising these rights.
 
@@ -148,7 +149,7 @@ California consumers may make a request pursuant to their rights under the CCPA 
 
 ### Personal Information
 
-With respect to EU data subjects, &quot;personal information,&quot; as used in this Privacy Policy, is equivalent to &quot;personal data&quot; as defined in the [European Union General Data Protection Regulation](https://gdpr-info.eu/art-4-gdpr/) (GDPR). 
+With respect to EU data subjects, &quot;personal information,&quot; as used in this Privacy Policy, is equivalent to &quot;personal data&quot; as defined in the [European Union General Data Protection Regulation](https://gdpr-info.eu/art-4-gdpr/) (GDPR).
 
 ### Sensitive Data
 
@@ -158,12 +159,12 @@ Some of the information you provide us may constitute sensitive data as defined 
 
 We only use your personal information as permitted by law. We are required to inform you of the legal bases of our processing of your personal information, which are described in the table below. If you have questions about the legal bases under which we process your personal information, contact us at [legal@consensys.net](mailto:legal@consensys.net).
 
-| Processing Purpose | Legal Basis |
-| --- | --- |
-| To provide our service | Our processing of your personal information is necessary to perform the contract governing our provision of the Services or to take steps that you request prior to signing up for the Service. |
+| Processing Purpose                                                                                                                        | Legal Basis                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| To provide our service                                                                                                                    | Our processing of your personal information is necessary to perform the contract governing our provision of the Services or to take steps that you request prior to signing up for the Service.                                                                                                                                                                                                                                                                  |
 | To communicate with you<br><br>To optimize our platform<br><br>For compliance, fraud prevention, and safety<br><br>To provide our service | These processing activities constitute our legitimate interests. We make sure we consider and balance any potential impacts on you (both positive and negative) and your rights before we process your personal information for our legitimate interests. We do not use your personal information for activities where our interests are overridden by any adverse impact on you (unless we have your consent or are otherwise required or permitted to by law). |
-| To comply with law | We use your personal information to comply with applicable laws and our legal obligations, including anti-money laundering (AML) laws and know-your-customer (KYC) requirements. |
-| With your consent | Where our use of your personal information is based upon your consent, you have the right to withdraw it anytime in the manner indicated in the Service or by contacting us at [legal@consensys.net](mailto:legal@consensys.net). |
+| To comply with law                                                                                                                        | We use your personal information to comply with applicable laws and our legal obligations, including anti-money laundering (AML) laws and know-your-customer (KYC) requirements.                                                                                                                                                                                                                                                                                 |
+| With your consent                                                                                                                         | Where our use of your personal information is based upon your consent, you have the right to withdraw it anytime in the manner indicated in the Service or by contacting us at [legal@consensys.net](mailto:legal@consensys.net).                                                                                                                                                                                                                                |
 
 ### Use for New Purposes
 
@@ -173,13 +174,13 @@ We may use your personal information for reasons not described in this Privacy P
 
 Under the GDPR, you have certain rights regarding your personal information. You may ask us to take the following actions in relation to your personal information that we hold:
 
-* **Opt-out.** Stop sending you direct marketing communications which you have previously consented to receive. We may continue to send you Service-related and other non-marketing communications.
-* **Access.** Provide you with information about our processing of your personal information and give you access to your personal information.
-* **Correct.** Update or correct inaccuracies in your personal information.
-* **Delete.** Delete your personal information.
-* **Transfer.** Transfer a machine-readable copy of your personal information to you or a third party of your choice.
-* **Restrict.** Restrict the processing of your personal information.
-* **Object.** Object to our reliance on our legitimate interests as the basis of our processing of your personal information that impacts your rights.
+- **Opt-out.** Stop sending you direct marketing communications which you have previously consented to receive. We may continue to send you Service-related and other non-marketing communications.
+- **Access.** Provide you with information about our processing of your personal information and give you access to your personal information.
+- **Correct.** Update or correct inaccuracies in your personal information.
+- **Delete.** Delete your personal information.
+- **Transfer.** Transfer a machine-readable copy of your personal information to you or a third party of your choice.
+- **Restrict.** Restrict the processing of your personal information.
+- **Object.** Object to our reliance on our legitimate interests as the basis of our processing of your personal information that impacts your rights.
 
 You can submit these requests by email to [legal@consensys.net](mailto:legal@consensys.net). We may request specific information from you to help us confirm your identity and process your request. Applicable law may require or permit us to decline your request. If we decline your request, we will tell you why, subject to legal restrictions. If you would like to submit a complaint about our use of your personal information or response to your requests regarding your personal information, you may contact us at [legal@consensys.net](mailto:legal@consensys.net) or submit a complaint to the data protection regulator in your jurisdiction. You can find your data protection regulator [here](https://ec.europa.eu/justice/article-29/structure/data-protection-authorities/index_en.htm).
 
@@ -207,16 +208,16 @@ A cookie (&quot;Cookie&quot;) is a small text file that is placed on your hard d
 
 We generally use Cookies for the following purposes:
 
-* To recognize new or past customers.
-* To store your password if you are registered on our Site.
-* To improve our Site and to better understand your visits on our platforms and Site.
-* To serve you with interest-based or targeted advertising.
-* To observe your behaviors and browsing activities over time across multiple websites or other platforms.
-* To better understand the interests of our customers and our website visitors.
+- To recognize new or past customers.
+- To store your password if you are registered on our Site.
+- To improve our Site and to better understand your visits on our platforms and Site.
+- To serve you with interest-based or targeted advertising.
+- To observe your behaviors and browsing activities over time across multiple websites or other platforms.
+- To better understand the interests of our customers and our website visitors.
 
 Some Cookies are necessary for certain uses of the Site, and without such Cookies, we would not be able to provide many services that you need to properly use the Site. These Cookies, for example, allow us to operate our Site so you may access it as you have requested and let us recognize that you have created an account and have logged into that account to access Site content. They also include Cookies that enable us to remember your previous actions within the same browsing session and secure our Sites.
 
-We also use functional Cookies and Cookies from third parties for analysis and marketing purposes. Functional Cookies enable certain parts of the site to work properly and your user preferences to remain known.  Analysis Cookies, among other things, collect information on how visitors use our Site, the content and products that users view most frequently, and the effectiveness of our third-party advertising. Advertising Cookies assist in delivering ads to relevant audiences and having our ads appear at the top of search results. Cookies are either &quot;session&quot; Cookies which are deleted when you end your browser session, or &quot;persistent,&quot; which remain until their deletion by you (discussed below) or the party who served the cookie. Full details on all of the Cookies used on the Site are available at our Cookie Disclosure table below.
+We also use functional Cookies and Cookies from third parties for analysis and marketing purposes. Functional Cookies enable certain parts of the site to work properly and your user preferences to remain known. Analysis Cookies, among other things, collect information on how visitors use our Site, the content and products that users view most frequently, and the effectiveness of our third-party advertising. Advertising Cookies assist in delivering ads to relevant audiences and having our ads appear at the top of search results. Cookies are either &quot;session&quot; Cookies which are deleted when you end your browser session, or &quot;persistent,&quot; which remain until their deletion by you (discussed below) or the party who served the cookie. Full details on all of the Cookies used on the Site are available at our Cookie Disclosure table below.
 
 ### How to disable Cookies
 
@@ -232,18 +233,18 @@ Click [here](https://support.apple.com/guide/safari/browse-in-private-ibrw1069/m
 
 If you want to learn more about cookies, or how to control, disable or delete them, please visit http://www.aboutcookies.org for detailed guidance. In addition, certain third party advertising networks, including Google, permit users to opt out of or customize preferences associated with your internet browsing. To learn more about this feature from Google, click [here](https://adssettings.google.com/u/0/authenticated?hl=en).
 
-To control flash cookies, which we may use on our Site from time to time, you can go to this [link](http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html) because Flash cookies cannot be controlled through your browser settings. Please note that if you decline the use of Cookies, some functions of the website may be unavailable and we will not be able to present personally tailored content and advertisements to you. 
+To control flash cookies, which we may use on our Site from time to time, you can go to this [link](http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html) because Flash cookies cannot be controlled through your browser settings. Please note that if you decline the use of Cookies, some functions of the website may be unavailable and we will not be able to present personally tailored content and advertisements to you.
 
-We may link the information collected by Cookies with other information we collect from you pursuant to this Privacy Policy and use the combined information as set forth herein.  Similarly, the third parties who serve cookies on our Site may link your name or email address to other information they collect, which may include past purchases made offline or online, or your online usage information. If you are located in the European Economic Area, you have certain rights that are described above under the header &quot;Notice to EU Data Subjects&quot;, including the right to inspect and correct or delete the data that we have about you.
+We may link the information collected by Cookies with other information we collect from you pursuant to this Privacy Policy and use the combined information as set forth herein. Similarly, the third parties who serve cookies on our Site may link your name or email address to other information they collect, which may include past purchases made offline or online, or your online usage information. If you are located in the European Economic Area, you have certain rights that are described above under the header &quot;Notice to EU Data Subjects&quot;, including the right to inspect and correct or delete the data that we have about you.
 
 ### Cookies Disclosure
 
 | Name of Cookie/Identifier | What does the cookie generally do (e.g., website function and administration, analytics, marketing)? | Is it a 1st or 3rd party cookie and what is the name of the party providing it? | What type of cookie is it (persistent or session)? | What is the duration of the cookie on the website (if not cleared by the user)? |
-| --- | --- | --- | --- | --- |
-| Google Analytics | Analytics | 3rd - Google | Persistent | 2 years |
-| Dashboard welcome cookie | Website function | 1st - OpenLaw | Persistent | 1 year |
-| _ga | Used to distinguish users | 3rd - Google | Persistent | 2 years |
-| _gid | Used to distinguish users | 3rd - Google | Persistent | 2 years |
-| _gat_gtag_ | Used to throttle request rate | 3rd - Google | Persistent | 1 minute |
-| _ _cfduid | Used to distinguish users | 3rd - Cloudflare | Persistent | 1 year |
-| PLAY_SESSION | Used to distinguish users | 1st - OpenLaw | Session | Session |
+| ------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Google Analytics          | Analytics                                                                                            | 3rd - Google                                                                    | Persistent                                         | 2 years                                                                         |
+| Dashboard welcome cookie  | Website function                                                                                     | 1st - OpenLaw                                                                   | Persistent                                         | 1 year                                                                          |
+| \_ga                      | Used to distinguish users                                                                            | 3rd - Google                                                                    | Persistent                                         | 2 years                                                                         |
+| \_gid                     | Used to distinguish users                                                                            | 3rd - Google                                                                    | Persistent                                         | 2 years                                                                         |
+| _gat_gtag_                | Used to throttle request rate                                                                        | 3rd - Google                                                                    | Persistent                                         | 1 minute                                                                        |
+| \_ \_cfduid               | Used to distinguish users                                                                            | 3rd - Cloudflare                                                                | Persistent                                         | 1 year                                                                          |
+| PLAY_SESSION              | Used to distinguish users                                                                            | 1st - OpenLaw                                                                   | Session                                            | Session                                                                         |

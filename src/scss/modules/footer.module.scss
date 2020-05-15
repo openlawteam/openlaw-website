@@ -1,172 +1,131 @@
-@import '../variables';
-@import '../mixins';
-
-.footer-wrap {
-  background-color: #f2f2f5;
-  flex-shrink: 0;
-  margin: 3rem 0 0 0;
-  min-height: 250px;
-  padding: 3rem 1.8rem 3rem;
-  position: relative;
-}
+@import "../variables";
+@import "../mixins";
 
 .footer {
-  display: flex;
-  width: 100%;
-  margin-bottom: 24px;
-
-  @include size-tablet-down {
-    flex-direction: column;
-  }
-
-  h3 {
-    color: $color-wiltedlilac;
-    font-family: $font-body;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 12px;
-    font-weight: 600;
-
-    @include size-tablet-down {
-      padding-top: 12px;
-    }
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  li {
-    padding: 3px 0;
-  }
-
-  a {
-    text-decoration: none;
-    color: $color-darksmoke;
-    font-family: $font-body;
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 12px;
-    text-transform: uppercase;
-
-    &:hover,
-    &:focus {
-      color: $color-royal;
-    }
-
-    &:visited {
-      color: $color-darksmoke;
-    }
-
-    // meta
-    span {
-      color: $color-royal;
-      font-size: 12px;
-      text-transform: none;
-      letter-spacing: .5px;
-    }
-  }
-
-  input[type="text"] {
-    border-radius: 4px;
-  }
-}
-
-.footer-logo--consensys {
-  margin: 0 auto;
-  text-align: center;
-  display: block;
-}
-
-.input-wrap {
+  color: #ffffff;
+  background-color: #000000;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 4rem 7rem 3rem;
   position: relative;
 
-  svg {
-    transform: rotate(-90deg);
-    width: 16px;
-    height: 16px;
-    position: absolute;
-    top: 10px;
-    right: 12px;
-    cursor: pointer;
+  @media screen and (max-width: 1068px) {
+    padding: 4rem 2.5rem 3rem;
+  }
 
-    path {
-      fill: $color-wiltedlilac;
-    }
+  @include size-down-down {
+    padding: 4rem 1.5rem 3rem;
+  }
+}
 
-    &:hover,
-    &:focus {
-      path {
-        fill: $color-royal;
-      }
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  @media screen and (max-width: 1068px) {
+    flex-direction: column;
+  }
+}
+
+.footer-section-info-and-contact {
+  display: flex;
+
+  > div {
+    margin-right: 4rem;
+  }
+
+  @media screen and (max-width: 1068px) {
+    .contact-column {
+      margin: 0;
     }
   }
 
-  svg[data-icon-style="check"] {
-    transform: none;
+  @media screen and (max-width: 473px) {
+    flex-direction: column;
 
-    path {
-      fill: $color-royal;
+    .info-column {
+      margin: 0 0 2rem;
     }
   }
 }
 
-.flex-wrap {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-
-  > div {
-    margin-right: 24px;
-    margin-bottom: 24px;
+.footer-section:not(:last-child) {
+  @media screen and (max-width: 1068px) {
+    margin-bottom: 2rem;
   }
+}
 
-  @include size-medium-down {
-    flex-direction: column;
-    margin-bottom: 48px;
+.footer-header {
+  margin: 0 0 1rem;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li:not(:last-child) {
+    margin-bottom: 0.25rem;
   }
+}
+
+.footer a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none !important;
+  text-transform: uppercase;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.footer-social-link:not(:last-child) {
+  margin-right: 1.75rem;
+}
+
+.footer-social-icon {
+  height: 20px;
+  width: 20px;
 }
 
 .footer-copyright {
-  text-align: center;
-
-  span {
-    color: $color-wiltedlilac;
-    font-family: $font-body;
-    font-size: .66em;
-  }
+  font-size: 0.8rem;
+  margin-top: 1rem;
 }
 
-.footer-nav {
-  padding: 48px 0.9375rem 0;
-
-  a {
-    color: #FFF;
-  }
-
-  ul {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-end;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: space-between;
-    float: right;
-    max-width: 62.5rem;
-    width: 100%;
-  }
-
-  a {
-    text-decoration: none;
-    font-size: 1em;
-    font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
-    color: white;
-  }
+.copyright-symbol {
+  font-size: 1.1rem;
+  display: inline-block;
+  transform: translateY(5px);
 }
 
-.footer-inner-wrapper {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+@include size-down-down {
+  .footer-header {
+    font-size: 13px;
+  }
+
+  .footer a {
+    font-size: 11px;
+  }
+
+  .footer-social-icon {
+    height: 18px;
+    width: 18px;
+  }
+
+  .footer-copyright {
+    font-size: 0.75rem;
+  }
+
+  .copyright-symbol {
+    font-size: 1.05rem;
+  }
 }

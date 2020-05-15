@@ -1,16 +1,29 @@
-@import '../variables';
-@import '../mixins';
+@import "../variables";
+@import "../mixins";
 
-.logo {
-  position: absolute;
-  top: 36px;
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  height: 90px;
+  padding: 0 2.5rem;
+  position: relative;
 
-  @include size-tablet-down {
-    top: 16px;
+  @include size-down-down {
+    padding: 0 1.5rem;
   }
 }
 
-.link {
-  position: absolute;
-  z-index: 1001;
+.header-logo {
+  width: 200px;
+  margin: 0 2rem 0 5rem;
+
+  @include size-tablet-down {
+    margin: 0 1rem 0 0;
+  }
+
+  @include size-down-down {
+    width: 170px;
+  }
 }

@@ -1,0 +1,207 @@
+@import "../variables";
+@import "../mixins";
+
+.modern-law-container {
+  padding: 0 18px;
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+.inner-container {
+  position: relative;
+
+  &::after {
+    content: "";
+    border-bottom: 1px solid $color-black;
+    height: 1px;
+    width: 80%;
+    margin: 4rem auto 0;
+  }
+}
+
+.header-container {
+  text-align: center;
+  padding: 0 0.9375rem;
+  margin: 0 0 60px;
+
+  .header {
+    font-size: 2rem;
+    color: $color-black;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 2rem;
+  }
+
+  img {
+    transform: translateY(-8px);
+  }
+
+  @media screen and (max-width: 837px) {
+    .header {
+      margin: 0 0 12px;
+      display: block;
+    }
+  }
+}
+
+.sub-header {
+  display: block;
+  max-width: 75%;
+  font-size: 21px;
+  margin: 0 auto 60px;
+  padding: 0 0.9375rem;
+  text-align: center;
+}
+
+.modern-law-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.column-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: $color-black;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 2.5rem 0;
+  position: relative;
+  padding: 10px 18px;
+  max-width: 250px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    bottom: -6px;
+    height: 6px;
+    width: 101%;
+    left: -3px;
+    transform: skewX(-45deg);
+    background-color: $color-black;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    left: -6px;
+    height: 102%;
+    width: 6px;
+    bottom: -3px;
+    transform: skewY(-45deg);
+    background-color: $color-black;
+  }
+}
+
+.column-header-law-firms {
+  &::before,
+  &::after {
+    background-color: #0bbb16;
+  }
+}
+
+.column-header-legal-teams {
+  &::before,
+  &::after {
+    background-color: #00c0ff;
+  }
+}
+
+.column-header-sales {
+  &::before,
+  &::after {
+    background-color: #037eff;
+  }
+}
+
+.text-column {
+  margin: 0 2rem;
+
+  ul {
+    padding: 0 0 0 1.5rem;
+  }
+
+  li {
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+@include size-medium-down {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .modern-law-wrapper {
+    flex-direction: column;
+  }
+
+  .modern-law-wrapper > div {
+    flex: 0 0 30%;
+    width: 100%;
+  }
+}
+
+@include size-tablet-down {
+  .sub-header {
+    max-width: none;
+  }
+
+  .text-column {
+    margin: 0;
+  }
+}
+
+@include size-medium-up {
+  .modern-law-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+@include size-down-down {
+  .modern-law-container {
+    padding: 0 10px;
+    margin-bottom: 4rem;
+  }
+
+  .inner-container:after {
+    margin: 2.5rem auto 0;
+  }
+
+  .header-container {
+    margin: 0 0 2rem;
+
+    .header {
+      font-size: 1.7rem;
+    }
+  }
+
+  .sub-header {
+    font-size: 18px;
+    margin: 0 auto 2rem;
+  }
+
+  .flex-wrapper {
+    margin: 0 !important;
+  }
+
+  .column-header {
+    font-size: 1.275rem;
+    margin: 1.25rem 0 1.5rem;
+    max-width: 220px;
+  }
+
+  .text-column li {
+    font-size: 15px;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+}

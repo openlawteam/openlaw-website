@@ -1,36 +1,24 @@
-import React from 'react'
-
-// import foundation from '../scss/modules/foundation.module.scss';
-// import baseStyles from '../scss/modules/base.module.scss';
+import React from 'react';
 
 import Layout from '../components/layout';
-
-import IntroSection from '../components/sections/IntroSection';
-// import BuildingFuture from '../components/sections/BuildingFuture';
-import Toolkit from '../components/sections/Toolkit';
-// import ContractsModel from '../components/sections/ContractsModel';
-// import LargeQuote from '../components/sections/LargeQuote';
-// import MajorFeatures from '../components/sections/MajorFeatures';
-// import Features from '../components/sections/Features';
-// import OutroSection from '../components/sections/OutroSection';
-import WeHeartEngineers from '../components/sections/WeHeartEngineers';
-import ReadyToStart from '../components/sections/ReadyToStart';
-import LegalProtocol from '../components/sections/LegalProtocol';
+import ConquerLegal from '../components/sections/ConquerLegal';
+import EliminateGruntWork from '../components/sections/EliminateGruntWork';
+import Integrations from '../components/sections/Integrations';
+import ModernLaw from '../components/sections/ModernLaw';
+// import UncompromisingStandards from '../components/sections/UncompromisingStandards';
+import Community from '../components/sections/Community';
+import GetStarted from '../components/sections/GetStarted';
 
 const IndexPage = () => (
-	<Layout>
-		<IntroSection />
-    <LegalProtocol />
-    <Toolkit />
-    <WeHeartEngineers />
-    <ReadyToStart />
-    {/* <BuildingFuture /> */}
-		{/* <ContractsModel /> */}
-    {/* <LargeQuote /> */}
-		{/* <MajorFeatures /> */}
-		{/* <Features /> */}
-		{/* <OutroSection /> */}
-	</Layout>
-)
+  <Layout>
+    <ConquerLegal />
+    <EliminateGruntWork />
+    <Integrations />
+    <ModernLaw />
+    {/* <UncompromisingStandards /> */}
+    <Community />
+    <GetStarted />
+  </Layout>
+);
 
 export default IndexPage;

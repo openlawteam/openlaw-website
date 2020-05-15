@@ -1,58 +1,48 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 import s from '../scss/modules/footer.module.scss';
 
-import { ConsenSysLogoSVG } from './svg/ConsenSysLogoSVG';
-import FooterData from '../config/footer';
-import CustomLink from './common/Link';
-import Wrap from './common/Wrap';
+import GatsbyLink from 'gatsby-link';
+import { withPrefix } from 'gatsby-link';
+import { FetchBreezyJobs } from '../helper/fetchJobs';
 
-class RenderSectionLinks extends Component {
-  state = { jobsCallbackData: ''}
+class RenderJobsLink extends Component {
+  state = { jobsCallbackData: '' };
 
   componentDidMount() {
-    const thing = this.props.data[this.props.dataKey];
-    for (let i = 0; i < thing.length; i += 1) {
-      if (thing[i].dataCallback) {
-        thing[i].dataCallback()
-          .then(value => {
-            if (!value) return;
-            this.setState({ [`${thing[i].name.toLowerCase()}CallbackData`]: value });
-          });
-      }
-    }
+    FetchBreezyJobs().then(value => {
+      if (!value) return;
+      this.setState({
+        jobsCallbackData: value,
+      });
+    });
   }
 
-  handleDataToken = (tokenString, data, meta) => {
-    const pluralize = (match) => (data.length || data) > 1 ? 's' : '';
+  handleDataToken = (tokenString, data) => {
+    const pluralize = match => ((data.length || data) > 1 ? 's' : '');
 
-    if (!data) {
-      return meta;
-    }
-
-    return tokenString
-      .replace('%data%', data)
-      .replace('%plural%', pluralize);
+    return tokenString.replace('%data%', data).replace('%plural%', pluralize);
   };
 
-  render () {
-    const { data, dataKey:key } = this.props;
-
+  render() {
     return (
-      <div>
-        <h3>{key}</h3>
-        <ul>
-          {data[key].map(({ name, url, meta, dataCallback, token }) => (
-            <li key={`${name}-${url}`}>
-              <CustomLink to={url}>
-                {name}
-                {(token && this.state[`${name.toLowerCase()}CallbackData`]) && <span>{`${this.handleDataToken(token, this.state[`${name.toLowerCase()}CallbackData`], meta)}`}</span>}
-                {meta && <span>{meta}</span>}
-              </CustomLink>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <li>
+        <a
+          href="https://careers.openlaw.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Jobs
+          {this.state.jobsCallbackData && (
+            <span>
+              {this.handleDataToken(
+                '(we\u2019re hiring! %data% open position%plural%)',
+                this.state.jobsCallbackData
+              )}
+            </span>
+          )}
+        </a>
+      </li>
     );
   }
 }
@@ -60,22 +50,120 @@ class RenderSectionLinks extends Component {
 const year = () => new Date().getFullYear();
 
 const Footer = () => (
-  <Wrap className={s.footerWrap}>
-    <div className={s.footer}>
-      <div className={s.flexWrap}>
-        <RenderSectionLinks data={FooterData} dataKey='info' />
-        <RenderSectionLinks data={FooterData} dataKey='join' />
-        <RenderSectionLinks data={FooterData} dataKey='contact' />
+  <footer className={s.footer}>
+    <div>
+      <div className={s.footerContent}>
+        <div className={`${s.footerSection} ${s.footerSectionInfoAndContact}`}>
+          <div className={s.infoColumn}>
+            <h3 className={s.footerHeader}>Info</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://docs.openlaw.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="https://openlaw-website.netlify.app/openlaw-media-logos.zip">
+                  Media Kit
+                </a>
+              </li>
+              <li>
+                <GatsbyLink to="/terms">Terms of Use</GatsbyLink>
+              </li>
+              <li>
+                <GatsbyLink to="/privacy">Privacy Policy</GatsbyLink>
+              </li>
+            </ul>
+          </div>
+          <div className={s.contactColumn}>
+            <h3 className={s.footerHeader}>Contact</h3>
+            <ul>
+              <li>
+                <a
+                  href="mailto:hello@openlaw.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Say Hi
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:help@openlaw.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Support
+                </a>
+              </li>
+              <RenderJobsLink />
+            </ul>
+          </div>
+        </div>
+
+        <div className={s.footerSection}>
+          <div>
+            <a
+              className={s.footerSocialLink}
+              href="https://twitter.com/openlawofficial"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className={s.footerSocialIcon}
+                src={withPrefix('/static/img/twitter-brands.svg')}
+                alt="OpenLaw Twitter"
+              />
+            </a>
+            <a
+              className={s.footerSocialLink}
+              href="https://github.com/openlawteam"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className={s.footerSocialIcon}
+                src={withPrefix('/static/img/github-brands.svg')}
+                alt="OpenLaw GitHub"
+              />
+            </a>
+            <a
+              className={s.footerSocialLink}
+              href="https://medium.com/@OpenLawOfficial"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className={s.footerSocialIcon}
+                src={withPrefix('/static/img/medium-brands.svg')}
+                alt="OpenLaw Medium"
+              />
+            </a>
+            <a
+              className={s.footerSocialLink}
+              href="https://join.slack.com/t/openlaw-community/shared_invite/enQtMzY1MTA2ODY3ODg5LTg5NjA2ZjAzMjY3YzI0NTU2NmU3ZmU5ZGQ0NjE3YjdkNjRjZGJlNjFjNjg1NzZiM2Q3YjZhNGEzYzEwYTBiMjU"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className={s.footerSocialIcon}
+                src={withPrefix('/static/img/slack-brands.svg')}
+                alt="OpenLaw Slack"
+              />
+            </a>
+          </div>
+          <div className={s.footerCopyright}>
+            <span className={s.copyrightSymbol}>&copy;</span> {year()} Aaron
+            Wright, David Roon, and ConsenSys AG
+          </div>
+        </div>
       </div>
     </div>
-
-    <a href="https://consensys.net" className={`${s.footerLogoConsensys}`}>
-      <ConsenSysLogoSVG />
-    </a>
-    <div className={s.footerCopyright}>
-      <span>&copy; {year()} Aaron Wright, David Roon, and ConsenSys AG</span>
-    </div>
-  </Wrap>
+  </footer>
 );
 
 export default Footer;

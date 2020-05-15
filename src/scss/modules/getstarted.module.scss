@@ -1,0 +1,256 @@
+@import "../variables";
+@import "../mixins";
+
+.outer-container {
+  position: relative;
+  border-bottom: 1px solid $color-black;
+
+  &:after {
+    content: "";
+    display: block;
+    border-left: 1vw solid transparent;
+    border-top: 16px solid $color-white;
+    border-right: 1vw solid transparent;
+    position: absolute;
+    bottom: -17px;
+    width: 100%;
+    z-index: 10;
+  }
+}
+
+.get-started-container {
+  padding: 0 18px;
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+.header-container {
+  text-align: center;
+  padding: 1rem calc(0.9375rem + 18px);
+  margin: 0 3rem 60px;
+  background-color: $color-black;
+
+  .header {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $color-white;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 2rem;
+  }
+
+  img {
+    transform: translateY(-8px);
+  }
+
+  @media screen and (max-width: 904px) {
+    padding-bottom: 0.4rem;
+
+    .header {
+      margin: 0 0 12px;
+      display: block;
+    }
+  }
+}
+
+.sub-header {
+  font-size: 2rem;
+  font-weight: 600;
+  color: $color-black;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.get-started-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.img-column {
+  flex: 0 0 45%;
+}
+
+.img-div {
+  text-align: center;
+}
+
+.img-div img {
+  margin-top: 2rem;
+  width: 85%;
+}
+
+.button-container {
+  display: inline-block;
+  padding: 0 0.9375rem;
+}
+
+.button {
+  color: $color-white;
+  background-color: $color-pink;
+  padding: 18px;
+  border-radius: 0;
+  border-color: $color-pink;
+  border-style: solid;
+  border-width: 1px 2px 0 1px;
+  text-transform: uppercase;
+  margin: 3rem 0 0;
+  font-size: 1.25rem;
+  position: relative;
+  transition: all 0.2s;
+  width: 325px;
+
+  &:hover,
+  &:focus {
+    background-color: $color-pink;
+    outline: none;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    transition: all 0.2s;
+    bottom: -6px;
+    height: 6px;
+    width: 101%;
+    left: 2px;
+    transform: skewX(45deg);
+    background-color: $color-black;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    transition: all 0.2s;
+    right: -8px;
+    height: 102%;
+    width: 6px;
+    bottom: -3px;
+    transform: skewY(45deg);
+    background-color: $color-black;
+  }
+
+  &:active {
+    transform: translate(4px, 4px);
+
+    &::before {
+      bottom: -2px;
+      height: 2px;
+      left: 0;
+    }
+
+    &::after {
+      right: -3px;
+      width: 2px;
+      bottom: -1px;
+    }
+  }
+}
+
+.text {
+  color: $color-black;
+  display: inline-block;
+  max-width: 500px;
+  font-size: 21px;
+}
+
+.bold-text {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+@include size-medium-down {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .get-started-wrapper {
+    flex-direction: column;
+  }
+
+  .get-started-wrapper > div {
+    flex: 0 0 50%;
+    width: 100%;
+  }
+}
+
+@include size-tablet-down {
+  .img-div img {
+    margin: 0 0 4rem;
+  }
+
+  .header-container {
+    margin: 0 0 60px;
+  }
+}
+
+@include size-medium-up {
+  .get-started-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+@include size-down-down {
+  .get-started-container {
+    padding: 0 10px;
+    margin-bottom: 4rem;
+  }
+
+  .header-container {
+    margin: 0 0 2rem;
+
+    .header {
+      font-size: 1.7rem;
+    }
+  }
+
+  .flex-wrapper {
+    margin: 18px 0 0 !important;
+  }
+
+  .img-div img {
+    margin: 0 0 3rem;
+  }
+
+  .sub-header {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .text {
+    max-width: none;
+    font-size: 18px;
+  }
+
+  .bold-text {
+    font-size: 22px;
+    margin: 1rem 0 0;
+  }
+
+  .button-container {
+    display: block;
+    text-align: center;
+  }
+
+  .button {
+    font-size: 1.1rem;
+    margin: 2rem 0 0;
+    width: 250px;
+
+    &::before {
+      width: 101.25%;
+    }
+
+    &::after {
+      bottom: -4px;
+    }
+  }
+}

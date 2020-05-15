@@ -1,5 +1,22 @@
-@import '../variables';
-@import '../mixins';
+@import "../variables";
+@import "../mixins";
+
+.outer-container {
+  position: relative;
+  border-bottom: 1px solid $color-black;
+
+  &:after {
+    content: "";
+    display: block;
+    border-left: 1vw solid transparent;
+    border-top: 16px solid $color-white;
+    border-right: 1vw solid transparent;
+    position: absolute;
+    bottom: -17px;
+    width: 100%;
+    z-index: 10;
+  }
+}
 
 a {
   color: $color-royal;
@@ -15,36 +32,28 @@ a {
 }
 
 .subpage-wrap {
-  max-width: 37.5rem;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 57.5rem;
+  margin: 3rem auto 6rem;
   display: flex;
   flex: 1 0 auto;
   flex-flow: row wrap;
 
   @include size-down-down {
-    margin-right: 0;
-    margin-left: 0;
+    margin: 3rem 0 6rem;
   }
 }
 
 .subpage {
-  margin-top: 144px;
   width: 100%;
-  padding: 12px;
+  padding: 2rem;
   color: darken($color-darksmoke, 5%);
   font-family: $font-header;
   font-size: $font-size-reading;
 
-  @include size-down-down {
-    margin-top: 66px;
-    padding: 1.2rem;
-  }
-
   // tables
   table {
     border-collapse: collapse;
-    font-size: .85em;
+    font-size: 0.85em;
     overflow-x: scroll;
     display: block;
   }
@@ -65,7 +74,8 @@ a {
     font-weight: 600;
   }
 
-  th, td {
+  th,
+  td {
     text-align: left;
     padding: 4px;
   }
@@ -73,11 +83,11 @@ a {
   td {
     padding: 6px;
     background-color: transparent;
-    transition: background .25s ease;
+    transition: background 0.25s ease;
   }
 }
 
 .legal {
   text-transform: uppercase;
-  word-spacing: .25em;
+  word-spacing: 0.25em;
 }

@@ -1,34 +1,45 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component, Fragment } from 'react';
 import MediaQuery from 'react-responsive';
 
 import f from '../scss/modules/foundation.module.scss';
 import s from '../scss/modules/sitenav.module.scss';
-import { MEDIA_MEDIUM_DOWN } from '../config/mediaQueries';
+import { HEADER_COLLAPSE_DOWN } from '../config/mediaQueries';
 import { HamburgerSVG } from './svg/HamburgerSVG';
 
 const EmptyTag = Fragment;
 
 class SiteNav extends Component {
-  state = { isPopupOpen: false };
+  state = { isMenuOpen: false };
 
-  handleOpen = () => {
-    this.setState({ isPopupOpen: !(this.state.isPopupOpen) });
+  componentWillUnmount() {
+    if (this.state.isMenuOpen) {
+      this.closeMenu();
+    }
+  }
+
+  openMenu = () => {
+    this.setState({ isMenuOpen: true }, () => {
+      document.addEventListener('click', this.closeMenu);
+    });
+  };
+
+  closeMenu = () => {
+    this.setState({ isMenuOpen: false }, () => {
+      document.removeEventListener('click', this.closeMenu);
+    });
   };
 
   renderItems = (data, isSmall) => (
     <ul>
       {data.map(({ name, url, divider }) => (
         <EmptyTag key={`${name}-${url}`}>
-          <li onClick={() => isSmall && this.handleOpen()}>
-            <a href={url}>{name}</a>
+          <li>
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              {name}
+            </a>
           </li>
 
-          {
-            divider && isSmall && <hr />
-          }
-          {
-            divider && !isSmall && <span className={`${s.navSpacerX}`} />
-          }
+          {divider && isSmall && <hr />}
         </EmptyTag>
       ))}
     </ul>
@@ -36,28 +47,39 @@ class SiteNav extends Component {
 
   render() {
     const { data } = this.props;
-    const { isPopupOpen } = this.state;
+    const { isMenuOpen } = this.state;
 
     return (
-      <MediaQuery query={MEDIA_MEDIUM_DOWN}>
-        {(matches) => {
+      <MediaQuery query={HEADER_COLLAPSE_DOWN}>
+        {matches => {
           if (matches) {
             return (
               <EmptyTag>
-                <HamburgerSVG onClick={this.handleOpen} className={`${s.hamburger}`} />
+                <HamburgerSVG
+                  onClick={this.openMenu}
+                  className={`${s.hamburger}`}
+                />
 
-                {isPopupOpen && <div className={`${s.navPopup}`}>{this.renderItems(data, true)}</div>}
+                {isMenuOpen && (
+                  <div className={`${s.navMenu}`}>
+                    {this.renderItems(data, true)}
+                  </div>
+                )}
               </EmptyTag>
             );
-          }
+          } else {
+            if (isMenuOpen) {
+              this.closeMenu();
+            }
 
-          return (
-            <nav className={s.nav}>
-              <div className={`${s.wrapper} ${f.row}`}>
-                {this.renderItems(data)}
-              </div>
-            </nav>
-          );
+            return (
+              <nav className={s.nav}>
+                <div className={`${s.wrapper} ${f.row}`}>
+                  {this.renderItems(data)}
+                </div>
+              </nav>
+            );
+          }
         }}
       </MediaQuery>
     );

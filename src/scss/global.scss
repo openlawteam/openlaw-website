@@ -1,4 +1,4 @@
-@import './variables';
+@import "./variables";
 
 html {
   height: 100%;
@@ -31,8 +31,8 @@ html {
 }
 
 .link-arrow-small {
-  color: #046BD1;
-  font-size: .85rem;
+  color: #046bd1;
+  font-size: 0.85rem;
   text-decoration: none;
   position: relative;
 
@@ -41,7 +41,7 @@ html {
   }
 
   &:visited {
-    color: #046BD1; // if applied to <a />
+    color: #046bd1; // if applied to <a />
   }
 
   // Link with right caret svg
@@ -60,7 +60,7 @@ html {
 
 .legal {
   text-transform: uppercase;
-  word-spacing: .25em;
+  word-spacing: 0.25em;
 }
 
 img.figure {
