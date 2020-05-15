@@ -168,7 +168,7 @@
     left: -8px;
     height: 102%;
     width: 6px;
-    bottom: -3px;
+    bottom: -4px;
     transform: skewY(-45deg);
     background-color: $color-black;
   }
@@ -185,7 +185,7 @@
     &::after {
       left: -3px;
       width: 2px;
-      bottom: -1px;
+      bottom: -2px;
     }
   }
 }
@@ -272,5 +272,13 @@
   .button {
     font-size: 1.1rem;
     margin: 20px 0;
+
+    &::before {
+      width: 101.5%;
+    }
+
+    &::after {
+      bottom: -3px;
+    }
   }
 }
