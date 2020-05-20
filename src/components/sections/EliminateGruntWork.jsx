@@ -1,11 +1,13 @@
 import React from 'react';
 import AOS from 'aos';
 import { withPrefix } from 'gatsby-link';
+import MediaQuery from 'react-responsive';
 
 import '../../../node_modules/aos/dist/aos.css';
 import s from '../../scss/modules/eliminategruntwork.module.scss';
 import f from '../../scss/modules/foundation.module.scss';
 
+import { SECTION_HEADER_CUSTOM_WIDTH } from '../../config/mediaQueries';
 import Wrap from '../common/Wrap';
 
 const Header = ({ children }) => <div className={s.header}>{children}</div>;
@@ -29,6 +31,26 @@ class EliminateGruntWork extends React.Component {
     window.open('https://openlawform.typeform.com/to/GYy10G', '_blank');
   };
 
+  headerImage = () => {
+    return (
+      <MediaQuery query={SECTION_HEADER_CUSTOM_WIDTH}>
+        {matches =>
+          matches ? (
+            <img
+              src={withPrefix('/static/img/squiggle-header-short.svg')}
+              alt="squiggle line"
+            />
+          ) : (
+            <img
+              src={withPrefix('/static/img/squiggle-header.svg')}
+              alt="squiggle line"
+            />
+          )
+        }
+      </MediaQuery>
+    );
+  };
+
   render() {
     return (
       <div className={s.outerContainer}>
@@ -36,18 +58,15 @@ class EliminateGruntWork extends React.Component {
           <div className={f.row}>
             <Wrap>
               <div className={s.headerContainer}>
-                <img
-                  src={withPrefix('/static/img/squiggle-header.svg')}
-                  alt="squiggle line"
-                />
+                {this.headerImage()}
                 <Header>Eliminate Grunt Work</Header>
-                <img
-                  src={withPrefix('/static/img/squiggle-header.svg')}
-                  alt="squiggle line"
-                />
+                {this.headerImage()}
               </div>
               <div className={`${f.row} ${s.flexWrapper}`}>
-                <div className={`${s.eliminateGruntWorkWrapper}`} key="1">
+                <div
+                  className={`${s.eliminateGruntWorkWrapper} ${s.eliminateGruntWorkWrapperFirst}`}
+                  key="1"
+                >
                   <div className={s.textColumnContainer}>
                     <div className={`${f.column} ${s.textColumn}`} key="1.1">
                       <ColumnHeader>Automate</ColumnHeader>

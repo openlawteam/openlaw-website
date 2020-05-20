@@ -69,7 +69,13 @@
     transform: translateY(-8px);
   }
 
-  @media screen and (max-width: 837px) {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header {
+      margin: 0 1.2rem;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
     .header {
       margin: 0 0 12px;
       display: block;
@@ -287,6 +293,10 @@
 
   .flex-wrapper {
     margin: 18px 0 0 !important;
+  }
+
+  .eliminate-grunt-work-wrapper-first {
+    flex-direction: column-reverse;
   }
 
   .text {

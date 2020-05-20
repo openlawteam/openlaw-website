@@ -39,7 +39,15 @@
     transform: translateY(-8px);
   }
 
-  @media screen and (max-width: 751px) {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    padding: 1rem;
+
+    .header {
+      margin: 0 1.2rem;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
     padding-bottom: 0.4rem;
 
     .header {
