@@ -47,7 +47,10 @@ class EliminateGruntWork extends React.Component {
                 />
               </div>
               <div className={`${f.row} ${s.flexWrapper}`}>
-                <div className={`${s.eliminateGruntWorkWrapper}`} key="1">
+                <div
+                  className={`${s.eliminateGruntWorkWrapper} ${s.eliminateGruntWorkWrapperFirst}`}
+                  key="1"
+                >
                   <div className={s.textColumnContainer}>
                     <div className={`${f.column} ${s.textColumn}`} key="1.1">
                       <ColumnHeader>Automate</ColumnHeader>
