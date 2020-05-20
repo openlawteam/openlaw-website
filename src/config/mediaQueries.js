@@ -15,3 +15,6 @@ export const MEDIA_DOWN_DOWN = '(max-width: 30em)';
 // custom media queries
 
 export const HEADER_COLLAPSE_DOWN = '(max-width: 700px)';
+
+export const SECTION_HEADER_CUSTOM_WIDTH =
+  '(min-width: 768px) and (max-width: 1024px)';

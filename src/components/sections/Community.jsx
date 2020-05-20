@@ -1,11 +1,13 @@
 import React from 'react';
 import AOS from 'aos';
 import { withPrefix } from 'gatsby-link';
+import MediaQuery from 'react-responsive';
 
 import '../../../node_modules/aos/dist/aos.css';
 import s from '../../scss/modules/community.module.scss';
 import f from '../../scss/modules/foundation.module.scss';
 
+import { SECTION_HEADER_CUSTOM_WIDTH } from '../../config/mediaQueries';
 import Wrap from '../common/Wrap';
 
 const Header = ({ children }) => <div className={s.header}>{children}</div>;
@@ -30,19 +32,33 @@ class Community extends React.Component {
     window.open('https://docs.openlaw.io/getting-started-overview', '_blank');
   };
 
+  headerImage = () => {
+    return (
+      <MediaQuery query={SECTION_HEADER_CUSTOM_WIDTH}>
+        {matches =>
+          matches ? (
+            <img
+              src={withPrefix('/static/img/squiggle-header-white-short.svg')}
+              alt="squiggle line"
+            />
+          ) : (
+            <img
+              src={withPrefix('/static/img/squiggle-header-white.svg')}
+              alt="squiggle line"
+            />
+          )
+        }
+      </MediaQuery>
+    );
+  };
+
   render() {
     return (
       <div className={s.communityContainer}>
         <div className={s.headerContainer}>
-          <img
-            src={withPrefix('/static/img/squiggle-header-white.svg')}
-            alt="squiggle line"
-          />
+          {this.headerImage()}
           <Header>Community Driven</Header>
-          <img
-            src={withPrefix('/static/img/squiggle-header-white.svg')}
-            alt="squiggle line"
-          />
+          {this.headerImage()}
         </div>
         <div className={f.row}>
           <Wrap>

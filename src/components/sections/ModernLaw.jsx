@@ -1,30 +1,46 @@
 import React from 'react';
 import { withPrefix } from 'gatsby-link';
+import MediaQuery from 'react-responsive';
 
 import s from '../../scss/modules/modernlaw.module.scss';
 import f from '../../scss/modules/foundation.module.scss';
 
+import { SECTION_HEADER_CUSTOM_WIDTH } from '../../config/mediaQueries';
 import Wrap from '../common/Wrap';
 
 const Header = ({ children }) => <div className={s.header}>{children}</div>;
 const SubHeader = ({ children }) => <p className={s.subHeader}>{children}</p>;
 
 class ModernLaw extends React.Component {
+  headerImage = () => {
+    return (
+      <MediaQuery query={SECTION_HEADER_CUSTOM_WIDTH}>
+        {matches =>
+          matches ? (
+            <img
+              src={withPrefix('/static/img/squiggle-header-short.svg')}
+              alt="squiggle line"
+            />
+          ) : (
+            <img
+              src={withPrefix('/static/img/squiggle-header.svg')}
+              alt="squiggle line"
+            />
+          )
+        }
+      </MediaQuery>
+    );
+  };
+
   render() {
     return (
       <div className={s.modernLawContainer}>
         <div className={`${f.row} ${s.innerContainer}`}>
           <Wrap>
             <div className={s.headerContainer}>
-              <img
-                src={withPrefix('/static/img/squiggle-header.svg')}
-                alt="squiggle line"
-              />
+              {this.headerImage()}
               <Header>Built For Modern Law</Header>
-              <img
-                src={withPrefix('/static/img/squiggle-header.svg')}
-                alt="squiggle line"
-              />
+              {this.headerImage()}
             </div>
             <SubHeader>
               A secure platform built from the inside out.
