@@ -4,85 +4,9 @@ html {
   height: 100%;
 }
 
-/* styles for markdown files (e.g. <span class="legal">) */
-
-.button {
-  margin: 24px 0;
-  display: inline-block;
-  background: $color-royal;
-  padding: 12px 28px;
-  color: white;
-  font-weight: 700;
-  font-family: $font-body;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 9px;
-  letter-spacing: 0.4px;
-  text-decoration: none;
-
-  &:hover,
-  &:focus {
-    background-color: lighten($color-royal, 10%);
-  }
-
-  &:visited {
-    color: white; // if applied to <a />
-  }
-}
-
-.link-arrow-small {
-  color: #046bd1;
-  font-size: 0.85rem;
-  text-decoration: none;
-  position: relative;
-
-  &:hover {
-    text-decoration: underline;
-  }
-
-  &:visited {
-    color: #046bd1; // if applied to <a />
-  }
-
-  // Link with right caret svg
-  &.caret-right {
-    padding-right: 20px;
-  }
-
-  &.caret-right svg {
-    width: 16px;
-    height: 16px;
-    position: absolute;
-    top: 2px;
-    right: 0;
-  }
-}
+/* styles for markdown files (e.g. <div class="legal">) */
 
 .legal {
   text-transform: uppercase;
   word-spacing: 0.25em;
-}
-
-img.figure {
-  margin: 36px 0;
-}
-
-.media {
-  display: flex;
-  align-items: flex-start;
-  margin: 0 0 1rem 0;
-  width: 100%;
-}
-.media > img {
-  max-width: 100%;
-  margin: 0 1rem 0 0;
-}
-.media > div {
-  flex: 1;
-}
-.media h2,
-.media h3,
-.media h4 {
-  font-weight: 500;
-  margin: 0 0 0.5rem 0;
 }
