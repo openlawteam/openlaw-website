@@ -33,8 +33,8 @@ const NotFoundPage = () => (
         </li>
         <span className={s.errorPageLinksDivider}>|</span>
         <li className={s.errorPageLinkItem}>
-          <a href="/faq" className={s.errorPageLink}>
-            FAQ
+          <a href="https://docs.openlaw.io" className={s.errorPageLink}>
+            Docs
           </a>
         </li>
       </ul>
