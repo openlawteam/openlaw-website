@@ -43,7 +43,13 @@ p,
 }
 
 .error-page-link {
-  text-decoration: none;
+  color: $color-black;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    color: $color-black;
+  }
 }
 
 .error-page-links-divider {
@@ -54,4 +60,38 @@ p,
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+@include size-tablet-down {
+  .error-page {
+    font-size: 16px;
+  }
+
+  .main-logo {
+    width: 60px;
+  }
+
+  .error-page-title {
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+
+  .error-image {
+    margin: 1rem auto 0;
+    width: 14rem;
+  }
+}
+
+@include size-down-down {
+  .error-page {
+    padding: 3rem 1.25rem;
+  }
+
+  .main-logo {
+    width: 50px;
+  }
+
+  .error-image {
+    width: 12rem;
+  }
 }
