@@ -25,30 +25,34 @@ a {
   &:focus {
     color: darken($color-royal, 15%);
   }
-
-  &:visited {
-    color: lighten($color-lilac, 15%);
-  }
 }
 
 .subpage-wrap {
-  max-width: 57.5rem;
-  margin: 3rem auto 6rem;
+  max-width: 62.5rem;
+  margin: 1rem auto 4rem;
   display: flex;
   flex: 1 0 auto;
   flex-flow: row wrap;
-
-  @include size-down-down {
-    margin: 3rem 0 6rem;
-  }
 }
 
 .subpage {
   width: 100%;
   padding: 2rem;
-  color: darken($color-darksmoke, 5%);
+  color: $color-black;
   font-family: $font-header;
-  font-size: $font-size-reading;
+  font-size: $font-size-base;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
 
   // tables
   table {
@@ -64,30 +68,59 @@ a {
     &:nth-of-type(2n) {
       background-color: $color-offwhite;
     }
-
-    &:hover td {
-      background-color: lighten($color-wiltedlilac, 35%);
-    }
   }
 
   th {
     font-weight: 600;
+
+    &:not(:last-child) {
+      border-right: 1px solid #ddd;
+    }
   }
 
   th,
   td {
     text-align: left;
-    padding: 4px;
+    padding: 6px;
   }
 
   td {
-    padding: 6px;
     background-color: transparent;
-    transition: background 0.25s ease;
+
+    &:not(:last-child) {
+      border-right: 1px solid #ddd;
+    }
   }
 }
 
-.legal {
-  text-transform: uppercase;
-  word-spacing: 0.25em;
+@include size-tablet-down {
+  .subpage-wrap {
+    margin: 0 0 3rem;
+  }
+
+  .subpage {
+    font-size: 1rem;
+
+    h1 {
+      font-size: 1.7rem;
+    }
+
+    h2 {
+      font-size: 1.275rem;
+    }
+
+    h3 {
+      font-size: 1.125rem;
+    }
+
+    table {
+      font-size: 0.85rem;
+    }
+  }
+}
+
+@include size-down-down {
+  .subpage {
+    padding: 1rem 25px;
+  }
 }
