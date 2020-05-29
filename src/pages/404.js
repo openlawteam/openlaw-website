@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import s from '../scss/modules/errorpage.module.scss';
-import { LogoCircle } from '../components/svg/LogoCircle';
+import { LogoCircleBlack } from '../components/svg/LogoCircleBlack';
 
 const NotFoundPage = () => (
   <div className={s.errorPage}>
     <div className={s.mainName}>
       <Link to="/">
-        <LogoCircle className={s.mainLogo} />
+        <LogoCircleBlack className={s.mainLogo} />
       </Link>
     </div>
     <div className={s.errorPageTitle}>We couldn&rsquo;t find this page.</div>
