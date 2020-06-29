@@ -1,16 +1,19 @@
 // Promise API
-const Shell = require('child_process');
-const path = require('path');
+const Shell = require("child_process");
+const path = require("path");
 
 // Callback API
 exports.createPages = (gatsby, pluginOptions, cb) => {
-  Shell.execSync('rm -rf public/static/img');
-  Shell.execSync('mkdir public/static/img');
-  Shell.execSync('cp -r src/assets/* public/static/img');
+  Shell.execSync("rm -rf public/static/img");
+  Shell.execSync("mkdir public/static/img");
+  Shell.execSync("cp -r src/assets/* public/static/img");
   cb();
 
   // build markdown pages
-  const { graphql, actions: { createPage  } } = gatsby;
+  const {
+    graphql,
+    actions: { createPage }
+  } = gatsby;
 
   const SubpageTemplate = path.resolve(`src/templates/subpageTemplate.js`);
 
@@ -29,18 +32,17 @@ exports.createPages = (gatsby, pluginOptions, cb) => {
         }
       }
     }
-  `)
-    .then((result) => {
-      if (result.errors) {
-        return Promise.reject(result.errors);
-      }
+  `).then(result => {
+    if (result.errors) {
+      return Promise.reject(result.errors);
+    }
 
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        createPage({
-          path: node.frontmatter.path,
-          component: SubpageTemplate,
-          context: {}, // additional data can be passed via context
-        });
+    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      createPage({
+        path: node.frontmatter.path,
+        component: SubpageTemplate,
+        context: {} // additional data can be passed via context
       });
-    })
-}
+    });
+  });
+};
