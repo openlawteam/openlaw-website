@@ -8,9 +8,9 @@ import Wrap from './common/Wrap';
 
 import s from '../scss/modules/header.module.scss';
 
-const Header = ({ subpage }) => (
+const Header = ({ subpage, pageTitle }) => (
   <Wrap className={s.headerWrap}>
-    {subpage ? (
+    {subpage || pageTitle ? (
       <Link to="/">
         <img
           className={s.headerLogo}
