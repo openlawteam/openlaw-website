@@ -1,14 +1,11 @@
 const NavData = [
-  // {
-  //   name: 'Solutions',
-  //   url: '',
-  // },
+  {
+    name: 'About',
+    url: '/about',
+    internal: true,
+  },
   // {
   //   name: 'Case Studies',
-  //   url: '',
-  // },
-  // {
-  //   name: 'Integrations',
   //   url: '',
   // },
   {

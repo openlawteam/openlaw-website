@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="265px" height="139px" viewBox="0 0 265 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="249px" height="139px" viewBox="0 0 249 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
     <title>Group 17</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="About" transform="translate(-1095.000000, -2010.000000)" fill-rule="nonzero" stroke="#000000">
-            <g id="Group-17" transform="translate(1096.000000, 2011.000000)">
-                <path d="M13,0 L167.022727,0 L167.022727,134 L264,132.864672" id="Path-6" stroke-dasharray="6" transform="translate(138.500000, 67.000000) scale(-1, 1) rotate(-360.000000) translate(-138.500000, -67.000000) "></path>
-                <polyline id="Path-7" stroke-width="2" transform="translate(7.250000, 129.785796) scale(-1, 1) rotate(6.000000) translate(-7.250000, -129.785796) " points="1 124 13.5 135.571591 3.82258065 135.571591"></polyline>
+        <g id="About" transform="translate(-1111.000000, -2010.000000)" fill-rule="nonzero" stroke="#000000">
+            <g id="Group-17" transform="translate(1112.000000, 2011.000000)">
+                <g id="Group-18">
+                    <g id="Group-20">
+                        <path d="M15,0 L157.977273,0 L157.977273,134 L248,132.864672" id="Path-6" stroke-dasharray="6" transform="translate(131.500000, 67.000000) scale(-1, 1) rotate(-360.000000) translate(-131.500000, -67.000000) "></path>
+                        <polyline id="Path-7" stroke-width="2" transform="translate(7.250000, 129.785796) scale(-1, 1) rotate(6.000000) translate(-7.250000, -129.785796) " points="1 124 13.5 135.571591 3.82258065 135.571591"></polyline>
+                    </g>
+                </g>
             </g>
         </g>
     </g>

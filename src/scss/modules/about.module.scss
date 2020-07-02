@@ -1,14 +1,36 @@
 @import "../variables";
 @import "../mixins";
 
+.outer-container {
+  margin: 0 2rem;
+}
+
 .about-container {
   position: relative;
-  margin: 5rem 2rem;
+  margin: 5rem auto;
   border: 1px dashed #000000;
+  border-top-color: transparent;
+  max-width: 1349px;
+}
+
+.dashed-top {
+  position: absolute;
+  top: -30px;
+  z-index: -1;
+}
+
+.dashed-bottom {
+  position: absolute;
+  bottom: -34px;
+  z-index: -1;
 }
 
 @include size-down-down {
+  .outer-container {
+    margin: 0 1.5rem;
+  }
+
   .about-container {
-    margin: 4rem 1.5rem;
+    margin: 4rem auto;
   }
 }

@@ -21,7 +21,6 @@
 
 .nav {
   width: 100%;
-  z-index: 1000;
 }
 
 .nav ul {
@@ -44,6 +43,7 @@
     border-color: $color-white;
     position: relative;
     transition: all 0.2s;
+    flex-shrink: 0;
 
     a {
       font-weight: 400;

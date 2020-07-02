@@ -15,13 +15,17 @@
   }
 }
 
-.header-logo {
-  width: 200px;
+.header-logo-container {
   margin: 0 2rem 0 5rem;
 
   @include size-tablet-down {
     margin: 0 1rem 0 0;
   }
+}
+
+.header-logo {
+  max-width: none;
+  width: 200px;
 
   @include size-down-down {
     width: 170px;

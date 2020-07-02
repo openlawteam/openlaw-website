@@ -4,7 +4,7 @@
 .approach-late-container {
   padding: 0 18px;
   position: relative;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 
   & > div > div {
     width: 100%;
@@ -32,10 +32,10 @@
     &:before {
       content: "";
       position: absolute;
-      width: 209px;
+      width: 248px;
       height: 224px;
       bottom: 80px;
-      left: 6px;
+      left: -10px;
       background-image: url("/static/img/about-arrow_03.svg");
       background-repeat: no-repeat;
       z-index: -1;
@@ -44,7 +44,7 @@
     &:after {
       content: "";
       position: absolute;
-      width: 265px;
+      width: 248px;
       height: 139px;
       top: 0;
       right: -10px;
@@ -64,7 +64,7 @@
       width: 43px;
       height: 52px;
       top: 0;
-      left: 36px;
+      left: 14px;
       background-image: url("/static/img/bottom-diagonals.svg");
       background-repeat: no-repeat;
       z-index: -1;
@@ -76,7 +76,7 @@
       width: 101px;
       height: 76px;
       top: -40px;
-      right: 10px;
+      right: 14px;
       background-image: url("/static/img/about-block_03.svg");
       background-repeat: no-repeat;
       z-index: -1;
@@ -107,7 +107,7 @@
 @include size-down-down {
   .approach-late-container {
     padding: 0 10px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .header {
