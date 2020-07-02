@@ -2,16 +2,13 @@
 @import "../mixins";
 
 .about-container {
-  padding: 0 18px;
   position: relative;
   margin: 5rem 2rem;
   border: 1px dashed #000000;
-  height: 100vh;
 }
 
 @include size-down-down {
   .about-container {
-    padding: 0 10px;
     margin: 4rem 1.5rem;
   }
 }
