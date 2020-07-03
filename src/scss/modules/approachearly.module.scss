@@ -86,7 +86,7 @@
   color: $color-black;
   font-size: 1.5rem;
   text-align: center;
-  margin: 3rem 0 0;
+  margin: 2.5rem 0 0;
   line-height: 1.75;
 }
 
@@ -101,17 +101,53 @@
 }
 
 @include size-medium-down {
+  .approach-early-container {
+    margin-bottom: 1.5rem;
+  }
+
   .flex-wrapper {
     flex-direction: column;
   }
 
   .approach-early-wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .approach-early-wrapper > div {
     flex: 0 0 50%;
     width: 100%;
+  }
+
+  .header {
+    font-size: 1.9rem;
+  }
+
+  .text-column {
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+
+  .text {
+    font-size: 1.275rem;
+    margin: 2rem 0 0;
+    line-height: 1.5;
+  }
+
+  .img-sub-container {
+    img {
+      transform: translateY(-1px);
+    }
+
+    .img-sub-text {
+      font-size: 15px;
+    }
+  }
+
+  .arrow-left,
+  .arrow-container {
+    display: none;
   }
 }
 
@@ -133,27 +169,18 @@
 @include size-down-down {
   .approach-early-container {
     padding: 0 10px;
-    margin-bottom: 2rem;
-  }
-
-  .header {
-    font-size: 1.9rem;
+    margin-bottom: 1rem;
   }
 
   .text {
-    max-width: none;
-    font-size: 1.275rem;
+    margin: 1.5rem 0 0;
   }
 
   .img-div > img {
-    margin: 3rem 0 1rem;
+    margin: 2.5rem 0 1rem;
   }
 
   .img-sub-container {
-    margin-top: 2rem;
-
-    .img-sub-text {
-      font-size: 15px;
-    }
+    margin-top: 1.5rem;
   }
 }

@@ -1,13 +1,11 @@
 import React from 'react';
 import AOS from 'aos';
 import { withPrefix } from 'gatsby-link';
-import MediaQuery from 'react-responsive';
 
 import '../../../node_modules/aos/dist/aos.css';
 import s from '../../scss/modules/automaticlaw.module.scss';
 import f from '../../scss/modules/foundation.module.scss';
 
-import { SECTION_HEADER_CUSTOM_WIDTH } from '../../config/mediaQueries';
 import Wrap from '../common/Wrap';
 
 const Header = ({ children }) => <div className={s.header}>{children}</div>;
@@ -27,26 +25,6 @@ class AutomaticLaw extends React.Component {
     });
   }
 
-  headerImage = () => {
-    return (
-      <MediaQuery query={SECTION_HEADER_CUSTOM_WIDTH}>
-        {matches =>
-          matches ? (
-            <img
-              src={withPrefix('/static/img/squiggle-header-short.svg')}
-              alt="squiggle line"
-            />
-          ) : (
-            <img
-              src={withPrefix('/static/img/squiggle-header.svg')}
-              alt="squiggle line"
-            />
-          )
-        }
-      </MediaQuery>
-    );
-  };
-
   render() {
     return (
       <div className={s.automaticLawContainer}>
@@ -56,9 +34,15 @@ class AutomaticLaw extends React.Component {
               <div className={s.automaticLawWrapper} key="1">
                 <div className={f.column} key="1.1">
                   <div className={s.headerContainer}>
-                    {this.headerImage()}
+                    <img
+                      src={withPrefix('/static/img/squiggle-header.svg')}
+                      alt="squiggle line"
+                    />
                     <Header>About OpenLaw</Header>
-                    {this.headerImage()}
+                    <img
+                      src={withPrefix('/static/img/squiggle-header.svg')}
+                      alt="squiggle line"
+                    />
                   </div>
                   <SubHeader>Automatic Law</SubHeader>
                   <Text>

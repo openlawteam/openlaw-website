@@ -3,6 +3,7 @@
 
 .outer-container {
   margin: 0 2rem;
+  position: relative;
 }
 
 .about-container {
@@ -25,12 +26,50 @@
   z-index: -1;
 }
 
+@include size-medium-down {
+  .dashed-top {
+    top: -24px;
+  }
+
+  .dashed-bottom {
+    bottom: -24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dashed-top {
+    top: -17px;
+  }
+
+  .dashed-bottom {
+    bottom: -17px;
+  }
+}
+
+@include size-tablet-down {
+  .dashed-top {
+    top: -15px;
+  }
+
+  .dashed-bottom {
+    bottom: -15px;
+  }
+}
+
 @include size-down-down {
   .outer-container {
-    margin: 0 1.5rem;
+    margin: 0 1rem;
   }
 
   .about-container {
     margin: 4rem auto;
+  }
+
+  .dashed-top {
+    top: -9px;
+  }
+
+  .dashed-bottom {
+    bottom: -9px;
   }
 }
