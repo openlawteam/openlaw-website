@@ -28,7 +28,7 @@ class EliminateGruntWork extends React.Component {
   }
 
   goToRequestAccess = () => {
-    window.open('https://openlawform.typeform.com/to/GYy10G', '_blank');
+    window.open('https://aaron718126.typeform.com/to/b3EqQ4', '_blank');
   };
 
   headerImage = () => {
