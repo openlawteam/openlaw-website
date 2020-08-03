@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import { Link } from 'gatsby';
 import MediaQuery from 'react-responsive';
 
 import f from '../scss/modules/foundation.module.scss';
@@ -31,12 +32,16 @@ class SiteNav extends Component {
 
   renderItems = (data, isSmall) => (
     <ul>
-      {data.map(({ name, url, divider }) => (
+      {data.map(({ name, url, divider, internal }) => (
         <EmptyTag key={`${name}-${url}`}>
           <li>
-            <a href={url} target="_blank" rel="noopener noreferrer">
-              {name}
-            </a>
+            {internal ? (
+              <Link to="/about">{name}</Link>
+            ) : (
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                {name}
+              </a>
+            )}
           </li>
 
           {divider && isSmall && <hr />}

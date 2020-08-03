@@ -10,7 +10,33 @@ import Helmet from './Helmet';
 import Footer from './footer';
 import Wrap from './common/Wrap';
 
-const Layout = ({ children, data, subpage }) => (
+const HelmetComponent = (data, pageTitle) => {
+  return pageTitle ? (
+    <Helmet
+      meta={[
+        {
+          name: 'description',
+          content: 'Dynamic, Next Generation Legal Agreements',
+        },
+      ]}
+      path={pageTitle.toLowerCase().replace(/\s+/g, '_')}
+      title={`${pageTitle} | ${data.site.siteMetadata.title}`}
+    />
+  ) : (
+    <Helmet
+      meta={[
+        {
+          name: 'description',
+          content: 'Dynamic, Next Generation Legal Agreements',
+        },
+      ]}
+      path=""
+      title={data.site.siteMetadata.title}
+    />
+  );
+};
+
+const Layout = ({ children, data, subpage, pageTitle }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -23,20 +49,9 @@ const Layout = ({ children, data, subpage }) => (
     `}
     render={data => (
       <>
-        {!subpage && (
-          <Helmet
-            meta={[
-              {
-                name: 'description',
-                content: 'Dynamic, Next Generation Legal Agreements',
-              },
-            ]}
-            path=""
-            title={data.site.siteMetadata.title}
-          />
-        )}
+        {!subpage && HelmetComponent(data, pageTitle)}
 
-        <Header subpage={subpage} />
+        <Header subpage={subpage} pageTitle={pageTitle} />
         <Wrap>
           <div className={s.wrapper}>
             <div className={`${s.bodyWrapper}`}>{children}</div>
