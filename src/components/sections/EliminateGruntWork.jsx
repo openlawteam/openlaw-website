@@ -27,8 +27,12 @@ class EliminateGruntWork extends React.Component {
     });
   }
 
-  goToRequestAccess = () => {
-    window.open('https://openlawform.typeform.com/to/GYy10G', '_blank');
+  goToDocs = () => {
+    window.open('https://docs.openlaw.io', '_blank');
+  };
+
+  goToLib = () => {
+    window.open('https://lib.openlaw.io/web/default', '_blank');
   };
 
   headerImage = () => {
@@ -59,7 +63,7 @@ class EliminateGruntWork extends React.Component {
             <Wrap>
               <div className={s.headerContainer}>
                 {this.headerImage()}
-                <Header>Eliminate Grunt Work</Header>
+                <Header>Digital Contracts</Header>
                 {this.headerImage()}
               </div>
               <div className={`${f.row} ${s.flexWrapper}`}>
@@ -71,21 +75,13 @@ class EliminateGruntWork extends React.Component {
                     <div className={`${f.column} ${s.textColumn}`} key="1.1">
                       <ColumnHeader>Automate</ColumnHeader>
                       <Text>
-                        Create agreements in minutes, not hours while leveraging
-                        tools for repeat-use.
-                      </Text>
-                    </div>
-
-                    <div className={`${f.column} ${s.textColumn}`} key="1.2">
-                      <ColumnHeader>Collaborate</ColumnHeader>
-                      <Text>
-                        Set up approvals, notices, and send client alerts as
-                        work is complete and actions are required.
+                        Wrap smart contracts in legal agreements in minutes
+                        using our tools
                       </Text>
                     </div>
                   </div>
 
-                  <div className={`${f.column} ${s.imgColumn}`} key="1.3">
+                  <div className={`${f.column} ${s.imgColumn}`} key="1.2">
                     <div className={`${s.imgDiv} ${s.imgDivLeftFacing}`}>
                       <img
                         src={withPrefix('/static/img/left-facing-screen.svg')}
@@ -119,10 +115,9 @@ class EliminateGruntWork extends React.Component {
                         className={`${f.column} ${s.textColumn}`}
                         key="2.2.1.1"
                       >
-                        <ColumnHeader>E-Sign</ColumnHeader>
+                        <ColumnHeader>Execute</ColumnHeader>
                         <Text>
-                          Electronically sign contracts, including in Word. Save
-                          drafts and documents automatically.
+                          Sign and seamlessly interact with smart contracts
                         </Text>
                       </div>
 
@@ -130,10 +125,10 @@ class EliminateGruntWork extends React.Component {
                         className={`${f.column} ${s.textColumn}`}
                         key="2.2.1.2"
                       >
-                        <ColumnHeader>Analyze</ColumnHeader>
+                        <ColumnHeader>API</ColumnHeader>
                         <Text>
-                          Leveling Legal and making agreements accessible. An
-                          open hub for Legal Engineers.
+                          Create, access, and execute wrapped smart contracts
+                          from our easy to use API
                         </Text>
                       </div>
                     </div>
@@ -143,8 +138,9 @@ class EliminateGruntWork extends React.Component {
                       data-aos="fade-up"
                       data-aos-delay="450"
                       key="2.2.2"
+                      onClick={this.goToDocs}
                     >
-                      We&apos;ll get you set up
+                      Learn More
                     </div>
 
                     <div
@@ -154,10 +150,10 @@ class EliminateGruntWork extends React.Component {
                       key="2.2.3"
                     >
                       <button
-                        onClick={this.goToRequestAccess}
+                        onClick={this.goToLib}
                         className={`${s.button} button`}
                       >
-                        Request Free Access
+                        Play Around
                       </button>
                     </div>
                   </div>

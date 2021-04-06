@@ -15,15 +15,14 @@ class Integrations extends React.Component {
       <div className={s.outerContainer}>
         <div className={s.integrationsContainer}>
           <div className={f.row}>
-            <Wrap>
+            <Wrap style={{ width: '100%' }}>
               <div className={s.headerOuterContainer}>
                 <div className={s.headerInnerContainer}>
                   <Header>Simple, Secure, and Easy</Header>
                 </div>
               </div>
               <Text>
-                Simple setup, enterprise grade security, and seamless
-                integration with your day-to-day tools.
+                Simple setup and integration with your day-to-day tools
               </Text>
               <div className={`${f.row} ${s.flexWrapper}`}>
                 <div className={`${s.integrationsWrapper}`} key="1">

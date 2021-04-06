@@ -38,7 +38,7 @@
   }
 
   li:last-child {
-    padding: 3px 1rem;
+    // padding: 3px 3rem;
     border-width: 1px 1px 0;
     border-style: solid;
     border-color: $color-white;
@@ -47,6 +47,8 @@
 
     a {
       font-weight: 400;
+      display: block;
+      padding: 3px 3rem;
     }
 
     &::before {
