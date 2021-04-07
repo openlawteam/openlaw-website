@@ -5,13 +5,13 @@
   position: relative;
   margin-bottom: 6rem;
 
-  &:after {
-    content: "";
-    display: block;
-    border-left: 1vw solid transparent;
-    border-bottom: 16px solid $color-black;
-    border-right: 1vw solid transparent;
-  }
+  // &:after {
+  //   content: "";
+  //   display: block;
+  //   border-left: 1vw solid transparent;
+  //   border-bottom: 16px solid $color-black;
+  //   border-right: 1vw solid transparent;
+  // }
 }
 
 .integrations-container {
@@ -24,7 +24,7 @@
     position: absolute;
     width: 2.5rem;
     height: 25px;
-    top: 428px;
+    top: -95px;
     left: -2.5rem;
     background-image: url("/static/img/double-squiggle.svg");
     background-repeat: no-repeat;

@@ -111,8 +111,8 @@
 }
 
 .text-column {
-  max-width: 300px;
-  padding: 0 2rem;
+  max-width: 315px;
+  padding: 0 1rem;
 }
 
 .img-column {
@@ -138,7 +138,7 @@
 .button {
   color: $color-white;
   background-color: $color-pink;
-  padding: 18px;
+  padding: 18px 3rem;
   border-radius: 0;
   border-color: $color-pink;
   border-style: solid;
@@ -204,6 +204,7 @@
   background-repeat: no-repeat;
   height: 35px;
   margin: 4rem 0 0;
+  cursor: pointer;
 }
 
 @include size-medium-down {
@@ -225,7 +226,7 @@
 
   .button-container {
     padding: 0 0.9375rem;
-    text-align: initial;
+    width: 300px;
   }
 
   .highlight-container {
@@ -313,7 +314,7 @@
   }
 
   .button-container {
-    text-align: center;
+    width: initial;
   }
 
   .button {

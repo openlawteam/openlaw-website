@@ -22,8 +22,8 @@ class ConquerLegal extends React.Component {
     });
   }
 
-  goToRequestAccess = () => {
-    window.open('https://openlawform.typeform.com/to/GYy10G', '_blank');
+  goToDocs = () => {
+    window.open('https://docs.openlaw.io', '_blank');
   };
 
   render() {
@@ -46,10 +46,10 @@ class ConquerLegal extends React.Component {
             <div className={`${f.row} ${s.flexWrapper}`}>
               <div className={`${s.conquerLegalWrapper}`} key="1">
                 <div className={f.column} key="1.1">
-                  <Header>Conquer Legal Complexities</Header>
+                  <Header>Real World Contracts For Ethereum</Header>
                   <Text>
-                    Be smart, save money, and close more deals with our digital
-                    contracting platform.
+                    OpenLaw makes it easy to create legal agreements that work
+                    with Ethereum
                   </Text>
                   <div
                     className={s.buttonContainer}
@@ -57,10 +57,10 @@ class ConquerLegal extends React.Component {
                     data-aos-delay="150"
                   >
                     <button
-                      onClick={this.goToRequestAccess}
+                      onClick={this.goToDocs}
                       className={`${s.button} button`}
                     >
-                      Request Free Access
+                      Learn More
                     </button>
                   </div>
                 </div>

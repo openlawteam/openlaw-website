@@ -11,14 +11,10 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Space Mono`,
-            variants: [`400`, `700`]
-          }
-        ]
+        fonts: [`space mono\:400,700`],
+        display: "swap"
       }
     },
     "gatsby-plugin-catch-links",

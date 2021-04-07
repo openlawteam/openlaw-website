@@ -11,14 +11,14 @@ const NavData = [
   //   name: 'Integrations',
   //   url: '',
   // },
+  // {
+  //   name: 'Help',
+  //   url: 'https://docs.openlaw.io',
+  //   divider: true,
+  // },
   {
-    name: 'Help',
+    name: 'Docs',
     url: 'https://docs.openlaw.io',
-    divider: true,
-  },
-  {
-    name: 'Request Demo',
-    url: 'https://openlawform.typeform.com/to/GYy10G',
   },
 ];
 

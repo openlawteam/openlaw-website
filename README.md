@@ -4,10 +4,10 @@ Welcome to the OpenLaw website repository. This site is built using [Gatsby](htt
 
 ## Local development
 
-To develop on the app, run the steps below to get started.
+To develop on the app, run the steps below to get started. You will need to run with Node version 10 or below.
 
 ```
-git clone git@github.com:openlawteam/openlaw-website.git
+git clone https://github.com/openlawteam/openlaw-website.git
 
 cd openlaw-website
 
@@ -20,7 +20,7 @@ Once the setup is complete you can navigate to [localhost:8000](http://localhost
 
 ## License
 
-Copyright 2019 Aaron Wright, David Roon, and ConsenSys AG.
+Copyright 2021 Aaron Wright, David Roon, and ConsenSys AG.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -33,5 +33,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-

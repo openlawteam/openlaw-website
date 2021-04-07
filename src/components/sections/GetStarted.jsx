@@ -27,8 +27,8 @@ class GetStarted extends React.Component {
     });
   }
 
-  goToRequestAccess = () => {
-    window.open('https://openlawform.typeform.com/to/GYy10G', '_blank');
+  goToContactUs = () => {
+    window.open('mailto:hello@openlaw.io', '_blank');
   };
 
   headerImage = () => {
@@ -57,7 +57,7 @@ class GetStarted extends React.Component {
         <div className={s.getStartedContainer}>
           <div className={s.headerContainer}>
             {this.headerImage()}
-            <Header>Get Started Today</Header>
+            <Header>Dive In</Header>
             {this.headerImage()}
           </div>
           <div className={f.row}>
@@ -79,13 +79,12 @@ class GetStarted extends React.Component {
                   </div>
 
                   <div className={f.column} key="1.2">
-                    <SubHeader>Future Proof Your Practice</SubHeader>
-                    <Text>
-                      Let us demonstrate how our tools can save you 95% of your
-                      time and overhead.
-                    </Text>
+                    <SubHeader>
+                      Add Legal Weight To Your Smart Contracts
+                    </SubHeader>
+                    <Text>Add rights, obligations, and manage risks</Text>
                     <p className={`${s.text} ${s.boldText}`}>
-                      Step into the future of Law.
+                      Step into the future of Law
                     </p>
                   </div>
                 </div>
@@ -99,7 +98,7 @@ class GetStarted extends React.Component {
                     data-aos-delay="150"
                   >
                     <button
-                      onClick={this.goToRequestAccess}
+                      onClick={this.goToContactUs}
                       className={`${s.button} button`}
                     >
                       Get In Touch
