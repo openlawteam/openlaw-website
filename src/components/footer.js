@@ -1,51 +1,51 @@
-import React, { Component } from 'react';
+import React /*, { Component }*/ from 'react';
 
 import s from '../scss/modules/footer.module.scss';
 
 import GatsbyLink from 'gatsby-link';
 import { withPrefix } from 'gatsby-link';
-import { FetchBreezyJobs } from '../helper/fetchJobs';
+// import { FetchBreezyJobs } from '../helper/fetchJobs';
 
-class RenderJobsLink extends Component {
-  state = { jobsCallbackData: '' };
+// class RenderJobsLink extends Component {
+//   state = { jobsCallbackData: '' };
 
-  componentDidMount() {
-    FetchBreezyJobs().then(value => {
-      if (!value) return;
-      this.setState({
-        jobsCallbackData: value,
-      });
-    });
-  }
+//   componentDidMount() {
+//     FetchBreezyJobs().then(value => {
+//       if (!value) return;
+//       this.setState({
+//         jobsCallbackData: value,
+//       });
+//     });
+//   }
 
-  handleDataToken = (tokenString, data) => {
-    const pluralize = match => ((data.length || data) > 1 ? 's' : '');
+//   handleDataToken = (tokenString, data) => {
+//     const pluralize = match => ((data.length || data) > 1 ? 's' : '');
 
-    return tokenString.replace('%data%', data).replace('%plural%', pluralize);
-  };
+//     return tokenString.replace('%data%', data).replace('%plural%', pluralize);
+//   };
 
-  render() {
-    return (
-      <li>
-        <a
-          href="https://careers.openlaw.io"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Jobs
-          {this.state.jobsCallbackData && (
-            <span>
-              {this.handleDataToken(
-                '(we\u2019re hiring! %data% open position%plural%)',
-                this.state.jobsCallbackData
-              )}
-            </span>
-          )}
-        </a>
-      </li>
-    );
-  }
-}
+//   render() {
+//     return (
+//       <li>
+//         <a
+//           href="https://careers.openlaw.io"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Jobs
+//           {this.state.jobsCallbackData && (
+//             <span>
+//               {this.handleDataToken(
+//                 '(we\u2019re hiring! %data% open position%plural%)',
+//                 this.state.jobsCallbackData
+//               )}
+//             </span>
+//           )}
+//         </a>
+//       </li>
+//     );
+//   }
+// }
 
 const year = () => new Date().getFullYear();
 
@@ -100,7 +100,7 @@ const Footer = () => (
                   Support
                 </a>
               </li>
-              <RenderJobsLink />
+              {/* <RenderJobsLink /> */}
             </ul>
           </div>
         </div>
